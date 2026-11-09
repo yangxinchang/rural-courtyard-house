@@ -1,5 +1,10 @@
 # 院居 · 六人住宅精装方案 P／Q（水电深化与室内家具细节）
 
+> **在线查看**：[项目主页](https://yangxinchang.github.io/rural-courtyard-house/) ｜ [交互3D](https://yangxinchang.github.io/rural-courtyard-house/3d.html) ｜ [13张浅色效果图](https://yangxinchang.github.io/rural-courtyard-house/精装效果图/index.html) ｜ [单文件离线3D](https://yangxinchang.github.io/rural-courtyard-house/delivery/院居-3D-单文件离线版.html)
+>
+> **源码**：[GitHub](https://github.com/yangxinchang/rural-courtyard-house) ｜ **下载包**：[Releases v1.0](https://github.com/yangxinchang/rural-courtyard-house/releases/tag/v1.0)（手机查看包、图片包、完整交付包）
+
+
 2026-11-07 浅色精装（Q）：整体改为暖白墙面、浅橡木门窗柜体、米色亚麻软包与浅灰米石纹地面；二楼晾衣亭顶棚及柱梁不再用黑色，后排卧室不做木地板改用浅色石纹砖，卧室加木格栅背墙、亚麻床头与搭毯。13张效果图、3D、GLB与交付包同版更新；布置、门窗、五列衣柜与P版水电不变。[细节清单](docs/revision-Q-details.md)／[13张新图](精装效果图/index.html)。
 
 
@@ -48,9 +53,11 @@ O版落实门窗单项与全部开关、后楼首层横拉玻璃门、两侧院�
 ## 三维使用
 
 手机查看：[手机端查看方式](docs/手机端查看方式.md)（三种：发图／同Wi-Fi扫码看3D／上传HTTPS网站）。
-- 微信发图：[15张手机图](delivery/院居-浅色精装-手机图片.zip)／[一张总览](精装效果图/00-精装总览.jpg)。
+- 微信发图：[15张手机图](https://github.com/yangxinchang/rural-courtyard-house/releases/download/v1.0/rural-house-photos.zip)／[一张总览](精装效果图/00-精装总览.jpg)。
 - 同Wi-Fi扫码：[局域网二维码](delivery/手机查看二维码-局域网.png)（当前 `http://10.0.24.215:8088/`，电脑需开着并保持同一 Wi-Fi）。
-- 网页包：[精简手机查看包](delivery/农村院落住宅-O-手机查看包.zip)（已按Q版效果图与当前GLB重建）。完整交付包：[Q版精装方案](delivery/农村院落住宅-Q-精装方案.zip)。上传该包中的网站目录后分享HTTPS链接；已做浏览器手机模拟，真实手机待验。
+- 网页包：[精简手机查看包](https://github.com/yangxinchang/rural-courtyard-house/releases/download/v1.0/rural-house-mobile.zip)（已按Q版效果图与当前GLB重建）。
+- 完整交付包：[Q版精装方案](https://github.com/yangxinchang/rural-courtyard-house/releases/download/v1.0/rural-house-full.zip)（Blender源模型、PNG原图、图册）。
+- 在线站点已部署在GitHub Pages；真实手机Safari／微信内置浏览器仍建议先自测一次。
 
 
 门窗可在侧栏选择后开关、定位，亦可点击模型中的门窗；“全部打开/关闭”统一操作，“恢复整屋”恢复门开窗关。厨房电器标签仅在厨房视角显示。通过“查看院内洗衣区”“查看亭子与二楼洗衣”定位新增布置，二层也可用屋顶开关查看亭顶下设备。
