@@ -1,0 +1,130 @@
+[
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_O.py"
+    ],
+    "exit_code": 0,
+    "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.047s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_completion.py"
+    ],
+    "exit_code": 0,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_night_light.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS night guide exposed outside headboard\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_M_large_beds.py"
+    ],
+    "exit_code": 0,
+    "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_K.py"
+    ],
+    "exit_code": 0,
+    "output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.003s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_retained.py"
+    ],
+    "exit_code": 0,
+    "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.009s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_finish.py"
+    ],
+    "exit_code": 0,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_F.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS: 右后封闭梯、南顶平台、标注侧门、双小门及屋后5米\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_interiors.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS: 共用家具、四套洁具、房间边界、厨房设备及楼梯前平台\nPASS: 六人床位、中西厨设备、三椅三人卡座、前房平屋顶标高\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_engineering.py"
+    ],
+    "exit_code": 0,
+    "output": "Engineering checks passed: 125 members, 179 routes, 162 devices\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_J_clearance.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS rejects guest-foot\nPASS rejects guest-south\nPASS rejects sofa-table\nPASS family use case: both chairs pulled 450mm, 600mm envelope reaches desk via east route.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_K_routes.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS concept routes: 600mm body reaches west public bathroom and three sides of round table with static open doors.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_I_finish_assets.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS: three non-flat finish textures can be embedded in the offline model.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_M_storage_toggle.mjs"
+    ],
+    "exit_code": 0,
+    "output": "PASS storage shelf/box furniture toggle classification\n"
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_O_reset.mjs"
+    ],
+    "exit_code": 0,
+    "output": "PASS OPT-14: reset restores furniture, roof, room, labels and engineering defaults before visibility update.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_hood_clearance.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS double-hob hood clear of wall cabinet\n"
+  }
+]

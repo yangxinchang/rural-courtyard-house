@@ -1,0 +1,18 @@
+{
+  "version": "F",
+  "offline": true,
+  "enclosedStair": true,
+  "shellFloorFiltering": true,
+  "roofToggle": true,
+  "sideMainDoor": true,
+  "twoSmallFrontDoors": true,
+  "foyerRoute": true,
+  "interiorCameras": true,
+  "engineeringLayers": true,
+  "reset": true,
+  "orbit": true,
+  "zoom": true,
+  "mobile": true,
+  "pngExport": true,
+  "errors": []
+}

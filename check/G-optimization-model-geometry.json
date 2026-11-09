@@ -1,0 +1,18 @@
+{
+  "version": "G",
+  "stair_shell_bounds": true,
+  "bed_count": 2,
+  "bed_mattress_width": 0.9,
+  "bed_B_rotation": 90,
+  "L_floor_parts": true,
+  "independent_entry_floor": true,
+  "stair_treads": 18,
+  "platform_risers": 2,
+  "tree": false,
+  "cabinet_front": "south",
+  "chairs_face": "north toward desks and dining table",
+  "decoration_items": 34,
+  "decoration_meshes": 121,
+  "bed_A_handle_local_clearance_m": 0.65,
+  "furniture_adjustments": true
+}

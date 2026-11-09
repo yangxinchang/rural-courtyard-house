@@ -1,0 +1,4 @@
+Three.js 0.170.0 + esbuild 0.24.0. 本地IIFE打包，无运行时CDN。
+
+npm install --prefix tools/web --no-audit --no-fund --save-exact three@0.170.0 esbuild@0.24.0
+tools/web/node_modules/.bin/esbuild viewer/viewer.js --bundle --format=iife --minify --alias:three/addons=./tools/web/node_modules/three/examples/jsm --alias:three=./tools/web/node_modules/three --outfile=viewer/viewer.bundle.js

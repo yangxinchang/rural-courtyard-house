@@ -1,0 +1,15 @@
+{
+  "homeVersion": "P",
+  "localProtocol": true,
+  "materialsOnHome": 8,
+  "materialSummaryCategories": 6,
+  "drawingsOpenInBrowser": 38,
+  "allDrawingPreviewsLoad": true,
+  "galleryAdviceReturn": true,
+  "galleryPhotosReturn": true,
+  "viewerReturn": true,
+  "buildingOpenings": 56,
+  "mobile390": true,
+  "offlineReload": true,
+  "errors": []
+}

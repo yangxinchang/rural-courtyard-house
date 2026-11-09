@@ -1,0 +1,16 @@
+{
+  "version": "J",
+  "json_equals_offline": true,
+  "glb_equals_embedded": true,
+  "finish_images_embedded": 4,
+  "external_resources": 0,
+  "I_pdf_unchanged": true,
+  "bedroom_id": "rear1-5",
+  "living_id": "rear1-0",
+  "site": [
+    14.6,
+    29.4
+  ],
+  "rear_depth_m": 10,
+  "rear_clearance_m": 5
+}

@@ -1,0 +1,23 @@
+{
+  "version": "O-mobile",
+  "files": 45,
+  "interior_images": 13,
+  "exterior_and_detail_images": 18,
+  "site_bytes": 25496770,
+  "zip_bytes": 9421014,
+  "first_3d_load_mib": 19.68,
+  "largest_asset_mib": 18.9,
+  "zip_sha256": "b5b35359b4bae01f3cd4627c5e28414581f7b50e4e1f0f3568c513da30dafaec",
+  "source_hashes": {
+    "3d.html": "21c8eb62d8fb33439e3945eaa927d4f94f8dcf37754937ea6ebe893d13bea99d",
+    "viewer/viewer.bundle.js": "58c9f97cd4ef35a31db301f7e850775e7c67ef9e26fc6cce1e8832b655e679d2",
+    "model/design-data.js": "984a4a1cc322dd5138ddbe192ba9b91af8988281de23cafcaaf001b061d1497c",
+    "model/courtyard-house.glb": "0cd4c0f133030f83fa60a70cccfd8cc185a63e6a0c3bd16f459619af6a784043",
+    "drawings/农村院落住宅-水电深化P.pdf": "3aec240a5d109182e82aa0e925445958a9e31782197d9210b88247a2c56d4300",
+    "docs/drying-verification.md": "3d1967177b80b12d1c9e896f9dad19dda0f2fe5eab3aa84f44c5825f7b51507e",
+    "docs/laundry-and-services.md": "8e1d26ccdf480348363165caf41c2dd21cc1588a4a252fc6b0c88e1334f2015f"
+  },
+  "all_local_links_valid": true,
+  "publicly_deployed": false,
+  "path": "delivery/农村院落住宅-O-手机查看包.zip"
+}

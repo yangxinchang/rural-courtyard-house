@@ -1,0 +1,62 @@
+[
+  {
+    "file": "tmp/five-wardrobes-2026-11-07/test_five.py",
+    "exit": 0,
+    "output": "Five columns, two metre width, retained route and unblocked north windows: PASS\n"
+  },
+  {
+    "file": "tmp/laundry-services-2026-11-07/test_services.py",
+    "exit": 0,
+    "output": "New hall washer, DB2 circuit, bathroom drains and gravity route: PASS\n"
+  },
+  {
+    "file": "tmp/laundry-services-2026-11-07/test_gravity.py",
+    "exit": 0,
+    "output": "Every wastewater fixture/drain reaches tank inlet without rising at a junction: PASS\n"
+  },
+  {
+    "file": "tmp/test_engineering.py",
+    "exit": 0,
+    "output": "Engineering checks passed: 125 members, 212 routes, 191 devices\n"
+  },
+  {
+    "file": "tmp/test_revision_O.py",
+    "exit": 0,
+    "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.048s\n\nOK\n"
+  },
+  {
+    "file": "tmp/test_O_interiors.py",
+    "exit": 0,
+    "output": "PASS: 共用家具、四套洁具、房间边界、厨房设备及楼梯前平台\nPASS: 六人床位、中西厨设备、三椅三人卡座、前房平屋顶标高\n"
+  },
+  {
+    "file": "tmp/test_O_finish.py",
+    "exit": 0,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+  },
+  {
+    "file": "tmp/test_O_retained.py",
+    "exit": 0,
+    "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.011s\n\nOK\n"
+  },
+  {
+    "file": "tmp/test_O_hood_clearance.py",
+    "exit": 0,
+    "output": "PASS double-hob hood clear of wall cabinet\n"
+  },
+  {
+    "file": "tmp/test_O_night_light.py",
+    "exit": 0,
+    "output": "PASS night guide exposed outside headboard\n"
+  },
+  {
+    "file": "tmp/test_O_completion.py",
+    "exit": 0,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+  },
+  {
+    "file": "tmp/test_O_reset.mjs",
+    "exit": 0,
+    "output": "PASS OPT-14: reset restores furniture, roof, room, labels and engineering defaults before visibility update.\n"
+  }
+]

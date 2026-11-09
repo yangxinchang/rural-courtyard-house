@@ -1,0 +1,17 @@
+{
+  "presetsEastSouthWest": true,
+  "defaultOff": true,
+  "shadowConfig": {
+    "autoUpdate": false,
+    "clip": true,
+    "frontSide": true
+  },
+  "orbitDoesNotRegenerateShadows": true,
+  "timeRegeneratesShadows": true,
+  "roomTimePersists": true,
+  "play": true,
+  "pause": true,
+  "offClearsCasts": true,
+  "reset": true,
+  "errors": []
+}

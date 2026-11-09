@@ -1,0 +1,16972 @@
+window.HOUSE_DESIGN={
+  "units": "metres",
+  "status": "concept / assumed site",
+  "site": [
+    15.2,
+    29.4
+  ],
+  "front": [
+    0.6,
+    0.6,
+    11.4,
+    6.6
+  ],
+  "rear": [
+    0.6,
+    14.4,
+    11.4,
+    24.4
+  ],
+  "bays": [
+    0.6,
+    4.2,
+    7.8,
+    11.4
+  ],
+  "levels": {
+    "ground": 0.3,
+    "upper": 3.6,
+    "attic": 6.9,
+    "rear_plate": 8.0,
+    "rear_ridge": 10.2,
+    "front_plate": 3.6,
+    "front_ridge": 3.6
+  },
+  "rooms": {
+    "front": [
+      [
+        "中西厨房",
+        [
+          7.8,
+          0.6,
+          11.4,
+          6.6
+        ],
+        "service"
+      ],
+      [
+        "通堂门厅",
+        [
+          4.2,
+          0.6,
+          7.8,
+          6.6
+        ],
+        "hall"
+      ],
+      [
+        "多功能 / 客房",
+        [
+          0.6,
+          0.6,
+          4.2,
+          6.6
+        ],
+        "bed"
+      ]
+    ],
+    "rear1": [
+      [
+        "起居室",
+        [
+          0.6,
+          15.6,
+          4.2,
+          21.4
+        ],
+        "hall"
+      ],
+      [
+        "公卫",
+        [
+          0.6,
+          21.4,
+          2.7,
+          24.4
+        ],
+        "wet"
+      ],
+      [
+        "家务 / 公卫前室",
+        [
+          2.7,
+          21.4,
+          4.2,
+          24.4
+        ],
+        "service"
+      ],
+      [
+        "堂屋",
+        [
+          4.2,
+          15.6,
+          7.8,
+          24.4
+        ],
+        "hall"
+      ],
+      [
+        "封闭侧楼梯",
+        [
+          11.4,
+          16.5,
+          14.34,
+          21.88
+        ],
+        "stair"
+      ],
+      [
+        "老人卧室",
+        [
+          7.8,
+          15.6,
+          11.4,
+          21.4
+        ],
+        "bed"
+      ],
+      [
+        "衣帽 / 休闲区",
+        [
+          7.8,
+          21.4,
+          11.4,
+          24.4
+        ],
+        "bed"
+      ],
+      [
+        "老人套卫",
+        [
+          11.4,
+          21.88,
+          14.34,
+          24.4
+        ],
+        "wet"
+      ],
+      [
+        "避雨门厅",
+        [
+          11.4,
+          14.4,
+          14.34,
+          16.5
+        ],
+        "hall"
+      ]
+    ],
+    "rear2": [
+      [
+        "主卧",
+        [
+          0.6,
+          16.14,
+          4.2,
+          21.4
+        ],
+        "bed"
+      ],
+      [
+        "套卫",
+        [
+          0.6,
+          21.4,
+          2.7,
+          24.4
+        ],
+        "wet"
+      ],
+      [
+        "衣帽",
+        [
+          2.7,
+          21.4,
+          4.2,
+          24.4
+        ],
+        "service"
+      ],
+      [
+        "家庭厅",
+        [
+          4.2,
+          16.14,
+          7.8,
+          24.4
+        ],
+        "hall"
+      ],
+      [
+        "封闭侧楼梯",
+        [
+          11.4,
+          16.5,
+          14.34,
+          21.88
+        ],
+        "stair"
+      ],
+      [
+        "次卧",
+        [
+          7.8,
+          16.14,
+          11.4,
+          21.4
+        ],
+        "bed"
+      ],
+      [
+        "卧室书桌区",
+        [
+          7.8,
+          21.4,
+          11.4,
+          24.4
+        ],
+        "bed"
+      ],
+      [
+        "套卫",
+        [
+          11.4,
+          21.88,
+          14.34,
+          24.4
+        ],
+        "wet"
+      ],
+      [
+        "公共过厅",
+        [
+          0.6,
+          14.4,
+          11.4,
+          16.14
+        ],
+        "hall"
+      ],
+      [
+        "侧门入户过道",
+        [
+          9.8,
+          16.14,
+          11.4,
+          18.35
+        ],
+        "hall"
+      ]
+    ]
+  },
+  "walls": {
+    "front": [
+      {
+        "a": [
+          0.72,
+          0.72
+        ],
+        "b": [
+          11.28,
+          0.72
+        ],
+        "openings": [
+          {
+            "offset": 0.7,
+            "width": 1.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 4.08,
+            "width": 2.4,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false,
+            "style": "grand"
+          },
+          {
+            "offset": 7.86,
+            "width": 1.8,
+            "kind": "window",
+            "sill": 1.05,
+            "height": 1.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          6.48
+        ],
+        "b": [
+          11.28,
+          6.48
+        ],
+        "openings": [
+          {
+            "offset": 1.28,
+            "width": 1.0,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 4.08,
+            "width": 2.4,
+            "kind": "passage",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 7.28,
+            "width": 1.0,
+            "kind": "window",
+            "sill": 1.05,
+            "height": 1.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          0.72
+        ],
+        "b": [
+          0.72,
+          6.48
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.28,
+          0.72
+        ],
+        "b": [
+          11.28,
+          6.48
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          4.2,
+          0.72
+        ],
+        "b": [
+          4.2,
+          6.48
+        ],
+        "openings": [
+          {
+            "offset": 3.83,
+            "width": 1.0,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          7.8,
+          0.72
+        ],
+        "b": [
+          7.8,
+          6.48
+        ],
+        "openings": [
+          {
+            "offset": 3.83,
+            "width": 1.0,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false,
+            "style": "glazed"
+          }
+        ],
+        "thickness": 0.24
+      }
+    ],
+    "rear1": [
+      {
+        "a": [
+          0.72,
+          15.72
+        ],
+        "b": [
+          11.28,
+          15.72
+        ],
+        "openings": [
+          {
+            "offset": 0.68,
+            "width": 2.05,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 4.38,
+            "width": 1.8,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false,
+            "style": "glazed",
+            "operation": "sliding"
+          },
+          {
+            "offset": 7.83,
+            "width": 2.05,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          24.28
+        ],
+        "b": [
+          11.28,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.4,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 1.5,
+            "height": 0.7,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 2.28,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 4.58,
+            "width": 1.4,
+            "kind": "window",
+            "sill": 1.9,
+            "height": 1.1,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 8.0,
+            "width": 0.85,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 9.05,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          15.72
+        ],
+        "b": [
+          0.72,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 1.3,
+            "width": 1.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 6.7,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.28,
+          15.72
+        ],
+        "b": [
+          11.28,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 6.36,
+            "width": 0.9,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          4.2,
+          15.72
+        ],
+        "b": [
+          4.2,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 1.28,
+            "width": 1.0,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          7.8,
+          15.72
+        ],
+        "b": [
+          7.8,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 1.28,
+            "width": 1.0,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          21.4
+        ],
+        "b": [
+          4.2,
+          21.4
+        ],
+        "openings": [
+          {
+            "offset": 2.48,
+            "width": 0.8,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          2.7,
+          21.4
+        ],
+        "b": [
+          2.7,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.6,
+            "width": 0.8,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          14.22,
+          21.76
+        ],
+        "b": [
+          14.22,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 1.45,
+            "width": 0.75,
+            "kind": "window",
+            "sill": 1.5,
+            "height": 0.7,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.28,
+          24.28
+        ],
+        "b": [
+          14.22,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.42,
+            "width": 1.2,
+            "kind": "window",
+            "sill": 1.5,
+            "height": 0.7,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      }
+    ],
+    "rear2": [
+      {
+        "a": [
+          0.72,
+          14.52
+        ],
+        "b": [
+          11.28,
+          14.52
+        ],
+        "openings": [
+          {
+            "offset": 0.16,
+            "width": 0.9,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 1.55,
+            "width": 1.3,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 4.38,
+            "width": 1.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 7.7,
+            "width": 1.3,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 9.5,
+            "width": 0.9,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          24.28
+        ],
+        "b": [
+          11.28,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.4,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 1.5,
+            "height": 0.7,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 2.18,
+            "width": 0.5,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 4.58,
+            "width": 1.4,
+            "kind": "window",
+            "sill": 1.9,
+            "height": 1.1,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 8.0,
+            "width": 0.85,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 9.05,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          14.52
+        ],
+        "b": [
+          0.72,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 2.5,
+            "width": 1.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 7.9,
+            "width": 0.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.28,
+          14.52
+        ],
+        "b": [
+          11.28,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.3,
+            "width": 1.1,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 2.48,
+            "width": 1.1,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": true
+          },
+          {
+            "offset": 7.56,
+            "width": 0.9,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          4.2,
+          16.14
+        ],
+        "b": [
+          4.2,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.86,
+            "width": 1.0,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          7.8,
+          16.14
+        ],
+        "b": [
+          7.8,
+          24.28
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          21.4
+        ],
+        "b": [
+          4.2,
+          21.4
+        ],
+        "openings": [
+          {
+            "offset": 0.68,
+            "width": 0.8,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          },
+          {
+            "offset": 2.28,
+            "width": 0.8,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          2.7,
+          21.4
+        ],
+        "b": [
+          2.7,
+          24.28
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          0.72,
+          16.14
+        ],
+        "b": [
+          4.2,
+          16.14
+        ],
+        "openings": [
+          {
+            "offset": 0.68,
+            "width": 1.8,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          },
+          {
+            "offset": 2.6,
+            "width": 0.76,
+            "kind": "passage",
+            "sill": 0.0,
+            "height": 1.55,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          7.8,
+          16.14
+        ],
+        "b": [
+          9.8,
+          16.14
+        ],
+        "openings": [
+          {
+            "offset": 0.3,
+            "width": 1.35,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          9.8,
+          16.14
+        ],
+        "b": [
+          9.8,
+          18.35
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          9.8,
+          18.35
+        ],
+        "b": [
+          11.28,
+          18.35
+        ],
+        "openings": [
+          {
+            "offset": 0.3,
+            "width": 0.9,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": -1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          3.28,
+          16.14
+        ],
+        "b": [
+          3.28,
+          16.47
+        ],
+        "openings": [],
+        "thickness": 0.08
+      },
+      {
+        "a": [
+          3.28,
+          16.47
+        ],
+        "b": [
+          4.2,
+          16.47
+        ],
+        "openings": [],
+        "thickness": 0.08
+      },
+      {
+        "a": [
+          14.22,
+          21.76
+        ],
+        "b": [
+          14.22,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 1.45,
+            "width": 0.75,
+            "kind": "window",
+            "sill": 1.5,
+            "height": 0.7,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.28,
+          24.28
+        ],
+        "b": [
+          14.22,
+          24.28
+        ],
+        "openings": [
+          {
+            "offset": 0.42,
+            "width": 1.2,
+            "kind": "window",
+            "sill": 1.5,
+            "height": 0.7,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      }
+    ],
+    "stair1": [
+      {
+        "a": [
+          11.52,
+          16.62
+        ],
+        "b": [
+          14.22,
+          16.62
+        ],
+        "openings": [
+          {
+            "offset": 1.28,
+            "width": 1.1,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          14.22,
+          16.62
+        ],
+        "b": [
+          14.22,
+          21.76
+        ],
+        "openings": [
+          {
+            "offset": 2.4,
+            "width": 1.4,
+            "kind": "window",
+            "sill": 1.05,
+            "height": 1.3,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.52,
+          21.76
+        ],
+        "b": [
+          14.22,
+          21.76
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.52,
+          16.62
+        ],
+        "b": [
+          11.52,
+          21.76
+        ],
+        "openings": [],
+        "thickness": 0.24
+      }
+    ],
+    "stair2": [
+      {
+        "a": [
+          11.52,
+          16.62
+        ],
+        "b": [
+          14.22,
+          16.62
+        ],
+        "openings": [
+          {
+            "offset": 0.65,
+            "width": 1.3,
+            "kind": "window",
+            "sill": 1.0,
+            "height": 1.2,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          14.22,
+          16.62
+        ],
+        "b": [
+          14.22,
+          21.76
+        ],
+        "openings": [
+          {
+            "offset": 2.4,
+            "width": 1.4,
+            "kind": "window",
+            "sill": 1.05,
+            "height": 1.3,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.52,
+          21.76
+        ],
+        "b": [
+          14.22,
+          21.76
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.52,
+          16.62
+        ],
+        "b": [
+          11.52,
+          21.76
+        ],
+        "openings": [
+          {
+            "offset": 0.38,
+            "width": 1.1,
+            "kind": "passage",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      }
+    ],
+    "entry": [
+      {
+        "a": [
+          11.52,
+          14.52
+        ],
+        "b": [
+          14.22,
+          14.52
+        ],
+        "openings": [
+          {
+            "offset": 0.55,
+            "width": 1.3,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          14.22,
+          14.52
+        ],
+        "b": [
+          14.22,
+          16.62
+        ],
+        "openings": [
+          {
+            "offset": 0.35,
+            "width": 1.1,
+            "kind": "window",
+            "sill": 0.85,
+            "height": 1.6,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.52,
+          14.52
+        ],
+        "b": [
+          11.52,
+          16.62
+        ],
+        "openings": [
+          {
+            "offset": 0.12,
+            "width": 0.9,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.4,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      }
+    ],
+    "storage": [
+      {
+        "a": [
+          11.12,
+          -7.28
+        ],
+        "b": [
+          14.48,
+          -7.28
+        ],
+        "openings": [
+          {
+            "offset": 0.6,
+            "width": 1.4,
+            "kind": "window",
+            "sill": 1.4,
+            "height": 0.8,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.12,
+          -0.12
+        ],
+        "b": [
+          14.48,
+          -0.12
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          14.48,
+          -7.28
+        ],
+        "b": [
+          14.48,
+          -0.12
+        ],
+        "openings": [],
+        "thickness": 0.24
+      },
+      {
+        "a": [
+          11.12,
+          -7.28
+        ],
+        "b": [
+          11.12,
+          -0.12
+        ],
+        "openings": [
+          {
+            "offset": 0.78,
+            "width": 1.2,
+            "kind": "door",
+            "sill": 0.0,
+            "height": 2.2,
+            "swing": 1,
+            "hinge_end": false
+          }
+        ],
+        "thickness": 0.24
+      }
+    ]
+  },
+  "furniture": {
+    "front": [
+      {
+        "kind": "cabinet",
+        "room": 0,
+        "bounds": [
+          10.54,
+          1.01,
+          11.14,
+          3.87
+        ],
+        "name": "厨房东侧地柜",
+        "height": 0.88,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "cabinet",
+        "room": 0,
+        "bounds": [
+          8.879999999999999,
+          0.87,
+          10.54,
+          1.47
+        ],
+        "name": "厨房南侧地柜",
+        "height": 0.88,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "cabinet",
+        "room": 0,
+        "bounds": [
+          7.96,
+          1.8,
+          8.52,
+          3.7
+        ],
+        "name": "西厨 / 咖啡台",
+        "height": 0.9,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "oven",
+        "room": 0,
+        "bounds": [
+          7.98,
+          2.65,
+          8.5,
+          3.27
+        ],
+        "name": "嵌入式烤箱",
+        "height": 0.65,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "coffee",
+        "room": 0,
+        "bounds": [
+          8.05,
+          1.97,
+          8.43,
+          2.43
+        ],
+        "name": "咖啡机",
+        "height": 1.25,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "hob",
+        "room": 0,
+        "bounds": [
+          10.59,
+          1.2,
+          11.09,
+          1.82
+        ],
+        "name": "猛火灶 1（示意）",
+        "height": 0.93,
+        "rotation": 0,
+        "mirrored": true,
+        "burners": 1
+      },
+      {
+        "kind": "sink",
+        "room": 0,
+        "bounds": [
+          10.59,
+          3.05,
+          11.09,
+          3.73
+        ],
+        "name": "水槽",
+        "height": 0.93,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "fridge",
+        "room": 0,
+        "bounds": [
+          10.34,
+          4.75,
+          11.14,
+          5.55
+        ],
+        "name": "冰箱",
+        "height": 2.05,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "bench",
+        "room": 1,
+        "bounds": [
+          4.38,
+          2.3,
+          4.78,
+          4.4
+        ],
+        "name": "入户换鞋凳",
+        "height": 0.45,
+        "rotation": 0
+      },
+      {
+        "kind": "bed",
+        "room": 2,
+        "bounds": [
+          0.98,
+          1.4,
+          3.13,
+          3.34
+        ],
+        "name": "客房 1.8m 横向床",
+        "height": 0.95,
+        "rotation": 90,
+        "mirrored": true
+      },
+      {
+        "kind": "wardrobe",
+        "room": 2,
+        "bounds": [
+          0.9000000000000004,
+          4.45,
+          1.4399999999999995,
+          6.1
+        ],
+        "name": "客房滑门衣柜",
+        "height": 2.4,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "dishwasher",
+        "room": 0,
+        "bounds": [
+          10.54,
+          4.0,
+          11.14,
+          4.6
+        ],
+        "name": "洗碗机预留600",
+        "height": 0.88,
+        "rotation": 0
+      },
+      {
+        "kind": "cabinet",
+        "room": 0,
+        "bounds": [
+          10.54,
+          3.87,
+          11.14,
+          4.7
+        ],
+        "name": "洗涤与电器地柜",
+        "height": 0.88,
+        "rotation": 0,
+        "countertop_only": true
+      },
+      {
+        "kind": "cabinet",
+        "room": 0,
+        "bounds": [
+          8.95,
+          5.7,
+          11.1,
+          6.3
+        ],
+        "name": "北侧小家电操作台",
+        "height": 0.88,
+        "rotation": 0
+      },
+      {
+        "kind": "wardrobe",
+        "room": 0,
+        "bounds": [
+          7.96,
+          3.75,
+          8.52,
+          4.35
+        ],
+        "name": "厨房食品高柜",
+        "height": 2.35,
+        "rotation": 0,
+        "mirrored": true
+      },
+      {
+        "kind": "microwave",
+        "room": 0,
+        "bounds": [
+          9.0,
+          5.76,
+          9.6,
+          6.23
+        ],
+        "name": "微波炉预留",
+        "height": 0.38,
+        "rotation": 0,
+        "z": 0.94
+      },
+      {
+        "kind": "griddle",
+        "room": 0,
+        "bounds": [
+          9.04,
+          0.91,
+          9.53,
+          1.36
+        ],
+        "name": "电饼铛操作位",
+        "height": 0.14,
+        "rotation": 0,
+        "z": 0.94
+      },
+      {
+        "kind": "ricecooker",
+        "room": 0,
+        "bounds": [
+          9.75,
+          0.91,
+          10.15,
+          1.31
+        ],
+        "name": "电饭煲操作位",
+        "height": 0.35,
+        "rotation": 0,
+        "z": 0.94
+      },
+      {
+        "kind": "hob",
+        "room": 0,
+        "bounds": [
+          10.59,
+          1.94,
+          11.09,
+          2.56
+        ],
+        "name": "猛火灶 2（示意）",
+        "height": 0.93,
+        "rotation": 0,
+        "mirrored": true,
+        "burners": 1
+      }
+    ],
+    "rear1": [
+      {
+        "kind": "bed",
+        "room": 5,
+        "bounds": [
+          8.87,
+          19.1,
+          11.02,
+          21.44
+        ],
+        "name": "老人房 2.2m 东向低床头床",
+        "height": 0.75,
+        "rotation": 270,
+        "head_top": 0.75
+      },
+      {
+        "kind": "nightstand",
+        "room": 5,
+        "bounds": [
+          10.6,
+          18.650000000000002,
+          11.02,
+          19.05
+        ],
+        "name": "床头柜",
+        "height": 0.5,
+        "rotation": 0
+      },
+      {
+        "kind": "nightstand",
+        "room": 5,
+        "bounds": [
+          10.62,
+          21.59,
+          11.02,
+          21.99
+        ],
+        "name": "床头柜",
+        "height": 0.5,
+        "rotation": 0
+      },
+      {
+        "kind": "wardrobe",
+        "room": 6,
+        "bounds": [
+          7.96,
+          22.08,
+          8.51,
+          24.08
+        ],
+        "name": "老人房独立衣柜",
+        "height": 2.4,
+        "rotation": 0,
+        "mirrored": true,
+        "bedroom": "rear1-5",
+        "rail_height": 1.55,
+        "columns": 5,
+        "layout": "由南至北五列：长衣、双层短衣、抽屉叠放、活动层板、被褥杂物；顶部通长被褥区"
+      },
+      {
+        "kind": "sofa",
+        "room": 0,
+        "bounds": [
+          0.99,
+          17.05,
+          1.79,
+          19.65
+        ],
+        "name": "起居沙发",
+        "height": 0.86,
+        "rotation": 180
+      },
+      {
+        "kind": "table",
+        "room": 0,
+        "bounds": [
+          2.45,
+          17.65,
+          2.95,
+          18.95
+        ],
+        "name": "茶几",
+        "height": 0.4,
+        "rotation": 0
+      },
+      {
+        "kind": "tv",
+        "room": 0,
+        "bounds": [
+          3.66,
+          18.25,
+          4.02,
+          19.3
+        ],
+        "name": "电视 / 矮柜",
+        "height": 0.55,
+        "rotation": 180
+      },
+      {
+        "kind": "washer",
+        "room": 2,
+        "bounds": [
+          3.36,
+          23.42,
+          4.02,
+          24.08
+        ],
+        "name": "洗衣机",
+        "height": 0.88,
+        "rotation": 0
+      },
+      {
+        "kind": "cabinet",
+        "room": 2,
+        "bounds": [
+          2.88,
+          23.42,
+          3.33,
+          24.08
+        ],
+        "name": "窗下家务矮柜",
+        "height": 0.76,
+        "rotation": 0
+      },
+      {
+        "kind": "bench",
+        "room": 8,
+        "bounds": [
+          13.62,
+          14.92,
+          14.08,
+          15.92
+        ],
+        "name": "门厅换鞋凳",
+        "height": 0.45,
+        "rotation": 0
+      },
+      {
+        "kind": "shower",
+        "room": 1,
+        "bounds": [
+          0.9,
+          23.2,
+          2.52,
+          24.1
+        ],
+        "name": "淋浴区",
+        "height": 2.05,
+        "rotation": 0
+      },
+      {
+        "kind": "wc",
+        "room": 1,
+        "bounds": [
+          0.93,
+          22.5,
+          1.65,
+          23.0
+        ],
+        "name": "坐便器",
+        "height": 0.72,
+        "rotation": 0
+      },
+      {
+        "kind": "vanity",
+        "room": 1,
+        "bounds": [
+          0.91,
+          21.75,
+          1.38,
+          22.35
+        ],
+        "name": "洗手台 / 镜柜",
+        "height": 0.82,
+        "rotation": 0
+      },
+      {
+        "kind": "shower",
+        "room": 7,
+        "bounds": [
+          11.65,
+          23.2,
+          13.3,
+          24.06
+        ],
+        "name": "北侧淋浴区",
+        "height": 2.05,
+        "rotation": 0
+      },
+      {
+        "kind": "wc",
+        "room": 7,
+        "bounds": [
+          13.31,
+          22.7,
+          14.02,
+          23.2
+        ],
+        "name": "坐便器",
+        "height": 0.72,
+        "rotation": 180
+      },
+      {
+        "kind": "vanity",
+        "room": 7,
+        "bounds": [
+          13.55,
+          22.03,
+          14.02,
+          22.63
+        ],
+        "name": "洗手台 / 镜柜",
+        "height": 0.82,
+        "rotation": 180
+      },
+      {
+        "kind": "armchair",
+        "room": 6,
+        "bounds": [
+          9.68,
+          23.2,
+          10.48,
+          23.98
+        ],
+        "name": "老人窗边休闲椅",
+        "height": 0.8,
+        "rotation": 0
+      },
+      {
+        "kind": "nightstand",
+        "room": 6,
+        "bounds": [
+          10.62,
+          23.42,
+          11.08,
+          24.05
+        ],
+        "name": "老人休闲区矮边柜",
+        "height": 0.65,
+        "rotation": 0
+      },
+      {
+        "kind": "desk",
+        "room": 5,
+        "bounds": [
+          10.66,
+          17.1,
+          11.12,
+          18.2
+        ],
+        "name": "老人房梳妆台",
+        "height": 0.75,
+        "rotation": 0,
+        "dressing": true,
+        "front": "west"
+      },
+      {
+        "kind": "stool",
+        "room": 5,
+        "bounds": [
+          10.53,
+          17.45,
+          10.93,
+          17.85
+        ],
+        "name": "老人梳妆凳（收进台下）",
+        "height": 0.44,
+        "rotation": 0
+      },
+      {
+        "kind": "roundtable",
+        "room": 3,
+        "bounds": [
+          5.4,
+          21.8,
+          6.6,
+          23.0
+        ],
+        "name": "六人圆桌餐叙会客",
+        "height": 0.76,
+        "rotation": 0
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          5.78,
+          23.07,
+          6.22,
+          23.509999999999998
+        ],
+        "name": "圆桌软垫会客椅",
+        "height": 0.9,
+        "rotation": 0,
+        "upholstered": true
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          6.55076260936815,
+          22.625,
+          6.99076260936815,
+          23.064999999999998
+        ],
+        "name": "圆桌软垫会客椅",
+        "height": 0.9,
+        "rotation": -60,
+        "upholstered": true
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          6.55076260936815,
+          21.735,
+          6.99076260936815,
+          22.174999999999997
+        ],
+        "name": "圆桌软垫会客椅",
+        "height": 0.9,
+        "rotation": -120,
+        "upholstered": true
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          5.78,
+          21.29,
+          6.22,
+          21.729999999999997
+        ],
+        "name": "圆桌软垫会客椅",
+        "height": 0.9,
+        "rotation": -180,
+        "upholstered": true
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          5.00923739063185,
+          21.735,
+          5.44923739063185,
+          22.174999999999997
+        ],
+        "name": "圆桌软垫会客椅",
+        "height": 0.9,
+        "rotation": -240,
+        "upholstered": true
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          5.00923739063185,
+          22.625,
+          5.44923739063185,
+          23.064999999999998
+        ],
+        "name": "圆桌软垫会客椅",
+        "height": 0.9,
+        "rotation": -300,
+        "upholstered": true
+      }
+    ],
+    "rear2": [
+      {
+        "kind": "bed",
+        "room": 0,
+        "bounds": [
+          0.98,
+          16.75,
+          3.13,
+          19.09
+        ],
+        "name": "主卧 2.2m 西向低床头床",
+        "height": 0.75,
+        "rotation": 90,
+        "head_top": 0.75
+      },
+      {
+        "kind": "nightstand",
+        "room": 0,
+        "bounds": [
+          0.98,
+          16.3,
+          1.4,
+          16.7
+        ],
+        "name": "床头柜",
+        "height": 0.5,
+        "rotation": 0
+      },
+      {
+        "kind": "nightstand",
+        "room": 0,
+        "bounds": [
+          0.98,
+          19.3,
+          1.38,
+          19.8
+        ],
+        "name": "床头柜",
+        "height": 0.5,
+        "rotation": 0
+      },
+      {
+        "kind": "wardrobe",
+        "room": 2,
+        "bounds": [
+          3.49,
+          22.08,
+          4.04,
+          24.08
+        ],
+        "name": "主卧独立衣柜",
+        "height": 2.4,
+        "rotation": 0,
+        "bedroom": "rear2-0",
+        "rail_height": 1.85,
+        "columns": 5,
+        "layout": "由南至北五列：长衣、双层短衣、抽屉叠放、活动层板、被褥杂物；顶部通长被褥区"
+      },
+      {
+        "kind": "sofa",
+        "room": 3,
+        "bounds": [
+          4.4,
+          18.8,
+          5.2,
+          21.1
+        ],
+        "name": "家庭厅三人沙发",
+        "height": 0.86,
+        "rotation": 180
+      },
+      {
+        "kind": "table",
+        "room": 3,
+        "bounds": [
+          5.7,
+          19.3,
+          6.2,
+          20.4
+        ],
+        "name": "家庭厅茶几",
+        "height": 0.4,
+        "rotation": 0
+      },
+      {
+        "kind": "tv",
+        "room": 3,
+        "bounds": [
+          7.3,
+          20.3,
+          7.66,
+          21.5
+        ],
+        "name": "家庭厅电视 / 矮柜",
+        "height": 0.55,
+        "rotation": 0
+      },
+      {
+        "kind": "wardrobe",
+        "room": 3,
+        "bounds": [
+          7.06,
+          22.55,
+          7.66,
+          24.15
+        ],
+        "name": "北端共用滑门收纳柜",
+        "height": 2.4,
+        "rotation": 0
+      },
+      {
+        "kind": "desk",
+        "room": 3,
+        "bounds": [
+          4.4,
+          23.5,
+          6.65,
+          24.06
+        ],
+        "name": "双人共享学习桌",
+        "height": 0.75,
+        "rotation": 0
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          4.75,
+          22.83,
+          5.25,
+          23.33
+        ],
+        "name": "学习椅 A",
+        "height": 0.9,
+        "rotation": 180
+      },
+      {
+        "kind": "chair",
+        "room": 3,
+        "bounds": [
+          5.7,
+          22.83,
+          6.2,
+          23.33
+        ],
+        "name": "学习椅 B",
+        "height": 0.9,
+        "rotation": 180
+      },
+      {
+        "kind": "bed",
+        "room": 5,
+        "bounds": [
+          8.87,
+          19.3,
+          11.02,
+          21.24
+        ],
+        "name": "次卧 1.8m 东向低床头床",
+        "height": 0.75,
+        "rotation": 270,
+        "head_top": 0.75
+      },
+      {
+        "kind": "wardrobe",
+        "room": 6,
+        "bounds": [
+          7.96,
+          22.08,
+          8.51,
+          24.08
+        ],
+        "name": "次卧独立衣柜",
+        "height": 2.4,
+        "rotation": 0,
+        "mirrored": true,
+        "bedroom": "rear2-5",
+        "rail_height": 1.75,
+        "columns": 5,
+        "layout": "由南至北五列：长衣、双层短衣、抽屉叠放、活动层板、被褥杂物；顶部通长被褥区"
+      },
+      {
+        "kind": "desk",
+        "room": 6,
+        "bounds": [
+          9.25,
+          23.5,
+          10.75,
+          24.06
+        ],
+        "name": "次卧窗下书桌",
+        "height": 0.75,
+        "rotation": 0
+      },
+      {
+        "kind": "chair",
+        "room": 6,
+        "bounds": [
+          9.75,
+          22.85,
+          10.25,
+          23.35
+        ],
+        "name": "书桌椅",
+        "height": 0.9,
+        "rotation": 180
+      },
+      {
+        "kind": "shower",
+        "room": 1,
+        "bounds": [
+          0.9,
+          23.2,
+          2.52,
+          24.1
+        ],
+        "name": "淋浴区",
+        "height": 2.05,
+        "rotation": 0
+      },
+      {
+        "kind": "wc",
+        "room": 1,
+        "bounds": [
+          0.93,
+          22.5,
+          1.65,
+          23.0
+        ],
+        "name": "坐便器",
+        "height": 0.72,
+        "rotation": 0
+      },
+      {
+        "kind": "vanity",
+        "room": 1,
+        "bounds": [
+          0.91,
+          21.75,
+          1.38,
+          22.35
+        ],
+        "name": "洗手台 / 镜柜",
+        "height": 0.82,
+        "rotation": 0
+      },
+      {
+        "kind": "shower",
+        "room": 7,
+        "bounds": [
+          11.65,
+          23.2,
+          13.3,
+          24.06
+        ],
+        "name": "北侧淋浴区",
+        "height": 2.05,
+        "rotation": 0
+      },
+      {
+        "kind": "wc",
+        "room": 7,
+        "bounds": [
+          13.31,
+          22.7,
+          14.02,
+          23.2
+        ],
+        "name": "坐便器",
+        "height": 0.72,
+        "rotation": 180
+      },
+      {
+        "kind": "vanity",
+        "room": 7,
+        "bounds": [
+          13.55,
+          22.03,
+          14.02,
+          22.63
+        ],
+        "name": "洗手台 / 镜柜",
+        "height": 0.82,
+        "rotation": 180
+      },
+      {
+        "kind": "desk",
+        "room": 0,
+        "bounds": [
+          0.9,
+          19.96,
+          1.38,
+          20.96
+        ],
+        "name": "主卧梳妆台",
+        "height": 0.75,
+        "rotation": 0,
+        "dressing": true,
+        "front": "east"
+      },
+      {
+        "kind": "stool",
+        "room": 0,
+        "bounds": [
+          1.02,
+          20.15,
+          1.4,
+          20.53
+        ],
+        "name": "主卧梳妆凳（收进台下）",
+        "height": 0.44,
+        "rotation": 0
+      }
+    ]
+  },
+  "decorations": {
+    "front": [
+      {
+        "kind": "panel",
+        "room": 2,
+        "bounds": [
+          0.88,
+          1.31,
+          0.94,
+          3.43
+        ],
+        "name": "客房木色床头背景",
+        "z": 0.08,
+        "height": 1.15,
+        "material": "oak"
+      },
+      {
+        "kind": "panel",
+        "room": 0,
+        "bounds": [
+          11.12,
+          2.1,
+          11.15,
+          3.85
+        ],
+        "name": "中厨耐擦洗背板",
+        "z": 0.95,
+        "height": 0.6,
+        "material": "quartz"
+      },
+      {
+        "kind": "wallcabinet",
+        "room": 0,
+        "bounds": [
+          10.78,
+          2.85,
+          11.1,
+          3.85
+        ],
+        "name": "中厨吊柜",
+        "z": 1.6,
+        "height": 0.75,
+        "material": "oak"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 0,
+        "bounds": [
+          10.78,
+          2.89,
+          10.81,
+          3.81
+        ],
+        "name": "厨房柜下照明",
+        "z": 1.56,
+        "height": 0.025,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 0,
+        "bounds": [
+          8.98,
+          6.26,
+          10.98,
+          6.29
+        ],
+        "name": "小家电台面照明",
+        "z": 1.56,
+        "height": 0.025,
+        "material": "light"
+      },
+      {
+        "kind": "wallcabinet",
+        "room": 1,
+        "bounds": [
+          4.38,
+          0.95,
+          4.73,
+          2.1
+        ],
+        "name": "通堂浅鞋柜",
+        "z": 0,
+        "height": 1.15,
+        "material": "oak"
+      },
+      {
+        "kind": "curtain",
+        "room": 2,
+        "bounds": [
+          1.42,
+          0.9,
+          1.7,
+          0.97
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 2,
+        "bounds": [
+          2.94,
+          0.9,
+          3.22,
+          0.97
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "cove",
+        "room": 0,
+        "bounds": [
+          7.96,
+          0.88,
+          11.12,
+          6.32
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "cove",
+        "room": 1,
+        "bounds": [
+          4.36,
+          0.88,
+          7.64,
+          6.32
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "cove",
+        "room": 2,
+        "bounds": [
+          0.88,
+          0.88,
+          4.04,
+          6.32
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "slats",
+        "room": 1,
+        "bounds": [
+          4.33,
+          2.35,
+          4.37,
+          4.2
+        ],
+        "name": "通堂木格栅背景",
+        "z": 0.1,
+        "height": 2.35,
+        "material": "oak"
+      },
+      {
+        "kind": "border",
+        "room": 1,
+        "bounds": [
+          4.52,
+          1.0,
+          7.48,
+          6.1
+        ],
+        "name": "通堂石材细边线",
+        "z": 0.018,
+        "height": 0.001,
+        "material": "metal"
+      },
+      {
+        "kind": "lantern",
+        "room": 1,
+        "bounds": [
+          5.72,
+          3.1,
+          6.28,
+          3.55
+        ],
+        "name": "通堂木框暖光灯",
+        "z": 2.44,
+        "height": 0.3,
+        "material": "metal"
+      },
+      {
+        "kind": "sheer",
+        "room": 2,
+        "bounds": [
+          1.7,
+          0.87,
+          2.94,
+          0.89
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      }
+    ],
+    "rear1": [
+      {
+        "kind": "panel",
+        "room": 5,
+        "bounds": [
+          11.06,
+          19.0,
+          11.12,
+          21.54
+        ],
+        "name": "老人房东墙低床头背景",
+        "z": 0.08,
+        "height": 0.64,
+        "material": "oak"
+      },
+      {
+        "kind": "panel",
+        "room": 0,
+        "bounds": [
+          4.03,
+          18.05,
+          4.07,
+          19.55
+        ],
+        "name": "起居室电视背景",
+        "z": 0.55,
+        "height": 1.65,
+        "material": "accent"
+      },
+      {
+        "kind": "panel",
+        "room": 0,
+        "bounds": [
+          0.85,
+          17.2,
+          0.88,
+          19.5
+        ],
+        "name": "起居室西窗下低背景",
+        "z": 0.08,
+        "height": 0.64,
+        "material": "accent"
+      },
+      {
+        "kind": "rug",
+        "room": 0,
+        "bounds": [
+          1.95,
+          17.5,
+          3.45,
+          19.5
+        ],
+        "name": "起居区织物地毯",
+        "z": 0.024,
+        "height": 0.012,
+        "material": "fabric"
+      },
+      {
+        "kind": "grabbar",
+        "room": 7,
+        "bounds": [
+          14.03,
+          22.72,
+          14.1,
+          23.18
+        ],
+        "name": "坐便区扶手意向",
+        "z": 0.74,
+        "height": 0.035,
+        "material": "metal"
+      },
+      {
+        "kind": "grabbar",
+        "room": 7,
+        "bounds": [
+          11.44,
+          23.35,
+          11.51,
+          23.98
+        ],
+        "name": "淋浴扶手意向",
+        "z": 0.92,
+        "height": 0.035,
+        "material": "metal"
+      },
+      {
+        "kind": "bench",
+        "room": 7,
+        "bounds": [
+          11.85,
+          23.6,
+          12.33,
+          24.02
+        ],
+        "name": "老人淋浴座凳意向",
+        "z": 0.42,
+        "height": 0.06,
+        "material": "oak"
+      },
+      {
+        "kind": "curtain",
+        "room": 5,
+        "bounds": [
+          8.55,
+          15.9,
+          8.82,
+          15.97
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 5,
+        "bounds": [
+          10.32,
+          15.9,
+          10.6,
+          15.97
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          1.4,
+          15.9,
+          1.68,
+          15.97
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          3.18,
+          15.9,
+          3.45,
+          15.97
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "shelf",
+        "room": 1,
+        "bounds": [
+          1.08,
+          23.900000000000002,
+          1.53,
+          24.16
+        ],
+        "name": "淋浴置物层板",
+        "z": 1.25,
+        "height": 0.05,
+        "material": "quartz"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 1,
+        "bounds": [
+          0.91,
+          21.81,
+          0.935,
+          22.290000000000003
+        ],
+        "name": "洗手台镜前灯",
+        "z": 1.88,
+        "height": 0.045,
+        "material": "light"
+      },
+      {
+        "kind": "shelf",
+        "room": 7,
+        "bounds": [
+          11.83,
+          23.86,
+          12.280000000000001,
+          24.119999999999997
+        ],
+        "name": "淋浴置物层板",
+        "z": 1.25,
+        "height": 0.05,
+        "material": "quartz"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 7,
+        "bounds": [
+          13.985,
+          22.09,
+          14.01,
+          22.57
+        ],
+        "name": "洗手台镜前灯",
+        "z": 1.88,
+        "height": 0.045,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 5,
+        "bounds": [
+          11.12,
+          19.07,
+          11.149999999999999,
+          19.13
+        ],
+        "name": "床头两侧阅读灯",
+        "z": 1.3,
+        "height": 0.32,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 5,
+        "bounds": [
+          11.12,
+          21.520000000000003,
+          11.149999999999999,
+          21.580000000000002
+        ],
+        "name": "床头两侧阅读灯",
+        "z": 1.3,
+        "height": 0.32,
+        "material": "light"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          0.86,
+          16.8,
+          0.93,
+          17.02
+        ],
+        "name": "西窗两侧帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          0.86,
+          18.82,
+          0.93,
+          19.04
+        ],
+        "name": "西窗两侧帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "cove",
+        "room": 0,
+        "bounds": [
+          0.88,
+          15.88,
+          4.04,
+          21.24
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "cove",
+        "room": 3,
+        "bounds": [
+          4.36,
+          15.88,
+          7.64,
+          24.12
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak",
+        "north_gap": [
+          5.22,
+          6.78
+        ]
+      },
+      {
+        "kind": "cove",
+        "room": 5,
+        "bounds": [
+          7.96,
+          15.88,
+          11.12,
+          21.24
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "cove",
+        "room": 6,
+        "bounds": [
+          7.96,
+          21.44,
+          11.12,
+          24.12
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "slats",
+        "room": 3,
+        "bounds": [
+          4.33,
+          18.8,
+          4.37,
+          20.5
+        ],
+        "name": "堂屋侧墙木格栅",
+        "z": 0.18,
+        "height": 2.35,
+        "material": "oak"
+      },
+      {
+        "kind": "slats",
+        "room": 0,
+        "bounds": [
+          4.025,
+          18.05,
+          4.07,
+          18.48
+        ],
+        "name": "起居电视侧格栅",
+        "z": 0.55,
+        "height": 1.65,
+        "material": "oak"
+      },
+      {
+        "kind": "art",
+        "room": 3,
+        "bounds": [
+          4.38,
+          19.05,
+          4.405,
+          20.15
+        ],
+        "name": "堂屋水墨装饰画",
+        "z": 1.05,
+        "height": 1.1,
+        "material": "oak"
+      },
+      {
+        "kind": "panel",
+        "room": 3,
+        "bounds": [
+          4.55,
+          24.1,
+          7.45,
+          24.14
+        ],
+        "name": "圆桌厅北墙木色护墙",
+        "z": 0.08,
+        "height": 1.1,
+        "material": "oak"
+      },
+      {
+        "kind": "border",
+        "room": 3,
+        "bounds": [
+          4.52,
+          16.05,
+          7.48,
+          22.95
+        ],
+        "name": "堂屋石材细边线",
+        "z": 0.018,
+        "height": 0.001,
+        "material": "metal"
+      },
+      {
+        "kind": "lantern",
+        "room": 3,
+        "bounds": [
+          5.65,
+          19.25,
+          6.35,
+          19.85
+        ],
+        "name": "堂屋框形暖光灯",
+        "z": 2.42,
+        "height": 0.33,
+        "material": "metal"
+      },
+      {
+        "kind": "lantern",
+        "room": 3,
+        "bounds": [
+          5.65,
+          22.05,
+          6.35,
+          22.75
+        ],
+        "name": "圆桌中心木框餐叙灯",
+        "z": 2.1,
+        "height": 0.26,
+        "material": "metal"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 6,
+        "bounds": [
+          11.1,
+          23.48,
+          11.13,
+          23.78
+        ],
+        "name": "老人休闲区阅读灯",
+        "z": 1.45,
+        "height": 0.3,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 5,
+        "bounds": [
+          11.1,
+          18.35,
+          11.13,
+          18.75
+        ],
+        "name": "老人夜间导向灯",
+        "z": 0.25,
+        "height": 0.045,
+        "material": "light"
+      },
+      {
+        "kind": "curtain",
+        "room": 6,
+        "bounds": [
+          9.5,
+          24.07,
+          9.74,
+          24.14
+        ],
+        "name": "北区窗边帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 6,
+        "bounds": [
+          10.61,
+          24.07,
+          10.88,
+          24.14
+        ],
+        "name": "北区窗边帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 6,
+        "bounds": [
+          9.77,
+          24.12,
+          10.57,
+          24.14
+        ],
+        "name": "北区透光纱帘",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 5,
+        "bounds": [
+          8.82,
+          15.87,
+          10.32,
+          15.89
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 0,
+        "bounds": [
+          1.68,
+          15.87,
+          3.18,
+          15.89
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 0,
+        "bounds": [
+          0.85,
+          17.04,
+          0.87,
+          18.8
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      }
+    ],
+    "rear2": [
+      {
+        "kind": "panel",
+        "room": 0,
+        "bounds": [
+          0.88,
+          16.65,
+          0.94,
+          19.19
+        ],
+        "name": "主卧西窗下低床头背景",
+        "z": 0.08,
+        "height": 0.64,
+        "material": "oak"
+      },
+      {
+        "kind": "panel",
+        "room": 5,
+        "bounds": [
+          11.06,
+          19.2,
+          11.12,
+          21.34
+        ],
+        "name": "次卧东墙低床头背景",
+        "z": 0.08,
+        "height": 0.64,
+        "material": "oak"
+      },
+      {
+        "kind": "panel",
+        "room": 3,
+        "bounds": [
+          7.69,
+          20.17,
+          7.73,
+          21.62
+        ],
+        "name": "家庭厅电视背景",
+        "z": 0.55,
+        "height": 1.65,
+        "material": "accent"
+      },
+      {
+        "kind": "rug",
+        "room": 3,
+        "bounds": [
+          5.27,
+          18.65,
+          6.96,
+          21.17
+        ],
+        "name": "家庭厅休闲地毯",
+        "z": 0.024,
+        "height": 0.012,
+        "material": "fabric"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 3,
+        "bounds": [
+          4.58,
+          24.1,
+          6.45,
+          24.14
+        ],
+        "name": "双人学习桌阅读灯",
+        "z": 1.65,
+        "height": 0.035,
+        "material": "light"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          1.4,
+          16.3,
+          1.68,
+          16.37
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          2.93,
+          16.3,
+          3.2,
+          16.37
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 6,
+        "bounds": [
+          8.6,
+          24.08,
+          8.77,
+          24.15
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 6,
+        "bounds": [
+          9.4,
+          24.08,
+          9.57,
+          24.15
+        ],
+        "name": "暖米色窗帘侧片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "bedbox",
+        "room": 5,
+        "bounds": [
+          8.95,
+          19.42,
+          10.94,
+          21.119999999999997
+        ],
+        "name": "上掀式床箱意向",
+        "z": 0.13,
+        "height": 0.22,
+        "material": "oak"
+      },
+      {
+        "kind": "shelf",
+        "room": 1,
+        "bounds": [
+          1.08,
+          23.900000000000002,
+          1.53,
+          24.16
+        ],
+        "name": "淋浴置物层板",
+        "z": 1.25,
+        "height": 0.05,
+        "material": "quartz"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 1,
+        "bounds": [
+          0.91,
+          21.81,
+          0.935,
+          22.290000000000003
+        ],
+        "name": "洗手台镜前灯",
+        "z": 1.88,
+        "height": 0.045,
+        "material": "light"
+      },
+      {
+        "kind": "shelf",
+        "room": 7,
+        "bounds": [
+          11.83,
+          23.86,
+          12.280000000000001,
+          24.119999999999997
+        ],
+        "name": "淋浴置物层板",
+        "z": 1.25,
+        "height": 0.05,
+        "material": "quartz"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 7,
+        "bounds": [
+          13.985,
+          22.09,
+          14.01,
+          22.57
+        ],
+        "name": "洗手台镜前灯",
+        "z": 1.88,
+        "height": 0.045,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 0,
+        "bounds": [
+          0.85,
+          16.72,
+          0.88,
+          16.779999999999998
+        ],
+        "name": "床头两侧阅读灯",
+        "z": 1.3,
+        "height": 0.32,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 0,
+        "bounds": [
+          0.85,
+          19.5,
+          0.88,
+          19.56
+        ],
+        "name": "床头两侧阅读灯",
+        "z": 1.3,
+        "height": 0.32,
+        "material": "light"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          0.86,
+          16.8,
+          0.93,
+          17.02
+        ],
+        "name": "西窗两侧帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 0,
+        "bounds": [
+          0.86,
+          18.82,
+          0.93,
+          19.04
+        ],
+        "name": "西窗两侧帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "cove",
+        "room": 0,
+        "bounds": [
+          0.88,
+          16.3,
+          4.04,
+          21.24
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "cove",
+        "room": 3,
+        "bounds": [
+          4.36,
+          16.3,
+          7.64,
+          24.12
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak",
+        "north_gap": [
+          5.22,
+          6.78
+        ]
+      },
+      {
+        "kind": "cove",
+        "room": 5,
+        "bounds": [
+          7.96,
+          16.3,
+          9.64,
+          21.24
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "cove",
+        "room": 6,
+        "bounds": [
+          7.96,
+          21.44,
+          11.12,
+          24.12
+        ],
+        "name": "暖白叠级顶面与暗藏灯槽",
+        "z": 2.88,
+        "height": 0.1,
+        "material": "oak"
+      },
+      {
+        "kind": "slats",
+        "room": 3,
+        "bounds": [
+          7.69,
+          20.17,
+          7.735,
+          20.6
+        ],
+        "name": "家庭厅电视侧格栅",
+        "z": 0.55,
+        "height": 1.65,
+        "material": "oak"
+      },
+      {
+        "kind": "art",
+        "room": 3,
+        "bounds": [
+          4.33,
+          19.25,
+          4.36,
+          20.35
+        ],
+        "name": "家庭厅水墨装饰画",
+        "z": 1.1,
+        "height": 1.1,
+        "material": "oak"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 6,
+        "bounds": [
+          9.35,
+          24.1,
+          9.65,
+          24.14
+        ],
+        "name": "次卧桌面阅读灯",
+        "z": 1.12,
+        "height": 0.045,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 6,
+        "bounds": [
+          7.94,
+          21.95,
+          7.97,
+          23.3
+        ],
+        "name": "次卧衣柜侧照明",
+        "z": 2.5,
+        "height": 0.035,
+        "material": "light"
+      },
+      {
+        "kind": "curtain",
+        "room": 6,
+        "bounds": [
+          9.5,
+          24.07,
+          9.74,
+          24.14
+        ],
+        "name": "北区窗边帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "curtain",
+        "room": 6,
+        "bounds": [
+          10.61,
+          24.07,
+          10.88,
+          24.14
+        ],
+        "name": "北区窗边帘片",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 6,
+        "bounds": [
+          9.77,
+          24.12,
+          10.57,
+          24.14
+        ],
+        "name": "北区透光纱帘",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 0,
+        "bounds": [
+          1.68,
+          16.27,
+          2.93,
+          16.29
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 6,
+        "bounds": [
+          8.77,
+          24.125,
+          9.4,
+          24.145
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      },
+      {
+        "kind": "sheer",
+        "room": 0,
+        "bounds": [
+          0.85,
+          17.04,
+          0.87,
+          18.8
+        ],
+        "name": "透光米白纱帘意向",
+        "z": 0.15,
+        "height": 2.6,
+        "material": "fabric"
+      }
+    ]
+  },
+  "room_specs": [
+    {
+      "id": "front-0",
+      "group": "front",
+      "index": 0,
+      "name": "中西厨房",
+      "bounds": [
+        7.8,
+        0.6,
+        11.4,
+        6.6
+      ],
+      "inner": [
+        7.92,
+        0.84,
+        11.16,
+        6.359999999999999
+      ],
+      "kind": "service",
+      "finish": "浅米石纹砖 / 原木柜",
+      "floor": 0.3
+    },
+    {
+      "id": "front-1",
+      "group": "front",
+      "index": 1,
+      "name": "通堂门厅",
+      "bounds": [
+        4.2,
+        0.6,
+        7.8,
+        6.6
+      ],
+      "inner": [
+        4.32,
+        0.84,
+        7.68,
+        6.359999999999999
+      ],
+      "kind": "hall",
+      "finish": "浅米灰石纹砖 / 木线条",
+      "floor": 0.3
+    },
+    {
+      "id": "front-2",
+      "group": "front",
+      "index": 2,
+      "name": "多功能 / 客房",
+      "bounds": [
+        0.6,
+        0.6,
+        4.2,
+        6.6
+      ],
+      "inner": [
+        0.84,
+        0.84,
+        4.08,
+        6.359999999999999
+      ],
+      "kind": "bed",
+      "finish": "暖橡木地板 / 米色织物",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-0",
+      "group": "rear1",
+      "index": 0,
+      "name": "起居室",
+      "bounds": [
+        0.6,
+        15.6,
+        4.2,
+        21.4
+      ],
+      "inner": [
+        0.84,
+        15.84,
+        4.08,
+        21.279999999999998
+      ],
+      "kind": "hall",
+      "finish": "浅米灰石纹砖 / 木线条",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-1",
+      "group": "rear1",
+      "index": 1,
+      "name": "公卫",
+      "bounds": [
+        0.6,
+        21.4,
+        2.7,
+        24.4
+      ],
+      "inner": [
+        0.84,
+        21.52,
+        2.58,
+        24.16
+      ],
+      "kind": "wet",
+      "finish": "浅暖石纹防滑砖",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-2",
+      "group": "rear1",
+      "index": 2,
+      "name": "家务 / 公卫前室",
+      "bounds": [
+        2.7,
+        21.4,
+        4.2,
+        24.4
+      ],
+      "inner": [
+        2.8200000000000003,
+        21.52,
+        4.08,
+        24.16
+      ],
+      "kind": "service",
+      "finish": "浅米石纹砖 / 原木柜",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-3",
+      "group": "rear1",
+      "index": 3,
+      "name": "堂屋",
+      "bounds": [
+        4.2,
+        15.6,
+        7.8,
+        24.4
+      ],
+      "inner": [
+        4.32,
+        15.84,
+        7.68,
+        24.16
+      ],
+      "kind": "hall",
+      "finish": "浅米灰石纹砖 / 木线条",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-4",
+      "group": "rear1",
+      "index": 4,
+      "name": "封闭侧楼梯",
+      "bounds": [
+        11.4,
+        16.5,
+        14.34,
+        21.88
+      ],
+      "inner": [
+        11.64,
+        16.74,
+        14.1,
+        21.64
+      ],
+      "kind": "stair",
+      "finish": "浅色石材踏步",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-5",
+      "group": "rear1",
+      "index": 5,
+      "name": "老人卧室",
+      "bounds": [
+        7.8,
+        15.6,
+        11.4,
+        21.4
+      ],
+      "inner": [
+        7.92,
+        15.84,
+        11.16,
+        21.279999999999998
+      ],
+      "kind": "bed",
+      "finish": "浅色石纹砖 / 米色织物",
+      "floor": 0.3,
+      "shape_note": "老人卧室与北侧衣帽休闲区连通；2.2米床位于北段，南段梳妆，通往东套卫。"
+    },
+    {
+      "id": "rear1-6",
+      "group": "rear1",
+      "index": 6,
+      "name": "衣帽 / 休闲区",
+      "bounds": [
+        7.8,
+        21.4,
+        11.4,
+        24.4
+      ],
+      "inner": [
+        7.92,
+        21.28,
+        11.16,
+        24.16
+      ],
+      "kind": "bed",
+      "finish": "浅色石纹砖 / 米色织物",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-7",
+      "group": "rear1",
+      "index": 7,
+      "name": "老人套卫",
+      "bounds": [
+        11.4,
+        21.88,
+        14.34,
+        24.4
+      ],
+      "inner": [
+        11.4,
+        21.88,
+        14.1,
+        24.16
+      ],
+      "kind": "wet",
+      "finish": "浅暖石纹防滑砖",
+      "floor": 0.3
+    },
+    {
+      "id": "rear1-8",
+      "group": "rear1",
+      "index": 8,
+      "name": "避雨门厅",
+      "bounds": [
+        11.4,
+        14.4,
+        14.34,
+        16.5
+      ],
+      "inner": [
+        11.64,
+        14.64,
+        14.1,
+        16.5
+      ],
+      "kind": "hall",
+      "finish": "耐水防滑地砖意向",
+      "floor": 0.3
+    },
+    {
+      "id": "rear2-0",
+      "group": "rear2",
+      "index": 0,
+      "name": "主卧",
+      "bounds": [
+        0.6,
+        16.14,
+        4.2,
+        21.4
+      ],
+      "inner": [
+        0.84,
+        16.26,
+        4.08,
+        21.279999999999998
+      ],
+      "kind": "bed",
+      "finish": "浅色石纹砖 / 米色织物",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-1",
+      "group": "rear2",
+      "index": 1,
+      "name": "套卫",
+      "bounds": [
+        0.6,
+        21.4,
+        2.7,
+        24.4
+      ],
+      "inner": [
+        0.84,
+        21.52,
+        2.58,
+        24.16
+      ],
+      "kind": "wet",
+      "finish": "浅暖石纹防滑砖",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-2",
+      "group": "rear2",
+      "index": 2,
+      "name": "衣帽",
+      "bounds": [
+        2.7,
+        21.4,
+        4.2,
+        24.4
+      ],
+      "inner": [
+        2.8200000000000003,
+        21.52,
+        4.08,
+        24.16
+      ],
+      "kind": "service",
+      "finish": "浅米石纹砖 / 原木柜",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-3",
+      "group": "rear2",
+      "index": 3,
+      "name": "家庭厅",
+      "bounds": [
+        4.2,
+        16.14,
+        7.8,
+        24.4
+      ],
+      "inner": [
+        4.32,
+        16.26,
+        7.68,
+        24.16
+      ],
+      "kind": "hall",
+      "finish": "浅米灰石纹砖 / 木线条",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-4",
+      "group": "rear2",
+      "index": 4,
+      "name": "封闭侧楼梯",
+      "bounds": [
+        11.4,
+        16.5,
+        14.34,
+        21.88
+      ],
+      "inner": [
+        11.64,
+        16.74,
+        14.1,
+        21.64
+      ],
+      "kind": "stair",
+      "finish": "浅色石材踏步",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-5",
+      "group": "rear2",
+      "index": 5,
+      "name": "次卧",
+      "bounds": [
+        7.8,
+        16.14,
+        11.4,
+        21.4
+      ],
+      "inner": [
+        7.92,
+        16.26,
+        11.16,
+        21.279999999999998
+      ],
+      "kind": "bed",
+      "finish": "浅色石纹砖 / 米色织物",
+      "floor": 3.6,
+      "floor_parts": [
+        [
+          7.92,
+          16.26,
+          9.68,
+          21.28
+        ],
+        [
+          9.68,
+          18.47,
+          11.16,
+          21.28
+        ]
+      ],
+      "shape_note": "L形次卧；侧门入户过道独立分隔，一张1.8m双人床。"
+    },
+    {
+      "id": "rear2-6",
+      "group": "rear2",
+      "index": 6,
+      "name": "卧室书桌区",
+      "bounds": [
+        7.8,
+        21.4,
+        11.4,
+        24.4
+      ],
+      "inner": [
+        7.92,
+        21.28,
+        11.16,
+        24.16
+      ],
+      "kind": "bed",
+      "finish": "浅色石纹砖 / 米色织物",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-7",
+      "group": "rear2",
+      "index": 7,
+      "name": "套卫",
+      "bounds": [
+        11.4,
+        21.88,
+        14.34,
+        24.4
+      ],
+      "inner": [
+        11.4,
+        21.88,
+        14.1,
+        24.16
+      ],
+      "kind": "wet",
+      "finish": "浅暖石纹防滑砖",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-8",
+      "group": "rear2",
+      "index": 8,
+      "name": "公共过厅",
+      "bounds": [
+        0.6,
+        14.4,
+        11.4,
+        16.14
+      ],
+      "inner": [
+        0.84,
+        14.64,
+        11.16,
+        16.02
+      ],
+      "kind": "hall",
+      "finish": "浅米灰石纹砖 / 木线条",
+      "floor": 3.6
+    },
+    {
+      "id": "rear2-9",
+      "group": "rear2",
+      "index": 9,
+      "name": "侧门入户过道",
+      "bounds": [
+        9.8,
+        16.14,
+        11.4,
+        18.35
+      ],
+      "inner": [
+        9.92,
+        16.14,
+        11.16,
+        18.23
+      ],
+      "kind": "hall",
+      "finish": "浅米灰石纹砖 / 木线条",
+      "floor": 3.6
+    }
+  ],
+  "version": "精装方案 O · 浅色精装（Q）",
+  "occupants": 6,
+  "front_roof": "accessible flat terrace",
+  "bridges": [
+    [
+      0.6,
+      6.6,
+      1.8,
+      14.4
+    ],
+    [
+      10.2,
+      6.6,
+      11.4,
+      14.4
+    ]
+  ],
+  "stair": {
+    "bounds": [
+      11.4,
+      16.5,
+      14.34,
+      21.88
+    ],
+    "start_y": 18.16,
+    "mid_y": 20.59,
+    "flight_bounds": [
+      18.16,
+      20.59
+    ],
+    "top_landing": [
+      11.4,
+      16.74,
+      14.1,
+      18.16
+    ],
+    "mid_landing": [
+      11.64,
+      20.59,
+      14.1,
+      21.64
+    ],
+    "enclosed": true,
+    "wall_groups": [
+      "stair1",
+      "stair2"
+    ],
+    "roof_level": 6.9,
+    "risers": 20,
+    "rise": 0.165,
+    "tread": 0.27,
+    "width": 1.05,
+    "landing": 1.05
+  },
+  "courtyard_tree": false,
+  "roof_color": "red",
+  "rear_clearance": 5.0,
+  "bridge": {
+    "bounds": [
+      10.2,
+      6.6,
+      11.4,
+      14.4
+    ],
+    "level": 3.6,
+    "width": 1.2
+  },
+  "covered_entry": {
+    "bounds": [
+      11.4,
+      14.4,
+      14.34,
+      16.5
+    ],
+    "roof_bounds": [
+      11.4,
+      14.4,
+      14.34,
+      16.74
+    ],
+    "roof_level": 3.6
+  },
+  "site_bounds": [
+    0,
+    -8,
+    15.2,
+    29.4
+  ],
+  "forecourt": {
+    "bounds": [
+      0,
+      -8,
+      15.2,
+      0
+    ],
+    "entry_path": [
+      4.8,
+      -8,
+      7.2,
+      0
+    ],
+    "dimensions_provisional": true
+  },
+  "storage": {
+    "bounds": [
+      11.0,
+      -7.4,
+      14.6,
+      0.0
+    ],
+    "floor": 0.15,
+    "roof_level": 3.3,
+    "floors": 1,
+    "position_note": "按用户蓝框覆盖右前方整块，尺寸暂按3.6×7.4米示意"
+  },
+  "east_canopy": {
+    "bounds": [
+      10.1,
+      6.4,
+      11.5,
+      14.64
+    ],
+    "roof_level": 6.6,
+    "fall": 0.04,
+    "post_x": [
+      10.25,
+      11.35
+    ],
+    "post_y": [
+      6.75,
+      9.25,
+      11.75,
+      14.15
+    ],
+    "post_size": 0.06
+  },
+  "east_suite": {
+    "bounds": [
+      11.4,
+      21.88,
+      14.34,
+      24.4
+    ],
+    "inner": [
+      11.4,
+      21.88,
+      14.1,
+      24.16
+    ],
+    "roof_level": 6.9
+  },
+  "courtyard_walls": [
+    [
+      0.6,
+      6.48,
+      0.78,
+      15.72
+    ],
+    [
+      11.22,
+      6.48,
+      11.42,
+      14.64
+    ]
+  ],
+  "courtyard_wall_tops": [
+    3.42,
+    3.42
+  ],
+  "courtyard_laundry": {
+    "bounds": [
+      0.84,
+      6.72,
+      1.5,
+      8.75
+    ],
+    "work_area": [
+      1.5,
+      6.72,
+      2.7,
+      8.75
+    ],
+    "washer": [
+      0.87,
+      6.78,
+      1.47,
+      7.4
+    ],
+    "sink": [
+      0.93,
+      8.14,
+      1.41,
+      8.66
+    ],
+    "counter_height": 0.92,
+    "drain": [
+      1.65,
+      8.5,
+      0.025
+    ],
+    "drying_bounds": [
+      0.98,
+      9.55,
+      1.7,
+      11.35
+    ],
+    "drying_height": 2.1,
+    "machines": [
+      {
+        "id": "ground-main",
+        "name": "主洗衣机",
+        "kind": "washer",
+        "bounds": [
+          0.87,
+          6.78,
+          1.47,
+          7.4
+        ],
+        "z": 0.05,
+        "height": 0.84
+      },
+      {
+        "id": "ground-dryer",
+        "name": "叠放烘干机",
+        "kind": "dryer",
+        "bounds": [
+          0.87,
+          6.78,
+          1.47,
+          7.4
+        ],
+        "z": 0.94,
+        "height": 0.84
+      },
+      {
+        "id": "ground-small",
+        "name": "分区洗衣机",
+        "kind": "washer",
+        "bounds": [
+          0.93,
+          7.47,
+          1.47,
+          8.01
+        ],
+        "z": 0.05,
+        "height": 0.72
+      }
+    ]
+  },
+  "terrace_pavilion": {
+    "roof_bounds": [
+      1.7,
+      1.35,
+      4.6,
+      5.85
+    ],
+    "posts": [
+      [
+        1.95,
+        1.6
+      ],
+      [
+        4.35,
+        1.6
+      ],
+      [
+        1.95,
+        5.6
+      ],
+      [
+        4.35,
+        5.6
+      ]
+    ],
+    "floor": 3.6,
+    "roof_level": 6.45,
+    "roof_fall": 0.06,
+    "table_center": [
+      3.05,
+      2.8
+    ],
+    "provisional": true
+  },
+  "terrace_laundry": {
+    "bounds": [
+      2.1,
+      4.95,
+      4.1,
+      5.55
+    ],
+    "sink": [
+      3.02,
+      5.03,
+      3.58,
+      5.47
+    ],
+    "work_area": [
+      2.1,
+      3.86,
+      4.1,
+      4.95
+    ],
+    "drain": [
+      4.2,
+      5.2,
+      3.625
+    ],
+    "counter_height": 0.94,
+    "machines": []
+  },
+  "upper_laundry": {
+    "bounds": [
+      3.32,
+      15.64,
+      4.04,
+      16.42
+    ],
+    "work_area": [
+      3.32,
+      14.64,
+      4.04,
+      15.64
+    ],
+    "drain": [
+      3.35,
+      15.68,
+      3.605
+    ],
+    "socket": [
+      4.025,
+      16.27,
+      4.9
+    ],
+    "valve": [
+      3.34,
+      16.25,
+      4.72
+    ],
+    "standpipe": [
+      3.34,
+      16.25,
+      4.25
+    ],
+    "counter_height": 0.94,
+    "room": "rear2-8",
+    "machines": [
+      {
+        "id": "upper-combo",
+        "name": "二楼过厅洗烘一体机",
+        "kind": "washer_dryer",
+        "bounds": [
+          3.38,
+          15.69,
+          3.98,
+          16.34
+        ],
+        "z": 0.04,
+        "height": 0.85
+      }
+    ]
+  },
+  "terrace_drying": {
+    "bounds": [
+      2.45,
+      1.95,
+      3.85,
+      4.25
+    ],
+    "floor": 3.6,
+    "raised": 5.85,
+    "lowered": 4.85,
+    "motor": [
+      3.15,
+      3.2,
+      6.15
+    ],
+    "control": [
+      4.3,
+      5.6,
+      4.9
+    ],
+    "cable_top": 6.08,
+    "verification": {
+      "site": "未定",
+      "product": "未定",
+      "structure": "未定",
+      "status": "空间复核；承重、锚固及室外适用性未核定"
+    },
+    "note": "亭内电动升降晾衣；桌椅和东侧旧晾衣架取消，水池保留；载荷及锚固按机型校核"
+  },
+  "services_revision": "2026-11-07 / 二楼过厅洗衣与全屋水电复核",
+  "kitchen_exhaust": {
+    "points": [
+      [
+        10.84,
+        1.6,
+        2.18
+      ],
+      [
+        10.84,
+        1.6,
+        2.68
+      ],
+      [
+        11.8,
+        1.6,
+        2.68
+      ],
+      [
+        11.8,
+        1.6,
+        6.1
+      ]
+    ],
+    "diameter": 0.18,
+    "concept": true,
+    "notes": "独立上排，管径、静压、终端高度及风向按烟机与现场深化"
+  },
+  "terrace_layout": {
+    "open_air": true,
+    "level": 3.6,
+    "leisure_bounds": [
+      1.8,
+      2.0,
+      4.2,
+      4.6
+    ],
+    "drying_rack": null,
+    "central_clear_bounds": [
+      4.8,
+      1.0,
+      7.0,
+      6.0
+    ]
+  },
+  "interior_style": {
+    "name": "暖白木色·简约新中式",
+    "source": "用户提供的六张本地风格参考图",
+    "finishes": [
+      "木纹柜体",
+      "浅米灰石材",
+      "米色织物",
+      "暗藏暖灯",
+      "细木格栅",
+      "深色细框玻璃"
+    ]
+  },
+  "interior_renderings": [
+    {
+      "room": "front-1",
+      "title": "前屋通堂",
+      "path": "精装效果图/01-前屋通堂.png"
+    },
+    {
+      "room": "front-2",
+      "title": "前屋客房",
+      "path": "精装效果图/02-前屋客房.png"
+    },
+    {
+      "room": "front-0",
+      "title": "中西厨房",
+      "path": "精装效果图/03-中西厨房.png"
+    },
+    {
+      "room": "rear1-5",
+      "title": "老人卧室",
+      "path": "精装效果图/04-老人卧室.png"
+    },
+    {
+      "room": "rear1-3",
+      "title": "圆桌客厅",
+      "path": "精装效果图/05-圆桌客厅.png"
+    },
+    {
+      "room": "rear1-0",
+      "title": "首层起居室",
+      "path": "精装效果图/06-首层起居室.png"
+    },
+    {
+      "room": "rear2-0",
+      "title": "二层主卧",
+      "path": "精装效果图/07-二层主卧.png"
+    },
+    {
+      "room": "rear2-5",
+      "title": "二层次卧",
+      "path": "精装效果图/08-二层次卧.png"
+    },
+    {
+      "room": "rear2-3",
+      "title": "二层家庭厅",
+      "path": "精装效果图/09-二层家庭厅.png"
+    },
+    {
+      "room": "rear1-7",
+      "title": "老人卫浴",
+      "path": "精装效果图/10-老人卫浴.png"
+    },
+    {
+      "room": "rear1-8",
+      "title": "避雨门厅",
+      "path": "精装效果图/11-避雨门厅.png"
+    },
+    {
+      "room": "rear1-6",
+      "title": "老人衣帽休闲区",
+      "path": "精装效果图/12-老人衣帽休闲区.png"
+    },
+    {
+      "room": "rear2-6",
+      "title": "次卧书桌收纳区",
+      "path": "精装效果图/13-次卧书桌收纳区.png"
+    }
+  ],
+  "wardrobe_revision": "2026-11-07 / 三卧室五列衣柜与15扇独立柜门",
+  "interior_rendering_note": "Q版浅色精装渲染；后排石纹砖、晾衣亭浅色顶棚；五列衣柜及二楼洗衣位置以交互3D为准；非现场照片",
+  "entry_route": {
+    "door_y": [
+      17.0,
+      18.1
+    ],
+    "hall": "rear2-9",
+    "connection": "rear2-8",
+    "interior_change": "L-shaped guest bedroom and independent entry passage"
+  },
+  "engineering": {
+    "members": [
+      {
+        "id": "S-001",
+        "a": [
+          0.72,
+          0.72,
+          0.3
+        ],
+        "b": [
+          0.72,
+          0.72,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-002",
+        "a": [
+          0.72,
+          6.48,
+          0.3
+        ],
+        "b": [
+          0.72,
+          6.48,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-003",
+        "a": [
+          0.72,
+          0.72,
+          3.6
+        ],
+        "b": [
+          0.72,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-004",
+        "a": [
+          4.2,
+          0.72,
+          0.3
+        ],
+        "b": [
+          4.2,
+          0.72,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-005",
+        "a": [
+          4.2,
+          6.48,
+          0.3
+        ],
+        "b": [
+          4.2,
+          6.48,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-006",
+        "a": [
+          4.2,
+          0.72,
+          3.6
+        ],
+        "b": [
+          4.2,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-007",
+        "a": [
+          7.8,
+          0.72,
+          0.3
+        ],
+        "b": [
+          7.8,
+          0.72,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-008",
+        "a": [
+          7.8,
+          6.48,
+          0.3
+        ],
+        "b": [
+          7.8,
+          6.48,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-009",
+        "a": [
+          7.8,
+          0.72,
+          3.6
+        ],
+        "b": [
+          7.8,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-010",
+        "a": [
+          11.28,
+          0.72,
+          0.3
+        ],
+        "b": [
+          11.28,
+          0.72,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-011",
+        "a": [
+          11.28,
+          6.48,
+          0.3
+        ],
+        "b": [
+          11.28,
+          6.48,
+          3.6
+        ],
+        "role": "column",
+        "floor": "front"
+      },
+      {
+        "id": "S-012",
+        "a": [
+          11.28,
+          0.72,
+          3.6
+        ],
+        "b": [
+          11.28,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-013",
+        "a": [
+          0.72,
+          0.72,
+          3.6
+        ],
+        "b": [
+          4.2,
+          0.72,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-014",
+        "a": [
+          4.2,
+          0.72,
+          3.6
+        ],
+        "b": [
+          7.8,
+          0.72,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-015",
+        "a": [
+          7.8,
+          0.72,
+          3.6
+        ],
+        "b": [
+          11.28,
+          0.72,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-016",
+        "a": [
+          0.72,
+          6.48,
+          3.6
+        ],
+        "b": [
+          4.2,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-017",
+        "a": [
+          4.2,
+          6.48,
+          3.6
+        ],
+        "b": [
+          7.8,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-018",
+        "a": [
+          7.8,
+          6.48,
+          3.6
+        ],
+        "b": [
+          11.28,
+          6.48,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "front"
+      },
+      {
+        "id": "S-019",
+        "a": [
+          0.72,
+          16.14,
+          0.3
+        ],
+        "b": [
+          0.72,
+          16.14,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-020",
+        "a": [
+          0.72,
+          21.4,
+          0.3
+        ],
+        "b": [
+          0.72,
+          21.4,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-021",
+        "a": [
+          0.72,
+          24.28,
+          0.3
+        ],
+        "b": [
+          0.72,
+          24.28,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-022",
+        "a": [
+          0.72,
+          16.14,
+          3.6
+        ],
+        "b": [
+          0.72,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-023",
+        "a": [
+          0.72,
+          21.4,
+          3.6
+        ],
+        "b": [
+          0.72,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-024",
+        "a": [
+          4.2,
+          16.14,
+          0.3
+        ],
+        "b": [
+          4.2,
+          16.14,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-025",
+        "a": [
+          4.2,
+          21.4,
+          0.3
+        ],
+        "b": [
+          4.2,
+          21.4,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-026",
+        "a": [
+          4.2,
+          24.28,
+          0.3
+        ],
+        "b": [
+          4.2,
+          24.28,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-027",
+        "a": [
+          4.2,
+          16.14,
+          3.6
+        ],
+        "b": [
+          4.2,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-028",
+        "a": [
+          4.2,
+          21.4,
+          3.6
+        ],
+        "b": [
+          4.2,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-029",
+        "a": [
+          7.8,
+          16.14,
+          0.3
+        ],
+        "b": [
+          7.8,
+          16.14,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-030",
+        "a": [
+          7.8,
+          21.4,
+          0.3
+        ],
+        "b": [
+          7.8,
+          21.4,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-031",
+        "a": [
+          7.8,
+          24.28,
+          0.3
+        ],
+        "b": [
+          7.8,
+          24.28,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-032",
+        "a": [
+          7.8,
+          16.14,
+          3.6
+        ],
+        "b": [
+          7.8,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-033",
+        "a": [
+          7.8,
+          21.4,
+          3.6
+        ],
+        "b": [
+          7.8,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-034",
+        "a": [
+          11.28,
+          16.14,
+          0.3
+        ],
+        "b": [
+          11.28,
+          16.14,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-035",
+        "a": [
+          11.28,
+          21.4,
+          0.3
+        ],
+        "b": [
+          11.28,
+          21.4,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-036",
+        "a": [
+          11.28,
+          24.28,
+          0.3
+        ],
+        "b": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "role": "column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-037",
+        "a": [
+          11.28,
+          16.14,
+          3.6
+        ],
+        "b": [
+          11.28,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-038",
+        "a": [
+          11.28,
+          21.4,
+          3.6
+        ],
+        "b": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-039",
+        "a": [
+          0.72,
+          16.14,
+          3.6
+        ],
+        "b": [
+          4.2,
+          16.14,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-040",
+        "a": [
+          4.2,
+          16.14,
+          3.6
+        ],
+        "b": [
+          7.8,
+          16.14,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-041",
+        "a": [
+          7.8,
+          16.14,
+          3.6
+        ],
+        "b": [
+          11.28,
+          16.14,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-042",
+        "a": [
+          0.72,
+          21.4,
+          3.6
+        ],
+        "b": [
+          4.2,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-043",
+        "a": [
+          4.2,
+          21.4,
+          3.6
+        ],
+        "b": [
+          7.8,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-044",
+        "a": [
+          7.8,
+          21.4,
+          3.6
+        ],
+        "b": [
+          11.28,
+          21.4,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-045",
+        "a": [
+          0.72,
+          24.28,
+          3.6
+        ],
+        "b": [
+          4.2,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-046",
+        "a": [
+          4.2,
+          24.28,
+          3.6
+        ],
+        "b": [
+          7.8,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-047",
+        "a": [
+          7.8,
+          24.28,
+          3.6
+        ],
+        "b": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "role": "beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-048",
+        "a": [
+          0.72,
+          16.14,
+          3.6
+        ],
+        "b": [
+          0.72,
+          16.14,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-049",
+        "a": [
+          0.72,
+          21.4,
+          3.6
+        ],
+        "b": [
+          0.72,
+          21.4,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-050",
+        "a": [
+          0.72,
+          24.28,
+          3.6
+        ],
+        "b": [
+          0.72,
+          24.28,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-051",
+        "a": [
+          0.72,
+          16.14,
+          6.9
+        ],
+        "b": [
+          0.72,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-052",
+        "a": [
+          0.72,
+          21.4,
+          6.9
+        ],
+        "b": [
+          0.72,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-053",
+        "a": [
+          4.2,
+          16.14,
+          3.6
+        ],
+        "b": [
+          4.2,
+          16.14,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-054",
+        "a": [
+          4.2,
+          21.4,
+          3.6
+        ],
+        "b": [
+          4.2,
+          21.4,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-055",
+        "a": [
+          4.2,
+          24.28,
+          3.6
+        ],
+        "b": [
+          4.2,
+          24.28,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-056",
+        "a": [
+          4.2,
+          16.14,
+          6.9
+        ],
+        "b": [
+          4.2,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-057",
+        "a": [
+          4.2,
+          21.4,
+          6.9
+        ],
+        "b": [
+          4.2,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-058",
+        "a": [
+          7.8,
+          16.14,
+          3.6
+        ],
+        "b": [
+          7.8,
+          16.14,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-059",
+        "a": [
+          7.8,
+          21.4,
+          3.6
+        ],
+        "b": [
+          7.8,
+          21.4,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-060",
+        "a": [
+          7.8,
+          24.28,
+          3.6
+        ],
+        "b": [
+          7.8,
+          24.28,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-061",
+        "a": [
+          7.8,
+          16.14,
+          6.9
+        ],
+        "b": [
+          7.8,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-062",
+        "a": [
+          7.8,
+          21.4,
+          6.9
+        ],
+        "b": [
+          7.8,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-063",
+        "a": [
+          11.28,
+          16.14,
+          3.6
+        ],
+        "b": [
+          11.28,
+          16.14,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-064",
+        "a": [
+          11.28,
+          21.4,
+          3.6
+        ],
+        "b": [
+          11.28,
+          21.4,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-065",
+        "a": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "b": [
+          11.28,
+          24.28,
+          6.9
+        ],
+        "role": "column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-066",
+        "a": [
+          11.28,
+          16.14,
+          6.9
+        ],
+        "b": [
+          11.28,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-067",
+        "a": [
+          11.28,
+          21.4,
+          6.9
+        ],
+        "b": [
+          11.28,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-068",
+        "a": [
+          0.72,
+          16.14,
+          6.9
+        ],
+        "b": [
+          4.2,
+          16.14,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-069",
+        "a": [
+          4.2,
+          16.14,
+          6.9
+        ],
+        "b": [
+          7.8,
+          16.14,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-070",
+        "a": [
+          7.8,
+          16.14,
+          6.9
+        ],
+        "b": [
+          11.28,
+          16.14,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-071",
+        "a": [
+          0.72,
+          21.4,
+          6.9
+        ],
+        "b": [
+          4.2,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-072",
+        "a": [
+          4.2,
+          21.4,
+          6.9
+        ],
+        "b": [
+          7.8,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-073",
+        "a": [
+          7.8,
+          21.4,
+          6.9
+        ],
+        "b": [
+          11.28,
+          21.4,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-074",
+        "a": [
+          0.72,
+          24.28,
+          6.9
+        ],
+        "b": [
+          4.2,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-075",
+        "a": [
+          4.2,
+          24.28,
+          6.9
+        ],
+        "b": [
+          7.8,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-076",
+        "a": [
+          7.8,
+          24.28,
+          6.9
+        ],
+        "b": [
+          11.28,
+          24.28,
+          6.9
+        ],
+        "role": "beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-077",
+        "a": [
+          1.2,
+          9.0,
+          0.3
+        ],
+        "b": [
+          1.2,
+          9.0,
+          3.6
+        ],
+        "role": "bridge_column",
+        "floor": "site"
+      },
+      {
+        "id": "S-078",
+        "a": [
+          1.2,
+          12.0,
+          0.3
+        ],
+        "b": [
+          1.2,
+          12.0,
+          3.6
+        ],
+        "role": "bridge_column",
+        "floor": "site"
+      },
+      {
+        "id": "S-079",
+        "a": [
+          1.2,
+          6.48,
+          3.6
+        ],
+        "b": [
+          1.2,
+          14.64,
+          3.6
+        ],
+        "role": "bridge_beam",
+        "floor": "site"
+      },
+      {
+        "id": "S-080",
+        "a": [
+          10.8,
+          9.0,
+          0.3
+        ],
+        "b": [
+          10.8,
+          9.0,
+          3.6
+        ],
+        "role": "bridge_column",
+        "floor": "site"
+      },
+      {
+        "id": "S-081",
+        "a": [
+          10.8,
+          12.0,
+          0.3
+        ],
+        "b": [
+          10.8,
+          12.0,
+          3.6
+        ],
+        "role": "bridge_column",
+        "floor": "site"
+      },
+      {
+        "id": "S-082",
+        "a": [
+          10.8,
+          6.48,
+          3.6
+        ],
+        "b": [
+          10.8,
+          14.64,
+          3.6
+        ],
+        "role": "bridge_beam",
+        "floor": "site"
+      },
+      {
+        "id": "S-083",
+        "a": [
+          11.52,
+          16.62,
+          0.3
+        ],
+        "b": [
+          11.52,
+          16.62,
+          3.6
+        ],
+        "role": "stair_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-084",
+        "a": [
+          11.52,
+          16.62,
+          3.6
+        ],
+        "b": [
+          11.52,
+          16.62,
+          6.9
+        ],
+        "role": "stair_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-085",
+        "a": [
+          11.52,
+          21.76,
+          0.3
+        ],
+        "b": [
+          11.52,
+          21.76,
+          3.6
+        ],
+        "role": "stair_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-086",
+        "a": [
+          11.52,
+          21.76,
+          3.6
+        ],
+        "b": [
+          11.52,
+          21.76,
+          6.9
+        ],
+        "role": "stair_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-087",
+        "a": [
+          11.52,
+          16.62,
+          6.9
+        ],
+        "b": [
+          11.52,
+          21.76,
+          6.9
+        ],
+        "role": "stair_roof_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-088",
+        "a": [
+          14.22,
+          16.62,
+          0.3
+        ],
+        "b": [
+          14.22,
+          16.62,
+          3.6
+        ],
+        "role": "stair_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-089",
+        "a": [
+          14.22,
+          16.62,
+          3.6
+        ],
+        "b": [
+          14.22,
+          16.62,
+          6.9
+        ],
+        "role": "stair_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-090",
+        "a": [
+          14.22,
+          21.76,
+          0.3
+        ],
+        "b": [
+          14.22,
+          21.76,
+          3.6
+        ],
+        "role": "stair_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-091",
+        "a": [
+          14.22,
+          21.76,
+          3.6
+        ],
+        "b": [
+          14.22,
+          21.76,
+          6.9
+        ],
+        "role": "stair_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-092",
+        "a": [
+          14.22,
+          16.62,
+          6.9
+        ],
+        "b": [
+          14.22,
+          21.76,
+          6.9
+        ],
+        "role": "stair_roof_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-093",
+        "a": [
+          11.52,
+          16.62,
+          6.9
+        ],
+        "b": [
+          14.22,
+          16.62,
+          6.9
+        ],
+        "role": "stair_roof_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-094",
+        "a": [
+          11.52,
+          21.76,
+          6.9
+        ],
+        "b": [
+          14.22,
+          21.76,
+          6.9
+        ],
+        "role": "stair_roof_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-095",
+        "a": [
+          11.28,
+          24.28,
+          0.3
+        ],
+        "b": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "role": "suite_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-096",
+        "a": [
+          11.28,
+          21.76,
+          3.6
+        ],
+        "b": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "role": "suite_beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-097",
+        "a": [
+          14.22,
+          24.28,
+          0.3
+        ],
+        "b": [
+          14.22,
+          24.28,
+          3.6
+        ],
+        "role": "suite_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-098",
+        "a": [
+          14.22,
+          21.76,
+          3.6
+        ],
+        "b": [
+          14.22,
+          24.28,
+          3.6
+        ],
+        "role": "suite_beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-099",
+        "a": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "b": [
+          14.22,
+          24.28,
+          3.6
+        ],
+        "role": "suite_beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-100",
+        "a": [
+          11.28,
+          24.28,
+          3.6
+        ],
+        "b": [
+          11.28,
+          24.28,
+          6.9
+        ],
+        "role": "suite_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-101",
+        "a": [
+          11.28,
+          21.76,
+          6.9
+        ],
+        "b": [
+          11.28,
+          24.28,
+          6.9
+        ],
+        "role": "suite_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-102",
+        "a": [
+          14.22,
+          24.28,
+          3.6
+        ],
+        "b": [
+          14.22,
+          24.28,
+          6.9
+        ],
+        "role": "suite_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-103",
+        "a": [
+          14.22,
+          21.76,
+          6.9
+        ],
+        "b": [
+          14.22,
+          24.28,
+          6.9
+        ],
+        "role": "suite_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-104",
+        "a": [
+          11.28,
+          24.28,
+          6.9
+        ],
+        "b": [
+          14.22,
+          24.28,
+          6.9
+        ],
+        "role": "suite_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-105",
+        "a": [
+          11.64,
+          21.52,
+          1.95
+        ],
+        "b": [
+          14.1,
+          21.52,
+          1.95
+        ],
+        "role": "stair_landing_beam",
+        "floor": "site"
+      },
+      {
+        "id": "S-106",
+        "a": [
+          11.4,
+          16.62,
+          3.6
+        ],
+        "b": [
+          14.22,
+          16.62,
+          3.6
+        ],
+        "role": "stair_top_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-107",
+        "a": [
+          11.52,
+          14.52,
+          0.3
+        ],
+        "b": [
+          11.52,
+          14.52,
+          3.6
+        ],
+        "role": "entry_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-108",
+        "a": [
+          11.52,
+          14.52,
+          3.6
+        ],
+        "b": [
+          11.52,
+          16.62,
+          3.6
+        ],
+        "role": "entry_roof_beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-109",
+        "a": [
+          14.22,
+          14.52,
+          0.3
+        ],
+        "b": [
+          14.22,
+          14.52,
+          3.6
+        ],
+        "role": "entry_column",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-110",
+        "a": [
+          14.22,
+          14.52,
+          3.6
+        ],
+        "b": [
+          14.22,
+          16.62,
+          3.6
+        ],
+        "role": "entry_roof_beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-111",
+        "a": [
+          11.52,
+          14.52,
+          3.6
+        ],
+        "b": [
+          14.22,
+          14.52,
+          3.6
+        ],
+        "role": "entry_roof_beam",
+        "floor": "rear1"
+      },
+      {
+        "id": "S-112",
+        "a": [
+          10.25,
+          6.75,
+          3.6
+        ],
+        "b": [
+          10.25,
+          6.75,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-113",
+        "a": [
+          10.25,
+          9.25,
+          3.6
+        ],
+        "b": [
+          10.25,
+          9.25,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-114",
+        "a": [
+          10.25,
+          11.75,
+          3.6
+        ],
+        "b": [
+          10.25,
+          11.75,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-115",
+        "a": [
+          10.25,
+          14.15,
+          3.6
+        ],
+        "b": [
+          10.25,
+          14.15,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-116",
+        "a": [
+          10.25,
+          6.4,
+          6.4
+        ],
+        "b": [
+          10.25,
+          14.64,
+          6.4
+        ],
+        "role": "bridge_canopy_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-117",
+        "a": [
+          11.35,
+          6.75,
+          3.6
+        ],
+        "b": [
+          11.35,
+          6.75,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-118",
+        "a": [
+          11.35,
+          9.25,
+          3.6
+        ],
+        "b": [
+          11.35,
+          9.25,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-119",
+        "a": [
+          11.35,
+          11.75,
+          3.6
+        ],
+        "b": [
+          11.35,
+          11.75,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-120",
+        "a": [
+          11.35,
+          14.15,
+          3.6
+        ],
+        "b": [
+          11.35,
+          14.15,
+          6.4
+        ],
+        "role": "bridge_canopy_column",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-121",
+        "a": [
+          11.35,
+          6.4,
+          6.4
+        ],
+        "b": [
+          11.35,
+          14.64,
+          6.4
+        ],
+        "role": "bridge_canopy_beam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-122",
+        "a": [
+          10.25,
+          6.75,
+          6.4
+        ],
+        "b": [
+          11.35,
+          6.75,
+          6.4
+        ],
+        "role": "bridge_canopy_crossbeam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-123",
+        "a": [
+          10.25,
+          9.25,
+          6.4
+        ],
+        "b": [
+          11.35,
+          9.25,
+          6.4
+        ],
+        "role": "bridge_canopy_crossbeam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-124",
+        "a": [
+          10.25,
+          11.75,
+          6.4
+        ],
+        "b": [
+          11.35,
+          11.75,
+          6.4
+        ],
+        "role": "bridge_canopy_crossbeam",
+        "floor": "rear2"
+      },
+      {
+        "id": "S-125",
+        "a": [
+          10.25,
+          14.15,
+          6.4
+        ],
+        "b": [
+          11.35,
+          14.15,
+          6.4
+        ],
+        "role": "bridge_canopy_crossbeam",
+        "floor": "rear2"
+      }
+    ],
+    "routes": [
+      {
+        "id": "R-001",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            0.35,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            1.7
+          ]
+        ],
+        "floor": "front",
+        "label": "入户至通堂东墙 DB0"
+      },
+      {
+        "id": "R-002",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            2.85
+          ],
+          [
+            7.62,
+            6.1,
+            2.85
+          ],
+          [
+            10.45,
+            6.1,
+            2.85
+          ],
+          [
+            10.45,
+            14.85,
+            2.85
+          ],
+          [
+            7.62,
+            14.85,
+            2.85
+          ],
+          [
+            7.62,
+            16.1,
+            2.85
+          ],
+          [
+            7.62,
+            16.1,
+            1.7
+          ]
+        ],
+        "floor": "site",
+        "label": "DB0 → DB1：东连廊下方馈线示意"
+      },
+      {
+        "id": "R-003",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            18.6,
+            5.0
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DB1 → DB2：家庭厅东墙电气竖向通道"
+      },
+      {
+        "id": "R-004",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            11.08,
+            16.1,
+            6.71
+          ],
+          [
+            11.08,
+            16.65,
+            6.71
+          ],
+          [
+            11.08,
+            16.65,
+            4.8
+          ]
+        ],
+        "floor": "rear2",
+        "label": "ENT 侧主门照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-005",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            7.94,
+            6.1,
+            3.41
+          ],
+          [
+            7.94,
+            4.25,
+            3.41
+          ],
+          [
+            7.94,
+            4.25,
+            1.6
+          ]
+        ],
+        "floor": "front",
+        "label": "厨房入口照明开关",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-006",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            7.64,
+            6.1,
+            3.41
+          ],
+          [
+            7.64,
+            1.0,
+            3.41
+          ],
+          [
+            7.64,
+            1.0,
+            1.6
+          ]
+        ],
+        "floor": "front",
+        "label": "通堂入口照明开关",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-007",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            4.04,
+            6.1,
+            3.41
+          ],
+          [
+            4.04,
+            4.3,
+            3.41
+          ],
+          [
+            4.04,
+            4.3,
+            1.6
+          ]
+        ],
+        "floor": "front",
+        "label": "客房入口照明开关",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-008",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            16.75,
+            3.41
+          ],
+          [
+            4.04,
+            16.75,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "起居室入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-009",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            2.54,
+            16.1,
+            3.41
+          ],
+          [
+            2.54,
+            21.8,
+            3.41
+          ],
+          [
+            2.54,
+            21.8,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "公卫门外入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-010",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            21.8,
+            3.41
+          ],
+          [
+            4.04,
+            21.8,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "家务入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-011",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            7.64,
+            16.1,
+            3.41
+          ],
+          [
+            7.64,
+            16.5,
+            3.41
+          ],
+          [
+            7.64,
+            16.5,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "堂屋入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-012",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            7.96,
+            16.1,
+            3.41
+          ],
+          [
+            7.96,
+            16.75,
+            3.41
+          ],
+          [
+            7.96,
+            16.75,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "老人房入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-013",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.1,
+            16.1,
+            3.41
+          ],
+          [
+            11.1,
+            23.1,
+            3.41
+          ],
+          [
+            11.1,
+            23.1,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "老人套卫门外入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-014",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.66,
+            16.1,
+            3.41
+          ],
+          [
+            11.66,
+            15.95,
+            3.41
+          ],
+          [
+            11.66,
+            15.95,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "门厅入口照明开关",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-015",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            4.04,
+            16.1,
+            6.71
+          ],
+          [
+            4.04,
+            16.75,
+            6.71
+          ],
+          [
+            4.04,
+            16.75,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "主卧入口照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-016",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            2.54,
+            16.1,
+            6.71
+          ],
+          [
+            2.54,
+            21.16,
+            6.71
+          ],
+          [
+            2.54,
+            21.16,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "套卫门外入口照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-017",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            4.4,
+            16.1,
+            6.71
+          ],
+          [
+            4.4,
+            16.3,
+            6.71
+          ],
+          [
+            4.4,
+            16.3,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "家庭厅入口照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-018",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            18.6,
+            6.71
+          ],
+          [
+            11.1,
+            18.6,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "次卧入口照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-019",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            23.1,
+            6.71
+          ],
+          [
+            11.1,
+            23.1,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "东套卫门外入口照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-020",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            15.85,
+            6.71
+          ],
+          [
+            0.86,
+            15.85,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "公共过厅入口照明开关",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-021",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            9.6,
+            6.1,
+            3.41
+          ],
+          [
+            9.6,
+            3.6,
+            3.41
+          ],
+          [
+            9.6,
+            3.6,
+            2.85
+          ]
+        ],
+        "floor": "front",
+        "label": "L1 中西厨房照明",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-022",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            7.96,
+            6.1,
+            3.41
+          ],
+          [
+            7.96,
+            1.65,
+            3.41
+          ],
+          [
+            7.96,
+            1.65,
+            1.45
+          ]
+        ],
+        "floor": "front",
+        "label": "S1 中西厨房普通插座",
+        "circuit": "DB0-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-023",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            6.0,
+            6.1,
+            3.41
+          ],
+          [
+            6.0,
+            3.6,
+            3.41
+          ],
+          [
+            6.0,
+            3.6,
+            2.85
+          ]
+        ],
+        "floor": "front",
+        "label": "L2 通堂门厅照明",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-024",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            4.36,
+            6.1,
+            3.41
+          ],
+          [
+            4.36,
+            3.6,
+            3.41
+          ],
+          [
+            4.36,
+            3.6,
+            0.65
+          ]
+        ],
+        "floor": "front",
+        "label": "S2 通堂门厅普通插座",
+        "circuit": "DB0-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-025",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            2.4,
+            6.1,
+            3.41
+          ],
+          [
+            2.4,
+            3.6,
+            3.41
+          ],
+          [
+            2.4,
+            3.6,
+            2.85
+          ]
+        ],
+        "floor": "front",
+        "label": "L3 多功能 / 客房照明",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-026",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            0.86,
+            6.1,
+            3.41
+          ],
+          [
+            0.86,
+            4.1,
+            3.41
+          ],
+          [
+            0.86,
+            4.1,
+            0.65
+          ]
+        ],
+        "floor": "front",
+        "label": "S3 多功能 / 客房普通插座",
+        "circuit": "DB0-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-027",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            7.96,
+            6.1,
+            3.41
+          ],
+          [
+            7.96,
+            3.5,
+            3.41
+          ],
+          [
+            7.96,
+            3.5,
+            1.15
+          ]
+        ],
+        "floor": "front",
+        "label": "K2 烤箱专用",
+        "circuit": "DB0-A01",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-028",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            7.96,
+            6.1,
+            3.41
+          ],
+          [
+            7.96,
+            1.75,
+            3.41
+          ],
+          [
+            7.96,
+            1.75,
+            1.45
+          ]
+        ],
+        "floor": "front",
+        "label": "K3 西厨台面",
+        "circuit": "DB0-A02",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-029",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            11.12,
+            6.1,
+            3.41
+          ],
+          [
+            11.12,
+            2.72,
+            3.41
+          ],
+          [
+            11.12,
+            2.72,
+            2.35
+          ]
+        ],
+        "floor": "front",
+        "label": "K1 烟机/灶具预留",
+        "circuit": "DB0-A03",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-030",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            11.12,
+            6.1,
+            3.41
+          ],
+          [
+            11.12,
+            5.62,
+            3.41
+          ],
+          [
+            11.12,
+            5.62,
+            0.95
+          ]
+        ],
+        "floor": "front",
+        "label": "K4 冰箱专用",
+        "circuit": "DB0-A04",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-031",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            11.12,
+            6.1,
+            3.41
+          ],
+          [
+            11.12,
+            3.86,
+            3.41
+          ],
+          [
+            11.12,
+            3.86,
+            0.85
+          ]
+        ],
+        "floor": "front",
+        "label": "K5 洗碗机专用",
+        "circuit": "DB0-A05",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-032",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            8.65,
+            6.1,
+            3.41
+          ],
+          [
+            8.65,
+            6.32,
+            3.41
+          ],
+          [
+            8.65,
+            6.32,
+            1.65
+          ]
+        ],
+        "floor": "front",
+        "label": "K6 微波炉电源",
+        "circuit": "DB0-A06",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-033",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            8.6,
+            6.1,
+            3.41
+          ],
+          [
+            8.6,
+            0.86,
+            3.41
+          ],
+          [
+            8.6,
+            0.86,
+            1.5
+          ]
+        ],
+        "floor": "front",
+        "label": "K7 电饼铛电源",
+        "circuit": "DB0-A07",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-034",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            10.7,
+            6.1,
+            3.41
+          ],
+          [
+            10.7,
+            0.86,
+            3.41
+          ],
+          [
+            10.7,
+            0.86,
+            1.5
+          ]
+        ],
+        "floor": "front",
+        "label": "K8 电饭煲电源",
+        "circuit": "DB0-A08",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-035",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            2.4,
+            16.1,
+            3.41
+          ],
+          [
+            2.4,
+            18.5,
+            3.41
+          ],
+          [
+            2.4,
+            18.5,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L1 起居室照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-036",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            0.86,
+            16.1,
+            3.41
+          ],
+          [
+            0.86,
+            20.35,
+            3.41
+          ],
+          [
+            0.86,
+            20.35,
+            0.65
+          ]
+        ],
+        "floor": "rear1",
+        "label": "S1 起居室普通插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-037",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            1.65,
+            16.1,
+            3.41
+          ],
+          [
+            1.65,
+            22.9,
+            3.41
+          ],
+          [
+            1.65,
+            22.9,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L2 公卫照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-038",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            3.45,
+            16.1,
+            3.41
+          ],
+          [
+            3.45,
+            22.9,
+            3.41
+          ],
+          [
+            3.45,
+            22.9,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L3 家务 / 公卫前室照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-039",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            22.65,
+            3.41
+          ],
+          [
+            4.04,
+            22.65,
+            0.65
+          ]
+        ],
+        "floor": "rear1",
+        "label": "S3 家务 / 公卫前室普通插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-040",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            20.0,
+            3.41
+          ],
+          [
+            6.0,
+            20.0,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L4 堂屋照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-041",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            7.64,
+            16.1,
+            3.41
+          ],
+          [
+            7.64,
+            20.6,
+            3.41
+          ],
+          [
+            7.64,
+            20.6,
+            0.65
+          ]
+        ],
+        "floor": "rear1",
+        "label": "S4 堂屋普通插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-042",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            22.9,
+            3.41
+          ],
+          [
+            6.0,
+            22.9,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L4b 堂屋北段照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-043",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            14.04,
+            16.1,
+            3.41
+          ],
+          [
+            14.04,
+            17.5,
+            3.41
+          ],
+          [
+            14.04,
+            17.5,
+            2.3
+          ]
+        ],
+        "floor": "rear1",
+        "label": "ST 楼梯照明/感应位",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-044",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            9.6,
+            16.1,
+            3.41
+          ],
+          [
+            9.6,
+            18.5,
+            3.41
+          ],
+          [
+            9.6,
+            18.5,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L6 老人卧室照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-045",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.12,
+            16.1,
+            3.41
+          ],
+          [
+            11.12,
+            18.55,
+            3.41
+          ],
+          [
+            11.12,
+            18.55,
+            1.0
+          ]
+        ],
+        "floor": "rear1",
+        "label": "S6 老人卧室普通插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-046",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            9.6,
+            16.1,
+            3.41
+          ],
+          [
+            9.6,
+            22.9,
+            3.41
+          ],
+          [
+            9.6,
+            22.9,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L7 衣帽 / 休闲区照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-047",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.1,
+            16.1,
+            3.41
+          ],
+          [
+            11.1,
+            23.3,
+            3.41
+          ],
+          [
+            11.1,
+            23.3,
+            1.45
+          ]
+        ],
+        "floor": "rear1",
+        "label": "S7 衣帽 / 休闲区普通插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-048",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            12.87,
+            16.1,
+            3.41
+          ],
+          [
+            12.87,
+            23.14,
+            3.41
+          ],
+          [
+            12.87,
+            23.14,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L8 老人套卫照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-049",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            12.87,
+            16.1,
+            3.41
+          ],
+          [
+            12.87,
+            15.45,
+            3.41
+          ],
+          [
+            12.87,
+            15.45,
+            2.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "L9 避雨门厅照明",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-050",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.66,
+            16.1,
+            3.41
+          ],
+          [
+            11.66,
+            15.95,
+            3.41
+          ],
+          [
+            11.66,
+            15.95,
+            0.65
+          ]
+        ],
+        "floor": "rear1",
+        "label": "S9 避雨门厅普通插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-051",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            16.1,
+            3.41
+          ],
+          [
+            4.04,
+            23.25,
+            3.41
+          ],
+          [
+            4.04,
+            23.25,
+            1.45
+          ]
+        ],
+        "floor": "rear1",
+        "label": "W1 洗衣机专用",
+        "circuit": "DB1-A01",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-052",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.12,
+            16.1,
+            3.41
+          ],
+          [
+            11.12,
+            17.65,
+            3.41
+          ],
+          [
+            11.12,
+            17.65,
+            2.0
+          ]
+        ],
+        "floor": "rear1",
+        "label": "老人房梳妆台镜前灯预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-053",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.12,
+            16.1,
+            3.41
+          ],
+          [
+            11.12,
+            17.22,
+            3.41
+          ],
+          [
+            11.12,
+            17.22,
+            1.35
+          ]
+        ],
+        "floor": "rear1",
+        "label": "老人房梳妆台台面插座",
+        "circuit": "DB1-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-054",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            2.4,
+            16.1,
+            6.71
+          ],
+          [
+            2.4,
+            18.77,
+            6.71
+          ],
+          [
+            2.4,
+            18.77,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L1 主卧照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-055",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            19.55,
+            6.71
+          ],
+          [
+            0.86,
+            19.55,
+            4.3
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S1 主卧普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-056",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            1.65,
+            16.1,
+            6.71
+          ],
+          [
+            1.65,
+            22.9,
+            6.71
+          ],
+          [
+            1.65,
+            22.9,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L2 套卫照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-057",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            3.45,
+            16.1,
+            6.71
+          ],
+          [
+            3.45,
+            22.9,
+            6.71
+          ],
+          [
+            3.45,
+            22.9,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L3 衣帽照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-058",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            2.86,
+            16.1,
+            6.71
+          ],
+          [
+            2.86,
+            23.9,
+            6.71
+          ],
+          [
+            2.86,
+            23.9,
+            4.0
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S3 衣帽普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-059",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            6.0,
+            16.1,
+            6.71
+          ],
+          [
+            6.0,
+            20.27,
+            6.71
+          ],
+          [
+            6.0,
+            20.27,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L4 家庭厅照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-060",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            7.64,
+            16.1,
+            6.71
+          ],
+          [
+            7.64,
+            19.55,
+            6.71
+          ],
+          [
+            7.64,
+            19.55,
+            3.95
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S4 家庭厅普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-061",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            6.0,
+            16.1,
+            6.71
+          ],
+          [
+            6.0,
+            22.9,
+            6.71
+          ],
+          [
+            6.0,
+            22.9,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L4b 家庭厅北段照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-062",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            14.04,
+            16.1,
+            6.71
+          ],
+          [
+            14.04,
+            17.5,
+            6.71
+          ],
+          [
+            14.04,
+            17.5,
+            5.6
+          ]
+        ],
+        "floor": "rear2",
+        "label": "ST 楼梯照明/感应位",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-063",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            9.6,
+            16.1,
+            6.71
+          ],
+          [
+            9.6,
+            18.77,
+            6.71
+          ],
+          [
+            9.6,
+            18.77,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L6 次卧照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-064",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            11.12,
+            16.1,
+            6.71
+          ],
+          [
+            11.12,
+            18.85,
+            6.71
+          ],
+          [
+            11.12,
+            18.85,
+            4.3
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S6 次卧普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-065",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            9.6,
+            16.1,
+            6.71
+          ],
+          [
+            9.6,
+            22.9,
+            6.71
+          ],
+          [
+            9.6,
+            22.9,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L7 卧室书桌区照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-066",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            23.5,
+            6.71
+          ],
+          [
+            11.1,
+            23.5,
+            4.0
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S7 卧室书桌区普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-067",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            12.87,
+            16.1,
+            6.71
+          ],
+          [
+            12.87,
+            23.14,
+            6.71
+          ],
+          [
+            12.87,
+            23.14,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L8 套卫照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-068",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            6.0,
+            16.1,
+            6.71
+          ],
+          [
+            6.0,
+            15.27,
+            6.71
+          ],
+          [
+            6.0,
+            15.27,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L9 公共过厅照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-069",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            7.64,
+            16.1,
+            6.71
+          ],
+          [
+            7.64,
+            16.0,
+            6.71
+          ],
+          [
+            7.64,
+            16.0,
+            4.0
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S9 公共过厅普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-070",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            10.6,
+            16.1,
+            6.71
+          ],
+          [
+            10.6,
+            17.245,
+            6.71
+          ],
+          [
+            10.6,
+            17.245,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "L10 侧门入户过道照明",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-071",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            16.1,
+            6.71
+          ],
+          [
+            11.1,
+            16.65,
+            6.71
+          ],
+          [
+            11.1,
+            16.65,
+            3.95
+          ]
+        ],
+        "floor": "rear2",
+        "label": "S10 侧门入户过道普通插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-072",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            20.46,
+            6.71
+          ],
+          [
+            0.86,
+            20.46,
+            5.3
+          ]
+        ],
+        "floor": "rear2",
+        "label": "主卧梳妆台镜前灯预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-073",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            16.1,
+            6.71
+          ],
+          [
+            0.86,
+            20.08,
+            6.71
+          ],
+          [
+            0.86,
+            20.08,
+            4.65
+          ]
+        ],
+        "floor": "rear2",
+        "label": "主卧梳妆台台面插座",
+        "circuit": "DB2-S",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-074",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            10.8,
+            16.1,
+            6.71
+          ],
+          [
+            10.8,
+            8,
+            6.71
+          ],
+          [
+            10.8,
+            8,
+            6.28
+          ]
+        ],
+        "floor": "rear2",
+        "label": "BR 二层东侧雨廊照明预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-075",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            10.8,
+            16.1,
+            6.71
+          ],
+          [
+            10.8,
+            10.5,
+            6.71
+          ],
+          [
+            10.8,
+            10.5,
+            6.28
+          ]
+        ],
+        "floor": "rear2",
+        "label": "BR 二层东侧雨廊照明预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-076",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            10.8,
+            16.1,
+            6.71
+          ],
+          [
+            10.8,
+            13,
+            6.71
+          ],
+          [
+            10.8,
+            13,
+            6.28
+          ]
+        ],
+        "floor": "rear2",
+        "label": "BR 二层东侧雨廊照明预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-077",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            14.1,
+            16.1,
+            3.41
+          ],
+          [
+            14.1,
+            22.65,
+            3.41
+          ],
+          [
+            14.1,
+            22.65,
+            3.0
+          ]
+        ],
+        "floor": "rear1",
+        "label": "VF 东套卫排风电源预留",
+        "circuit": "DB1-A02",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-078",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            14.1,
+            16.1,
+            6.71
+          ],
+          [
+            14.1,
+            22.65,
+            6.71
+          ],
+          [
+            14.1,
+            22.65,
+            6.3
+          ]
+        ],
+        "floor": "rear2",
+        "label": "VF 东套卫排风电源预留",
+        "circuit": "DB2-A01",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-079",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            0.98,
+            6.1,
+            3.41
+          ],
+          [
+            0.98,
+            4.7,
+            3.41
+          ],
+          [
+            0.98,
+            4.7,
+            2.75
+          ]
+        ],
+        "floor": "front",
+        "label": "AC-1 空调专用电源预留",
+        "circuit": "DB0-A09",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-080",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            1.0,
+            16.1,
+            3.41
+          ],
+          [
+            1.0,
+            19.65,
+            3.41
+          ],
+          [
+            1.0,
+            19.65,
+            2.75
+          ]
+        ],
+        "floor": "rear1",
+        "label": "AC-2 空调专用电源预留",
+        "circuit": "DB1-A03",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-081",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            10.95,
+            16.1,
+            3.41
+          ],
+          [
+            10.95,
+            19.7,
+            3.41
+          ],
+          [
+            10.95,
+            19.7,
+            2.75
+          ]
+        ],
+        "floor": "rear1",
+        "label": "AC-3 空调专用电源预留",
+        "circuit": "DB1-A04",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-082",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            1.0,
+            16.1,
+            6.71
+          ],
+          [
+            1.0,
+            19.65,
+            6.71
+          ],
+          [
+            1.0,
+            19.65,
+            6.05
+          ]
+        ],
+        "floor": "rear2",
+        "label": "AC-4 空调专用电源预留",
+        "circuit": "DB2-A02",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-083",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            10.95,
+            16.1,
+            6.71
+          ],
+          [
+            10.95,
+            18.6,
+            6.71
+          ],
+          [
+            10.95,
+            18.6,
+            6.05
+          ]
+        ],
+        "floor": "rear2",
+        "label": "AC-5 空调专用电源预留",
+        "circuit": "DB2-A03",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-084",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            7.62,
+            16.1,
+            6.71
+          ],
+          [
+            7.62,
+            20.8,
+            6.71
+          ],
+          [
+            7.62,
+            20.8,
+            6.05
+          ]
+        ],
+        "floor": "rear2",
+        "label": "AC-6 空调专用电源预留",
+        "circuit": "DB2-A04",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-085",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            10.795,
+            6.1,
+            3.41
+          ],
+          [
+            10.795,
+            3.35,
+            3.41
+          ],
+          [
+            10.795,
+            3.35,
+            1.86
+          ]
+        ],
+        "floor": "front",
+        "label": "DECO 厨房柜下照明 预留",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-086",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            9.98,
+            6.1,
+            3.41
+          ],
+          [
+            9.98,
+            6.275,
+            3.41
+          ],
+          [
+            9.98,
+            6.275,
+            1.86
+          ]
+        ],
+        "floor": "front",
+        "label": "DECO 小家电台面照明 预留",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-087",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.1,
+            3.41
+          ],
+          [
+            6.0,
+            6.1,
+            3.41
+          ],
+          [
+            6.0,
+            3.325,
+            3.41
+          ],
+          [
+            6.0,
+            3.325,
+            2.74
+          ]
+        ],
+        "floor": "front",
+        "label": "DECO 通堂木框暖光灯 预留",
+        "circuit": "DB0-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-088",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            0.9225,
+            16.1,
+            3.41
+          ],
+          [
+            0.9225,
+            22.05,
+            3.41
+          ],
+          [
+            0.9225,
+            22.05,
+            2.18
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 洗手台镜前灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-089",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            13.9975,
+            16.1,
+            3.41
+          ],
+          [
+            13.9975,
+            22.33,
+            3.41
+          ],
+          [
+            13.9975,
+            22.33,
+            2.18
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 洗手台镜前灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-090",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.135,
+            16.1,
+            3.41
+          ],
+          [
+            11.135,
+            19.1,
+            3.41
+          ],
+          [
+            11.135,
+            19.1,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-091",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.135,
+            16.1,
+            3.41
+          ],
+          [
+            11.135,
+            21.55,
+            3.41
+          ],
+          [
+            11.135,
+            21.55,
+            1.6
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-092",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            19.55,
+            3.41
+          ],
+          [
+            6.0,
+            19.55,
+            2.72
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 堂屋框形暖光灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-093",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            16.1,
+            3.41
+          ],
+          [
+            6.0,
+            22.4,
+            3.41
+          ],
+          [
+            6.0,
+            22.4,
+            2.4
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 圆桌中心木框餐叙灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-094",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.115,
+            16.1,
+            3.41
+          ],
+          [
+            11.115,
+            23.63,
+            3.41
+          ],
+          [
+            11.115,
+            23.63,
+            1.75
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 老人休闲区阅读灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-095",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.115,
+            16.1,
+            3.41
+          ],
+          [
+            11.115,
+            18.55,
+            3.41
+          ],
+          [
+            11.115,
+            18.55,
+            0.55
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 老人夜间导向灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-096",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            5.515,
+            16.1,
+            6.71
+          ],
+          [
+            5.515,
+            24.12,
+            6.71
+          ],
+          [
+            5.515,
+            24.12,
+            5.25
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 双人学习桌阅读灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-097",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.9225,
+            16.1,
+            6.71
+          ],
+          [
+            0.9225,
+            22.05,
+            6.71
+          ],
+          [
+            0.9225,
+            22.05,
+            5.48
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 洗手台镜前灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-098",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            13.9975,
+            16.1,
+            6.71
+          ],
+          [
+            13.9975,
+            22.33,
+            6.71
+          ],
+          [
+            13.9975,
+            22.33,
+            5.48
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 洗手台镜前灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-099",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.865,
+            16.1,
+            6.71
+          ],
+          [
+            0.865,
+            16.75,
+            6.71
+          ],
+          [
+            0.865,
+            16.75,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-100",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.865,
+            16.1,
+            6.71
+          ],
+          [
+            0.865,
+            19.53,
+            6.71
+          ],
+          [
+            0.865,
+            19.53,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-101",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            9.5,
+            16.1,
+            6.71
+          ],
+          [
+            9.5,
+            24.12,
+            6.71
+          ],
+          [
+            9.5,
+            24.12,
+            4.72
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 次卧桌面阅读灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-102",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            7.955,
+            16.1,
+            6.71
+          ],
+          [
+            7.955,
+            22.625,
+            6.71
+          ],
+          [
+            7.955,
+            22.625,
+            6.1
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 次卧衣柜侧照明 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-103",
+        "system": "cold",
+        "points": [
+          [
+            13.4,
+            0.22,
+            0.45
+          ],
+          [
+            14.45,
+            0.22,
+            0.45
+          ],
+          [
+            14.45,
+            24.72,
+            0.45
+          ],
+          [
+            14.45,
+            23.92,
+            0.45
+          ],
+          [
+            14.45,
+            24.72,
+            0.45
+          ],
+          [
+            0.42,
+            24.72,
+            0.45
+          ],
+          [
+            0.42,
+            23.92,
+            0.45
+          ]
+        ],
+        "floor": "site",
+        "label": "CW 外围供水干管（埋深待定）"
+      },
+      {
+        "id": "R-104",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            0.45
+          ],
+          [
+            14.45,
+            24.72,
+            0.45
+          ],
+          [
+            4.0,
+            24.72,
+            0.45
+          ],
+          [
+            4.0,
+            23.1,
+            0.45
+          ],
+          [
+            4.0,
+            23.1,
+            1.5
+          ]
+        ],
+        "floor": "rear1",
+        "label": "热源进水"
+      },
+      {
+        "id": "R-105",
+        "system": "hot",
+        "points": [
+          [
+            4.0,
+            23.1,
+            1.5
+          ],
+          [
+            4.0,
+            24.58,
+            1.5
+          ],
+          [
+            14.48,
+            24.58,
+            1.5
+          ],
+          [
+            14.48,
+            24.58,
+            0.6
+          ],
+          [
+            14.48,
+            23.78,
+            0.6
+          ],
+          [
+            14.48,
+            0.35,
+            0.6
+          ]
+        ],
+        "floor": "site",
+        "label": "HW 外围热水分配（保温/循环待深化）"
+      },
+      {
+        "id": "R-106",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            24.58,
+            0.6
+          ],
+          [
+            0.29,
+            24.58,
+            0.6
+          ],
+          [
+            0.29,
+            23.78,
+            0.6
+          ]
+        ],
+        "floor": "site",
+        "label": "HW 西侧支干管"
+      },
+      {
+        "id": "R-107",
+        "system": "waste",
+        "points": [
+          [
+            0.15,
+            23.64,
+            -0.22
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2419
+          ],
+          [
+            0.95,
+            25.1,
+            -0.2539
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 西卫浴/洗衣至屋后检查井"
+      },
+      {
+        "id": "R-108",
+        "system": "waste",
+        "points": [
+          [
+            14.42,
+            23.64,
+            -0.25
+          ],
+          [
+            14.42,
+            25.1,
+            -0.2719
+          ],
+          [
+            12.5,
+            25.1,
+            -0.3007
+          ],
+          [
+            12.5,
+            25.1,
+            -0.35
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 东卫浴至屋后检查井"
+      },
+      {
+        "id": "R-109",
+        "system": "waste",
+        "points": [
+          [
+            0.95,
+            25.1,
+            -0.3
+          ],
+          [
+            7.25,
+            25.1,
+            -0.3
+          ],
+          [
+            7.25,
+            25.45,
+            -0.3
+          ],
+          [
+            7.25,
+            25.45,
+            -0.4
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 西检查井至汇集井"
+      },
+      {
+        "id": "R-110",
+        "system": "waste",
+        "points": [
+          [
+            12.5,
+            25.1,
+            -0.35
+          ],
+          [
+            12.5,
+            25.45,
+            -0.35
+          ],
+          [
+            7.25,
+            25.45,
+            -0.35
+          ],
+          [
+            7.25,
+            25.45,
+            -0.4
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 东检查井至汇集井"
+      },
+      {
+        "id": "R-111",
+        "system": "waste",
+        "points": [
+          [
+            7.25,
+            25.45,
+            -0.4
+          ],
+          [
+            7.25,
+            27.1,
+            -0.4
+          ],
+          [
+            7.25,
+            27.1,
+            -0.55
+          ],
+          [
+            8.0,
+            27.1,
+            -0.55
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 汇集井至化粪池西侧进水"
+      },
+      {
+        "id": "R-112",
+        "system": "waste",
+        "points": [
+          [
+            8.0,
+            27.1,
+            -0.55
+          ],
+          [
+            9.2,
+            27.1,
+            -0.55
+          ],
+          [
+            9.2,
+            27.1,
+            -0.6
+          ],
+          [
+            10.4,
+            27.1,
+            -0.6
+          ],
+          [
+            10.4,
+            27.1,
+            -0.65
+          ],
+          [
+            11.6,
+            27.1,
+            -0.65
+          ],
+          [
+            11.6,
+            27.1,
+            -0.7
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 三格过流关系（内部构造未设计）"
+      },
+      {
+        "id": "R-113",
+        "system": "waste",
+        "points": [
+          [
+            11.6,
+            27.1,
+            -0.7
+          ],
+          [
+            12.45,
+            27.1,
+            -0.7
+          ],
+          [
+            12.45,
+            28.7,
+            -0.7
+          ],
+          [
+            12.45,
+            28.7,
+            -0.8
+          ],
+          [
+            13.4,
+            28.7,
+            -0.8
+          ]
+        ],
+        "floor": "site",
+        "label": "WW 后续处理/排放接点待定，不表示可直接外排"
+      },
+      {
+        "id": "R-114",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            0.45
+          ],
+          [
+            0.42,
+            23.92,
+            1.35
+          ]
+        ],
+        "floor": "rear1",
+        "label": "西cold立管：首层/室外连接"
+      },
+      {
+        "id": "R-115",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            1.35
+          ],
+          [
+            0.42,
+            23.92,
+            4.65
+          ]
+        ],
+        "floor": "rear2",
+        "label": "西cold立管：首层/二层连接"
+      },
+      {
+        "id": "R-116",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            0.45
+          ],
+          [
+            14.45,
+            23.92,
+            1.35
+          ]
+        ],
+        "floor": "rear1",
+        "label": "东cold立管：首层/室外连接"
+      },
+      {
+        "id": "R-117",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            1.35
+          ],
+          [
+            14.45,
+            23.92,
+            4.65
+          ]
+        ],
+        "floor": "rear2",
+        "label": "东cold立管：首层/二层连接"
+      },
+      {
+        "id": "R-118",
+        "system": "hot",
+        "points": [
+          [
+            0.29,
+            23.78,
+            0.6
+          ],
+          [
+            0.29,
+            23.78,
+            1.45
+          ]
+        ],
+        "floor": "rear1",
+        "label": "西hot立管：首层/室外连接"
+      },
+      {
+        "id": "R-119",
+        "system": "hot",
+        "points": [
+          [
+            0.29,
+            23.78,
+            1.45
+          ],
+          [
+            0.29,
+            23.78,
+            4.75
+          ]
+        ],
+        "floor": "rear2",
+        "label": "西hot立管：首层/二层连接"
+      },
+      {
+        "id": "R-120",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            23.78,
+            0.6
+          ],
+          [
+            14.48,
+            23.78,
+            1.45
+          ]
+        ],
+        "floor": "rear1",
+        "label": "东hot立管：首层/室外连接"
+      },
+      {
+        "id": "R-121",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            23.78,
+            1.45
+          ],
+          [
+            14.48,
+            23.78,
+            4.75
+          ]
+        ],
+        "floor": "rear2",
+        "label": "东hot立管：首层/二层连接"
+      },
+      {
+        "id": "R-122",
+        "system": "waste",
+        "points": [
+          [
+            0.15,
+            23.64,
+            0.42
+          ],
+          [
+            0.15,
+            23.64,
+            -0.3
+          ]
+        ],
+        "floor": "rear1",
+        "label": "西waste立管：首层/室外连接"
+      },
+      {
+        "id": "R-123",
+        "system": "waste",
+        "points": [
+          [
+            0.15,
+            23.64,
+            3.72
+          ],
+          [
+            0.15,
+            23.64,
+            0.42
+          ]
+        ],
+        "floor": "rear2",
+        "label": "西waste立管：首层/二层连接"
+      },
+      {
+        "id": "R-124",
+        "system": "waste",
+        "points": [
+          [
+            14.42,
+            23.64,
+            0.42
+          ],
+          [
+            14.42,
+            23.64,
+            -0.3
+          ]
+        ],
+        "floor": "rear1",
+        "label": "东waste立管：首层/室外连接"
+      },
+      {
+        "id": "R-125",
+        "system": "waste",
+        "points": [
+          [
+            14.42,
+            23.64,
+            3.72
+          ],
+          [
+            14.42,
+            23.64,
+            0.42
+          ]
+        ],
+        "floor": "rear2",
+        "label": "东waste立管：首层/二层连接"
+      },
+      {
+        "id": "R-126",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            3.39,
+            0.45
+          ],
+          [
+            14.45,
+            3.39,
+            1.35
+          ],
+          [
+            10.84,
+            3.39,
+            1.35
+          ],
+          [
+            10.84,
+            3.39,
+            0.95
+          ]
+        ],
+        "floor": "front",
+        "label": "cold · 水槽"
+      },
+      {
+        "id": "R-127",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            3.39,
+            0.6
+          ],
+          [
+            14.48,
+            3.39,
+            1.45
+          ],
+          [
+            10.84,
+            3.39,
+            1.45
+          ],
+          [
+            10.84,
+            3.39,
+            1.03
+          ]
+        ],
+        "floor": "front",
+        "label": "hot · 水槽"
+      },
+      {
+        "id": "R-128",
+        "system": "waste",
+        "points": [
+          [
+            10.84,
+            3.39,
+            0.8
+          ],
+          [
+            10.84,
+            3.39,
+            0.15
+          ],
+          [
+            11.9,
+            3.39,
+            0.1341
+          ],
+          [
+            14.5,
+            3.39,
+            0.0951
+          ],
+          [
+            14.5,
+            25.1,
+            -0.2306
+          ]
+        ],
+        "floor": "front",
+        "label": "WW 厨房排水沿外缘至污废水井",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-129",
+        "system": "waste",
+        "points": [
+          [
+            14.5,
+            25.1,
+            -0.2306
+          ],
+          [
+            14.5,
+            25.1,
+            -0.3
+          ],
+          [
+            12.5,
+            25.1,
+            -0.3
+          ],
+          [
+            12.5,
+            25.1,
+            -0.35
+          ]
+        ],
+        "floor": "front",
+        "label": "厨房排水井接入"
+      },
+      {
+        "id": "R-130",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            4.3,
+            0.45
+          ],
+          [
+            14.45,
+            4.3,
+            1.35
+          ],
+          [
+            10.84,
+            4.3,
+            1.35
+          ],
+          [
+            10.84,
+            4.3,
+            0.95
+          ]
+        ],
+        "floor": "front",
+        "label": "cold · 洗碗机预留600"
+      },
+      {
+        "id": "R-131",
+        "system": "waste",
+        "points": [
+          [
+            10.84,
+            4.3,
+            0.95
+          ],
+          [
+            10.84,
+            4.3,
+            0.15
+          ],
+          [
+            11.9,
+            4.3,
+            0.1341
+          ],
+          [
+            14.5,
+            4.3,
+            0.0951
+          ],
+          [
+            14.5,
+            25.1,
+            -0.2169
+          ]
+        ],
+        "floor": "front",
+        "label": "WW 厨房排水沿外缘至污废水井",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-132",
+        "system": "waste",
+        "points": [
+          [
+            14.5,
+            25.1,
+            -0.2169
+          ],
+          [
+            14.5,
+            25.1,
+            -0.3
+          ],
+          [
+            12.5,
+            25.1,
+            -0.3
+          ],
+          [
+            12.5,
+            25.1,
+            -0.35
+          ]
+        ],
+        "floor": "front",
+        "label": "厨房排水井接入"
+      },
+      {
+        "id": "R-133",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            1.35
+          ],
+          [
+            0.42,
+            24.72,
+            1.35
+          ],
+          [
+            3.69,
+            24.72,
+            1.35
+          ],
+          [
+            3.69,
+            23.75,
+            1.35
+          ],
+          [
+            3.69,
+            23.75,
+            0.95
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 洗衣机"
+      },
+      {
+        "id": "R-134",
+        "system": "waste",
+        "points": [
+          [
+            3.69,
+            23.75,
+            0.95
+          ],
+          [
+            3.69,
+            23.75,
+            0.15
+          ],
+          [
+            0.93,
+            23.75,
+            0.1086
+          ],
+          [
+            0.93,
+            23.64,
+            0.107
+          ],
+          [
+            0.15,
+            23.64,
+            0.0953
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 洗衣机",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-135",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            1.35
+          ],
+          [
+            0.93,
+            23.92,
+            1.35
+          ],
+          [
+            0.93,
+            23.65,
+            1.35
+          ],
+          [
+            1.71,
+            23.65,
+            1.35
+          ],
+          [
+            1.71,
+            23.65,
+            1.45
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 淋浴区"
+      },
+      {
+        "id": "R-136",
+        "system": "hot",
+        "points": [
+          [
+            0.29,
+            23.78,
+            1.45
+          ],
+          [
+            0.93,
+            23.78,
+            1.45
+          ],
+          [
+            0.93,
+            23.65,
+            1.45
+          ],
+          [
+            1.71,
+            23.65,
+            1.45
+          ],
+          [
+            1.71,
+            23.65,
+            1.53
+          ]
+        ],
+        "floor": "rear1",
+        "label": "hot · 淋浴区"
+      },
+      {
+        "id": "R-137",
+        "system": "waste",
+        "points": [
+          [
+            1.71,
+            23.65,
+            0.318
+          ],
+          [
+            1.71,
+            23.65,
+            0.15
+          ],
+          [
+            0.93,
+            23.65,
+            0.1383
+          ],
+          [
+            0.93,
+            23.64,
+            0.1382
+          ],
+          [
+            0.15,
+            23.64,
+            0.1265
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 淋浴区",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-138",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            1.35
+          ],
+          [
+            0.93,
+            23.92,
+            1.35
+          ],
+          [
+            0.93,
+            22.75,
+            1.35
+          ],
+          [
+            1.29,
+            22.75,
+            1.35
+          ],
+          [
+            1.29,
+            22.75,
+            0.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 坐便器"
+      },
+      {
+        "id": "R-139",
+        "system": "waste",
+        "points": [
+          [
+            1.29,
+            22.75,
+            0.38
+          ],
+          [
+            1.29,
+            22.75,
+            0.15
+          ],
+          [
+            0.93,
+            22.75,
+            0.1446
+          ],
+          [
+            0.93,
+            23.64,
+            0.1313
+          ],
+          [
+            0.15,
+            23.64,
+            0.1196
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 坐便器",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-140",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            1.35
+          ],
+          [
+            0.93,
+            23.92,
+            1.35
+          ],
+          [
+            0.93,
+            22.05,
+            1.35
+          ],
+          [
+            1.145,
+            22.05,
+            1.35
+          ],
+          [
+            1.145,
+            22.05,
+            1.05
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 洗手台"
+      },
+      {
+        "id": "R-141",
+        "system": "hot",
+        "points": [
+          [
+            0.29,
+            23.78,
+            1.45
+          ],
+          [
+            0.93,
+            23.78,
+            1.45
+          ],
+          [
+            0.93,
+            22.05,
+            1.45
+          ],
+          [
+            1.145,
+            22.05,
+            1.45
+          ],
+          [
+            1.145,
+            22.05,
+            1.13
+          ]
+        ],
+        "floor": "rear1",
+        "label": "hot · 洗手台"
+      },
+      {
+        "id": "R-142",
+        "system": "waste",
+        "points": [
+          [
+            1.145,
+            22.05,
+            0.8
+          ],
+          [
+            1.145,
+            22.05,
+            0.15
+          ],
+          [
+            0.93,
+            22.05,
+            0.1468
+          ],
+          [
+            0.93,
+            23.64,
+            0.1229
+          ],
+          [
+            0.15,
+            23.64,
+            0.1112
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 洗手台",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-143",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            1.35
+          ],
+          [
+            14.45,
+            24.72,
+            1.35
+          ],
+          [
+            14.45,
+            23.63,
+            1.35
+          ],
+          [
+            12.475,
+            23.63,
+            1.35
+          ],
+          [
+            12.475,
+            23.63,
+            1.45
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 北侧淋浴区"
+      },
+      {
+        "id": "R-144",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            23.78,
+            1.45
+          ],
+          [
+            14.48,
+            24.58,
+            1.45
+          ],
+          [
+            14.45,
+            24.58,
+            1.45
+          ],
+          [
+            14.45,
+            23.63,
+            1.45
+          ],
+          [
+            12.475,
+            23.63,
+            1.45
+          ],
+          [
+            12.475,
+            23.63,
+            1.53
+          ]
+        ],
+        "floor": "rear1",
+        "label": "hot · 北侧淋浴区"
+      },
+      {
+        "id": "R-145",
+        "system": "waste",
+        "points": [
+          [
+            12.475,
+            23.63,
+            0.318
+          ],
+          [
+            12.475,
+            23.63,
+            0.15
+          ],
+          [
+            14.05,
+            23.63,
+            0.1264
+          ],
+          [
+            14.05,
+            23.64,
+            0.1262
+          ],
+          [
+            14.42,
+            23.64,
+            0.1207
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 北侧淋浴区",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-146",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            1.35
+          ],
+          [
+            14.45,
+            24.72,
+            1.35
+          ],
+          [
+            14.45,
+            22.95,
+            1.35
+          ],
+          [
+            13.665,
+            22.95,
+            1.35
+          ],
+          [
+            13.665,
+            22.95,
+            0.85
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 坐便器"
+      },
+      {
+        "id": "R-147",
+        "system": "waste",
+        "points": [
+          [
+            13.665,
+            22.95,
+            0.38
+          ],
+          [
+            13.665,
+            22.95,
+            0.15
+          ],
+          [
+            14.05,
+            22.95,
+            0.1442
+          ],
+          [
+            14.05,
+            23.64,
+            0.1339
+          ],
+          [
+            14.42,
+            23.64,
+            0.1283
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 坐便器",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-148",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            1.35
+          ],
+          [
+            14.45,
+            24.72,
+            1.35
+          ],
+          [
+            14.45,
+            22.33,
+            1.35
+          ],
+          [
+            13.785,
+            22.33,
+            1.35
+          ],
+          [
+            13.785,
+            22.33,
+            1.05
+          ]
+        ],
+        "floor": "rear1",
+        "label": "cold · 洗手台"
+      },
+      {
+        "id": "R-149",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            23.78,
+            1.45
+          ],
+          [
+            14.48,
+            24.58,
+            1.45
+          ],
+          [
+            14.45,
+            24.58,
+            1.45
+          ],
+          [
+            14.45,
+            22.33,
+            1.45
+          ],
+          [
+            13.785,
+            22.33,
+            1.45
+          ],
+          [
+            13.785,
+            22.33,
+            1.13
+          ]
+        ],
+        "floor": "rear1",
+        "label": "hot · 洗手台"
+      },
+      {
+        "id": "R-150",
+        "system": "waste",
+        "points": [
+          [
+            13.785,
+            22.33,
+            0.8
+          ],
+          [
+            13.785,
+            22.33,
+            0.15
+          ],
+          [
+            14.05,
+            22.33,
+            0.146
+          ],
+          [
+            14.05,
+            23.64,
+            0.1264
+          ],
+          [
+            14.42,
+            23.64,
+            0.1208
+          ]
+        ],
+        "floor": "rear1",
+        "label": "WW 洗手台",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-151",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            4.65
+          ],
+          [
+            0.93,
+            23.92,
+            4.65
+          ],
+          [
+            0.93,
+            23.65,
+            4.65
+          ],
+          [
+            1.71,
+            23.65,
+            4.65
+          ],
+          [
+            1.71,
+            23.65,
+            4.75
+          ]
+        ],
+        "floor": "rear2",
+        "label": "cold · 淋浴区"
+      },
+      {
+        "id": "R-152",
+        "system": "hot",
+        "points": [
+          [
+            0.29,
+            23.78,
+            4.75
+          ],
+          [
+            0.93,
+            23.78,
+            4.75
+          ],
+          [
+            0.93,
+            23.65,
+            4.75
+          ],
+          [
+            1.71,
+            23.65,
+            4.75
+          ],
+          [
+            1.71,
+            23.65,
+            4.83
+          ]
+        ],
+        "floor": "rear2",
+        "label": "hot · 淋浴区"
+      },
+      {
+        "id": "R-153",
+        "system": "waste",
+        "points": [
+          [
+            1.71,
+            23.65,
+            3.618
+          ],
+          [
+            1.71,
+            23.65,
+            3.33
+          ],
+          [
+            0.93,
+            23.65,
+            3.3183
+          ],
+          [
+            0.93,
+            23.64,
+            3.3182
+          ],
+          [
+            0.15,
+            23.64,
+            3.3065
+          ]
+        ],
+        "floor": "rear2",
+        "label": "WW 淋浴区",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-154",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            4.65
+          ],
+          [
+            0.93,
+            23.92,
+            4.65
+          ],
+          [
+            0.93,
+            22.75,
+            4.65
+          ],
+          [
+            1.29,
+            22.75,
+            4.65
+          ],
+          [
+            1.29,
+            22.75,
+            4.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "cold · 坐便器"
+      },
+      {
+        "id": "R-155",
+        "system": "waste",
+        "points": [
+          [
+            1.29,
+            22.75,
+            3.68
+          ],
+          [
+            1.29,
+            22.75,
+            3.33
+          ],
+          [
+            0.93,
+            22.75,
+            3.3246
+          ],
+          [
+            0.93,
+            23.64,
+            3.3113
+          ],
+          [
+            0.15,
+            23.64,
+            3.2996
+          ]
+        ],
+        "floor": "rear2",
+        "label": "WW 坐便器",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-156",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            4.65
+          ],
+          [
+            0.93,
+            23.92,
+            4.65
+          ],
+          [
+            0.93,
+            22.05,
+            4.65
+          ],
+          [
+            1.145,
+            22.05,
+            4.65
+          ],
+          [
+            1.145,
+            22.05,
+            4.35
+          ]
+        ],
+        "floor": "rear2",
+        "label": "cold · 洗手台"
+      },
+      {
+        "id": "R-157",
+        "system": "hot",
+        "points": [
+          [
+            0.29,
+            23.78,
+            4.75
+          ],
+          [
+            0.93,
+            23.78,
+            4.75
+          ],
+          [
+            0.93,
+            22.05,
+            4.75
+          ],
+          [
+            1.145,
+            22.05,
+            4.75
+          ],
+          [
+            1.145,
+            22.05,
+            4.43
+          ]
+        ],
+        "floor": "rear2",
+        "label": "hot · 洗手台"
+      },
+      {
+        "id": "R-158",
+        "system": "waste",
+        "points": [
+          [
+            1.145,
+            22.05,
+            4.1
+          ],
+          [
+            1.145,
+            22.05,
+            3.33
+          ],
+          [
+            0.93,
+            22.05,
+            3.3268
+          ],
+          [
+            0.93,
+            23.64,
+            3.3029
+          ],
+          [
+            0.15,
+            23.64,
+            3.2912
+          ]
+        ],
+        "floor": "rear2",
+        "label": "WW 洗手台",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-159",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            4.65
+          ],
+          [
+            14.45,
+            24.72,
+            4.65
+          ],
+          [
+            14.45,
+            23.63,
+            4.65
+          ],
+          [
+            12.475,
+            23.63,
+            4.65
+          ],
+          [
+            12.475,
+            23.63,
+            4.75
+          ]
+        ],
+        "floor": "rear2",
+        "label": "cold · 北侧淋浴区"
+      },
+      {
+        "id": "R-160",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            23.78,
+            4.75
+          ],
+          [
+            14.48,
+            24.58,
+            4.75
+          ],
+          [
+            14.45,
+            24.58,
+            4.75
+          ],
+          [
+            14.45,
+            23.63,
+            4.75
+          ],
+          [
+            12.475,
+            23.63,
+            4.75
+          ],
+          [
+            12.475,
+            23.63,
+            4.83
+          ]
+        ],
+        "floor": "rear2",
+        "label": "hot · 北侧淋浴区"
+      },
+      {
+        "id": "R-161",
+        "system": "waste",
+        "points": [
+          [
+            12.475,
+            23.63,
+            3.618
+          ],
+          [
+            12.475,
+            23.63,
+            3.33
+          ],
+          [
+            14.05,
+            23.63,
+            3.3064
+          ],
+          [
+            14.05,
+            23.64,
+            3.3062
+          ],
+          [
+            14.42,
+            23.64,
+            3.3007
+          ]
+        ],
+        "floor": "rear2",
+        "label": "WW 北侧淋浴区",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-162",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            4.65
+          ],
+          [
+            14.45,
+            24.72,
+            4.65
+          ],
+          [
+            14.45,
+            22.95,
+            4.65
+          ],
+          [
+            13.665,
+            22.95,
+            4.65
+          ],
+          [
+            13.665,
+            22.95,
+            4.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "cold · 坐便器"
+      },
+      {
+        "id": "R-163",
+        "system": "waste",
+        "points": [
+          [
+            13.665,
+            22.95,
+            3.68
+          ],
+          [
+            13.665,
+            22.95,
+            3.33
+          ],
+          [
+            14.05,
+            22.95,
+            3.3242
+          ],
+          [
+            14.05,
+            23.64,
+            3.3139
+          ],
+          [
+            14.42,
+            23.64,
+            3.3083
+          ]
+        ],
+        "floor": "rear2",
+        "label": "WW 坐便器",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-164",
+        "system": "cold",
+        "points": [
+          [
+            14.45,
+            23.92,
+            4.65
+          ],
+          [
+            14.45,
+            24.72,
+            4.65
+          ],
+          [
+            14.45,
+            22.33,
+            4.65
+          ],
+          [
+            13.785,
+            22.33,
+            4.65
+          ],
+          [
+            13.785,
+            22.33,
+            4.35
+          ]
+        ],
+        "floor": "rear2",
+        "label": "cold · 洗手台"
+      },
+      {
+        "id": "R-165",
+        "system": "hot",
+        "points": [
+          [
+            14.48,
+            23.78,
+            4.75
+          ],
+          [
+            14.48,
+            24.58,
+            4.75
+          ],
+          [
+            14.45,
+            24.58,
+            4.75
+          ],
+          [
+            14.45,
+            22.33,
+            4.75
+          ],
+          [
+            13.785,
+            22.33,
+            4.75
+          ],
+          [
+            13.785,
+            22.33,
+            4.43
+          ]
+        ],
+        "floor": "rear2",
+        "label": "hot · 洗手台"
+      },
+      {
+        "id": "R-166",
+        "system": "waste",
+        "points": [
+          [
+            13.785,
+            22.33,
+            4.1
+          ],
+          [
+            13.785,
+            22.33,
+            3.33
+          ],
+          [
+            14.05,
+            22.33,
+            3.326
+          ],
+          [
+            14.05,
+            23.64,
+            3.3064
+          ],
+          [
+            14.42,
+            23.64,
+            3.3008
+          ]
+        ],
+        "floor": "rear2",
+        "label": "WW 洗手台",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-167",
+        "system": "waste",
+        "points": [
+          [
+            1.7,
+            23.65,
+            0.318
+          ],
+          [
+            1.7,
+            23.65,
+            0.15
+          ],
+          [
+            1.7,
+            23.64,
+            0.1499
+          ],
+          [
+            0.15,
+            23.64,
+            0.1266
+          ]
+        ],
+        "floor": "rear1",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-168",
+        "system": "waste",
+        "points": [
+          [
+            2.25,
+            23.05,
+            0.318
+          ],
+          [
+            2.25,
+            23.05,
+            0.15
+          ],
+          [
+            2.25,
+            23.64,
+            0.1411
+          ],
+          [
+            0.15,
+            23.64,
+            0.1096
+          ]
+        ],
+        "floor": "rear1",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-169",
+        "system": "waste",
+        "points": [
+          [
+            12.5,
+            23.65,
+            0.318
+          ],
+          [
+            12.5,
+            23.65,
+            0.15
+          ],
+          [
+            12.5,
+            23.64,
+            0.1499
+          ],
+          [
+            14.42,
+            23.64,
+            0.1211
+          ]
+        ],
+        "floor": "rear1",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-170",
+        "system": "waste",
+        "points": [
+          [
+            12.85,
+            22.75,
+            0.318
+          ],
+          [
+            12.85,
+            22.75,
+            0.15
+          ],
+          [
+            12.85,
+            23.64,
+            0.1366
+          ],
+          [
+            14.42,
+            23.64,
+            0.1131
+          ]
+        ],
+        "floor": "rear1",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-171",
+        "system": "waste",
+        "points": [
+          [
+            1.7,
+            23.65,
+            3.618
+          ],
+          [
+            1.7,
+            23.65,
+            3.33
+          ],
+          [
+            1.7,
+            23.64,
+            3.3298
+          ],
+          [
+            0.15,
+            23.64,
+            3.3066
+          ]
+        ],
+        "floor": "rear2",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-172",
+        "system": "waste",
+        "points": [
+          [
+            2.25,
+            23.05,
+            3.618
+          ],
+          [
+            2.25,
+            23.05,
+            3.33
+          ],
+          [
+            2.25,
+            23.64,
+            3.3212
+          ],
+          [
+            0.15,
+            23.64,
+            3.2897
+          ]
+        ],
+        "floor": "rear2",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-173",
+        "system": "waste",
+        "points": [
+          [
+            12.5,
+            23.65,
+            3.618
+          ],
+          [
+            12.5,
+            23.65,
+            3.33
+          ],
+          [
+            12.5,
+            23.64,
+            3.3298
+          ],
+          [
+            14.42,
+            23.64,
+            3.3011
+          ]
+        ],
+        "floor": "rear2",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-174",
+        "system": "waste",
+        "points": [
+          [
+            12.85,
+            22.75,
+            3.618
+          ],
+          [
+            12.85,
+            22.75,
+            3.33
+          ],
+          [
+            12.85,
+            23.64,
+            3.3167
+          ],
+          [
+            14.42,
+            23.64,
+            3.2931
+          ]
+        ],
+        "floor": "rear2",
+        "label": "卫浴地漏独立支管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-175",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            0.45
+          ],
+          [
+            0.42,
+            8.4,
+            0.45
+          ],
+          [
+            0.42,
+            8.4,
+            0.65
+          ],
+          [
+            1.17,
+            8.4,
+            0.65
+          ],
+          [
+            1.17,
+            7.09,
+            0.65
+          ]
+        ],
+        "floor": "site",
+        "label": "主洗衣机冷水支管"
+      },
+      {
+        "id": "R-176",
+        "system": "waste",
+        "points": [
+          [
+            1.17,
+            7.09,
+            0.12
+          ],
+          [
+            0.15,
+            7.09,
+            0.12
+          ],
+          [
+            0.15,
+            7.09,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "主洗衣机接西侧污废水井"
+      },
+      {
+        "id": "R-177",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            2.85
+          ],
+          [
+            7.62,
+            6.4,
+            2.85
+          ],
+          [
+            0.82,
+            6.4,
+            2.85
+          ],
+          [
+            0.82,
+            8.4,
+            2.85
+          ],
+          [
+            0.82,
+            8.4,
+            2.0
+          ],
+          [
+            0.82,
+            7.09,
+            2.0
+          ],
+          [
+            0.82,
+            7.09,
+            1.25
+          ]
+        ],
+        "floor": "site",
+        "label": "主洗衣机独立电源示意",
+        "circuit": "DB0-W1"
+      },
+      {
+        "id": "R-178",
+        "system": "waste",
+        "points": [
+          [
+            1.17,
+            7.09,
+            0.12
+          ],
+          [
+            0.15,
+            7.09,
+            0.12
+          ],
+          [
+            0.15,
+            7.09,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "叠放烘干机接西侧污废水井"
+      },
+      {
+        "id": "R-179",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            2.85
+          ],
+          [
+            7.62,
+            6.4,
+            2.85
+          ],
+          [
+            0.82,
+            6.4,
+            2.85
+          ],
+          [
+            0.82,
+            8.4,
+            2.85
+          ],
+          [
+            0.82,
+            8.4,
+            2.0
+          ],
+          [
+            0.82,
+            7.09,
+            2.0
+          ],
+          [
+            0.82,
+            7.09,
+            1.25
+          ]
+        ],
+        "floor": "site",
+        "label": "叠放烘干机独立电源示意",
+        "circuit": "DB0-W2"
+      },
+      {
+        "id": "R-180",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            0.45
+          ],
+          [
+            0.42,
+            8.4,
+            0.45
+          ],
+          [
+            0.42,
+            8.4,
+            0.65
+          ],
+          [
+            1.2,
+            8.4,
+            0.65
+          ],
+          [
+            1.2,
+            7.74,
+            0.65
+          ]
+        ],
+        "floor": "site",
+        "label": "分区洗衣机冷水支管"
+      },
+      {
+        "id": "R-181",
+        "system": "waste",
+        "points": [
+          [
+            1.2,
+            7.74,
+            0.12
+          ],
+          [
+            0.15,
+            7.74,
+            0.12
+          ],
+          [
+            0.15,
+            7.74,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "分区洗衣机接西侧污废水井"
+      },
+      {
+        "id": "R-182",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            2.85
+          ],
+          [
+            7.62,
+            6.4,
+            2.85
+          ],
+          [
+            0.82,
+            6.4,
+            2.85
+          ],
+          [
+            0.82,
+            8.4,
+            2.85
+          ],
+          [
+            0.82,
+            8.4,
+            2.0
+          ],
+          [
+            0.82,
+            7.74,
+            2.0
+          ],
+          [
+            0.82,
+            7.74,
+            1.25
+          ]
+        ],
+        "floor": "site",
+        "label": "分区洗衣机独立电源示意",
+        "circuit": "DB0-W3"
+      },
+      {
+        "id": "R-183",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            0.45
+          ],
+          [
+            0.42,
+            8.4,
+            0.45
+          ],
+          [
+            0.42,
+            8.4,
+            0.65
+          ],
+          [
+            1.17,
+            8.4,
+            0.65
+          ]
+        ],
+        "floor": "site",
+        "label": "院内洗衣池冷水支管"
+      },
+      {
+        "id": "R-184",
+        "system": "waste",
+        "points": [
+          [
+            1.17,
+            8.4,
+            0.12
+          ],
+          [
+            0.15,
+            8.4,
+            0.12
+          ],
+          [
+            0.15,
+            8.4,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "院内洗衣池接西侧污废水井"
+      },
+      {
+        "id": "R-185",
+        "system": "waste",
+        "points": [
+          [
+            1.65,
+            8.5,
+            0.025
+          ],
+          [
+            0.15,
+            8.5,
+            0.025
+          ],
+          [
+            0.15,
+            8.5,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "洗衣区地漏接污废水（非雨水）"
+      },
+      {
+        "id": "R-186",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            0.45
+          ],
+          [
+            0.42,
+            5.5,
+            0.45
+          ],
+          [
+            0.42,
+            5.5,
+            4.25
+          ],
+          [
+            3.3,
+            5.5,
+            4.25
+          ],
+          [
+            3.3,
+            5.25,
+            4.25
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣池冷水支管"
+      },
+      {
+        "id": "R-187",
+        "system": "waste",
+        "points": [
+          [
+            3.3,
+            5.25,
+            3.72
+          ],
+          [
+            0.15,
+            5.25,
+            3.72
+          ],
+          [
+            0.15,
+            5.25,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣池接西侧污废水井"
+      },
+      {
+        "id": "R-188",
+        "system": "waste",
+        "points": [
+          [
+            4.2,
+            5.2,
+            3.625
+          ],
+          [
+            0.15,
+            5.2,
+            3.625
+          ],
+          [
+            0.15,
+            5.2,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.2
+          ],
+          [
+            0.15,
+            25.1,
+            -0.3
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "rear2",
+        "label": "洗衣区地漏接污废水（非雨水）"
+      },
+      {
+        "id": "R-189",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            4.025,
+            16.1,
+            6.71
+          ],
+          [
+            4.025,
+            16.27,
+            6.71
+          ],
+          [
+            4.025,
+            16.27,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼过厅洗烘一体机防溅专用插座",
+        "circuit": "DB2-W1",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-190",
+        "system": "cold",
+        "points": [
+          [
+            0.42,
+            23.92,
+            4.65
+          ],
+          [
+            0.42,
+            23.92,
+            6.45
+          ],
+          [
+            0.42,
+            15.45,
+            6.45
+          ],
+          [
+            3.34,
+            15.45,
+            6.45
+          ],
+          [
+            3.34,
+            16.25,
+            6.45
+          ],
+          [
+            3.34,
+            16.25,
+            4.72
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣冷水沿外墙及过厅吊顶至凹位"
+      },
+      {
+        "id": "R-191",
+        "system": "waste",
+        "points": [
+          [
+            3.34,
+            16.25,
+            4.25
+          ],
+          [
+            3.34,
+            16.25,
+            3.33
+          ],
+          [
+            3.34,
+            15.45,
+            3.318
+          ],
+          [
+            0.18,
+            15.45,
+            3.2706
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣机经过厅板下到西侧独立立管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱",
+        "applianceId": "upper-combo"
+      },
+      {
+        "id": "R-192",
+        "system": "waste",
+        "points": [
+          [
+            0.18,
+            15.45,
+            3.72
+          ],
+          [
+            0.18,
+            15.45,
+            -0.08
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣专用立管沿西外墙（可检修）"
+      },
+      {
+        "id": "R-193",
+        "system": "waste",
+        "points": [
+          [
+            0.18,
+            15.45,
+            -0.08
+          ],
+          [
+            0.18,
+            25.1,
+            -0.25
+          ],
+          [
+            0.95,
+            25.1,
+            -0.265
+          ],
+          [
+            0.95,
+            25.1,
+            -0.3
+          ]
+        ],
+        "floor": "site",
+        "label": "二楼洗衣立管沿西侧埋地接检查井"
+      },
+      {
+        "id": "R-194",
+        "system": "waste",
+        "points": [
+          [
+            3.35,
+            15.68,
+            3.605
+          ],
+          [
+            3.35,
+            15.68,
+            3.33
+          ],
+          [
+            3.35,
+            15.45,
+            3.3266
+          ],
+          [
+            0.18,
+            15.45,
+            3.279
+          ]
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣地漏接同一污废水立管",
+        "slope_target": 0.015,
+        "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
+      },
+      {
+        "id": "R-195",
+        "system": "waste",
+        "points": [
+          [
+            0.18,
+            15.45,
+            3.72
+          ],
+          [
+            0.18,
+            15.45,
+            10.6
+          ]
+        ],
+        "floor": "rear2",
+        "label": "洗衣立管通气至屋面以上，终端避开门窗待深化"
+      },
+      {
+        "id": "R-196",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.32,
+            3.41
+          ],
+          [
+            1.95,
+            6.32,
+            3.41
+          ],
+          [
+            1.95,
+            5.6,
+            3.41
+          ],
+          [
+            1.95,
+            5.6,
+            6.13
+          ],
+          [
+            3.15,
+            5.6,
+            6.13
+          ],
+          [
+            3.15,
+            3.6,
+            6.13
+          ]
+        ],
+        "floor": "rear2",
+        "label": "亭子灯光沿前屋檐口及亭梁穿管",
+        "circuit": "DB0-EXT-L"
+      },
+      {
+        "id": "R-197",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            1.65,
+            1.7
+          ],
+          [
+            7.62,
+            1.65,
+            3.41
+          ],
+          [
+            7.62,
+            6.32,
+            3.41
+          ],
+          [
+            1.95,
+            6.32,
+            3.41
+          ],
+          [
+            1.95,
+            5.6,
+            3.41
+          ],
+          [
+            1.95,
+            5.6,
+            6.15
+          ],
+          [
+            4.3,
+            5.6,
+            6.15
+          ],
+          [
+            4.3,
+            5.6,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "电动晾衣机沿檐口和亭梁专线",
+        "circuit": "DB0-D1"
+      },
+      {
+        "id": "R-198",
+        "system": "electric",
+        "points": [
+          [
+            4.3,
+            5.6,
+            4.9
+          ],
+          [
+            4.3,
+            5.6,
+            6.15
+          ],
+          [
+            4.3,
+            3.2,
+            6.15
+          ],
+          [
+            3.15,
+            3.2,
+            6.15
+          ]
+        ],
+        "floor": "rear2",
+        "label": "墙控至晾衣机沿亭柱梁接线",
+        "circuit": "DB0-D1"
+      },
+      {
+        "id": "R-199",
+        "system": "rain",
+        "points": [
+          [
+            0.12,
+            15.28,
+            0.24
+          ],
+          [
+            0.12,
+            0.06,
+            0.24
+          ],
+          [
+            12.08,
+            0.06,
+            0.24
+          ],
+          [
+            13.75,
+            0.06,
+            0.24
+          ]
+        ],
+        "floor": "site",
+        "label": "RW 西侧雨水收集"
+      },
+      {
+        "id": "R-200",
+        "system": "rain",
+        "points": [
+          [
+            14.54,
+            15.28,
+            0.24
+          ],
+          [
+            14.54,
+            0.06,
+            0.24
+          ],
+          [
+            12.08,
+            0.06,
+            0.24
+          ]
+        ],
+        "floor": "site",
+        "label": "RW 东侧雨水收集"
+      },
+      {
+        "id": "R-201",
+        "system": "rain",
+        "points": [
+          [
+            14.15,
+            17.0,
+            6.9
+          ],
+          [
+            14.54,
+            17.0,
+            6.9
+          ],
+          [
+            14.54,
+            17.0,
+            0.24
+          ],
+          [
+            14.54,
+            15.28,
+            0.24
+          ]
+        ],
+        "floor": "rear2",
+        "label": "RW 梯间屋面独立接雨水干管"
+      },
+      {
+        "id": "R-202",
+        "system": "rain",
+        "points": [
+          [
+            14.15,
+            15.9,
+            3.6
+          ],
+          [
+            14.54,
+            15.9,
+            3.6
+          ],
+          [
+            14.54,
+            15.9,
+            0.24
+          ],
+          [
+            14.54,
+            15.28,
+            0.24
+          ]
+        ],
+        "floor": "rear1",
+        "label": "RW 避雨门厅屋面接独立雨水干管"
+      },
+      {
+        "id": "R-203",
+        "system": "rain",
+        "points": [
+          [
+            11.48,
+            13.95,
+            6.56
+          ],
+          [
+            11.58,
+            13.95,
+            6.56
+          ],
+          [
+            11.58,
+            13.95,
+            0.24
+          ],
+          [
+            14.54,
+            13.95,
+            0.24
+          ],
+          [
+            14.54,
+            15.28,
+            0.24
+          ]
+        ],
+        "floor": "rear2",
+        "label": "RW 二层东侧雨廊接独立雨水干管"
+      },
+      {
+        "id": "R-204",
+        "system": "rain",
+        "points": [
+          [
+            0.12,
+            6.3,
+            3.6
+          ],
+          [
+            0.12,
+            6.3,
+            0.24
+          ]
+        ],
+        "floor": "front",
+        "label": "RW 雨水立管（独立于污废水）"
+      },
+      {
+        "id": "R-205",
+        "system": "rain",
+        "points": [
+          [
+            11.94,
+            6.3,
+            3.6
+          ],
+          [
+            12.08,
+            6.3,
+            3.6
+          ],
+          [
+            12.08,
+            6.3,
+            0.24
+          ],
+          [
+            12.08,
+            0.06,
+            0.24
+          ]
+        ],
+        "floor": "front",
+        "label": "RW 雨水立管（独立于污废水）"
+      },
+      {
+        "id": "R-206",
+        "system": "rain",
+        "points": [
+          [
+            0.12,
+            15.28,
+            7.9
+          ],
+          [
+            0.12,
+            15.28,
+            0.24
+          ]
+        ],
+        "floor": "rear2",
+        "label": "RW 雨水立管（独立于污废水）"
+      },
+      {
+        "id": "R-207",
+        "system": "rain",
+        "points": [
+          [
+            11.94,
+            15.28,
+            7.9
+          ],
+          [
+            14.54,
+            15.28,
+            7.9
+          ],
+          [
+            14.54,
+            15.28,
+            0.24
+          ]
+        ],
+        "floor": "rear2",
+        "label": "RW 雨水立管（独立于污废水）"
+      },
+      {
+        "id": "R-208",
+        "system": "rain",
+        "points": [
+          [
+            1.76,
+            5.58,
+            6.35
+          ],
+          [
+            1.78,
+            5.58,
+            6.35
+          ],
+          [
+            1.78,
+            5.58,
+            3.66
+          ],
+          [
+            0.12,
+            5.58,
+            3.66
+          ],
+          [
+            0.12,
+            5.58,
+            0.24
+          ]
+        ],
+        "floor": "rear2",
+        "label": "亭子雨水接西侧雨水收集"
+      },
+      {
+        "id": "R-209",
+        "system": "waste",
+        "points": [
+          [
+            0.15,
+            23.64,
+            3.72
+          ],
+          [
+            0.15,
+            23.64,
+            10.6
+          ]
+        ],
+        "floor": "rear2",
+        "label": "污水立管通气延伸，终端位置待深化"
+      },
+      {
+        "id": "R-210",
+        "system": "waste",
+        "points": [
+          [
+            14.42,
+            23.64,
+            3.72
+          ],
+          [
+            14.42,
+            23.64,
+            10.6
+          ]
+        ],
+        "floor": "rear2",
+        "label": "污水立管通气延伸，终端位置待深化"
+      },
+      {
+        "id": "R-211",
+        "system": "waste",
+        "points": [
+          [
+            11.6,
+            27.1,
+            -0.7
+          ],
+          [
+            11.6,
+            28.15,
+            -0.7
+          ],
+          [
+            11.6,
+            28.15,
+            2.2
+          ]
+        ],
+        "floor": "site",
+        "label": "化粪池独立通气位置示意"
+      },
+      {
+        "id": "R-212",
+        "system": "rain",
+        "points": [
+          [
+            14.12,
+            24.15,
+            6.9
+          ],
+          [
+            14.54,
+            24.15,
+            6.9
+          ],
+          [
+            14.54,
+            24.15,
+            0.24
+          ],
+          [
+            14.54,
+            15.28,
+            0.24
+          ]
+        ],
+        "floor": "rear2",
+        "label": "RW 东套卫屋面独立雨水"
+      }
+    ],
+    "devices": [
+      {
+        "id": "D-001",
+        "system": "electric",
+        "point": [
+          7.62,
+          1.65,
+          1.7
+        ],
+        "floor": "front",
+        "label": "DB0 总配电箱（暂定）",
+        "type": "panel"
+      },
+      {
+        "id": "D-002",
+        "system": "electric",
+        "point": [
+          7.62,
+          16.1,
+          1.7
+        ],
+        "floor": "rear1",
+        "label": "DB1 首层分箱（暂定）",
+        "type": "panel"
+      },
+      {
+        "id": "D-003",
+        "system": "electric",
+        "point": [
+          7.6,
+          18.6,
+          5.0
+        ],
+        "floor": "rear2",
+        "label": "DB2 二层分箱（暂定）",
+        "type": "panel"
+      },
+      {
+        "id": "D-004",
+        "system": "electric",
+        "point": [
+          7.62,
+          0.35,
+          1.7
+        ],
+        "floor": "site",
+        "label": "IN 电源入户（暂定）",
+        "type": "meter"
+      },
+      {
+        "id": "D-005",
+        "system": "electric",
+        "point": [
+          11.08,
+          16.65,
+          4.8
+        ],
+        "floor": "rear2",
+        "label": "ENT 侧主门照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-006",
+        "system": "electric",
+        "point": [
+          7.94,
+          4.25,
+          1.6
+        ],
+        "floor": "front",
+        "label": "厨房入口照明开关",
+        "type": "switch",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-007",
+        "system": "electric",
+        "point": [
+          7.64,
+          1.0,
+          1.6
+        ],
+        "floor": "front",
+        "label": "通堂入口照明开关",
+        "type": "switch",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-008",
+        "system": "electric",
+        "point": [
+          4.04,
+          4.3,
+          1.6
+        ],
+        "floor": "front",
+        "label": "客房入口照明开关",
+        "type": "switch",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-009",
+        "system": "electric",
+        "point": [
+          4.04,
+          16.75,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "起居室入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-010",
+        "system": "electric",
+        "point": [
+          2.54,
+          21.8,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "公卫门外入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-011",
+        "system": "electric",
+        "point": [
+          4.04,
+          21.8,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "家务入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-012",
+        "system": "electric",
+        "point": [
+          7.64,
+          16.5,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "堂屋入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-013",
+        "system": "electric",
+        "point": [
+          7.96,
+          16.75,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "老人房入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-014",
+        "system": "electric",
+        "point": [
+          11.1,
+          23.1,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "老人套卫门外入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-015",
+        "system": "electric",
+        "point": [
+          11.66,
+          15.95,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "门厅入口照明开关",
+        "type": "switch",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-016",
+        "system": "electric",
+        "point": [
+          4.04,
+          16.75,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "主卧入口照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-017",
+        "system": "electric",
+        "point": [
+          2.54,
+          21.16,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "套卫门外入口照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-018",
+        "system": "electric",
+        "point": [
+          4.4,
+          16.3,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "家庭厅入口照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-019",
+        "system": "electric",
+        "point": [
+          11.1,
+          18.6,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "次卧入口照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-020",
+        "system": "electric",
+        "point": [
+          11.1,
+          23.1,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "东套卫门外入口照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-021",
+        "system": "electric",
+        "point": [
+          0.86,
+          15.85,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "公共过厅入口照明开关",
+        "type": "switch",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-022",
+        "system": "electric",
+        "point": [
+          9.6,
+          3.6,
+          2.85
+        ],
+        "floor": "front",
+        "label": "L1 中西厨房照明",
+        "type": "light",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-023",
+        "system": "electric",
+        "point": [
+          7.96,
+          1.65,
+          1.45
+        ],
+        "floor": "front",
+        "label": "S1 中西厨房普通插座",
+        "type": "socket",
+        "circuit": "DB0-S"
+      },
+      {
+        "id": "D-024",
+        "system": "electric",
+        "point": [
+          6.0,
+          3.6,
+          2.85
+        ],
+        "floor": "front",
+        "label": "L2 通堂门厅照明",
+        "type": "light",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-025",
+        "system": "electric",
+        "point": [
+          4.36,
+          3.6,
+          0.65
+        ],
+        "floor": "front",
+        "label": "S2 通堂门厅普通插座",
+        "type": "socket",
+        "circuit": "DB0-S"
+      },
+      {
+        "id": "D-026",
+        "system": "electric",
+        "point": [
+          2.4,
+          3.6,
+          2.85
+        ],
+        "floor": "front",
+        "label": "L3 多功能 / 客房照明",
+        "type": "light",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-027",
+        "system": "electric",
+        "point": [
+          0.86,
+          4.1,
+          0.65
+        ],
+        "floor": "front",
+        "label": "S3 多功能 / 客房普通插座",
+        "type": "socket",
+        "circuit": "DB0-S"
+      },
+      {
+        "id": "D-028",
+        "system": "electric",
+        "point": [
+          7.96,
+          3.5,
+          1.15
+        ],
+        "floor": "front",
+        "label": "K2 烤箱专用",
+        "type": "equipment",
+        "circuit": "DB0-A01",
+        "access": "相邻可开启柜内检修插座，避水管；设备不可封死检修口"
+      },
+      {
+        "id": "D-029",
+        "system": "electric",
+        "point": [
+          7.96,
+          1.75,
+          1.45
+        ],
+        "floor": "front",
+        "label": "K3 西厨台面",
+        "type": "equipment",
+        "circuit": "DB0-A02"
+      },
+      {
+        "id": "D-030",
+        "system": "electric",
+        "point": [
+          11.12,
+          2.72,
+          2.35
+        ],
+        "floor": "front",
+        "label": "K1 烟机/灶具预留",
+        "type": "equipment",
+        "circuit": "DB0-A03"
+      },
+      {
+        "id": "D-031",
+        "system": "electric",
+        "point": [
+          11.12,
+          5.62,
+          0.95
+        ],
+        "floor": "front",
+        "label": "K4 冰箱专用",
+        "type": "equipment",
+        "circuit": "DB0-A04"
+      },
+      {
+        "id": "D-032",
+        "system": "electric",
+        "point": [
+          11.12,
+          3.86,
+          0.85
+        ],
+        "floor": "front",
+        "label": "K5 洗碗机专用",
+        "type": "equipment",
+        "circuit": "DB0-A05",
+        "access": "相邻可开启柜内检修插座，避水管；设备不可封死检修口"
+      },
+      {
+        "id": "D-033",
+        "system": "electric",
+        "point": [
+          8.65,
+          6.32,
+          1.65
+        ],
+        "floor": "front",
+        "label": "K6 微波炉电源",
+        "type": "equipment",
+        "circuit": "DB0-A06"
+      },
+      {
+        "id": "D-034",
+        "system": "electric",
+        "point": [
+          8.6,
+          0.86,
+          1.5
+        ],
+        "floor": "front",
+        "label": "K7 电饼铛电源",
+        "type": "equipment",
+        "circuit": "DB0-A07"
+      },
+      {
+        "id": "D-035",
+        "system": "electric",
+        "point": [
+          10.7,
+          0.86,
+          1.5
+        ],
+        "floor": "front",
+        "label": "K8 电饭煲电源",
+        "type": "equipment",
+        "circuit": "DB0-A08"
+      },
+      {
+        "id": "D-036",
+        "system": "electric",
+        "point": [
+          2.4,
+          18.5,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L1 起居室照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-037",
+        "system": "electric",
+        "point": [
+          0.86,
+          20.35,
+          0.65
+        ],
+        "floor": "rear1",
+        "label": "S1 起居室普通插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-038",
+        "system": "electric",
+        "point": [
+          1.65,
+          22.9,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L2 公卫照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-039",
+        "system": "electric",
+        "point": [
+          3.45,
+          22.9,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L3 家务 / 公卫前室照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-040",
+        "system": "electric",
+        "point": [
+          4.04,
+          22.65,
+          0.65
+        ],
+        "floor": "rear1",
+        "label": "S3 家务 / 公卫前室普通插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-041",
+        "system": "electric",
+        "point": [
+          6.0,
+          20.0,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L4 堂屋照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-042",
+        "system": "electric",
+        "point": [
+          7.64,
+          20.6,
+          0.65
+        ],
+        "floor": "rear1",
+        "label": "S4 堂屋普通插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-043",
+        "system": "electric",
+        "point": [
+          6.0,
+          22.9,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L4b 堂屋北段照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-044",
+        "system": "electric",
+        "point": [
+          14.04,
+          17.5,
+          2.3
+        ],
+        "floor": "rear1",
+        "label": "ST 楼梯照明/感应位",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-045",
+        "system": "electric",
+        "point": [
+          9.6,
+          18.5,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L6 老人卧室照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-046",
+        "system": "electric",
+        "point": [
+          11.12,
+          18.55,
+          1.0
+        ],
+        "floor": "rear1",
+        "label": "S6 老人卧室普通插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-047",
+        "system": "electric",
+        "point": [
+          9.6,
+          22.9,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L7 衣帽 / 休闲区照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-048",
+        "system": "electric",
+        "point": [
+          11.1,
+          23.3,
+          1.45
+        ],
+        "floor": "rear1",
+        "label": "S7 衣帽 / 休闲区普通插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-049",
+        "system": "electric",
+        "point": [
+          12.87,
+          23.14,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L8 老人套卫照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-050",
+        "system": "electric",
+        "point": [
+          12.87,
+          15.45,
+          2.85
+        ],
+        "floor": "rear1",
+        "label": "L9 避雨门厅照明",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-051",
+        "system": "electric",
+        "point": [
+          11.66,
+          15.95,
+          0.65
+        ],
+        "floor": "rear1",
+        "label": "S9 避雨门厅普通插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-052",
+        "system": "electric",
+        "point": [
+          4.04,
+          23.25,
+          1.45
+        ],
+        "floor": "rear1",
+        "label": "W1 洗衣机专用",
+        "type": "equipment",
+        "circuit": "DB1-A01"
+      },
+      {
+        "id": "D-053",
+        "system": "electric",
+        "point": [
+          11.12,
+          17.65,
+          2.0
+        ],
+        "floor": "rear1",
+        "label": "老人房梳妆台镜前灯预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-054",
+        "system": "electric",
+        "point": [
+          11.12,
+          17.22,
+          1.35
+        ],
+        "floor": "rear1",
+        "label": "老人房梳妆台台面插座",
+        "type": "socket",
+        "circuit": "DB1-S"
+      },
+      {
+        "id": "D-055",
+        "system": "electric",
+        "point": [
+          2.4,
+          18.77,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L1 主卧照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-056",
+        "system": "electric",
+        "point": [
+          0.86,
+          19.55,
+          4.3
+        ],
+        "floor": "rear2",
+        "label": "S1 主卧普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-057",
+        "system": "electric",
+        "point": [
+          1.65,
+          22.9,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L2 套卫照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-058",
+        "system": "electric",
+        "point": [
+          3.45,
+          22.9,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L3 衣帽照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-059",
+        "system": "electric",
+        "point": [
+          2.86,
+          23.9,
+          4.0
+        ],
+        "floor": "rear2",
+        "label": "S3 衣帽普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-060",
+        "system": "electric",
+        "point": [
+          6.0,
+          20.27,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L4 家庭厅照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-061",
+        "system": "electric",
+        "point": [
+          7.64,
+          19.55,
+          3.95
+        ],
+        "floor": "rear2",
+        "label": "S4 家庭厅普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-062",
+        "system": "electric",
+        "point": [
+          6.0,
+          22.9,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L4b 家庭厅北段照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-063",
+        "system": "electric",
+        "point": [
+          14.04,
+          17.5,
+          5.6
+        ],
+        "floor": "rear2",
+        "label": "ST 楼梯照明/感应位",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-064",
+        "system": "electric",
+        "point": [
+          9.6,
+          18.77,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L6 次卧照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-065",
+        "system": "electric",
+        "point": [
+          11.12,
+          18.85,
+          4.3
+        ],
+        "floor": "rear2",
+        "label": "S6 次卧普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-066",
+        "system": "electric",
+        "point": [
+          9.6,
+          22.9,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L7 卧室书桌区照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-067",
+        "system": "electric",
+        "point": [
+          11.1,
+          23.5,
+          4.0
+        ],
+        "floor": "rear2",
+        "label": "S7 卧室书桌区普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-068",
+        "system": "electric",
+        "point": [
+          12.87,
+          23.14,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L8 套卫照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-069",
+        "system": "electric",
+        "point": [
+          6.0,
+          15.27,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L9 公共过厅照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-070",
+        "system": "electric",
+        "point": [
+          7.64,
+          16.0,
+          4.0
+        ],
+        "floor": "rear2",
+        "label": "S9 公共过厅普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-071",
+        "system": "electric",
+        "point": [
+          10.6,
+          17.245,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "L10 侧门入户过道照明",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-072",
+        "system": "electric",
+        "point": [
+          11.1,
+          16.65,
+          3.95
+        ],
+        "floor": "rear2",
+        "label": "S10 侧门入户过道普通插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-073",
+        "system": "electric",
+        "point": [
+          0.86,
+          20.46,
+          5.3
+        ],
+        "floor": "rear2",
+        "label": "主卧梳妆台镜前灯预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-074",
+        "system": "electric",
+        "point": [
+          0.86,
+          20.08,
+          4.65
+        ],
+        "floor": "rear2",
+        "label": "主卧梳妆台台面插座",
+        "type": "socket",
+        "circuit": "DB2-S"
+      },
+      {
+        "id": "D-075",
+        "system": "electric",
+        "point": [
+          10.8,
+          8,
+          6.28
+        ],
+        "floor": "rear2",
+        "label": "BR 二层东侧雨廊照明预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-076",
+        "system": "electric",
+        "point": [
+          10.8,
+          10.5,
+          6.28
+        ],
+        "floor": "rear2",
+        "label": "BR 二层东侧雨廊照明预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-077",
+        "system": "electric",
+        "point": [
+          10.8,
+          13,
+          6.28
+        ],
+        "floor": "rear2",
+        "label": "BR 二层东侧雨廊照明预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-078",
+        "system": "electric",
+        "point": [
+          14.1,
+          22.65,
+          3.0
+        ],
+        "floor": "rear1",
+        "label": "VF 东套卫排风电源预留",
+        "type": "equipment",
+        "circuit": "DB1-A02"
+      },
+      {
+        "id": "D-079",
+        "system": "electric",
+        "point": [
+          14.1,
+          22.65,
+          6.3
+        ],
+        "floor": "rear2",
+        "label": "VF 东套卫排风电源预留",
+        "type": "equipment",
+        "circuit": "DB2-A01"
+      },
+      {
+        "id": "D-080",
+        "system": "electric",
+        "point": [
+          0.98,
+          4.7,
+          2.75
+        ],
+        "floor": "front",
+        "label": "AC-1 空调专用电源预留",
+        "type": "equipment",
+        "circuit": "DB0-A09"
+      },
+      {
+        "id": "D-081",
+        "system": "electric",
+        "point": [
+          1.0,
+          19.65,
+          2.75
+        ],
+        "floor": "rear1",
+        "label": "AC-2 空调专用电源预留",
+        "type": "equipment",
+        "circuit": "DB1-A03"
+      },
+      {
+        "id": "D-082",
+        "system": "electric",
+        "point": [
+          10.95,
+          19.7,
+          2.75
+        ],
+        "floor": "rear1",
+        "label": "AC-3 空调专用电源预留",
+        "type": "equipment",
+        "circuit": "DB1-A04"
+      },
+      {
+        "id": "D-083",
+        "system": "electric",
+        "point": [
+          1.0,
+          19.65,
+          6.05
+        ],
+        "floor": "rear2",
+        "label": "AC-4 空调专用电源预留",
+        "type": "equipment",
+        "circuit": "DB2-A02"
+      },
+      {
+        "id": "D-084",
+        "system": "electric",
+        "point": [
+          10.95,
+          18.6,
+          6.05
+        ],
+        "floor": "rear2",
+        "label": "AC-5 空调专用电源预留",
+        "type": "equipment",
+        "circuit": "DB2-A03"
+      },
+      {
+        "id": "D-085",
+        "system": "electric",
+        "point": [
+          7.62,
+          20.8,
+          6.05
+        ],
+        "floor": "rear2",
+        "label": "AC-6 空调专用电源预留",
+        "type": "equipment",
+        "circuit": "DB2-A04"
+      },
+      {
+        "id": "D-086",
+        "system": "electric",
+        "point": [
+          10.795,
+          3.35,
+          1.86
+        ],
+        "floor": "front",
+        "label": "DECO 厨房柜下照明 预留",
+        "type": "light",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-087",
+        "system": "electric",
+        "point": [
+          9.98,
+          6.275,
+          1.86
+        ],
+        "floor": "front",
+        "label": "DECO 小家电台面照明 预留",
+        "type": "light",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-088",
+        "system": "electric",
+        "point": [
+          6.0,
+          3.325,
+          2.74
+        ],
+        "floor": "front",
+        "label": "DECO 通堂木框暖光灯 预留",
+        "type": "light",
+        "circuit": "DB0-L"
+      },
+      {
+        "id": "D-089",
+        "system": "electric",
+        "point": [
+          0.9225,
+          22.05,
+          2.18
+        ],
+        "floor": "rear1",
+        "label": "DECO 洗手台镜前灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-090",
+        "system": "electric",
+        "point": [
+          13.9975,
+          22.33,
+          2.18
+        ],
+        "floor": "rear1",
+        "label": "DECO 洗手台镜前灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-091",
+        "system": "electric",
+        "point": [
+          11.135,
+          19.1,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-092",
+        "system": "electric",
+        "point": [
+          11.135,
+          21.55,
+          1.6
+        ],
+        "floor": "rear1",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-093",
+        "system": "electric",
+        "point": [
+          6.0,
+          19.55,
+          2.72
+        ],
+        "floor": "rear1",
+        "label": "DECO 堂屋框形暖光灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-094",
+        "system": "electric",
+        "point": [
+          6.0,
+          22.4,
+          2.4
+        ],
+        "floor": "rear1",
+        "label": "DECO 圆桌中心木框餐叙灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-095",
+        "system": "electric",
+        "point": [
+          11.115,
+          23.63,
+          1.75
+        ],
+        "floor": "rear1",
+        "label": "DECO 老人休闲区阅读灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-096",
+        "system": "electric",
+        "point": [
+          11.115,
+          18.55,
+          0.55
+        ],
+        "floor": "rear1",
+        "label": "DECO 老人夜间导向灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-097",
+        "system": "electric",
+        "point": [
+          5.515,
+          24.12,
+          5.25
+        ],
+        "floor": "rear2",
+        "label": "DECO 双人学习桌阅读灯 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-098",
+        "system": "electric",
+        "point": [
+          0.9225,
+          22.05,
+          5.48
+        ],
+        "floor": "rear2",
+        "label": "DECO 洗手台镜前灯 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-099",
+        "system": "electric",
+        "point": [
+          13.9975,
+          22.33,
+          5.48
+        ],
+        "floor": "rear2",
+        "label": "DECO 洗手台镜前灯 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-100",
+        "system": "electric",
+        "point": [
+          0.865,
+          16.75,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-101",
+        "system": "electric",
+        "point": [
+          0.865,
+          19.53,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-102",
+        "system": "electric",
+        "point": [
+          9.5,
+          24.12,
+          4.72
+        ],
+        "floor": "rear2",
+        "label": "DECO 次卧桌面阅读灯 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-103",
+        "system": "electric",
+        "point": [
+          7.955,
+          22.625,
+          6.1
+        ],
+        "floor": "rear2",
+        "label": "DECO 次卧衣柜侧照明 预留",
+        "type": "light",
+        "circuit": "DB2-L"
+      },
+      {
+        "id": "D-104",
+        "system": "cold",
+        "point": [
+          13.4,
+          0.22,
+          0.45
+        ],
+        "floor": "site",
+        "label": "CW 市政/水源接口待核",
+        "type": "inlet"
+      },
+      {
+        "id": "D-105",
+        "system": "hot",
+        "point": [
+          4.0,
+          23.1,
+          1.5
+        ],
+        "floor": "rear1",
+        "label": "HW 热源接口（类型/容量待定）",
+        "type": "heater"
+      },
+      {
+        "id": "D-106",
+        "system": "cold",
+        "point": [
+          4.0,
+          23.1,
+          1.5
+        ],
+        "floor": "rear1",
+        "label": "HW 热源冷水接口",
+        "type": "heater_inlet"
+      },
+      {
+        "id": "D-107",
+        "system": "waste",
+        "point": [
+          0.95,
+          25.1,
+          -0.3
+        ],
+        "floor": "site",
+        "label": "IW1 西侧检查井（暂定）",
+        "type": "inspection"
+      },
+      {
+        "id": "D-108",
+        "system": "waste",
+        "point": [
+          12.5,
+          25.1,
+          -0.35
+        ],
+        "floor": "site",
+        "label": "IW2 东侧检查井（暂定）",
+        "type": "inspection"
+      },
+      {
+        "id": "D-109",
+        "system": "waste",
+        "point": [
+          7.25,
+          25.45,
+          -0.4
+        ],
+        "floor": "site",
+        "label": "IW3 屋后汇集检查井（暂定）",
+        "type": "inspection"
+      },
+      {
+        "id": "D-110",
+        "system": "waste",
+        "point": [
+          8.0,
+          27.1,
+          -0.55
+        ],
+        "floor": "site",
+        "label": "ST-IN 化粪池西侧进水",
+        "type": "septic_inlet"
+      },
+      {
+        "id": "D-111",
+        "system": "waste",
+        "point": [
+          11.6,
+          27.1,
+          -0.7
+        ],
+        "floor": "site",
+        "label": "ST-OUT 化粪池东侧出水",
+        "type": "septic_outlet"
+      },
+      {
+        "id": "D-112",
+        "system": "waste",
+        "point": [
+          13.4,
+          28.7,
+          -0.8
+        ],
+        "floor": "site",
+        "label": "后续处理/排放接点待定",
+        "type": "future_connection"
+      },
+      {
+        "id": "D-113",
+        "system": "cold",
+        "point": [
+          10.84,
+          3.39,
+          0.95
+        ],
+        "floor": "front",
+        "label": "水槽",
+        "type": "sink"
+      },
+      {
+        "id": "D-114",
+        "system": "hot",
+        "point": [
+          10.84,
+          3.39,
+          1.03
+        ],
+        "floor": "front",
+        "label": "水槽",
+        "type": "sink"
+      },
+      {
+        "id": "D-115",
+        "system": "waste",
+        "point": [
+          10.84,
+          3.39,
+          0.8
+        ],
+        "floor": "front",
+        "label": "水槽",
+        "type": "sink"
+      },
+      {
+        "id": "D-116",
+        "system": "cold",
+        "point": [
+          10.84,
+          4.3,
+          0.95
+        ],
+        "floor": "front",
+        "label": "洗碗机预留600",
+        "type": "dishwasher"
+      },
+      {
+        "id": "D-117",
+        "system": "waste",
+        "point": [
+          10.84,
+          4.3,
+          0.95
+        ],
+        "floor": "front",
+        "label": "洗碗机预留600",
+        "type": "dishwasher"
+      },
+      {
+        "id": "D-118",
+        "system": "cold",
+        "point": [
+          3.69,
+          23.75,
+          0.95
+        ],
+        "floor": "rear1",
+        "label": "洗衣机",
+        "type": "washer"
+      },
+      {
+        "id": "D-119",
+        "system": "waste",
+        "point": [
+          3.69,
+          23.75,
+          0.95
+        ],
+        "floor": "rear1",
+        "label": "洗衣机",
+        "type": "washer"
+      },
+      {
+        "id": "D-120",
+        "system": "cold",
+        "point": [
+          1.71,
+          23.65,
+          1.45
+        ],
+        "floor": "rear1",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-121",
+        "system": "hot",
+        "point": [
+          1.71,
+          23.65,
+          1.53
+        ],
+        "floor": "rear1",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-122",
+        "system": "waste",
+        "point": [
+          1.71,
+          23.65,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-123",
+        "system": "cold",
+        "point": [
+          1.29,
+          22.75,
+          0.85
+        ],
+        "floor": "rear1",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-124",
+        "system": "waste",
+        "point": [
+          1.29,
+          22.75,
+          0.38
+        ],
+        "floor": "rear1",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-125",
+        "system": "cold",
+        "point": [
+          1.145,
+          22.05,
+          1.05
+        ],
+        "floor": "rear1",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-126",
+        "system": "hot",
+        "point": [
+          1.145,
+          22.05,
+          1.13
+        ],
+        "floor": "rear1",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-127",
+        "system": "waste",
+        "point": [
+          1.145,
+          22.05,
+          0.8
+        ],
+        "floor": "rear1",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-128",
+        "system": "cold",
+        "point": [
+          12.475,
+          23.63,
+          1.45
+        ],
+        "floor": "rear1",
+        "label": "北侧淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-129",
+        "system": "hot",
+        "point": [
+          12.475,
+          23.63,
+          1.53
+        ],
+        "floor": "rear1",
+        "label": "北侧淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-130",
+        "system": "waste",
+        "point": [
+          12.475,
+          23.63,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "北侧淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-131",
+        "system": "cold",
+        "point": [
+          13.665,
+          22.95,
+          0.85
+        ],
+        "floor": "rear1",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-132",
+        "system": "waste",
+        "point": [
+          13.665,
+          22.95,
+          0.38
+        ],
+        "floor": "rear1",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-133",
+        "system": "cold",
+        "point": [
+          13.785,
+          22.33,
+          1.05
+        ],
+        "floor": "rear1",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-134",
+        "system": "hot",
+        "point": [
+          13.785,
+          22.33,
+          1.13
+        ],
+        "floor": "rear1",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-135",
+        "system": "waste",
+        "point": [
+          13.785,
+          22.33,
+          0.8
+        ],
+        "floor": "rear1",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-136",
+        "system": "cold",
+        "point": [
+          1.71,
+          23.65,
+          4.75
+        ],
+        "floor": "rear2",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-137",
+        "system": "hot",
+        "point": [
+          1.71,
+          23.65,
+          4.83
+        ],
+        "floor": "rear2",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-138",
+        "system": "waste",
+        "point": [
+          1.71,
+          23.65,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-139",
+        "system": "cold",
+        "point": [
+          1.29,
+          22.75,
+          4.15
+        ],
+        "floor": "rear2",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-140",
+        "system": "waste",
+        "point": [
+          1.29,
+          22.75,
+          3.68
+        ],
+        "floor": "rear2",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-141",
+        "system": "cold",
+        "point": [
+          1.145,
+          22.05,
+          4.35
+        ],
+        "floor": "rear2",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-142",
+        "system": "hot",
+        "point": [
+          1.145,
+          22.05,
+          4.43
+        ],
+        "floor": "rear2",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-143",
+        "system": "waste",
+        "point": [
+          1.145,
+          22.05,
+          4.1
+        ],
+        "floor": "rear2",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-144",
+        "system": "cold",
+        "point": [
+          12.475,
+          23.63,
+          4.75
+        ],
+        "floor": "rear2",
+        "label": "北侧淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-145",
+        "system": "hot",
+        "point": [
+          12.475,
+          23.63,
+          4.83
+        ],
+        "floor": "rear2",
+        "label": "北侧淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-146",
+        "system": "waste",
+        "point": [
+          12.475,
+          23.63,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "北侧淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-147",
+        "system": "cold",
+        "point": [
+          13.665,
+          22.95,
+          4.15
+        ],
+        "floor": "rear2",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-148",
+        "system": "waste",
+        "point": [
+          13.665,
+          22.95,
+          3.68
+        ],
+        "floor": "rear2",
+        "label": "坐便器",
+        "type": "wc"
+      },
+      {
+        "id": "D-149",
+        "system": "cold",
+        "point": [
+          13.785,
+          22.33,
+          4.35
+        ],
+        "floor": "rear2",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-150",
+        "system": "hot",
+        "point": [
+          13.785,
+          22.33,
+          4.43
+        ],
+        "floor": "rear2",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-151",
+        "system": "waste",
+        "point": [
+          13.785,
+          22.33,
+          4.1
+        ],
+        "floor": "rear2",
+        "label": "洗手台",
+        "type": "vanity"
+      },
+      {
+        "id": "D-152",
+        "system": "waste",
+        "point": [
+          1.7,
+          23.65,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "西淋浴地漏",
+        "type": "floor_drain",
+        "roomId": "rear1-1",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-153",
+        "system": "waste",
+        "point": [
+          2.25,
+          23.05,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "西卫浴干区地漏",
+        "type": "floor_drain",
+        "roomId": "rear1-1",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-154",
+        "system": "waste",
+        "point": [
+          12.5,
+          23.65,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "东淋浴地漏",
+        "type": "floor_drain",
+        "roomId": "rear1-7",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-155",
+        "system": "waste",
+        "point": [
+          12.85,
+          22.75,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "东卫浴干区地漏",
+        "type": "floor_drain",
+        "roomId": "rear1-7",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-156",
+        "system": "waste",
+        "point": [
+          1.7,
+          23.65,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "西淋浴地漏",
+        "type": "floor_drain",
+        "roomId": "rear2-1",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-157",
+        "system": "waste",
+        "point": [
+          2.25,
+          23.05,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "西卫浴干区地漏",
+        "type": "floor_drain",
+        "roomId": "rear2-1",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-158",
+        "system": "waste",
+        "point": [
+          12.5,
+          23.65,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "东淋浴地漏",
+        "type": "floor_drain",
+        "roomId": "rear2-7",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-159",
+        "system": "waste",
+        "point": [
+          12.85,
+          22.75,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "东卫浴干区地漏",
+        "type": "floor_drain",
+        "roomId": "rear2-7",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-160",
+        "system": "cold",
+        "point": [
+          1.17,
+          7.09,
+          0.65
+        ],
+        "floor": "site",
+        "label": "主洗衣机进水",
+        "type": "tap"
+      },
+      {
+        "id": "D-161",
+        "system": "waste",
+        "point": [
+          1.17,
+          7.09,
+          0.12
+        ],
+        "floor": "site",
+        "label": "主洗衣机污废水排水",
+        "type": "waste"
+      },
+      {
+        "id": "D-162",
+        "system": "electric",
+        "point": [
+          0.82,
+          7.09,
+          1.25
+        ],
+        "floor": "site",
+        "label": "主洗衣机防溅专用插座预留",
+        "type": "equipment",
+        "circuit": "DB0-W1"
+      },
+      {
+        "id": "D-163",
+        "system": "waste",
+        "point": [
+          1.17,
+          7.09,
+          0.12
+        ],
+        "floor": "site",
+        "label": "叠放烘干机冷凝排水预留",
+        "type": "waste"
+      },
+      {
+        "id": "D-164",
+        "system": "electric",
+        "point": [
+          0.82,
+          7.09,
+          1.25
+        ],
+        "floor": "site",
+        "label": "叠放烘干机防溅专用插座预留",
+        "type": "equipment",
+        "circuit": "DB0-W2"
+      },
+      {
+        "id": "D-165",
+        "system": "cold",
+        "point": [
+          1.2,
+          7.74,
+          0.65
+        ],
+        "floor": "site",
+        "label": "分区洗衣机进水",
+        "type": "tap"
+      },
+      {
+        "id": "D-166",
+        "system": "waste",
+        "point": [
+          1.2,
+          7.74,
+          0.12
+        ],
+        "floor": "site",
+        "label": "分区洗衣机污废水排水",
+        "type": "waste"
+      },
+      {
+        "id": "D-167",
+        "system": "electric",
+        "point": [
+          0.82,
+          7.74,
+          1.25
+        ],
+        "floor": "site",
+        "label": "分区洗衣机防溅专用插座预留",
+        "type": "equipment",
+        "circuit": "DB0-W3"
+      },
+      {
+        "id": "D-168",
+        "system": "cold",
+        "point": [
+          1.17,
+          8.4,
+          0.65
+        ],
+        "floor": "site",
+        "label": "院内洗衣池进水",
+        "type": "tap"
+      },
+      {
+        "id": "D-169",
+        "system": "waste",
+        "point": [
+          1.17,
+          8.4,
+          0.12
+        ],
+        "floor": "site",
+        "label": "院内洗衣池污废水排水",
+        "type": "waste"
+      },
+      {
+        "id": "D-170",
+        "system": "waste",
+        "point": [
+          1.65,
+          8.5,
+          0.025
+        ],
+        "floor": "site",
+        "label": "院内洗衣区防臭地漏",
+        "type": "floor_drain"
+      },
+      {
+        "id": "D-171",
+        "system": "cold",
+        "point": [
+          3.3,
+          5.25,
+          4.25
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣池进水",
+        "type": "tap"
+      },
+      {
+        "id": "D-172",
+        "system": "waste",
+        "point": [
+          3.3,
+          5.25,
+          3.72
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣池污废水排水",
+        "type": "waste"
+      },
+      {
+        "id": "D-173",
+        "system": "waste",
+        "point": [
+          4.2,
+          5.2,
+          3.625
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣区防臭地漏",
+        "type": "floor_drain"
+      },
+      {
+        "id": "D-174",
+        "system": "electric",
+        "point": [
+          4.025,
+          16.27,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "二楼过厅洗烘一体机防溅专用插座",
+        "type": "equipment",
+        "circuit": "DB2-W1",
+        "applianceId": "upper-combo"
+      },
+      {
+        "id": "D-175",
+        "system": "cold",
+        "point": [
+          3.34,
+          16.25,
+          4.72
+        ],
+        "floor": "rear2",
+        "label": "二楼过厅洗衣机可达关断阀",
+        "type": "tap"
+      },
+      {
+        "id": "D-176",
+        "system": "waste",
+        "point": [
+          3.34,
+          16.25,
+          4.25
+        ],
+        "floor": "rear2",
+        "label": "二楼洗衣机排水立管口（安装高度按机型核对）",
+        "type": "waste",
+        "applianceId": "upper-combo",
+        "trap": "独立存水弯及可拆清扫口，禁止接雨水"
+      },
+      {
+        "id": "D-177",
+        "system": "waste",
+        "point": [
+          3.35,
+          15.68,
+          3.605
+        ],
+        "floor": "rear2",
+        "label": "二楼过厅洗衣防臭地漏",
+        "type": "floor_drain",
+        "roomId": "rear2-8",
+        "trap": "独立水封；保持补水与检修"
+      },
+      {
+        "id": "D-178",
+        "system": "waste",
+        "point": [
+          0.18,
+          15.45,
+          3.2
+        ],
+        "floor": "rear2",
+        "label": "洗衣专用立管清扫口",
+        "type": "cleanout"
+      },
+      {
+        "id": "D-179",
+        "system": "electric",
+        "point": [
+          3.15,
+          3.6,
+          6.13
+        ],
+        "floor": "rear2",
+        "label": "亭子灯光预留",
+        "type": "light",
+        "circuit": "DB0-EXT-L"
+      },
+      {
+        "id": "D-180",
+        "system": "electric",
+        "point": [
+          3.15,
+          3.2,
+          6.15
+        ],
+        "floor": "rear2",
+        "label": "亭内电动升降晾衣机专用电源",
+        "type": "equipment",
+        "circuit": "DB0-D1",
+        "applianceId": "pavilion-drying"
+      },
+      {
+        "id": "D-181",
+        "system": "electric",
+        "point": [
+          4.3,
+          5.6,
+          4.9
+        ],
+        "floor": "rear2",
+        "label": "电动晾衣机防溅墙控（带停止）",
+        "type": "switch",
+        "circuit": "DB0-D1"
+      },
+      {
+        "id": "D-182",
+        "system": "rain",
+        "point": [
+          13.75,
+          0.06,
+          0.24
+        ],
+        "floor": "site",
+        "label": "RW 雨水独立出户（去向待核）",
+        "type": "outlet"
+      },
+      {
+        "id": "D-183",
+        "system": "rain",
+        "point": [
+          14.15,
+          17.0,
+          6.9
+        ],
+        "floor": "rear2",
+        "label": "RW 新梯间屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-184",
+        "system": "rain",
+        "point": [
+          14.15,
+          15.9,
+          3.6
+        ],
+        "floor": "rear1",
+        "label": "RW 避雨门厅屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-185",
+        "system": "rain",
+        "point": [
+          11.48,
+          13.95,
+          6.56
+        ],
+        "floor": "rear2",
+        "label": "RW 二层东侧雨廊雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-186",
+        "system": "rain",
+        "point": [
+          0.12,
+          6.3,
+          3.6
+        ],
+        "floor": "front",
+        "label": "RW 屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-187",
+        "system": "rain",
+        "point": [
+          11.94,
+          6.3,
+          3.6
+        ],
+        "floor": "front",
+        "label": "RW 屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-188",
+        "system": "rain",
+        "point": [
+          0.12,
+          15.28,
+          7.9
+        ],
+        "floor": "rear2",
+        "label": "RW 屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-189",
+        "system": "rain",
+        "point": [
+          11.94,
+          15.28,
+          7.9
+        ],
+        "floor": "rear2",
+        "label": "RW 屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-190",
+        "system": "rain",
+        "point": [
+          1.76,
+          5.58,
+          6.35
+        ],
+        "floor": "rear2",
+        "label": "亭子独立雨水槽",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-191",
+        "system": "rain",
+        "point": [
+          14.12,
+          24.15,
+          6.9
+        ],
+        "floor": "rear2",
+        "label": "RW 东套卫屋面雨水口",
+        "type": "rain_drain"
+      }
+    ],
+    "circuits": [
+      {
+        "id": "DB2-L",
+        "panel": "DB2",
+        "use": "lighting",
+        "label": "照明与开关",
+        "dedicated": false,
+        "rcd_mA": null,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-L",
+        "panel": "DB0",
+        "use": "lighting",
+        "label": "照明与开关",
+        "dedicated": false,
+        "rcd_mA": null,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB1-L",
+        "panel": "DB1",
+        "use": "lighting",
+        "label": "照明与开关",
+        "dedicated": false,
+        "rcd_mA": null,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-S",
+        "panel": "DB0",
+        "use": "socket",
+        "label": "普通插座",
+        "dedicated": false,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A01",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K2 烤箱专用",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A02",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K3 西厨台面",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A03",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K1 烟机/灶具预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A04",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K4 冰箱专用",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A05",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K5 洗碗机专用",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A06",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K6 微波炉电源",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A07",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K7 电饼铛电源",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A08",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "K8 电饭煲电源",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB1-S",
+        "panel": "DB1",
+        "use": "socket",
+        "label": "普通插座",
+        "dedicated": false,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB1-A01",
+        "panel": "DB1",
+        "use": "appliance",
+        "label": "W1 洗衣机专用",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB2-S",
+        "panel": "DB2",
+        "use": "socket",
+        "label": "普通插座",
+        "dedicated": false,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB1-A02",
+        "panel": "DB1",
+        "use": "appliance",
+        "label": "VF 东套卫排风电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB2-A01",
+        "panel": "DB2",
+        "use": "appliance",
+        "label": "VF 东套卫排风电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-A09",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "AC-1 空调专用电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB1-A03",
+        "panel": "DB1",
+        "use": "appliance",
+        "label": "AC-2 空调专用电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB1-A04",
+        "panel": "DB1",
+        "use": "appliance",
+        "label": "AC-3 空调专用电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB2-A02",
+        "panel": "DB2",
+        "use": "appliance",
+        "label": "AC-4 空调专用电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB2-A03",
+        "panel": "DB2",
+        "use": "appliance",
+        "label": "AC-5 空调专用电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB2-A04",
+        "panel": "DB2",
+        "use": "appliance",
+        "label": "AC-6 空调专用电源预留",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-W1",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "主洗衣机",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按设备负荷和线路长度核算",
+        "breaker": "按设备校核",
+        "earthing": "独立PE保护导体"
+      },
+      {
+        "id": "DB0-W2",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "叠放烘干机",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按设备负荷和线路长度核算",
+        "breaker": "按设备校核",
+        "earthing": "独立PE保护导体"
+      },
+      {
+        "id": "DB0-W3",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "分区洗衣机",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按设备负荷和线路长度核算",
+        "breaker": "按设备校核",
+        "earthing": "独立PE保护导体"
+      },
+      {
+        "id": "DB2-W1",
+        "panel": "DB2",
+        "use": "appliance",
+        "label": "二楼过厅洗烘一体机防溅专用插座",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "按长度、敷设与负荷核算",
+        "breaker": "按设备与线缆校核",
+        "earthing": "PE保护导体连续；禁止以零线代替"
+      },
+      {
+        "id": "DB0-EXT-L",
+        "panel": "DB0",
+        "use": "lighting",
+        "label": "亭子及室外照明",
+        "dedicated": false,
+        "rcd_mA": 30,
+        "cable": "室外穿防护管，规格按敷设核算",
+        "breaker": "按负荷核算",
+        "earthing": "金属灯具PE连续"
+      },
+      {
+        "id": "DB0-D1",
+        "panel": "DB0",
+        "use": "appliance",
+        "label": "亭内电动升降晾衣机",
+        "dedicated": true,
+        "rcd_mA": 30,
+        "cable": "沿前屋檐口与亭梁穿管，按机型功率选线",
+        "breaker": "按设备校核",
+        "earthing": "机壳及金属安装件PE连续"
+      }
+    ],
+    "notes": [
+      "用户已确认按钢筋混凝土框架做方案；本图表达梁柱轴线，墙为填充/隔墙，未进行荷载、基础、抗震或构件验算。",
+      "S 构件位置和显示粗细不代表施工截面；红瓦屋架、楼板、基础及封闭楼梯间配筋、通风采光和防火均待专项设计。",
+      "DB0前屋、DB1后楼首层、DB2二层分区供电；二楼过厅洗烘机独立DB2-W1回路，厨房与洗烘大功率设备分别预留专线。",
+      "插座及设备回路按30mA剩余电流保护设计意向，PE保护导体连续；最终保护器、线径、进线容量和分相须按实际负荷校核。",
+      "室内支路在吊顶检修层穿管、末端沿墙垂直下引；室外线路沿檐口/梁柱防护敷设。穿墙及楼层转换预留套管，不得凿梁穿柱。",
+      "四套卫浴上下对位；热源移到首层家务前室东侧实墙，避北窗；类型、容量、保温与循环待深化。",
+      "室内排水按板下路径和1.5%概念降坡预留，卫浴补淋浴及干区地漏；最终管径、坡度、吊顶净高、存水弯和防水均须按现场校核。",
+      "二楼洗衣位在主卧前公共过厅北侧凹位，朝南操作，前方1000mm；供水阀和插座在机器上方侧边，可拆面板检修，电水分置。",
+      "洗衣专用立管沿西外墙至污废水井，设清扫口与通气；洗衣机排水口高度按机型，地漏独立水封，雨水不接洗衣污废水。",
+      "污废水向屋后检查井汇集，再进入三格化粪池，西进东出；下游仅预留后续处理/排放接点，不表示允许直接外排。",
+      "厨房排水经东侧封闭侧梯外缘绕行，基础实际外扩、隔油/清扫节点与埋深待核；雨水保持独立南向，不接化粪池。",
+      "三格化粪池仅示意屋后位置与连接；容量、实际尺寸、退距、地下水、通气、结构、防渗及维护清掏条件需专项设计。",
+      "后墙至后边界按用户给定的 5.00 m 净空表达，演示场地深度为 29.4 m；15.20 m 面宽仍为示意外包，检修维护与清掏可达条件待现场核实。",
+      "本图为概念位置与路径沟通资料，不能据此施工。"
+    ],
+    "septic": {
+      "bounds": [
+        8.0,
+        25.9,
+        11.6,
+        28.3
+      ],
+      "inlet": [
+        8.0,
+        27.1,
+        -0.55
+      ],
+      "outlet": [
+        11.6,
+        27.1,
+        -0.7
+      ],
+      "note": "三格位置示意，容量/尺寸/退距/地下水及清掏条件待专项设计"
+    }
+  },
+  "hvac": {
+    "units": [
+      {
+        "id": "AC-1",
+        "label": "客房",
+        "floor": "front",
+        "indoor": [
+          0.98,
+          4.7,
+          2.75
+        ],
+        "outdoor": [
+          0.27,
+          4.7,
+          1.0
+        ],
+        "side": "west",
+        "refrigerant": [
+          [
+            0.98,
+            4.7,
+            2.75
+          ],
+          [
+            0.45,
+            4.7,
+            2.75
+          ],
+          [
+            0.45,
+            4.7,
+            1.0
+          ],
+          [
+            0.27,
+            4.7,
+            1.0
+          ]
+        ],
+        "condensate": [
+          [
+            0.98,
+            4.7,
+            2.6
+          ],
+          [
+            0.35,
+            4.7,
+            2.6
+          ],
+          [
+            0.35,
+            4.7,
+            0.16
+          ],
+          [
+            0.35,
+            0.12,
+            0.12
+          ]
+        ]
+      },
+      {
+        "id": "AC-2",
+        "label": "起居室",
+        "floor": "rear1",
+        "indoor": [
+          1.0,
+          19.65,
+          2.75
+        ],
+        "outdoor": [
+          2.3,
+          25.25,
+          0.85
+        ],
+        "side": "west",
+        "refrigerant": [
+          [
+            1.0,
+            19.65,
+            2.75
+          ],
+          [
+            0.42,
+            19.65,
+            2.75
+          ],
+          [
+            0.42,
+            24.8,
+            2.75
+          ],
+          [
+            2.3,
+            24.8,
+            2.75
+          ],
+          [
+            2.3,
+            25.25,
+            2.75
+          ],
+          [
+            2.3,
+            25.25,
+            0.85
+          ]
+        ],
+        "condensate": [
+          [
+            1.0,
+            19.65,
+            2.6
+          ],
+          [
+            0.42,
+            19.65,
+            2.6
+          ],
+          [
+            0.42,
+            24.8,
+            2.6
+          ],
+          [
+            0.42,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            28.8,
+            0.1
+          ]
+        ]
+      },
+      {
+        "id": "AC-3",
+        "label": "老人卧室",
+        "floor": "rear1",
+        "indoor": [
+          10.95,
+          19.7,
+          2.75
+        ],
+        "outdoor": [
+          4.1,
+          25.25,
+          0.85
+        ],
+        "side": "east",
+        "refrigerant": [
+          [
+            10.95,
+            19.7,
+            2.75
+          ],
+          [
+            10.95,
+            24.55,
+            2.75
+          ],
+          [
+            4.1,
+            24.55,
+            2.75
+          ],
+          [
+            4.1,
+            25.25,
+            2.75
+          ],
+          [
+            4.1,
+            25.25,
+            0.85
+          ]
+        ],
+        "condensate": [
+          [
+            10.95,
+            19.7,
+            2.6
+          ],
+          [
+            10.95,
+            24.55,
+            2.6
+          ],
+          [
+            10.95,
+            24.55,
+            0.18
+          ],
+          [
+            6.9,
+            24.55,
+            0.18
+          ],
+          [
+            6.9,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            28.8,
+            0.1
+          ]
+        ]
+      },
+      {
+        "id": "AC-4",
+        "label": "主卧",
+        "floor": "rear2",
+        "indoor": [
+          1.0,
+          19.65,
+          6.05
+        ],
+        "outdoor": [
+          2.3,
+          25.25,
+          2.05
+        ],
+        "side": "west",
+        "refrigerant": [
+          [
+            1.0,
+            19.65,
+            6.05
+          ],
+          [
+            0.42,
+            19.65,
+            6.05
+          ],
+          [
+            0.42,
+            24.8,
+            6.05
+          ],
+          [
+            2.3,
+            24.8,
+            6.05
+          ],
+          [
+            2.3,
+            25.25,
+            6.05
+          ],
+          [
+            2.3,
+            25.25,
+            2.05
+          ]
+        ],
+        "condensate": [
+          [
+            1.0,
+            19.65,
+            5.8999999999999995
+          ],
+          [
+            0.42,
+            19.65,
+            5.8999999999999995
+          ],
+          [
+            0.42,
+            24.8,
+            5.8999999999999995
+          ],
+          [
+            0.42,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            28.8,
+            0.1
+          ]
+        ]
+      },
+      {
+        "id": "AC-5",
+        "label": "次卧",
+        "floor": "rear2",
+        "indoor": [
+          10.95,
+          18.6,
+          6.05
+        ],
+        "outdoor": [
+          4.1,
+          25.25,
+          2.05
+        ],
+        "side": "east",
+        "refrigerant": [
+          [
+            10.95,
+            18.6,
+            6.05
+          ],
+          [
+            10.95,
+            24.55,
+            6.05
+          ],
+          [
+            4.1,
+            24.55,
+            6.05
+          ],
+          [
+            4.1,
+            25.25,
+            6.05
+          ],
+          [
+            4.1,
+            25.25,
+            2.05
+          ]
+        ],
+        "condensate": [
+          [
+            10.95,
+            18.6,
+            5.8999999999999995
+          ],
+          [
+            10.95,
+            24.55,
+            5.8999999999999995
+          ],
+          [
+            10.95,
+            24.55,
+            0.18
+          ],
+          [
+            6.9,
+            24.55,
+            0.18
+          ],
+          [
+            6.9,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            28.8,
+            0.1
+          ]
+        ]
+      },
+      {
+        "id": "AC-6",
+        "label": "家庭厅",
+        "floor": "rear2",
+        "indoor": [
+          7.62,
+          20.8,
+          6.05
+        ],
+        "outdoor": [
+          5.9,
+          25.25,
+          0.85
+        ],
+        "side": "east",
+        "refrigerant": [
+          [
+            7.62,
+            20.8,
+            6.05
+          ],
+          [
+            7.62,
+            24.55,
+            6.05
+          ],
+          [
+            5.9,
+            24.55,
+            6.05
+          ],
+          [
+            5.9,
+            25.25,
+            6.05
+          ],
+          [
+            5.9,
+            25.25,
+            0.85
+          ]
+        ],
+        "condensate": [
+          [
+            7.62,
+            20.8,
+            5.8999999999999995
+          ],
+          [
+            7.62,
+            24.55,
+            5.8999999999999995
+          ],
+          [
+            7.62,
+            24.55,
+            0.18
+          ],
+          [
+            6.9,
+            24.55,
+            0.18
+          ],
+          [
+            6.9,
+            24.8,
+            0.18
+          ],
+          [
+            6.9,
+            28.8,
+            0.1
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "室内机避开床头和直吹床位，前房厨房暂不设空调，西厨餐区散热/排烟待设备选型。",
+      "后楼室外机集中在屋后西半部设备架，西侧客房室外机位于侧墙，需核实邻界和散热净距。",
+      "机架高度、上下间隔、支架和减振均为位置示意，按具体机型安装检修要求调整；不得以此确定机型或支架。",
+      "冷媒管紫红色、冷凝水绿色；管线穿墙仅预留位置，不得穿承重梁柱，套管与防水封堵待深化。",
+      "后楼东侧机组先沿室内高位向北，再从屋后服务区接外机，避开右后侧封闭楼梯；实际路由和冷凝水坡度待深化。",
+      "冷凝水单独收集至待定排水接点，不接化粪池、不滴在走廊楼梯；坡度、存水与接驳方式待现场设计。",
+      "空调独立电源点位见电气示意，负荷、电源保护、线径及接地待专业校核。",
+      "屋后机位在化粪池西侧，保留分区；化粪池检修清掏、通气口及外机散热/维护条件需现场协调。"
+    ]
+  }
+};

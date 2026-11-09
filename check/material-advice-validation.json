@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-07",
+  "pdf_pages": 37,
+  "appendix_pages": [
+    34,
+    35,
+    36,
+    37
+  ],
+  "topics": [
+    "院子铺地与室内瓷砖",
+    "墙面、厨卫与柜体",
+    "窗户、大门与房门",
+    "品牌取样候选、配色与采购核对"
+  ],
+  "gallery_cards": 24,
+  "pdf_recommendation_groups": 23,
+  "pdf_clickable_official_references": 8,
+  "original_13_images_and_overview_unchanged": true,
+  "browser": {
+    "materialsAfter13Images": true,
+    "materialCards": 24,
+    "appendixPages": 4,
+    "sourceLinks": 8,
+    "anchorNavigation": true,
+    "mobile390": true,
+    "noOverflow": true,
+    "offlineReload": true,
+    "originalImagesLoad": true,
+    "errors": []
+  },
+  "source_access_checks": [
+    {
+      "title": "上海市场监管：陶瓷砖消费提示",
+      "url": "https://scjgj.sh.gov.cn/1072/20230803/2c984a7289b5d5330189babde8fd249a.html",
+      "http": 403,
+      "bytes": 65171,
+      "content_type": "text/html"
+    },
+    {
+      "title": "住建部：2025住宅质量问题重点整治",
+      "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2025/art_dd6b4e8904634f7681e22362cbdcfdb4.html",
+      "http": 200,
+      "bytes": 16706,
+      "content_type": "text/html"
+    },
+    {
+      "title": "住建部：保障性住房质量常见问题防治",
+      "url": "https://www.mohurd.gov.cn/ztbd/bzxzlzfgz/zybmwj/art/2022/art_17768_764573.html",
+      "http": 200,
+      "bytes": 19963,
+      "content_type": "text/html"
+    },
+    {
+      "title": "北京住建：住宅防水施工与渗漏防治指南",
+      "url": "https://zjw.beijing.gov.cn/bjjs/xxgk/zcwj2024/qtzcwj/xxyx13/436473157/index.shtml",
+      "http": 403,
+      "bytes": 2473,
+      "content_type": ""
+    },
+    {
+      "title": "上海市场监管：中空玻璃抽查及消费提示",
+      "url": "https://scjgj.sh.gov.cn/923/20241210/2c984a729367d8000193af68c8f83844.html",
+      "http": 403,
+      "bytes": 65171,
+      "content_type": "text/html"
+    },
+    {
+      "title": "立邦：配套抗碱内墙底漆",
+      "url": "https://www.nipponpaint.com.cn/product/1279",
+      "http": 200,
+      "bytes": 69969,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "title": "蒙娜丽莎：止滑砖产品资料",
+      "url": "https://www.monalisa.com.cn/installationguide/info_itemid_14230.html",
+      "http": 200,
+      "bytes": 43030,
+      "content_type": "text/html"
+    },
+    {
+      "title": "TATA木门：产品使用说明书",
+      "url": "https://www.tata.com.cn/uploads/files/2023/0329/6kiRZv5dbi8AhAXg0MnoFYVavpqSoj0QyX7L4104.pdf",
+      "http": 200,
+      "bytes": 924670,
+      "content_type": "application/pdf"
+    }
+  ],
+  "source_access_note": "Three government pages blocked automated direct requests with HTTP403; official URLs retained. Other five original sources fetched with HTTP200.",
+  "visual_review": "All four final PDF pages and desktop/mobile gallery checked.",
+  "limitations": [
+    "No local prices or specific series selected",
+    "Sizes are scheme starting suggestions; final products and installation depend on site"
+  ],
+  "delivery_manifest_files": 191,
+  "sha256": {
+    "scripts/material_recommendations.py": "5db81b0de30dec2de2b24d056fa1f7beeab79df63bbce1812518248b70f0c694",
+    "scripts/draw_sheets.py": "39c1a406de4cbf908e5fd873d579d625d6591a33dbc41ea7141cd2c64504698a",
+    "scripts/build_interior_gallery.py": "e08b555bf75063adaba3182f77a59ea57762ff227449141122ede06bd8b71efc",
+    "精装效果图/index.html": "1f05a237be266dc22f41b400cb22624a58023361ded0dafb77609932adc39589",
+    "3d.html": "4d44ac1760aafcb9c7b26efeb3a088ea853a73bd60e54dcbcea856f60ef7d305",
+    "index.html": "3c308fda15241f67d9a6beeb170d216af03753f4c5c327c3076b03439ec1b7fd",
+    "README.md": "a620f8a92c957410a1c6d117cdfbff875b58d5121c43db67ed88af333c5288a0",
+    "docs/用户需求与待办.md": "982654b05753d14e050ebb5a0ffda488b19bf417df133827c7a2ceed4583208b",
+    "docs/delivery-files.txt": "6559f270f5918b6b6e62316687c7121fe551f33cd2f8f7391c5281d6b0aebd5a",
+    "drawings/农村院落住宅-水电深化P.pdf": "ad099b3dcbf9dfc59415777a966084c2cda16fe5abb1e141808eb23163982d31",
+    "drawings/33-material-advice-1.svg": "1ed514e0d3658f877adae43af86e11c197a19e57e08d0d1c5508a22509b75d0e",
+    "drawings/33-material-advice-1.png": "6c510af8aa2a209a98147b3757648d0db3e46315fac9c4e5f60cb83b05d63c30",
+    "drawings/34-material-advice-2.svg": "49919ca00b6db48af3c65647e089104e37145fc34b0a341726a2d678db22454a",
+    "drawings/34-material-advice-2.png": "ba59837030f44d92b5603f04875f93ef912f71ad667b06072a5d3eaf5d271a98",
+    "drawings/35-material-advice-3.svg": "a3b7cd3f619dd10e3623dd95e0afd05ade289d03c64c5be7eeaaf448b14ec9bc",
+    "drawings/35-material-advice-3.png": "08d2628908f953249c1a9c1c28ab3983a6ca3312bbbe771963568650f950ee9a",
+    "drawings/36-material-advice-4.svg": "74c1f61e29952cce39af24ca77efebd90430120bf4e0c5d088d6e0cea8a4d8b6",
+    "drawings/36-material-advice-4.png": "5d784bca84b243bb6f0fdd60f4094398ae16f8ed11996d328e17e2b2d4076f00"
+  }
+}

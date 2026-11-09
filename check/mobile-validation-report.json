@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-07",
+  "scope": "Mobile viewing and local delivery website for current O model with wardrobe detail",
+  "package": {
+    "version": "O-mobile",
+    "files": 40,
+    "interior_images": 13,
+    "exterior_and_detail_images": 15,
+    "site_bytes": 18966526,
+    "zip_bytes": 7744471,
+    "first_3d_load_mib": 14.62,
+    "largest_asset_mib": 13.89,
+    "zip_sha256": "9c9e22974e699697fa8271faf7ca3c8a86472f66ea54430d213d3ff6feba0aba",
+    "source_hashes": {
+      "3d.html": "e96a350dbd4e2ea3ffe2146cdd690ee74449c324c6a2b9d3c33213f0001160cc",
+      "viewer/viewer.bundle.js": "233bb3af20ae0b5f9d85377169dc187318f9f97823705d91d68cf162f2cdc1dc",
+      "model/design-data.js": "304e10120c88197754acebd2df34eb92f3953a5bfcbef592e53827cfa2318140",
+      "model/courtyard-house.glb": "19e64e6c8d9459d5bd134e39850c516b3950c97326c25f84a449d7dba74d06b5"
+    },
+    "all_local_links_valid": true,
+    "publicly_deployed": false,
+    "path": "delivery/农村院落住宅-O-手机查看包.zip"
+  },
+  "viewport_tests": {
+    "engine": "chromium",
+    "engineVersion": "153.0.8010.52",
+    "realDevice": false,
+    "results": [
+      {
+        "name": "small-android",
+        "w": 360,
+        "h": 800,
+        "dpr": 2,
+        "loadMs": 629,
+        "overflow": false,
+        "canvas": [
+          720,
+          1040
+        ],
+        "cssCanvas": [
+          360,
+          520
+        ],
+        "model": 670,
+        "renderCalls": 732,
+        "heapMiB": 117,
+        "networkMiB": 14.605528831481934,
+        "floors": true,
+        "roomFocus": true,
+        "indoor": true,
+        "doorToggle": true,
+        "pavilionRoof": true,
+        "reset": true,
+        "offlineAfterLoad": true,
+        "errors": []
+      },
+      {
+        "name": "iphone-sized",
+        "w": 390,
+        "h": 844,
+        "dpr": 3,
+        "loadMs": 640,
+        "overflow": false,
+        "canvas": [
+          780,
+          1097
+        ],
+        "cssCanvas": [
+          390,
+          549
+        ],
+        "model": 670,
+        "renderCalls": 732,
+        "heapMiB": 118,
+        "networkMiB": 14.605528831481934,
+        "floors": true,
+        "roomFocus": true,
+        "indoor": true,
+        "doorToggle": true,
+        "pavilionRoof": true,
+        "reset": true,
+        "offlineAfterLoad": true,
+        "errors": []
+      },
+      {
+        "name": "large-phone",
+        "w": 430,
+        "h": 932,
+        "dpr": 3,
+        "loadMs": 661,
+        "overflow": false,
+        "canvas": [
+          860,
+          1211
+        ],
+        "cssCanvas": [
+          430,
+          606
+        ],
+        "model": 670,
+        "renderCalls": 732,
+        "heapMiB": 108,
+        "networkMiB": 14.605528831481934,
+        "floors": true,
+        "roomFocus": true,
+        "indoor": true,
+        "doorToggle": true,
+        "pavilionRoof": true,
+        "reset": true,
+        "offlineAfterLoad": true,
+        "errors": []
+      },
+      {
+        "name": "phone-landscape",
+        "w": 844,
+        "h": 390,
+        "dpr": 3,
+        "loadMs": 929,
+        "overflow": false,
+        "canvas": [
+          1248,
+          668
+        ],
+        "cssCanvas": [
+          624,
+          334
+        ],
+        "model": 670,
+        "renderCalls": 732,
+        "heapMiB": 118,
+        "networkMiB": 14.605528831481934,
+        "floors": true,
+        "roomFocus": true,
+        "indoor": true,
+        "doorToggle": true,
+        "pavilionRoof": true,
+        "reset": true,
+        "offlineAfterLoad": true,
+        "errors": []
+      },
+      {
+        "name": "small-320",
+        "w": 320,
+        "h": 568,
+        "dpr": 2,
+        "loadMs": 633,
+        "overflow": false,
+        "canvas": [
+          640,
+          820
+        ],
+        "cssCanvas": [
+          320,
+          410
+        ],
+        "model": 670,
+        "renderCalls": 732,
+        "heapMiB": 115,
+        "networkMiB": 14.605528831481934,
+        "floors": true,
+        "roomFocus": true,
+        "indoor": true,
+        "doorToggle": true,
+        "pavilionRoof": true,
+        "reset": true,
+        "offlineAfterLoad": true,
+        "errors": []
+      }
+    ]
+  },
+  "gestures": {
+    "touchTap": true,
+    "singleFingerRotate": true,
+    "pinchZoom": true,
+    "gesturesDoNotToggleOpenings": true,
+    "realDevice": false
+  },
+  "throttled": {
+    "environment": "desktop Chromium mobile emulation",
+    "realDevice": false,
+    "downloadMibPerSecond": 1,
+    "latencyMs": 100,
+    "cpuSlowdown": 4,
+    "cacheDisabled": true,
+    "loadMs": 16460,
+    "reset": true,
+    "errors": []
+  },
+  "fallback": {
+    "missingModelMessage": "三维模型打开失败：fetch for \"http://127.0.0.1:8765/delivery/%E6%89%8B%E6%9C%BA%E6%9F%A5%E7%9C%8B%E7%AB%99%E7%82%B9-O/model/courtyard-house.glb\" responded with 404: Not Found",
+    "originalEmbeddedModel": true,
+    "originalReset": true,
+    "noWebGLMessage": "当前浏览器未能启用 WebGL 三维显示。请用支持 WebGL 的 Chrome / Edge 打开，或在浏览器设置中启用图形加速。上方仍可打开装修图纸。",
+    "controlsDisabled": true
+  },
+  "independent_extract": {
+    "independentExtract": true,
+    "mobile390": true,
+    "model": true,
+    "offlineAfterLoad": true,
+    "interiorsLoaded": 13,
+    "exteriorAndDetailsLoaded": 15,
+    "pdfStatus": 200,
+    "errors": []
+  },
+  "fixes": [
+    "Coarse-pointer landscape canvas fits viewport; sidebar scrolls independently",
+    "Touch-specific gesture help",
+    "HTTP mobile site loads binary GLB while original page retains embedded fallback"
+  ],
+  "not_verified": [
+    "physical iPhone Safari",
+    "physical Android GPU, memory or frame rate",
+    "WeChat embedded browser",
+    "public HTTPS deployment or remote reachability"
+  ],
+  "publicly_deployed": false
+}

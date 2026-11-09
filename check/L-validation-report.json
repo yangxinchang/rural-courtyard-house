@@ -1,0 +1,234 @@
+{
+  "version": "L",
+  "date": "2026-11-05",
+  "completed_tasks": 4,
+  "forecourt_depth_m": 8,
+  "storage_size_m": [
+    3.6,
+    4.2
+  ],
+  "dimensions_provisional_user_accepted": true,
+  "orientation": "outside facing gate, left is west",
+  "site_bounds": [
+    0,
+    -8,
+    14.6,
+    29.4
+  ],
+  "main_K_layout_unchanged": true,
+  "K_interior_images_retained_without_exterior_shadow_rerender": true,
+  "exterior_renders": 7,
+  "pdf_pages": 27,
+  "visual_review": "27-page contact sheet, enlarged forecourt page, aerial/forecourt render and browser",
+  "validation": {
+    "model-geometry": {
+      "version": "L",
+      "forecourt_depth_m": 8,
+      "storage_size_m": [
+        3.6,
+        4.2
+      ],
+      "storage_left_of_gate": true,
+      "single_floor": true,
+      "storage_roof_max_m": 3.3,
+      "shelf_boards": 8,
+      "entry_path_clear": true,
+      "road_outside_forecourt": true,
+      "K_main_house_data_preserved": true,
+      "site_bounds": [
+        0,
+        -8,
+        14.6,
+        29.4
+      ]
+    },
+    "source-checks": [
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_L.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_K.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_large_beds.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_retained.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_I.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_F.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_interiors.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_engineering.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_J_clearance.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_routes.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_I_finish_assets.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_render_contract.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_L_viewer.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_L_visibility.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_L_storage_toggle.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_optimization_reset.mjs"
+        ],
+        "exit_code": 0
+      }
+    ],
+    "data-consistency": {
+      "version": "L",
+      "json_offline_match": true,
+      "glb_embedded_match": true,
+      "embedded_textures": 4,
+      "K_PDF_unchanged": true,
+      "K_11_interior_PNG_unchanged": true
+    },
+    "browser-validation": {
+      "version": "L",
+      "forecourt_bounds": true,
+      "left_single_storey_storage": true,
+      "complete_overview_frame": true,
+      "forecourt_button": true,
+      "storage_roof_toggle": true,
+      "floor_visibility": true,
+      "offline_after_load": true,
+      "reset": true,
+      "mobile": true,
+      "K_interior_reference_note": true,
+      "errors": []
+    }
+  },
+  "independent_review": {
+    "critical": 0,
+    "important": 0,
+    "fixed_minors": [
+      "storage furniture toggle",
+      "README L title"
+    ]
+  },
+  "not_checked": [
+    "site survey/ownership/road location",
+    "daylight fire structure waterproofing and utilities",
+    "file:// direct double-click recheck"
+  ],
+  "artifact_sha256": {
+    "3d.html": "eb0e6c6e51409bcc71453794cdce6930d9913ab3af48763ebe902adf0327c19b",
+    "index.html": "15705a4fe685e08c5bb873c6356cedc350ce73f3395d95776e9e008414eb2643",
+    "drawings/农村院落住宅-装修方案L.pdf": "56eaf6ebdebd9df0cbaf6e73510c7b34d87667bdf547bb37b9a6509090725829",
+    "model/design.json": "05aa8d1b1614d151392f0efaea497a74ed207d978421333a0d6592c1c014e161",
+    "model/design-data.js": "40b1f5de960db407a46440a56b057bf1d2a1c57788457d96a1d24fad6eb78420",
+    "model/courtyard-house.blend": "f5ee5890862e838bb0058dfc5174d04b7ec7282b5c1a81954a5c74ae291cd438",
+    "model/courtyard-house.glb": "c77fe9d1b0d880e038f1c4be8218992b43f6cc86a9e7482ff97458a00e6447d0",
+    "model/scene-data.js": "b9ada708a79a021e2b3c3f0b7db62163ed9b13de3c795b97e754dc20d609e5cf",
+    "viewer/viewer.bundle.js": "3696d6fcc85f8725afee73ede26a0638aefc85cbe54123f741c6d119db4e4fa6",
+    "renders/01-aerial.png": "072a3333f2656b6b825c9d118413f9f5be8d227f038b38cce1cb12cc7a0e728c",
+    "renders/02-courtyard.png": "503827b1f0e6886bf9d5141a3b8b5cb0d11742b89ccea9863a50d1cc013599f4",
+    "renders/05-grand-gate.png": "2e7472a803f01c036fe0a48739e08b5bd60d57ffd25f2cec4fd811d4a5c7eaae",
+    "renders/07-front-forecourt.png": "6905711365079dfe40214877092e8a0c5a84854a2048b83c1727bca631d8999c",
+    "renders/03-entrance.png": "9430234907f318dbe510b9f71688a44c6cfbf1e0ebdbf57f62d35321e4d9ccf7",
+    "renders/04-cutaway.png": "fa33222bf52a55359de5848cb0806c6788e780fd2154287ad3d9384379cd0944",
+    "renders/06-entertainment-terrace.png": "be66024ee92eb50867943d444e797ee92616ad765a7e59c5c265fb61087226ac"
+  },
+  "package": {
+    "files": 142,
+    "uncompressed_bytes": 179410047,
+    "zip_bytes": 124543623,
+    "zip_sha256": "52156fffc74e6e0b74f52620fdd884d0c5df5a33bc3be5a6f80f16ec2271deea",
+    "all_local_links_valid": true,
+    "byte_identical": true,
+    "no_tests_tools_or_backups": true,
+    "file_protocol_recheck": false,
+    "path": "delivery/农村院落住宅-L-精装方案.zip"
+  },
+  "package_browser": {
+    "version": "L",
+    "independent_package": true,
+    "offline_after_loading": true,
+    "forecourt_button": true,
+    "storage_roof_toggle": true,
+    "reset": true,
+    "errors": []
+  },
+  "final_delivery_verified": true
+}

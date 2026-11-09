@@ -1,0 +1,8 @@
+{
+  "shadowMap": false,
+  "castingLights": 0,
+  "castingMeshes": 0,
+  "receivingMeshes": 0,
+  "orbitAndZoom": true,
+  "modes": 4
+}

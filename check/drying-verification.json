@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-07",
+  "level": "model-space-only",
+  "nominal_sink_allowance_mm": 700,
+  "modeled_counter_clearance_mm": 678.0,
+  "raised_pole_mm": 2250,
+  "lowered_pole_mm": 1250,
+  "site": "未定",
+  "construction_status": "未定",
+  "product": "未定",
+  "structure_approval": false,
+  "anchorage_approval": false,
+  "outdoor_product_approval": false,
+  "reason": "No verified member material/section/connections, local environment or selected manufacturer-approved outdoor model",
+  "embedded_glb_matches": true,
+  "manufacturer_reference": {
+    "manufacturer": "Aqara",
+    "model": "ZNLYJ11LM",
+    "manual_download_verified": true,
+    "local_pdf_sha256": "5424bad1041fb5aa10f2e564264b1a951d804def7b80049b4dde2ba8cf77d556",
+    "clauses_checked": [
+      "2 indoor/balcony only; exclude damp/outdoor",
+      "3 secure ceiling",
+      "4 no leakage",
+      "5 earthing",
+      "10 35kg laundry limit"
+    ],
+    "outdoor_model_approved": false
+  }
+}

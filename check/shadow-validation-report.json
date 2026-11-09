@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-07",
+  "issue": "Shadow bands while orbiting clipped 3D layouts",
+  "baseline": {
+    "shadowMap": true,
+    "castingLights": 1,
+    "castingMeshes": 550,
+    "receivingMeshes": 645,
+    "clipShadows": false
+  },
+  "renderer_validation": {
+    "shadowMap": false,
+    "castingLights": 0,
+    "castingMeshes": 0,
+    "receivingMeshes": 0,
+    "orbitAndZoom": true,
+    "modes": 4
+  },
+  "production_regression": {
+    "desktop": true,
+    "mobile390": true,
+    "rotateAndZoom": true,
+    "doors56": true,
+    "wardrobe": true,
+    "indoor": true,
+    "reset": true,
+    "scriptErrors": []
+  },
+  "package": {
+    "version": "O-mobile",
+    "files": 41,
+    "interior_images": 13,
+    "exterior_and_detail_images": 16,
+    "site_bytes": 19984957,
+    "zip_bytes": 7916138,
+    "first_3d_load_mib": 15.47,
+    "largest_asset_mib": 14.7,
+    "zip_sha256": "81c1e1166bb15b4b2a7116ebe9c35ffdd1e120d6f8b9211e82d2cef295379a0c",
+    "source_hashes": {
+      "3d.html": "5a7aeb7359015be8b85469747d022aaca67dc15ff183338836f59c39a82c6627",
+      "viewer/viewer.bundle.js": "1aa4c8d9582ab55e88b079abed1515db7fed08e1140624dfb2c661f00a170191",
+      "model/design-data.js": "39d4bb0fd94bc7e672c082271188819e12e34c7b276b3e9e868daee7ebeb4361",
+      "model/courtyard-house.glb": "03080caac16d2064c350fe282e89edce19f3a955cc0245841f07a41ecc569a75",
+      "drawings/农村院落住宅-水电深化P.pdf": "2c7df47f6d80af47d2bbb603a73629a4fadc2f7b44397ce1a3325140ab8985a6"
+    },
+    "all_local_links_valid": true,
+    "publicly_deployed": false,
+    "path": "delivery/农村院落住宅-O-手机查看包.zip"
+  },
+  "static_renderings_changed": false,
+  "realPhoneChecked": false,
+  "source_sha256": "53e36ad9aac42db91e62f7aa3486e04686cc1d65b04eaf26b79c131b5926f411",
+  "mobile_final": {
+    "ready": true,
+    "rooms": true,
+    "reset": true,
+    "errors": [],
+    "bundle": "viewer/viewer.bundle.js?v=20261107-no-shadow"
+  },
+  "bundle_sha256": "1aa4c8d9582ab55e88b079abed1515db7fed08e1140624dfb2c661f00a170191",
+  "mobile_archive_verified": true
+}

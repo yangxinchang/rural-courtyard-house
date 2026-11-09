@@ -1,0 +1,122 @@
+[
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_O.py"
+    ],
+    "exit_code": 0,
+    "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.088s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_completion.py"
+    ],
+    "exit_code": 0,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.004s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_O_night_light.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS night guide exposed outside headboard\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_M_large_beds.py"
+    ],
+    "exit_code": 0,
+    "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.001s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_K.py"
+    ],
+    "exit_code": 0,
+    "output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.006s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_K_retained.py"
+    ],
+    "exit_code": 1,
+    "output": ".....F..\n======================================================================\nFAIL: test_large_beds_keep_low_heads_and_north_route (__main__.RevisionH)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/xinchangyang/chance_software/rural-courtyard-house/tmp/test_K_retained.py\", line 38, in test_large_beds_keep_low_heads_and_north_route\n    self.assertGreaterEqual(room['inner'][3]-bed['bounds'][3],1.1)\nAssertionError: -0.1600000000000037 not greater than or equal to 1.1\n\n----------------------------------------------------------------------\nRan 8 tests in 0.016s\n\nFAILED (failures=1)\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_I.py"
+    ],
+    "exit_code": 1,
+    "output": "F...\n======================================================================\nFAIL: test_finish_objects_follow_shared_rooms (__main__.RevisionI)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/xinchangyang/chance_software/rural-courtyard-house/tmp/test_revision_I.py\", line 40, in test_finish_objects_follow_shared_rooms\n    self.assertTrue(room[0]<=a<c<=room[2] and room[1]<=b<d<=room[3],obj)\nAssertionError: False is not true : {'kind': 'panel', 'room': 5, 'bounds': (11.06, 19.0, 11.12, 21.54), 'name': '老人房东墙低床头背景', 'z': 0.08, 'height': 0.64, 'material': 'oak'}\n\n----------------------------------------------------------------------\nRan 4 tests in 0.004s\n\nFAILED (failures=1)\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_F.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS: 右后封闭梯、南顶平台、标注侧门、双小门及屋后5米\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_K_interiors.py"
+    ],
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/home/xinchangyang/chance_software/rural-courtyard-house/tmp/test_K_interiors.py\", line 12, in <module>\n    assert sum(x['kind']==kind for x in items['front'])==1,kind\nAssertionError: hob\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_engineering.py"
+    ],
+    "exit_code": 0,
+    "output": "Engineering checks passed: 125 members, 179 routes, 162 devices\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_J_clearance.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS rejects guest-foot\nPASS rejects guest-south\nPASS rejects sofa-table\nPASS family use case: both chairs pulled 450mm, 600mm envelope reaches desk via east route.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_K_routes.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS concept routes: 600mm body reaches west public bathroom and three sides of round table with static open doors.\n"
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_I_finish_assets.py"
+    ],
+    "exit_code": 0,
+    "output": "PASS: three non-flat finish textures can be embedded in the offline model.\n"
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_M_storage_toggle.mjs"
+    ],
+    "exit_code": 0,
+    "output": "PASS storage shelf/box furniture toggle classification\n"
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_optimization_reset.mjs"
+    ],
+    "exit_code": 1,
+    "output": "evalmachine.<anonymous>:1\n$('reset').addEventListener('click',()=>{for(const opening of openings.values())setOpening(opening,opening.defaultOpen);$('appliance-labels').checked=true;$('furniture').checked=true;for(const group of engineeringGroups)$(group.toLowerCase()).checked=false;setMode('whole');});\n                                                                       ^\n\nReferenceError: openings is not defined\n    at Object.click (evalmachine.<anonymous>:1:72)\n    at file:///home/xinchangyang/chance_software/rural-courtyard-house/tmp/test_optimization_reset.mjs:20:12\n    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:681:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v22.23.2\n"
+  }
+]

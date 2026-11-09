@@ -1,0 +1,17 @@
+{
+  "version": "J",
+  "master_bed_width_m": 2.2,
+  "guest_bed_width_m": 1.8,
+  "front_bed_width_m": 1.8,
+  "house_depth_m": 10,
+  "site_depth_m": 29.4,
+  "west_living_east_bedroom": true,
+  "bed_width_m": 2.2,
+  "bed_head_east": true,
+  "sofa_faces_east": true,
+  "tv_faces_west": true,
+  "washer_and_low_storage_west": true,
+  "east_closet_window_space_m": 1.06,
+  "elderly_bath_fittings_east": true,
+  "room_floor_materials_follow_roles": true
+}

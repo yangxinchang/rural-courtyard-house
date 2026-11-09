@@ -1,0 +1,61 @@
+{
+  "images": 8,
+  "manufacturerDisplays": 5,
+  "projectRenderings": 3,
+  "localAssets": true,
+  "photosEnlarge": true,
+  "offlineReload": true,
+  "mobile390": true,
+  "materialAdviceCards": 24,
+  "errors": [],
+  "paths": [
+    {
+      "src": "../assets/material-reference/courtyard-paving.jpg",
+      "alt": "院子铺地效果，本项目设计渲染",
+      "width": 1500,
+      "height": 1125
+    },
+    {
+      "src": "../assets/material-reference/stone-tile.jpg",
+      "alt": "浅色墙地砖应用，蒙娜丽莎产品展示",
+      "width": 1400,
+      "height": 1126
+    },
+    {
+      "src": "../assets/material-reference/wood-tile.jpg",
+      "alt": "木纹瓷砖表面，蒙娜丽莎产品展示",
+      "width": 600,
+      "height": 452
+    },
+    {
+      "src": "../assets/material-reference/wall-primer.jpg",
+      "alt": "内墙底漆配套示例，立邦产品展示",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "src": "../assets/material-reference/window.jpg",
+      "alt": "深灰系统窗应用，派雅产品展示",
+      "width": 600,
+      "height": 600
+    },
+    {
+      "src": "../assets/material-reference/courtyard-gate.jpg",
+      "alt": "本案临街大门造型，本项目设计渲染",
+      "width": 1500,
+      "height": 1125
+    },
+    {
+      "src": "../assets/material-reference/interior-door.jpg",
+      "alt": "木色室内门与墙面搭配，TATA木门展示",
+      "width": 1400,
+      "height": 700
+    },
+    {
+      "src": "../assets/material-reference/wardrobe-panel.jpg",
+      "alt": "本案五列衣柜饰面，本项目设计渲染",
+      "width": 720,
+      "height": 801
+    }
+  ]
+}

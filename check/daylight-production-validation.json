@@ -1,0 +1,36 @@
+[
+  {
+    "name": "desktop",
+    "path": true,
+    "play": true,
+    "inlinePause": true,
+    "roomTimes": [
+      9,
+      15
+    ],
+    "off": true,
+    "defaultUnshadowed": true,
+    "doors": true,
+    "reset": true,
+    "noOverflow": true,
+    "offline": true,
+    "errors": []
+  },
+  {
+    "name": "mobile",
+    "path": true,
+    "play": true,
+    "inlinePause": true,
+    "roomTimes": [
+      9,
+      15
+    ],
+    "off": true,
+    "defaultUnshadowed": true,
+    "doors": true,
+    "reset": true,
+    "noOverflow": true,
+    "offline": true,
+    "errors": []
+  }
+]

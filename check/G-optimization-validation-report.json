@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-05",
+  "version": "G",
+  "scope": "Concept furniture improvements, user conditions, viewer reset, export consistency and local delivery.",
+  "completed_optimizations": [
+    "OPT-07",
+    "OPT-14",
+    "OPT-15"
+  ],
+  "partly_completed": [
+    "OPT-06",
+    "OPT-13",
+    "OPT-16"
+  ],
+  "user_confirmed": {
+    "orientation": "south-facing",
+    "wheelchair_or_walking_aid_needed": false,
+    "actual_width": "pending"
+  },
+  "layout": {
+    "bed_A_layout_bounds_m": [
+      7.94,
+      16.28,
+      8.98,
+      18.43
+    ],
+    "bed_A_layout_envelope_to_wall_m": 0.7,
+    "between_bed_layout_envelopes_m": 0.81,
+    "bed_A_closed_handle_local_clearance_m": 0.65,
+    "sofa_to_coffee_table_m": 0.5,
+    "coffee_table_to_sliding_cabinet_m": 0.86,
+    "layout_dimensions_exclude_handles": true,
+    "actual_storage_opening_not_verified": true
+  },
+  "tests": {
+    "existing_local_checks": 8,
+    "added_local_checks": 3,
+    "all_passed": true,
+    "real_blender_export_cases": [
+      "stale JSON refresh",
+      "missing JSON refresh",
+      "invalid geometry preserves prior artifacts"
+    ],
+    "family_use_case": "both chairs pulled south 450mm; 600mm body envelope follows east route"
+  },
+  "browser": {
+    "version": "G",
+    "localHTTP": true,
+    "offlineInteractions": true,
+    "fileProtocolRecheck": false,
+    "resetFurniture": true,
+    "enclosedStair": true,
+    "shellFloorFiltering": true,
+    "roofToggle": true,
+    "decorationDesign": true,
+    "indoorCeilings": true,
+    "decorFurnitureToggle": true,
+    "publicBathroomRoute": true,
+    "sideMainDoor": true,
+    "twoSmallFrontDoors": true,
+    "foyerRoute": true,
+    "interiorCameras": true,
+    "engineeringLayers": true,
+    "reset": true,
+    "orbit": true,
+    "zoom": true,
+    "mobile": true,
+    "pngExport": true,
+    "errors": []
+  },
+  "model_geometry": {
+    "version": "G",
+    "stair_shell_bounds": true,
+    "bed_count": 2,
+    "bed_mattress_width": 0.9,
+    "bed_B_rotation": 90,
+    "L_floor_parts": true,
+    "independent_entry_floor": true,
+    "stair_treads": 18,
+    "platform_risers": 2,
+    "tree": false,
+    "cabinet_front": "south",
+    "chairs_face": "north toward desks and dining table",
+    "decoration_items": 34,
+    "decoration_meshes": 121,
+    "bed_A_handle_local_clearance_m": 0.65,
+    "furniture_adjustments": true
+  },
+  "pdf": {
+    "pages": 21,
+    "format": "A3",
+    "rendered_pages": 21,
+    "visual_review": "contact sheet of all pages, enlarged twin bedroom and layout pages",
+    "embedded_chinese_font": true
+  },
+  "render_count": 4,
+  "package": {
+    "files": 84,
+    "uncompressed_bytes": 65814396,
+    "zip_bytes": 27347882,
+    "zip_sha256": "05c0584602336b64bae8ca4687301e85cbcc3e943b9f13e9b8a8f6328fa56b14",
+    "all_local_links_valid": true,
+    "byte_identical": true,
+    "no_tests_tools_or_backups": true,
+    "file_protocol_recheck": false,
+    "path": "delivery/农村院落住宅-G-离线方案.zip"
+  },
+  "review": {
+    "critical": 0,
+    "important_fixed": 1,
+    "fix": "Label 700/810mm as layout-envelope gaps and disclose local closed handle clearance of 650mm."
+  },
+  "not_checked": [
+    "file:// double-click recheck (browser tool blocks file protocol)",
+    "site survey, actual width and locality",
+    "structure, fire, daylight and professional engineering calculations",
+    "actual product and drawer-opening operation"
+  ],
+  "artifact_sha256": {
+    "drawings/农村院落住宅-装修方案G.pdf": "d3924e0ac1cfe231019b1dfd738a056bcc14edac9abbbbefdbe09ebea8d65f0e",
+    "model/courtyard-house.blend": "50ada521fd0e8428fee6746d026040223aa3cab19c63f6dcd915f9b9d0734a07",
+    "model/courtyard-house.glb": "08e4f213b573bcdd8bc30009d3411ca56cc7c9a1edc7f61fc5d949f18500ec04",
+    "model/design.json": "57b4436efbcdbac56e46820e7fe5eecc64262ab3219ed9fe459c44398526926d",
+    "model/design-data.js": "2bb267e25ceafa7458b9bde3f2c67c811e490b756606e2f49cfba5f538984d83",
+    "model/scene-data.js": "8fecad78fdfac8e1fd5996d72e974a6aaa74d740e8ed3921150621bfd228e9d1",
+    "viewer/viewer.bundle.js": "2af0b83935fcd8509f71a508a9f43dbe7d9040ccec94f88830869cc28fe924d8",
+    "renders/01-aerial.png": "c7060de7d031a5fb3af3c8fc83f919376451ffa69aebdc4d1547f0063a2d3f4b",
+    "renders/02-courtyard.png": "a23e3246bca78d7aff9d1f8e81656b136404b94d53f024ad4ca26f1a70746146",
+    "renders/03-entrance.png": "a18a5b1e8b5230abed18d03f78d018ed2a1e76060b5da4824c366fa99268d8fc",
+    "renders/04-cutaway.png": "03c94823698e6fa2e058d6e11a7b6613f6b57f69ed40e19131dbab03602dad0a"
+  },
+  "supersedes_current_artifact_validation": "check/G-validation-report.json is the initial 2026-11-04 record only."
+}

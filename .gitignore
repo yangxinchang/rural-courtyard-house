@@ -1,0 +1,15 @@
+# Local toolchain and scratch work
+tools/
+tmp/
+.playwright-mcp/
+__pycache__/
+*.blend1
+*.pyc
+
+# Delivery archives and generated mobile mirror (kept locally, too large for git)
+delivery/*.zip
+delivery/手机查看站点-O/
+
+# Historical screenshots not needed for the published site
+shots/
+check/*.png

@@ -1,0 +1,17 @@
+{
+  "wardrobes": 3,
+  "columnsEach": 5,
+  "independentDoors": 15,
+  "individualClick": true,
+  "allOpenClose": true,
+  "exactClose": true,
+  "interior": true,
+  "roomEntries": true,
+  "reset": true,
+  "buildingOpenings": 56,
+  "mobile390": true,
+  "keyboard": true,
+  "fileProtocol": true,
+  "offline": true,
+  "errors": []
+}

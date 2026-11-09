@@ -1,0 +1,100 @@
+[
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_J.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_J_large_beds.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_J_retained.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_I.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_revision_F.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_interiors.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_engineering.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_J_clearance.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_I_finish_assets.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "tmp/test_J_render_contract.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_viewer.mjs"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_optimization_reset.mjs"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_J_viewer.mjs"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "node",
+      "tmp/test_J_viewer_retained.mjs"
+    ],
+    "exit_code": 0
+  }
+]

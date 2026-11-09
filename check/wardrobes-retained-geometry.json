@@ -1,0 +1,19 @@
+{
+  "version": "O",
+  "openings": 56,
+  "moving_parts": 57,
+  "sliding_door_travel_m": 0.8175,
+  "both_walls_top_m": 3.42,
+  "plinth_surface_clearance_m": 0.02,
+  "storage_preserved": true,
+  "large_beds_preserved": true,
+  "two_dressing_tables": true,
+  "laundry_machines": 4,
+  "ground_two_washers_one_dryer": true,
+  "upper_combo": true,
+  "pavilion_posts": 4,
+  "pavilion_centre_path_clear": true,
+  "lift_drying_rack": true,
+  "gas_hobs": 2,
+  "decorations": 85
+}

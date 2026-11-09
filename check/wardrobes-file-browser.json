@@ -1,0 +1,18 @@
+{
+  "protocol": "file:",
+  "wardrobes": 3,
+  "buildingOpenings": 56,
+  "bothSlidingDirections": true,
+  "exactClose": true,
+  "interiorIsolation": true,
+  "bedroomEntry": true,
+  "topExit": true,
+  "clickDoor": true,
+  "dragNoToggle": true,
+  "visibility": true,
+  "reset": true,
+  "mobile390": true,
+  "keyboard": true,
+  "offline": true,
+  "errors": []
+}

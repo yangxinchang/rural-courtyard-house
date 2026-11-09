@@ -1,0 +1,19 @@
+{
+  "offline": true,
+  "webgl": true,
+  "whole": true,
+  "ground": true,
+  "upperWithTerrace": true,
+  "stairsOnBothFloors": true,
+  "attic": true,
+  "kitchenInterior": true,
+  "bathroomInterior": true,
+  "twinRoom": true,
+  "wardrobeEyeOutsideCabinet": true,
+  "orbit": true,
+  "zoom": true,
+  "reset": true,
+  "screenshotDownload": true,
+  "errors": [],
+  "meshBatches": 183
+}

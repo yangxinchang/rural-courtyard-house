@@ -1,0 +1,7 @@
+{
+  "version": "M",
+  "json_offline_match": true,
+  "embedded_glb_match": true,
+  "embedded_textures": 4,
+  "L_PDF_preserved": true
+}

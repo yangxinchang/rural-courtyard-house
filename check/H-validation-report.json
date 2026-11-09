@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-05",
+  "version": "H",
+  "completed_tasks": 6,
+  "user_scope": [
+    "optimize ground and upper layouts and decoration",
+    "roof and enclose marked stair-front entrance",
+    "add canopy to upper-floor east bridge (confirmed; west bridge unchanged)"
+  ],
+  "design_choices": [
+    "new vestibule bounds [11.4,14.4,14.34,16.5] with west entry from existing porch",
+    "upper east canopy bounds [10.1,6.4,11.5,14.64] with independent rain collection",
+    "low west-facing elder/main bedheads preserve existing west windows",
+    "move family cabinet north and shorten shared desk to 2.25m",
+    "twin beds use closed lift-storage concept within original bed envelopes",
+    "AC-6 moved south 600mm to avoid cabinet; service endpoints follow"
+  ],
+  "pdf": {
+    "pages": 23,
+    "format": "A3",
+    "rendered_pages": 23,
+    "visual_review": "all-page contact sheet and enlarged vestibule / canopy sheets",
+    "embedded_chinese_font": true
+  },
+  "render_count": 4,
+  "decorations": 43,
+  "engineering": {
+    "members": 115,
+    "routes": 141,
+    "devices": 124,
+    "network_checks_passed": true
+  },
+  "tests": {
+    "local_check_files": 11,
+    "revision_H_cases": 8,
+    "red_green_confirmed": [
+      "vestibule and layout",
+      "upper east canopy",
+      "entry socket solid-wall location",
+      "AC cabinet clearance",
+      "Blender updated geometry"
+    ],
+    "export_cases": [
+      "stale JSON",
+      "missing JSON",
+      "invalid geometry preserves existing model"
+    ],
+    "all_passed": true,
+    "historical_revision_G_snapshot_tests_not_used_as_H_acceptance": true
+  },
+  "model_geometry": {
+    "version": "H",
+    "covered_entry_roof": true,
+    "level_entry_no_old_outdoor_step": true,
+    "upper_east_canopy": true,
+    "canopy_posts_preserve_rail_clearance": true,
+    "bridge_clear_height_min_m": 2.784,
+    "entry_socket_on_solid_wall": true,
+    "family_ac_clears_high_cabinet": true,
+    "west_bedheads_below_sill": true,
+    "mattress_widths_preserved": true,
+    "bedbox_meshes_inside_bed_envelopes": true,
+    "bed_A_side_clearance_m": 0.7,
+    "decoration_items": 43,
+    "decoration_meshes": 158
+  },
+  "browser": {
+    "version": "H",
+    "localHTTP": true,
+    "offlineInteractions": true,
+    "upperEastCanopy": true,
+    "canopyRoofToggle": true,
+    "coveredEntry": true,
+    "entryRoofToggle": true,
+    "entryIndoorCeiling": true,
+    "fileProtocolRecheck": false,
+    "resetFurniture": true,
+    "enclosedStair": true,
+    "shellFloorFiltering": true,
+    "roofToggle": true,
+    "decorationDesign": true,
+    "indoorCeilings": true,
+    "decorFurnitureToggle": true,
+    "publicBathroomRoute": true,
+    "sideMainDoor": true,
+    "twoSmallFrontDoors": true,
+    "foyerRoute": true,
+    "interiorCameras": true,
+    "engineeringLayers": true,
+    "reset": true,
+    "orbit": true,
+    "zoom": true,
+    "mobile": true,
+    "pngExport": true,
+    "errors": []
+  },
+  "browser_notes": [
+    "GPU read-pixels performance warnings from screenshot capture",
+    "browser favicon.ico request returns 404; not a page script error"
+  ],
+  "package": {
+    "files": 91,
+    "uncompressed_bytes": 69567052,
+    "zip_bytes": 28785437,
+    "zip_sha256": "37f250119cbb6e28b86b822f357bb39e2a0757b0eb839bffc4f7a84fbc89a479",
+    "all_local_links_valid": true,
+    "byte_identical": true,
+    "no_tests_tools_or_backups": true,
+    "file_protocol_recheck": false,
+    "path": "delivery/农村院落住宅-H-离线方案.zip"
+  },
+  "review": {
+    "independent_read_only": true,
+    "important_fixed": [
+      "entry socket originally fell in door opening"
+    ],
+    "minor_fixed": [
+      "entry door north/south wording"
+    ],
+    "canopy_followup": "no additional Important/Critical findings",
+    "final_visual_followup": "AC/cabinet overlap fixed and regression verified"
+  },
+  "data_consistency": {
+    "source_json_offline_glb_agree": true,
+    "previous_G_pdf_preserved": true
+  },
+  "not_checked": [
+    "file:// double-click recheck blocked by browser tool",
+    "actual site width / boundary / locality",
+    "structure, wind loads, supports and fire design",
+    "roof joint flashing, waterproofing specification, drainage sizing and side-driven rain",
+    "actual lift-bed mechanism / gas strut / furniture and equipment product installation"
+  ],
+  "artifact_sha256": {
+    "drawings/农村院落住宅-装修方案H.pdf": "7ae5fcb97ea1a07d736042101135fabe8160bd658a0ab37625eca891abbf6d80",
+    "model/courtyard-house.blend": "940361d60caf22966798892c5a0e857bd454977e0b3f04f9ec861f579b979b7e",
+    "model/courtyard-house.glb": "bf42c4983ef710d1f958a6e9be64d832f182f9f03960652ba120882cd27fd9c1",
+    "model/design.json": "ad9a893996caf5ea6339b64e6f294710ba318ace5aedcdbbc76e2fac0ed876f5",
+    "model/design-data.js": "5178c75718db95709d3ed0b114f6cefc2759f9fea95d03b49a607cd2deb69cf3",
+    "model/scene-data.js": "52b423998ffe686311cb5c3004572b0f8ed80af8771982f7f5aa9bf648520a41",
+    "viewer/viewer.bundle.js": "3132e16cce53e8e06443a11ead4934bd24160410819375de0c12b81a9779917f",
+    "renders/01-aerial.png": "09c591ab3a846552b4a44bdf56c457b559f28534aa8a1b445f9d755434c25e3a",
+    "renders/02-courtyard.png": "9b210448deb0a3b85bae4747ffca6253f49026882071813120a266b78527abfd",
+    "renders/03-entrance.png": "81b221c91eadc54b5aa1816a5f747cbc4b76ac4feb9e1deba1283cdabec948e1",
+    "renders/04-cutaway.png": "ed324f8cc41dc8250ff751b6a7149c91d2335928071119ccb6128ff12631172d"
+  }
+}

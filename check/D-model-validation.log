@@ -1,0 +1,6 @@
+PASS D MODEL: outdoor stair geometry/platforms, complete hall slab, two bridges, red roof, no tree, 6 outdoor AC, 3 septic covers, four engineering layers.
+PASS: 斜板不穿出任何踏步可行走表面
+Blender 4.2.3 LTS (hash 0e22e4fcea03 built 2024-10-14 23:31:34)
+Read blend: "/home/xinchangyang/chance_software/rural-courtyard-house/model/courtyard-house.blend"
+
+Blender quit

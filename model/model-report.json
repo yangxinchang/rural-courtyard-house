@@ -1,0 +1,90 @@
+{
+  "version": "O",
+  "decoration_items": 85,
+  "blender": "4.2.3 LTS",
+  "mesh_objects": 6053,
+  "units": "m",
+  "covered_entry": {
+    "bounds": [
+      11.4,
+      14.4,
+      14.34,
+      16.5
+    ],
+    "roof_bounds": [
+      11.4,
+      14.4,
+      14.34,
+      16.74
+    ],
+    "roof_level": 3.6
+  },
+  "east_canopy": {
+    "bounds": [
+      10.1,
+      6.4,
+      11.5,
+      14.64
+    ],
+    "roof_level": 6.6,
+    "fall": 0.04,
+    "post_x": [
+      10.25,
+      11.35
+    ],
+    "post_y": [
+      6.75,
+      9.25,
+      11.75,
+      14.15
+    ],
+    "post_size": 0.06
+  },
+  "site": [
+    15.2,
+    29.4
+  ],
+  "rear_bays": 3,
+  "front_bays": 3,
+  "levels": {
+    "ground": 0.3,
+    "upper": 3.6,
+    "attic": 6.9,
+    "rear_plate": 8.0,
+    "rear_ridge": 10.2,
+    "front_plate": 3.6,
+    "front_ridge": 3.6
+  },
+  "stairs": {
+    "risers": 20,
+    "riser": 0.165,
+    "tread": 0.27,
+    "bounds": [
+      11.4,
+      16.5,
+      14.34,
+      21.88
+    ]
+  },
+  "occupants": 6,
+  "front_roof": "flat accessible terrace",
+  "bridge_width": 1.2,
+  "bridge_count": 2,
+  "stair_location": "enclosed east stairwell",
+  "roof_color": "red",
+  "views": [
+    "01-aerial",
+    "02-courtyard",
+    "03-entrance",
+    "04-cutaway",
+    "05-grand-gate",
+    "06-entertainment-terrace",
+    "08-west-enclosed-wall",
+    "09-east-enclosed-wall",
+    "10-courtyard-laundry",
+    "11-terrace-pavilion",
+    "12-kitchen-appliances",
+    "07-front-forecourt"
+  ],
+  "status": "Concept geometry; no structural checks"
+}

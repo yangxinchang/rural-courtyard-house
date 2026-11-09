@@ -1,0 +1,11 @@
+{
+  "environment": "desktop Chromium mobile emulation",
+  "realDevice": false,
+  "downloadMibPerSecond": 1,
+  "latencyMs": 100,
+  "cpuSlowdown": 4,
+  "cacheDisabled": true,
+  "loadMs": 16460,
+  "reset": true,
+  "errors": []
+}

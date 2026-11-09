@@ -1,0 +1,13 @@
+{
+  "version": "精装方案 J",
+  "site": [
+    14.6,
+    29.4
+  ],
+  "beds": 4,
+  "decor": 72,
+  "independent_package": true,
+  "offline_after_loading": true,
+  "reset": true,
+  "errors": []
+}

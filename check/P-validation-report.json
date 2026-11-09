@@ -1,0 +1,237 @@
+{
+  "version": "P",
+  "date": "2026-11-07",
+  "source_checks": [
+    {
+      "file": "tmp/five-wardrobes-2026-11-07/test_five.py",
+      "exit": 0,
+      "output": "Five columns, two metre width, retained route and unblocked north windows: PASS\n"
+    },
+    {
+      "file": "tmp/laundry-services-2026-11-07/test_services.py",
+      "exit": 0,
+      "output": "New hall washer, DB2 circuit, bathroom drains and gravity route: PASS\n"
+    },
+    {
+      "file": "tmp/laundry-services-2026-11-07/test_gravity.py",
+      "exit": 0,
+      "output": "Every wastewater fixture/drain reaches tank inlet without rising at a junction: PASS\n"
+    },
+    {
+      "file": "tmp/test_engineering.py",
+      "exit": 0,
+      "output": "Engineering checks passed: 125 members, 212 routes, 191 devices\n"
+    },
+    {
+      "file": "tmp/test_revision_O.py",
+      "exit": 0,
+      "output": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.048s\n\nOK\n"
+    },
+    {
+      "file": "tmp/test_O_interiors.py",
+      "exit": 0,
+      "output": "PASS: 共用家具、四套洁具、房间边界、厨房设备及楼梯前平台\nPASS: 六人床位、中西厨设备、三椅三人卡座、前房平屋顶标高\n"
+    },
+    {
+      "file": "tmp/test_O_finish.py",
+      "exit": 0,
+      "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "file": "tmp/test_O_retained.py",
+      "exit": 0,
+      "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.011s\n\nOK\n"
+    },
+    {
+      "file": "tmp/test_O_hood_clearance.py",
+      "exit": 0,
+      "output": "PASS double-hob hood clear of wall cabinet\n"
+    },
+    {
+      "file": "tmp/test_O_night_light.py",
+      "exit": 0,
+      "output": "PASS night guide exposed outside headboard\n"
+    },
+    {
+      "file": "tmp/test_O_completion.py",
+      "exit": 0,
+      "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "file": "tmp/test_O_reset.mjs",
+      "exit": 0,
+      "output": "PASS OPT-14: reset restores furniture, roof, room, labels and engineering defaults before visibility update.\n"
+    }
+  ],
+  "wardrobes": {
+    "wardrobes": [
+      {
+        "id": "wardrobe-rear1-5",
+        "columns": 5,
+        "doors": 5,
+        "width_mm": 2000,
+        "depth_mm": 550,
+        "outward_swing_mm": 400
+      },
+      {
+        "id": "wardrobe-rear2-0",
+        "columns": 5,
+        "doors": 5,
+        "width_mm": 2000,
+        "depth_mm": 550,
+        "outward_swing_mm": 400
+      },
+      {
+        "id": "wardrobe-rear2-5",
+        "columns": 5,
+        "doors": 5,
+        "width_mm": 2000,
+        "depth_mm": 550,
+        "outward_swing_mm": 400
+      }
+    ],
+    "pavilionRoofRetained": true,
+    "upperWasherInRearHall": true,
+    "embeddedGlbMatches": true
+  },
+  "wardrobes_browser": {
+    "wardrobes": 3,
+    "columnsEach": 5,
+    "independentDoors": 15,
+    "individualClick": true,
+    "allOpenClose": true,
+    "exactClose": true,
+    "interior": true,
+    "roomEntries": true,
+    "reset": true,
+    "buildingOpenings": 56,
+    "mobile390": true,
+    "keyboard": true,
+    "fileProtocol": true,
+    "offline": true,
+    "errors": []
+  },
+  "laundry_browser": {
+    "upperHallWasher": true,
+    "noPavilionMachine": true,
+    "DB2DedicatedCircuit": true,
+    "engineeringVisible": true,
+    "mobile390": true,
+    "wardrobesRetained": true,
+    "fileProtocol": true,
+    "errors": []
+  },
+  "drying_browser": {
+    "motorizedInPavilion": true,
+    "eastRackRemoved": true,
+    "lowerTravel": 1,
+    "cablesExtend": true,
+    "exactRaise": true,
+    "reset": true,
+    "dedicatedPower": true,
+    "mobileKeyboard": true,
+    "errors": []
+  },
+  "retained_browser": {
+    "version": "O",
+    "openings": 56,
+    "doors": 20,
+    "windows": 36,
+    "allIndividualOpenClose": true,
+    "exactRoundtrip": true,
+    "rearGlassTrackTravel": 0.8175,
+    "allOpenClose": true,
+    "floorPersistence": true,
+    "reset": true,
+    "clickGate": true,
+    "clickWindow": true,
+    "dragNoToggle": true,
+    "keyboard": true,
+    "labelsOnlyKitchen": true,
+    "kitchenLabels": 10,
+    "pavilionRoofToggle": true,
+    "laundryFocus": true,
+    "mobile390": true,
+    "offlineAfterLoad": true,
+    "errors": []
+  },
+  "review": "Independent read-only review: ready; roof bounds, drain junctions, cabinet socket and curtains corrected.",
+  "drawing_pages": 39,
+  "delivery_manifest_files": 204,
+  "limitations": [
+    "Actual equipment, load, capacity and fixing not checked",
+    "Old 13 interior images and ZIPs retained; current 3D and P PDF supersede layout"
+  ],
+  "pdf_visual_review": "33-page contact sheet and pages31/32/33 inspected; final wardrobe dimension label separated.",
+  "sha256": {
+    "3d.html": "063b39abc47c178625417d22a48d7aa59dbf27e0fbb2fe534781d87464fb52c0",
+    "viewer/viewer.js": "867c11d4bf24451ac151e1747b23300ec9deb58d5f71fed1c91e1d165ac5836c",
+    "viewer/viewer.bundle.js": "58c9f97cd4ef35a31db301f7e850775e7c67ef9e26fc6cce1e8832b655e679d2",
+    "model/courtyard-house.glb": "062275e9bfe7a906eaebb44e8391f8d63ded0d795f19cff5f6b4ffab9e10d47a",
+    "model/courtyard-house.blend": "dee7df875139d8191d88cd951127ea8dd28940b63f8a09aca12d55639c823a00",
+    "model/scene-data.js": "90e5443247c2755a859d34d53ac22dffc8fe13a3e0ea03a27f6b95301d935627",
+    "model/design.json": "c5c1a31ee7d147faff65dc397f1729a19f0cc16fe82d8c24975b5a8cdd9d8960",
+    "model/design-data.js": "961bf1617d153152a0c736c20aac19298e99d6e7072ebe3a9c6340ce212e20a0",
+    "drawings/农村院落住宅-水电深化P.pdf": "3aec240a5d109182e82aa0e925445958a9e31782197d9210b88247a2c56d4300",
+    "docs/bedroom-wardrobes.md": "58392e97145af9552e91ae4976bef0b9b773590458889809b588d44e4e8d74d0",
+    "docs/laundry-and-services.md": "8e1d26ccdf480348363165caf41c2dd21cc1588a4a252fc6b0c88e1334f2015f",
+    "docs/用户需求与待办.md": "b922f61214341535cf857afcc7bcc17d9c02b3b37aaa402261a50db8956333b7",
+    "renders/17-motorized-drying-lowered.png": "260a7f0bffe98061296ed934d1c6909478f7e55a7a7258c3dccc745aafb32bae",
+    "renders/18-motorized-drying-raised.png": "24d6522c1533abfce77895a86bc2081a39d7606d56ea287fa70130e192f9af0c",
+    "docs/drying-verification.md": "3d1967177b80b12d1c9e896f9dad19dda0f2fe5eab3aa84f44c5825f7b51507e"
+  },
+  "drying_verification": {
+    "date": "2026-11-07",
+    "level": "model-space-only",
+    "nominal_sink_allowance_mm": 700,
+    "modeled_counter_clearance_mm": 678.0,
+    "raised_pole_mm": 2250,
+    "lowered_pole_mm": 1250,
+    "site": "未定",
+    "construction_status": "未定",
+    "product": "未定",
+    "structure_approval": false,
+    "anchorage_approval": false,
+    "outdoor_product_approval": false,
+    "reason": "No verified member material/section/connections, local environment or selected manufacturer-approved outdoor model",
+    "embedded_glb_matches": true,
+    "manufacturer_reference": {
+      "manufacturer": "Aqara",
+      "model": "ZNLYJ11LM",
+      "manual_download_verified": true,
+      "local_pdf_sha256": "5424bad1041fb5aa10f2e564264b1a951d804def7b80049b4dde2ba8cf77d556",
+      "clauses_checked": [
+        "2 indoor/balcony only; exclude damp/outdoor",
+        "3 secure ceiling",
+        "4 no leakage",
+        "5 earthing",
+        "10 35kg laundry limit"
+      ],
+      "outdoor_model_approved": false
+    }
+  },
+  "material_advice": {
+    "report": "check/material-advice-validation.json",
+    "appendix_pages": [
+      34,
+      35,
+      36,
+      37
+    ],
+    "browser_passed": true
+  },
+  "material_images": {
+    "report": "check/material-images-validation.json",
+    "pages": [
+      38,
+      39
+    ],
+    "images": 8
+  },
+  "home_entry": {
+    "report": "check/home-entry-validation.json",
+    "local_links": 346,
+    "broken": 0,
+    "drawing_previews": 38
+  }
+}

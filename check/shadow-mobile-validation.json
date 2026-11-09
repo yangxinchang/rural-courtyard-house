@@ -1,0 +1,7 @@
+{
+  "ready": true,
+  "rooms": true,
+  "reset": true,
+  "errors": [],
+  "bundle": "viewer/viewer.bundle.js?v=20261107-no-shadow"
+}

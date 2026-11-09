@@ -1,0 +1,12 @@
+{
+  "version": "F",
+  "stair_shell_bounds": true,
+  "bed_count": 2,
+  "bed_mattress_width": 0.9,
+  "bed_B_rotation": 90,
+  "L_floor_parts": true,
+  "independent_entry_floor": true,
+  "stair_treads": 18,
+  "platform_risers": 2,
+  "tree": false
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "width": 360,
+    "allThreeEndpointsVisible": true,
+    "boxes": [
+      {
+        "text": "东 · 日出",
+        "left": 266.296875,
+        "right": 329.234375,
+        "width": 360
+      },
+      {
+        "text": "南 · 正午",
+        "left": 78.875,
+        "right": 141.8125,
+        "width": 360
+      },
+      {
+        "text": "西 · 日落",
+        "left": 57.15625,
+        "right": 120.09375,
+        "width": 360
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "allThreeEndpointsVisible": true,
+    "boxes": [
+      {
+        "text": "东 · 日出",
+        "left": 292.296875,
+        "right": 355.234375,
+        "width": 390
+      },
+      {
+        "text": "南 · 正午",
+        "left": 87.15625,
+        "right": 150.09375,
+        "width": 390
+      },
+      {
+        "text": "西 · 日落",
+        "left": 65.6875,
+        "right": 128.625,
+        "width": 390
+      }
+    ]
+  }
+]

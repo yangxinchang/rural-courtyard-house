@@ -1,0 +1,160 @@
+{
+  "model_version": {
+    "pass": true,
+    "detail": "O"
+  },
+  "mesh_objects": {
+    "pass": true,
+    "detail": 6053
+  },
+  "glb_header": {
+    "pass": true,
+    "detail": "glTF"
+  },
+  "embedded_glb_matches": {
+    "pass": true,
+    "detail": "18.9 MiB embedded"
+  },
+  "design_layout_keys": {
+    "pass": true
+  },
+  "room_count_unchanged": {
+    "pass": true,
+    "detail": 22
+  },
+  "finish_revision_doc": {
+    "pass": true
+  },
+  "view_count": {
+    "pass": true,
+    "detail": 13
+  },
+  "image_01": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_02": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_03": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_04": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_05": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_06": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_07": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_08": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_09": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_10": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_11": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_12": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "image_13": {
+    "pass": true,
+    "detail": [
+      2560,
+      1440
+    ]
+  },
+  "overview": {
+    "pass": true,
+    "detail": [
+      1800,
+      1940
+    ]
+  },
+  "rear_bedrooms_light_stone": {
+    "pass": true,
+    "detail": [
+      "浅色石纹砖 / 米色织物",
+      "浅色石纹砖 / 米色织物",
+      "浅色石纹砖 / 米色织物",
+      "浅色石纹砖 / 米色织物",
+      "浅色石纹砖 / 米色织物"
+    ]
+  },
+  "light_palette_note": {
+    "pass": true,
+    "detail": "精装方案 O · 浅色精装（Q）"
+  },
+  "gallery_images": {
+    "pass": true
+  },
+  "gallery_title": {
+    "pass": true
+  },
+  "gallery_material_section": {
+    "pass": true
+  },
+  "index_links_gallery": {
+    "pass": true
+  },
+  "detail_features_present": {
+    "pass": true,
+    "detail": []
+  }
+}

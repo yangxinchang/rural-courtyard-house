@@ -1,0 +1,560 @@
+{
+  "date": "2026-11-05",
+  "version": "J",
+  "completed_tasks": 5,
+  "layout": {
+    "west": "起居室、公卫、家务前室",
+    "east": "老人卧室、衣帽、老人套卫",
+    "public_route": "堂屋西墙900mm敞口→家务前室→公卫东门800mm",
+    "occupants": 6,
+    "elderly_bed_m": 2.2,
+    "master_bed_m": 2.2,
+    "front_guest_bed_m": 1.8,
+    "upper_guest_bed_m": 1.8,
+    "rear_house_depth_m": 10,
+    "site_depth_m": 29.4,
+    "head": "east",
+    "west_utility_cabinet_top_m": 0.81,
+    "east_closet_north_clearance_m": 1.06,
+    "central_hall_fixed_furniture": 0
+  },
+  "interior_images": {
+    "count": 11,
+    "resolution": [
+      2560,
+      1440
+    ],
+    "same_model": true,
+    "manifest": {
+      "version": "J",
+      "source": "courtyard-house.blend",
+      "views": [
+        {
+          "id": "01",
+          "room": "front-1",
+          "name": "前屋通堂",
+          "eye": [
+            6,
+            1.15,
+            1.88
+          ],
+          "target": [
+            6,
+            5.9,
+            1.65
+          ],
+          "lens": 21,
+          "file": "01-前屋通堂.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "02",
+          "room": "front-2",
+          "name": "前屋客房",
+          "eye": [
+            3.65,
+            4.1,
+            1.78
+          ],
+          "target": [
+            1.7,
+            2.1,
+            1.2
+          ],
+          "lens": 22,
+          "file": "02-前屋客房.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "03",
+          "room": "front-0",
+          "name": "中西厨餐",
+          "eye": [
+            8.95,
+            6.15,
+            1.88
+          ],
+          "target": [
+            9.65,
+            2.45,
+            1.28
+          ],
+          "lens": 20,
+          "file": "03-中西厨餐.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "04",
+          "room": "rear1-5",
+          "name": "老人卧室",
+          "eye": [
+            9.0,
+            16.4,
+            1.88
+          ],
+          "target": [
+            10.05,
+            18.4,
+            1.25
+          ],
+          "lens": 21,
+          "file": "04-老人卧室.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "05",
+          "room": "rear1-3",
+          "name": "完整堂屋",
+          "eye": [
+            6,
+            16.4,
+            1.88
+          ],
+          "target": [
+            5.6,
+            22.3,
+            1.6
+          ],
+          "lens": 22,
+          "file": "05-完整堂屋.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "06",
+          "room": "rear1-0",
+          "name": "首层起居室",
+          "eye": [
+            2.0,
+            16.4,
+            1.88
+          ],
+          "target": [
+            2.4,
+            18.7,
+            1.3
+          ],
+          "lens": 20,
+          "file": "06-首层起居室.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "07",
+          "room": "rear2-0",
+          "name": "二层主卧",
+          "eye": [
+            3.7,
+            16.6,
+            5.25
+          ],
+          "target": [
+            1.55,
+            18.65,
+            4.92
+          ],
+          "lens": 21,
+          "file": "07-二层主卧.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "08",
+          "room": "rear2-5",
+          "name": "二层次卧",
+          "eye": [
+            8.3,
+            18.65,
+            5.25
+          ],
+          "target": [
+            10.0,
+            20.05,
+            4.8
+          ],
+          "lens": 20,
+          "note": "一张1.8米双人床，保留西侧床尾及南侧通路",
+          "file": "08-二层次卧.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "09",
+          "room": "rear2-3",
+          "name": "二层家庭厅",
+          "eye": [
+            6.7,
+            17.4,
+            5.25
+          ],
+          "target": [
+            5.75,
+            21.5,
+            4.95
+          ],
+          "lens": 20,
+          "file": "09-二层家庭厅.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "10",
+          "room": "rear1-7",
+          "name": "老人卫浴",
+          "eye": [
+            9.68,
+            21.6,
+            1.85
+          ],
+          "target": [
+            10.55,
+            23.05,
+            1.4
+          ],
+          "lens": 20,
+          "file": "10-老人卫浴.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "11",
+          "room": "rear1-8",
+          "name": "避雨门厅",
+          "eye": [
+            12.15,
+            14.85,
+            1.88
+          ],
+          "target": [
+            13.25,
+            16.9,
+            1.45
+          ],
+          "lens": 20,
+          "file": "11-避雨门厅.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        }
+      ]
+    },
+    "visual_review": true
+  },
+  "pdf": {
+    "pages": 24,
+    "format": "A3",
+    "all_pages_rendered": true,
+    "chinese_font_embedded": true
+  },
+  "exterior_renders": 4,
+  "validation": {
+    "layout-geometry": {
+      "version": "J",
+      "master_bed_width_m": 2.2,
+      "guest_bed_width_m": 1.8,
+      "front_bed_width_m": 1.8,
+      "house_depth_m": 10,
+      "site_depth_m": 29.4,
+      "west_living_east_bedroom": true,
+      "bed_width_m": 2.2,
+      "bed_head_east": true,
+      "sofa_faces_east": true,
+      "tv_faces_west": true,
+      "washer_and_low_storage_west": true,
+      "east_closet_window_space_m": 1.06,
+      "elderly_bath_fittings_east": true,
+      "room_floor_materials_follow_roles": true
+    },
+    "model-geometry": {
+      "version": "J",
+      "front_inner_glazed_door": true,
+      "cove_rooms": 10,
+      "north_high_windows_unblocked": true,
+      "embedded_finish_textures": true,
+      "uv_coordinates": true,
+      "duvets": 4,
+      "decoration_items": 72
+    },
+    "retained-geometry": {
+      "version": "J",
+      "covered_entry_roof": true,
+      "level_entry_no_old_outdoor_step": true,
+      "upper_east_canopy": true,
+      "canopy_posts_preserve_rail_clearance": true,
+      "bridge_clear_height_min_m": 2.784,
+      "entry_socket_on_solid_wall": true,
+      "family_ac_clears_high_cabinet": true,
+      "low_bedheads_preserved": true,
+      "mattress_widths_preserved": true,
+      "bedbox_meshes_inside_bed_envelopes": true,
+      "guest_foot_clearance_m": 0.95,
+      "decoration_items": 72,
+      "decoration_meshes": 525
+    },
+    "data-consistency": {
+      "version": "J",
+      "json_equals_offline": true,
+      "glb_equals_embedded": true,
+      "finish_images_embedded": 4,
+      "external_resources": 0,
+      "I_pdf_unchanged": true,
+      "bedroom_id": "rear1-5",
+      "living_id": "rear1-0",
+      "site": [
+        14.6,
+        29.4
+      ],
+      "rear_depth_m": 10,
+      "rear_clearance_m": 5
+    },
+    "browser-validation": {
+      "version": "J",
+      "westLivingEastBedroom": true,
+      "publicBathWestPrivateEast": true,
+      "updatedRoomRenderings": true,
+      "localHTTP": true,
+      "offlineInteractions": true,
+      "upperEastCanopy": true,
+      "canopyRoofToggle": true,
+      "frontInnerDoors": true,
+      "roomRenderingLinks": true,
+      "embeddedFinishTextures": true,
+      "coveredEntry": true,
+      "entryRoofToggle": true,
+      "entryIndoorCeiling": true,
+      "fileProtocolRecheck": false,
+      "resetFurniture": true,
+      "enclosedStair": true,
+      "shellFloorFiltering": true,
+      "roofToggle": true,
+      "decorationDesign": true,
+      "indoorCeilings": true,
+      "decorFurnitureToggle": true,
+      "publicBathroomRoute": true,
+      "sideMainDoor": true,
+      "twoSmallFrontDoors": true,
+      "foyerRoute": true,
+      "interiorCameras": true,
+      "engineeringLayers": true,
+      "reset": true,
+      "orbit": true,
+      "zoom": true,
+      "mobile": true,
+      "pngExport": true,
+      "errors": [],
+      "allFourBedWidths": true,
+      "deeperHouseAndFiveMetreYard": true,
+      "source": "Final large-bed model 2026-11-05"
+    },
+    "source-checks": [
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_J.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_J_large_beds.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_J_retained.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_I.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_F.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_interiors.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_engineering.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_J_clearance.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_I_finish_assets.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_J_render_contract.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_viewer.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_optimization_reset.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_J_viewer.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_J_viewer_retained.mjs"
+        ],
+        "exit_code": 0
+      }
+    ]
+  },
+  "review": {
+    "independent_read_only": true,
+    "critical": 0,
+    "important": 0,
+    "fixed": [
+      "雨廊左纵线恢复",
+      "服务区柜体避北窗",
+      "图库标题J",
+      "套卫眼点避柜",
+      "室内机位避门扇前景",
+      "次卧入口床头柜删除",
+      "二层结构图北排梁柱裁切修正"
+    ]
+  },
+  "not_checked": [
+    "file://双击重测",
+    "现场实测面宽及所在地",
+    "东侧首层卧室及二层次卧实际日照通风",
+    "结构、防水、机电与实际产品施工校核"
+  ],
+  "artifact_sha256": {
+    "drawings/农村院落住宅-装修方案J.pdf": "943b57766c2e5ca0256556faf3421f9c89cb3a3050ccb73362b00a1bd80f2900",
+    "model/courtyard-house.blend": "b09cf5f65fb539efa52b438b1cd4fbb78fd5eb176107b594ae7b40d95f5ab1e0",
+    "model/courtyard-house.glb": "44a3bfcb83509e5464befc5a666829622bedccc16daf82f5d6d27dd7d25c1864",
+    "model/design.json": "13af6ccd5dfa18cc3d116721d77507809fb7b665ab097597e507d22630b36c70",
+    "model/design-data.js": "6e59e28a5164cfba3ef0ec40153a4a62c25680cb967059fa145a141b823df2a6",
+    "model/scene-data.js": "88b8030caabf00c95da43c65df0ab01047f112b7ebf54704c79c9d0b3eb22a04",
+    "viewer/viewer.bundle.js": "de38a97dc829a005eaaf7ce1ce638ba7e5d7df05e429feb32ace265e072b7edc",
+    "精装效果图/index.html": "8324311f963bf4e2b73c834aa2e0b878fe2c28b9db2f4bbec3822845f95f0b05",
+    "精装效果图/manifest.json": "1435f22a4d129beef84cd97e5483a68d43382650d8273a69c609018c0743fc64",
+    "精装效果图/00-精装总览.jpg": "ad097eab0c2cf05bb9d4096be69092a9b79ba6391970827c2c50c8b8e0dbd53e",
+    "精装效果图/01-前屋通堂.png": "420dcae8e9069eb7c575186e2fb7569f65ee49f7bc470b889481a3a50b954f56",
+    "精装效果图/02-前屋客房.png": "f6dcbfd14bc2a4c5a5064cea11b0fd7a30cfd72a4b032a1bdfebe47832df73e6",
+    "精装效果图/03-中西厨餐.png": "8ee36f083d514a1480478addd273a428a2d3dc06a9fc8963677d93102176ed7c",
+    "精装效果图/04-老人卧室.png": "eb1ffad5762fb42248d5e7e04b4198fff27bda8d8a4015243407eec25eb7bc3d",
+    "精装效果图/05-完整堂屋.png": "96ac44e969c6672990c7109676364829320fe3e3cd4111f11dd5ec530254f57a",
+    "精装效果图/06-首层起居室.png": "21eedea9d1452773ebd3cf49f11769457133339e646ec393cb749ccc93379453",
+    "精装效果图/07-二层主卧.png": "5550b62b5b7f79d96d47d6f13e370474402fc50720f47d322ac20d09fca46123",
+    "精装效果图/08-二层次卧.png": "49a92b940f80bb1cd809b71a5e20671d51f0242b72d367f9a68bb120d1a551b8",
+    "精装效果图/09-二层家庭厅.png": "60f129f0d24ea6b02675bd5db1b37666ba50cb2439a3c47e1edb3e840f06fac2",
+    "精装效果图/10-老人卫浴.png": "1c889ff86ecfa4ac2a93ddd5a7c0e6fee032210adf6ec77427ba4b0ff559d764",
+    "精装效果图/11-避雨门厅.png": "6999ba716a618494bcd9025b2cbb5568d2b15fc4984a3cd87b5fd33cdd747856"
+  },
+  "gallery_browser": {
+    "version": "J",
+    "images": 11,
+    "all_loaded_2560_1440": true,
+    "large_beds": true,
+    "single_guest_replaces_twins": true,
+    "desktop": true,
+    "mobile_390px": true,
+    "errors": []
+  },
+  "package": {
+    "files": 127,
+    "uncompressed_bytes": 161029234,
+    "zip_bytes": 109308219,
+    "zip_sha256": "629c643b38e97e349f8b0114239e84985e26ef49ef1c2e96a76eb00f102cae82",
+    "all_local_links_valid": true,
+    "byte_identical": true,
+    "no_tests_tools_or_backups": true,
+    "file_protocol_recheck": false,
+    "path": "delivery/农村院落住宅-J-精装方案.zip"
+  },
+  "image_package": {
+    "version": "J",
+    "images": 11,
+    "zip_bytes": 46231205,
+    "sha256": "867deba7f65e301b34c11bafa6abb68455727b050c4266b9e1ff6eda4b430731",
+    "path": "delivery/精装效果图-J.zip"
+  },
+  "package_browser": {
+    "version": "精装方案 J",
+    "site": [
+      14.6,
+      29.4
+    ],
+    "beds": 4,
+    "decor": 72,
+    "independent_package": true,
+    "offline_after_loading": true,
+    "reset": true,
+    "errors": []
+  },
+  "final_delivery_verified": true
+}

@@ -1,0 +1,33 @@
+{
+  "pdf_pages": 12,
+  "drawing_sheets": 12,
+  "renders": 4,
+  "render_resolution": "2000 x 1500",
+  "offline_links_missing": [],
+  "model_stair_landing": "passed",
+  "browser": {
+    "offline": true,
+    "webgl": true,
+    "whole": true,
+    "ground": true,
+    "upperWithTerrace": true,
+    "stairsOnBothFloors": true,
+    "attic": true,
+    "kitchenInterior": true,
+    "bathroomInterior": true,
+    "twinRoom": true,
+    "wardrobeEyeOutsideCabinet": true,
+    "orbit": true,
+    "zoom": true,
+    "reset": true,
+    "screenshotDownload": true,
+    "errors": [],
+    "meshBatches": 183
+  },
+  "webgl_fallback": "passed",
+  "mobile_width": "390 / no overflow",
+  "source_model": "Blender + embedded GLB",
+  "design_version": "C",
+  "occupants": 6,
+  "scope": "概念装修设计；实测、结构、水电及报建未审查"
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-04",
+  "version": "F",
+  "pdf_pages": 19,
+  "svg_sheets": 19,
+  "render_count": 4,
+  "geometry": "passed",
+  "entry_route": "passed",
+  "L_shaped_bedroom": "passed",
+  "engineering_networks": "passed",
+  "blender_geometry": {
+    "version": "F",
+    "stair_shell_bounds": true,
+    "bed_count": 2,
+    "bed_mattress_width": 0.9,
+    "bed_B_rotation": 90,
+    "L_floor_parts": true,
+    "independent_entry_floor": true,
+    "stair_treads": 18,
+    "platform_risers": 2,
+    "tree": false
+  },
+  "browser": {
+    "version": "F",
+    "offline": true,
+    "enclosedStair": true,
+    "shellFloorFiltering": true,
+    "roofToggle": true,
+    "sideMainDoor": true,
+    "twoSmallFrontDoors": true,
+    "foyerRoute": true,
+    "interiorCameras": true,
+    "engineeringLayers": true,
+    "reset": true,
+    "orbit": true,
+    "zoom": true,
+    "mobile": true,
+    "pngExport": true,
+    "errors": []
+  },
+  "missing_links": [],
+  "pdf_fonts": "embedded subset / Chinese Unicode",
+  "pdf_visual_review": "19 pages and entry/bedroom detail",
+  "interior_layout_decision": "designer arranged passage and L-shaped twin room after user continued; detail not separately confirmed",
+  "not_checked": [
+    "site measurement and real boundary",
+    "structural and foundation design",
+    "fire and daylight/ventilation compliance",
+    "MEP sizing and drainage slopes",
+    "septic capacity, siting and downstream approval"
+  ],
+  "risk": "Relocated stair blocks original east bedroom window; north book-area window widened but daylight and ventilation not certified",
+  "artifact_sha256": {
+    "drawings/农村院落住宅-装修方案F.pdf": "234e6f28a3788452ee7dd483427a1cb3b9a108ddfe2bca26596a6f1b04048aae",
+    "model/courtyard-house.glb": "1f7e881446f61eb141ea40d6f3d7523594c7aa45aac014336cf4a99405979aaf",
+    "viewer/viewer.bundle.js": "2e4c73ed642dd05c98238face89ce48ad943667673e39276a1b253e433e114d7"
+  }
+}

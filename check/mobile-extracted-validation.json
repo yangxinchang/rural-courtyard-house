@@ -1,0 +1,10 @@
+{
+  "independentExtract": true,
+  "mobile390": true,
+  "model": true,
+  "offlineAfterLoad": true,
+  "interiorsLoaded": 13,
+  "exteriorAndDetailsLoaded": 15,
+  "pdfStatus": 200,
+  "errors": []
+}

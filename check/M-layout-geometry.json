@@ -1,0 +1,14 @@
+{
+  "version": "M",
+  "storage_right_front": true,
+  "site_width_m": 15.2,
+  "guest_entry_clearance_m": 0.83,
+  "bed_widths_preserved": true,
+  "guest_private_storage": true,
+  "elderly_reading_corner": true,
+  "master_north_window_clear": true,
+  "dishwasher_hollow_bay": true,
+  "round_center_lantern": true,
+  "padded_dining_chairs": 6,
+  "decorations": 85
+}

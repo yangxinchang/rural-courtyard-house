@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-07",
+  "scope": "O版后楼三卧室衣柜深化",
+  "sourceChecks": [
+    "test_wardrobes.py",
+    "test_revision_O.py",
+    "test_O_interiors.py",
+    "test_O_finish.py",
+    "test_O_retained.py",
+    "test_O_hood_clearance.py",
+    "test_O_night_light.py",
+    "test_O_reset.mjs"
+  ],
+  "model": {
+    "wardrobes": [
+      {
+        "id": "wardrobe-rear1-5",
+        "mesh_parts": 51,
+        "slide_travel": 0.645,
+        "rail_height": 1.55,
+        "bounds": [
+          7.96,
+          22.15,
+          8.51,
+          23.5
+        ]
+      },
+      {
+        "id": "wardrobe-rear2-0",
+        "mesh_parts": 51,
+        "slide_travel": 0.645,
+        "rail_height": 1.85,
+        "bounds": [
+          3.49,
+          21.75,
+          4.04,
+          23.1
+        ]
+      },
+      {
+        "id": "wardrobe-rear2-5",
+        "mesh_parts": 51,
+        "slide_travel": 0.645,
+        "rail_height": 1.75,
+        "bounds": [
+          7.96,
+          21.95,
+          8.51,
+          23.3
+        ]
+      }
+    ],
+    "fullGeometryInsideFootprint": true,
+    "slidingInsideFootprint": true,
+    "embeddedGlbMatches": true
+  },
+  "browser": {
+    "protocol": "file:",
+    "wardrobes": 3,
+    "buildingOpenings": 56,
+    "bothSlidingDirections": true,
+    "exactClose": true,
+    "interiorIsolation": true,
+    "bedroomEntry": true,
+    "topExit": true,
+    "clickDoor": true,
+    "dragNoToggle": true,
+    "visibility": true,
+    "reset": true,
+    "mobile390": true,
+    "keyboard": true,
+    "offline": true,
+    "errors": []
+  },
+  "retainedBrowser": {
+    "version": "O",
+    "openings": 56,
+    "doors": 20,
+    "windows": 36,
+    "allIndividualOpenClose": true,
+    "exactRoundtrip": true,
+    "rearGlassTrackTravel": 0.8175,
+    "allOpenClose": true,
+    "floorPersistence": true,
+    "reset": true,
+    "clickGate": true,
+    "clickWindow": true,
+    "dragNoToggle": true,
+    "keyboard": true,
+    "labelsOnlyKitchen": true,
+    "kitchenLabels": 10,
+    "pavilionRoofToggle": true,
+    "laundryFocus": true,
+    "mobile390": true,
+    "offlineAfterLoad": true,
+    "errors": []
+  },
+  "retainedGeometry": {
+    "version": "O",
+    "openings": 56,
+    "moving_parts": 57,
+    "sliding_door_travel_m": 0.8175,
+    "both_walls_top_m": 3.42,
+    "plinth_surface_clearance_m": 0.02,
+    "storage_preserved": true,
+    "large_beds_preserved": true,
+    "two_dressing_tables": true,
+    "laundry_machines": 4,
+    "ground_two_washers_one_dryer": true,
+    "upper_combo": true,
+    "pavilion_posts": 4,
+    "pavilion_centre_path_clear": true,
+    "lift_drying_rack": true,
+    "gas_hobs": 2,
+    "decorations": 85
+  },
+  "review": "No blocking findings; top-view exit description mismatch corrected and browser checked.",
+  "limitations": [
+    "旧31页PDF、13张室内图和ZIP未重制",
+    "抽屉有实体结构但未提供拉出交互",
+    "现场尺寸及五金未核对"
+  ],
+  "files": {
+    "scripts/interiors.py": "12e5deaef079c4dd4b5f2b5ccad3fd31808d2318e250f38560723938e01d06fe",
+    "scripts/render_model.py": "9143ab4b86812aef97c3445d83761094d48889d1d23c60a86ca1c770a1eff794",
+    "scripts/design.py": "5a1863e7a8b91ec88cd52673067b99a8ef604fe8ad94335849e052bae70fb7c0",
+    "viewer/viewer.js": "5133075e4067a289f431cb4988bfdf81020a110df52884cf1c14d4462e857b07",
+    "viewer/viewer.bundle.js": "233bb3af20ae0b5f9d85377169dc187318f9f97823705d91d68cf162f2cdc1dc",
+    "3d.html": "e96a350dbd4e2ea3ffe2146cdd690ee74449c324c6a2b9d3c33213f0001160cc",
+    "index.html": "27d1f16eff775ce606ab73d3c2b6479de45a7f0e12fbb0e226f8849b502c4fd0",
+    "model/courtyard-house.blend": "2cfa6cdbd4a028a08fd0388de2b936a4e44a695e538e53ea05abefc5fc54e1d5",
+    "model/courtyard-house.glb": "19e64e6c8d9459d5bd134e39850c516b3950c97326c25f84a449d7dba74d06b5",
+    "model/design.json": "0760405761d6457b7a290040731f503a29fa049b02e8850e0cdc2a842e258b44",
+    "model/scene-data.js": "7f9a103900939e4aafa341c1c8157531b7a9b2a403d3d25853cee82fd1a2b524",
+    "model/design-data.js": "304e10120c88197754acebd2df34eb92f3953a5bfcbef592e53827cfa2318140",
+    "model/model-report.json": "b1b46e4a1828b555d7e8638091bff452fd36d12fc1859265c2b42c4e9d47d1aa",
+    "README.md": "6a441468672140eec36d97822c45ed9ebbbbabf4da1f9e9ec9eec454da4c3b9e",
+    "docs/用户需求与待办.md": "619a9a6828e095db51ce60e4c80adea57c321b1ad70f4cd45e37acb6fe365a1f",
+    "docs/bedroom-wardrobes.md": "481754b89fba65362db5661fca109f362ff9e9094783dd40ae4b008aa0b8eca2",
+    "renders/13-wardrobe-rear1-5.png": "a8a6cd4767056bd5828aa8952230c2bdad47e803d79c9d5f8f79a5d90c69004c",
+    "renders/14-wardrobe-rear2-0.png": "c9f88663db38500d79d66fbb488b1f5ef8696b1a4d4a9c0cffd271e59b81d53f",
+    "renders/15-wardrobe-rear2-5.png": "7e41de6220f6c14a8365172267d4d0183ac4228ee29f66930bfc395bc6def238"
+  }
+}

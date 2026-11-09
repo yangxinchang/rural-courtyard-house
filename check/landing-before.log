@@ -1,0 +1,8 @@
+Blender 4.2.3 LTS (hash 0e22e4fcea03 built 2024-10-14 23:31:34)
+Read blend: "/home/xinchangyang/chance_software/rural-courtyard-house/model/courtyard-house.blend"
+Traceback (most recent call last):
+  File "/home/xinchangyang/chance_software/rural-courtyard-house/tmp/test_stair_landing.py", line 7, in <module>
+    assert any(lo[0]<5.15<hi[0] and lo[1]<19.65<hi[1] for lo,hi in slabs),'楼梯出口至二层平台缺0.48m连接'
+AssertionError: 楼梯出口至二层平台缺0.48m连接
+
+Blender quit

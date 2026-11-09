@@ -1,0 +1,14 @@
+{
+  "version": "O",
+  "independent_read_only": true,
+  "critical": 0,
+  "important": 0,
+  "review_minor_fixed": [
+    "Night guide light occluded by moved headboard"
+  ],
+  "author_fixes": [
+    "Camera world matrix refreshed before immediate picking",
+    "Double-hob extractor hood cleared from wall cabinet"
+  ],
+  "review_scope": "Source, GLB metadata, layout and four screenshots; final dynamic browser and deliverables checked by implementer"
+}

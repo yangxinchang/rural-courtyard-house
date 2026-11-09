@@ -1,0 +1,10 @@
+{
+  "version": "O",
+  "source_json_match": true,
+  "json_offline_match": true,
+  "embedded_glb_match": true,
+  "embedded_textures": 4,
+  "prior_PDFs_preserved": true,
+  "exterior_renders": 12,
+  "pdf_pages": 31
+}

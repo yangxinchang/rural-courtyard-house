@@ -1,0 +1,9 @@
+{
+  "version": "L",
+  "independent_package": true,
+  "offline_after_loading": true,
+  "forecourt_button": true,
+  "storage_roof_toggle": true,
+  "reset": true,
+  "errors": []
+}

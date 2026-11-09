@@ -1,0 +1,26 @@
+{
+  "version": "精装方案 K",
+  "suites": [
+    [
+      11.4,
+      21.88,
+      14.34,
+      24.4
+    ],
+    [
+      11.4,
+      21.88,
+      14.34,
+      24.4
+    ]
+  ],
+  "roundTables": 1,
+  "kitchenDining": 0,
+  "decor": 74,
+  "independent_package": true,
+  "offline_after_load": true,
+  "terrace_button": true,
+  "reset": true,
+  "index_mobile": true,
+  "errors": []
+}

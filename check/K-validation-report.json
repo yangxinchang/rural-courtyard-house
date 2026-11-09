@@ -1,0 +1,602 @@
+{
+  "date": "2026-11-05",
+  "version": "K",
+  "completed_tasks": 5,
+  "requirements": {
+    "east_suites_relocated_both_floors": [
+      11.4,
+      21.88,
+      14.34,
+      24.4
+    ],
+    "old_wet_area_reclaimed": true,
+    "marked_hall_opening_closed": true,
+    "round_table_diameter_m": 1.2,
+    "chairs": 6,
+    "round_dining_and_gathering_user_confirmed": true,
+    "kitchen_only_user_confirmed": true,
+    "kitchen_appliances": [
+      "dishwasher",
+      "microwave",
+      "griddle",
+      "ricecooker",
+      "fridge",
+      "oven",
+      "coffee"
+    ],
+    "independent_kitchen_exhaust": true,
+    "continuous_courtyard_walls": true,
+    "open_terrace_leisure_and_drying": true,
+    "front_modern_chinese_grand_gate": true,
+    "rear_ground_glass_door": true,
+    "bed_widths_m": [
+      1.8,
+      2.2,
+      2.2,
+      1.8
+    ]
+  },
+  "interior_images": {
+    "count": 11,
+    "resolution": [
+      2560,
+      1440
+    ],
+    "same_model": true,
+    "manifest": {
+      "version": "K",
+      "source": "courtyard-house.blend",
+      "views": [
+        {
+          "id": "01",
+          "room": "front-1",
+          "name": "前屋通堂",
+          "eye": [
+            6,
+            1.15,
+            1.88
+          ],
+          "target": [
+            6,
+            5.9,
+            1.65
+          ],
+          "lens": 21,
+          "file": "01-前屋通堂.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "02",
+          "room": "front-2",
+          "name": "前屋客房",
+          "eye": [
+            3.65,
+            4.1,
+            1.78
+          ],
+          "target": [
+            1.7,
+            2.1,
+            1.2
+          ],
+          "lens": 22,
+          "file": "02-前屋客房.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "03",
+          "room": "front-0",
+          "name": "中西厨房",
+          "eye": [
+            8.95,
+            2.4,
+            1.88
+          ],
+          "target": [
+            10.05,
+            5.2,
+            1.28
+          ],
+          "lens": 18,
+          "file": "03-中西厨房.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "04",
+          "room": "rear1-5",
+          "name": "老人卧室",
+          "eye": [
+            9.0,
+            16.4,
+            1.88
+          ],
+          "target": [
+            10.05,
+            18.4,
+            1.25
+          ],
+          "lens": 21,
+          "file": "04-老人卧室.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "05",
+          "room": "rear1-3",
+          "name": "圆桌客厅",
+          "eye": [
+            6.7,
+            20.1,
+            1.88
+          ],
+          "target": [
+            6,
+            22.4,
+            1.2
+          ],
+          "lens": 20,
+          "file": "05-圆桌客厅.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "06",
+          "room": "rear1-0",
+          "name": "首层起居室",
+          "eye": [
+            2.0,
+            16.4,
+            1.88
+          ],
+          "target": [
+            2.4,
+            18.7,
+            1.3
+          ],
+          "lens": 20,
+          "file": "06-首层起居室.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "07",
+          "room": "rear2-0",
+          "name": "二层主卧",
+          "eye": [
+            3.7,
+            16.6,
+            5.25
+          ],
+          "target": [
+            1.55,
+            18.65,
+            4.92
+          ],
+          "lens": 21,
+          "file": "07-二层主卧.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "08",
+          "room": "rear2-5",
+          "name": "二层次卧",
+          "eye": [
+            8.3,
+            18.65,
+            5.25
+          ],
+          "target": [
+            10.0,
+            20.05,
+            4.8
+          ],
+          "lens": 20,
+          "note": "一张1.8米双人床，保留西侧床尾及南侧通路",
+          "file": "08-二层次卧.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "09",
+          "room": "rear2-3",
+          "name": "二层家庭厅",
+          "eye": [
+            6.7,
+            17.4,
+            5.25
+          ],
+          "target": [
+            5.75,
+            21.5,
+            4.95
+          ],
+          "lens": 20,
+          "file": "09-二层家庭厅.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "10",
+          "room": "rear1-7",
+          "name": "老人卫浴",
+          "eye": [
+            12.4,
+            22.02,
+            1.9
+          ],
+          "target": [
+            12.95,
+            23.25,
+            1.35
+          ],
+          "lens": 18,
+          "file": "10-老人卫浴.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        },
+        {
+          "id": "11",
+          "room": "rear1-8",
+          "name": "避雨门厅",
+          "eye": [
+            12.15,
+            14.85,
+            1.88
+          ],
+          "target": [
+            13.25,
+            16.9,
+            1.45
+          ],
+          "lens": 20,
+          "file": "11-避雨门厅.png",
+          "resolution": [
+            2560,
+            1440
+          ]
+        }
+      ]
+    },
+    "visual_review": true
+  },
+  "exterior_renders": {
+    "count": 6,
+    "resolution": [
+      2000,
+      1500
+    ],
+    "detail_views": [
+      "grand gate",
+      "entertainment and drying terrace"
+    ]
+  },
+  "pdf": {
+    "pages": 26,
+    "format": "A3",
+    "all_pages_rendered": true,
+    "visual_review": "full contact and enlarged ground/upper/new suite/terrace sheets",
+    "font_embedded": true
+  },
+  "validation": {
+    "layout-geometry": {
+      "version": "K",
+      "new_east_suites_both_floors": true,
+      "reclaimed_private_floor": true,
+      "round_table_diameter_m": 1.2,
+      "six_chairs": true,
+      "connected_courtyard_walls": true,
+      "kitchen_appliance_meshes": true,
+      "independent_exhaust_three_connected_segments": true,
+      "open_terrace_drying_rack": true,
+      "grand_front_door_details": true,
+      "rear_ground_glass_door": true,
+      "large_beds_preserved": true
+    },
+    "model-geometry": {
+      "version": "K",
+      "front_inner_glazed_door": true,
+      "cove_rooms": 11,
+      "north_high_windows_unblocked": true,
+      "embedded_finish_textures": true,
+      "uv_coordinates": true,
+      "duvets": 4,
+      "decoration_items": 74
+    },
+    "retained-geometry": {
+      "version": "K",
+      "covered_entry_roof": true,
+      "level_entry_no_old_outdoor_step": true,
+      "upper_east_canopy": true,
+      "canopy_posts_preserve_rail_clearance": true,
+      "bridge_clear_height_min_m": 2.784,
+      "entry_socket_on_solid_wall": true,
+      "family_ac_clears_high_cabinet": true,
+      "low_bedheads_preserved": true,
+      "mattress_widths_preserved": true,
+      "bedbox_meshes_inside_bed_envelopes": true,
+      "guest_foot_clearance_m": 0.95,
+      "decoration_items": 74,
+      "decoration_meshes": 535
+    },
+    "data-consistency": {
+      "version": "K",
+      "source_json_offline_equal": true,
+      "embedded_glb_equal": true,
+      "textures_embedded": 4,
+      "J_pdf_preserved": true
+    },
+    "browser-validation": {
+      "version": "K",
+      "westLivingEastBedroom": true,
+      "closedMarkedHallDoor": true,
+      "newEastSuiteExtension": true,
+      "updatedRoomRenderings": true,
+      "kitchenAppliances": true,
+      "grandFrontGate": true,
+      "rearGlassDoor": true,
+      "terraceButton": true,
+      "continuousCourtyardWalls": true,
+      "allFourBedWidths": true,
+      "deeperHouseAndFiveMetreYard": true,
+      "localHTTP": true,
+      "offlineInteractions": true,
+      "upperEastCanopy": true,
+      "canopyRoofToggle": true,
+      "frontInnerDoors": true,
+      "roomRenderingLinks": true,
+      "embeddedFinishTextures": true,
+      "coveredEntry": true,
+      "entryRoofToggle": true,
+      "entryIndoorCeiling": true,
+      "fileProtocolRecheck": false,
+      "resetFurniture": true,
+      "enclosedStair": true,
+      "shellFloorFiltering": true,
+      "roofToggle": true,
+      "decorationDesign": true,
+      "indoorCeilings": true,
+      "decorFurnitureToggle": true,
+      "publicBathroomRoute": true,
+      "sideMainDoor": true,
+      "twoSmallFrontDoors": true,
+      "foyerRoute": true,
+      "interiorCameras": true,
+      "engineeringLayers": true,
+      "reset": true,
+      "orbit": true,
+      "zoom": true,
+      "mobile": true,
+      "pngExport": true,
+      "errors": []
+    },
+    "gallery-validation": {
+      "version": "K",
+      "images": 11,
+      "all_loaded_2560_1440": true,
+      "large_beds": true,
+      "kitchen_only": true,
+      "round_gathering_hall": true,
+      "single_guest_replaces_twins": true,
+      "desktop": true,
+      "mobile_390px": true,
+      "errors": []
+    },
+    "source-checks": [
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_K.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_large_beds.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_retained.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_I.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_revision_F.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_interiors.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_engineering.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_J_clearance.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_routes.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_I_finish_assets.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "python3",
+          "tmp/test_K_render_contract.py"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_viewer.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_optimization_reset.mjs"
+        ],
+        "exit_code": 0
+      },
+      {
+        "command": [
+          "node",
+          "tmp/test_K_viewer.mjs"
+        ],
+        "exit_code": 0
+      }
+    ]
+  },
+  "review": {
+    "independent_read_only": true,
+    "critical": 0,
+    "important_fixed": [
+      "round chair circulation",
+      "bath camera door obstruction",
+      "east wall corner-only contact"
+    ],
+    "additional_fixes": [
+      "extract fan power and drawing arrows",
+      "microwave operation face cleared of fridge"
+    ]
+  },
+  "not_checked": [
+    "file:// double-click recheck",
+    "site width and buildable limits",
+    "structural waterproofing fire daylight and MEP calculations",
+    "actual appliance static pressure exhaust terminal and product installation"
+  ],
+  "artifact_sha256": {
+    "drawings/农村院落住宅-装修方案K.pdf": "d53289e55cc9efb1103d701e4a47c0e7c8197c5747d563169aef5e06160fffb5",
+    "model/courtyard-house.blend": "cdc2c114f44ac302017fd20da5af6c45f1cb0bd993dff32e4dd4567a2bcf4621",
+    "model/courtyard-house.glb": "6dbd500f4500add53900b9a093847930ba5faf3070b646e2f579aec5ea86db73",
+    "model/design.json": "e799abbc004f39e0cdb1d15b0d54a5df7bd9f72f3ace00f80dc115c1d9d0ac96",
+    "model/design-data.js": "c30d191f6c41b72728395b994cf1cd827043059628b7fece588c58e885a5fa4b",
+    "model/scene-data.js": "eec9f4358def45dd956626a7a275c33c0a33109ac1be7585d4b0917860a80673",
+    "viewer/viewer.bundle.js": "2225c98d1c2afe472cc5e64a62ed5cc237ab0189bd338a2e4b0c1ac8e1cb4113",
+    "精装效果图/index.html": "3bf6d3a25f28235f4cb858c462c3419003c1089144245c2c83e8884ef6a35d2b",
+    "精装效果图/manifest.json": "8816813b271e72250c1e912b4de149eda2314ac2db64f096159d60a04589e161",
+    "精装效果图/00-精装总览.jpg": "a713ded070db19cb5c46cee4093250932ed7a89be739d6699b5aed3098789d5a",
+    "精装效果图/01-前屋通堂.png": "fac932493c0e9d7a6b2f1ecf8b0264e241d667ab3bb4e598671c6ab4dcc2b40a",
+    "精装效果图/02-前屋客房.png": "35f2b4494d575d75e49ba476d38e379ee13be013c4101f1e882ec8559189f389",
+    "精装效果图/03-中西厨房.png": "a390f7c138bd71de68d30339f7a6715570660909c5976bf1f6eb959e5d000298",
+    "精装效果图/04-老人卧室.png": "d4241b26a6431eb179ceb79f29b2fc642a5b0b2c390c78320d40b7d72282d981",
+    "精装效果图/05-圆桌客厅.png": "0fa047eb45727bc61bc6891523d9dc0d4bb6335eb8a5583f20f1e66d7ef0d7ee",
+    "精装效果图/06-首层起居室.png": "5b6ed9fb941c908a7feb4aa3d921b7783c0c0142016ae6cba4cd32f8564c4266",
+    "精装效果图/07-二层主卧.png": "0106900425b832b4441d398c6aff0e0ed60415cff9965af8e4e608e31d87f5b8",
+    "精装效果图/08-二层次卧.png": "3bc5ce8d7cc85292eab7ccbc9d61ac325aa65340b2c5fae1944e2222309fca4b",
+    "精装效果图/09-二层家庭厅.png": "142eeeb549c9911dae94b21710014fef6959c0cb38487d53c259b5d7054001ba",
+    "精装效果图/10-老人卫浴.png": "c4b27152be22e15e4cce2c58995276e92dc4e37223132bca7027a6710f40c4e7",
+    "精装效果图/11-避雨门厅.png": "a71ad0a4eab8230ffcff551de95f2dda99cbf1464b62dfc7e3a43588e9296d70",
+    "renders/01-aerial.png": "1ed1a80a7209f05b2be2f4eec49779bbc6ae00e57a91b1394f304b2283d248fe",
+    "renders/02-courtyard.png": "f5ac659936a019a4db4c00c18ba1072ca8efe23dae59319b5da0584de1809e2e",
+    "renders/05-grand-gate.png": "b8bb7576e7a675f952da6eed42d0893a2f7ecd43f69c7114a72c03991b86d93c",
+    "renders/03-entrance.png": "397dfc0c53b20bb1441187cbedc095dd00b6033c568ca1f9e6484e919bced911",
+    "renders/04-cutaway.png": "84b513e3946219dc10a5e2d9a433675b2a817e77a31954a821d118f1110d3ec2",
+    "renders/06-entertainment-terrace.png": "98b95bac9f10f72082565bef85756e841571fc60e9f6bcaf3731e30a19c11db6"
+  },
+  "package": {
+    "files": 136,
+    "uncompressed_bytes": 173294024,
+    "zip_bytes": 119338578,
+    "zip_sha256": "8b65b62c48b2610645d61b9390c79a955b365ff6857b26de228e73614b5e5e9c",
+    "all_local_links_valid": true,
+    "byte_identical": true,
+    "no_tests_tools_or_backups": true,
+    "file_protocol_recheck": false,
+    "path": "delivery/农村院落住宅-K-精装方案.zip"
+  },
+  "image_package": {
+    "version": "K",
+    "images": 11,
+    "zip_bytes": 46461605,
+    "sha256": "067dfdde3c49fb36ae1e156f42577cc6c5d6dc20c289267c589559cfac38a943",
+    "path": "delivery/精装效果图-K.zip"
+  },
+  "package_browser": {
+    "version": "精装方案 K",
+    "suites": [
+      [
+        11.4,
+        21.88,
+        14.34,
+        24.4
+      ],
+      [
+        11.4,
+        21.88,
+        14.34,
+        24.4
+      ]
+    ],
+    "roundTables": 1,
+    "kitchenDining": 0,
+    "decor": 74,
+    "independent_package": true,
+    "offline_after_load": true,
+    "terrace_button": true,
+    "reset": true,
+    "index_mobile": true,
+    "errors": []
+  },
+  "final_delivery_verified": true
+}

@@ -1,0 +1,16 @@
+{
+  "version": "O",
+  "covered_entry_roof": true,
+  "level_entry_no_old_outdoor_step": true,
+  "upper_east_canopy": true,
+  "canopy_posts_preserve_rail_clearance": true,
+  "bridge_clear_height_min_m": 2.784,
+  "entry_socket_on_solid_wall": true,
+  "family_ac_clears_high_cabinet": true,
+  "low_bedheads_preserved": true,
+  "mattress_widths_preserved": true,
+  "bedbox_meshes_inside_bed_envelopes": true,
+  "guest_foot_clearance_m": 0.95,
+  "decoration_items": 85,
+  "decoration_meshes": 621
+}

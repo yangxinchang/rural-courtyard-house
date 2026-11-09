@@ -1,0 +1,10 @@
+{
+  "version": "I",
+  "front_inner_glazed_door": true,
+  "cove_rooms": 10,
+  "north_high_windows_unblocked": true,
+  "embedded_finish_textures": true,
+  "uv_coordinates": true,
+  "duvets": 5,
+  "decoration_items": 69
+}

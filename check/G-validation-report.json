@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-04",
+  "version": "G",
+  "completed_tasks": 6,
+  "pdf_pages": 21,
+  "svg_sheets": 21,
+  "render_count": 4,
+  "decoration_items": 34,
+  "geometry": {
+    "version": "G",
+    "stair_shell_bounds": true,
+    "bed_count": 2,
+    "bed_mattress_width": 0.9,
+    "bed_B_rotation": 90,
+    "L_floor_parts": true,
+    "independent_entry_floor": true,
+    "stair_treads": 18,
+    "platform_risers": 2,
+    "tree": false,
+    "cabinet_front": "south",
+    "chairs_face": "north toward desks and dining table",
+    "decoration_items": 34,
+    "decoration_meshes": 121
+  },
+  "browser": {
+    "version": "G",
+    "offline": true,
+    "enclosedStair": true,
+    "shellFloorFiltering": true,
+    "roofToggle": true,
+    "decorationDesign": true,
+    "indoorCeilings": true,
+    "decorFurnitureToggle": true,
+    "publicBathroomRoute": true,
+    "sideMainDoor": true,
+    "twoSmallFrontDoors": true,
+    "foyerRoute": true,
+    "interiorCameras": true,
+    "engineeringLayers": true,
+    "reset": true,
+    "orbit": true,
+    "zoom": true,
+    "mobile": true,
+    "pngExport": true,
+    "errors": []
+  },
+  "public_bathroom_route": "hall -> 900mm open passage -> utility anteroom -> bathroom west door",
+  "whole_house_decoration_count": 34,
+  "engineering": {
+    "members": 96,
+    "routes": 130,
+    "devices": 113,
+    "connectivity": "passed"
+  },
+  "review": {
+    "cabinet_front": "south; corrected",
+    "chairs": "face north; corrected",
+    "shower_shelves": "connected to rear wall; corrected"
+  },
+  "pdf": {
+    "format": "A3",
+    "fonts": "embedded Chinese Unicode subset",
+    "visual_review": "21 rendered pages and enlarged pages 20/21"
+  },
+  "missing_links": [],
+  "scope": "Concept layout and renovation. No construction approval or professional sizing.",
+  "not_checked": [
+    "site survey and actual boundary",
+    "structure, foundations and seismic loads",
+    "fire, daylight and ventilation",
+    "electrical and HVAC sizing; water and sewage slopes",
+    "septic capacity, setbacks and downstream connection"
+  ],
+  "risk": "Relocated stair blocks original east bedroom window; north book-area window widened, daylight/ventilation not certified.",
+  "artifact_sha256": {
+    "drawings/农村院落住宅-装修方案G.pdf": "282f87ab3a654986e12e3456b11a23ff03d4104ecd6129875a44bca17fbd9545",
+    "model/courtyard-house.glb": "c80be83ae4364a1da6adc8038b5b0d5b3be59a7dbcec7c4e0d8ca7e388f1bb18",
+    "viewer/viewer.bundle.js": "a730cec86ea5cf0f475ed303bfac645da5cd46eb5ad9d6befd9dc8b1498fa525"
+  }
+}

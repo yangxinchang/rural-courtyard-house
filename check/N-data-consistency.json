@@ -1,0 +1,18 @@
+{
+  "version": "N",
+  "json_offline_match": true,
+  "embedded_glb_match": true,
+  "embedded_textures": 4,
+  "exported_walls_sectionable": true,
+  "main_house_layout_and_interior_data_unchanged": true,
+  "prior_PDFs_preserved": true,
+  "exterior_renders": 8,
+  "pdf_pages": 29,
+  "changed_design_keys": [
+    "courtyard_wall_tops",
+    "interior_rendering_note",
+    "storage",
+    "version",
+    "walls"
+  ]
+}

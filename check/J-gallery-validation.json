@@ -1,0 +1,10 @@
+{
+  "version": "J",
+  "images": 11,
+  "all_loaded_2560_1440": true,
+  "large_beds": true,
+  "single_guest_replaces_twins": true,
+  "desktop": true,
+  "mobile_390px": true,
+  "errors": []
+}

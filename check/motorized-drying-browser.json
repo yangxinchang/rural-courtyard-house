@@ -1,0 +1,11 @@
+{
+  "motorizedInPavilion": true,
+  "eastRackRemoved": true,
+  "lowerTravel": 1,
+  "cablesExtend": true,
+  "exactRaise": true,
+  "reset": true,
+  "dedicatedPower": true,
+  "mobileKeyboard": true,
+  "errors": []
+}

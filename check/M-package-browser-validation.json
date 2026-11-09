@@ -1,0 +1,18 @@
+{
+  "version": "精装方案 M",
+  "width": 15.2,
+  "storage": [
+    11,
+    -7.4,
+    14.6,
+    -3.2
+  ],
+  "images": 13,
+  "decor": 85,
+  "independent_package": true,
+  "offline_after_load": true,
+  "new_private_room": true,
+  "right_front_storage": true,
+  "reset": true,
+  "errors": []
+}

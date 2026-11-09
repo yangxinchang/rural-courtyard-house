@@ -1,0 +1,17 @@
+{
+  "version": "N",
+  "storage_bounds_m": [
+    11.0,
+    -7.4,
+    14.6,
+    0.0
+  ],
+  "storage_area_m2": 26.64,
+  "storage_slab_roof_walls_fill_north": true,
+  "east_shelf_depth_m": 6.3,
+  "west_wall_top_m": 3.42,
+  "east_wall_top_m": 2.0,
+  "west_wall_meets_bridge_soffit": true,
+  "west_wall_has_no_intermediate_coping": true,
+  "sectionable": true
+}

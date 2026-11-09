@@ -1,0 +1,14 @@
+{
+  "version": "L",
+  "forecourt_bounds": true,
+  "left_single_storey_storage": true,
+  "complete_overview_frame": true,
+  "forecourt_button": true,
+  "storage_roof_toggle": true,
+  "floor_visibility": true,
+  "offline_after_load": true,
+  "reset": true,
+  "mobile": true,
+  "K_interior_reference_note": true,
+  "errors": []
+}

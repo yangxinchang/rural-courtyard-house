@@ -1,0 +1,7 @@
+{
+  "touchTap": true,
+  "singleFingerRotate": true,
+  "pinchZoom": true,
+  "gesturesDoNotToggleOpenings": true,
+  "realDevice": false
+}

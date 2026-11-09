@@ -1,0 +1,31 @@
+{
+  "wardrobes": [
+    {
+      "id": "wardrobe-rear1-5",
+      "columns": 5,
+      "doors": 5,
+      "width_mm": 2000,
+      "depth_mm": 550,
+      "outward_swing_mm": 400
+    },
+    {
+      "id": "wardrobe-rear2-0",
+      "columns": 5,
+      "doors": 5,
+      "width_mm": 2000,
+      "depth_mm": 550,
+      "outward_swing_mm": 400
+    },
+    {
+      "id": "wardrobe-rear2-5",
+      "columns": 5,
+      "doors": 5,
+      "width_mm": 2000,
+      "depth_mm": 550,
+      "outward_swing_mm": 400
+    }
+  ],
+  "pavilionRoofRetained": true,
+  "upperWasherInRearHall": true,
+  "embeddedGlbMatches": true
+}

@@ -1,0 +1,19 @@
+{
+  "version": "精装方案 O",
+  "machines": 3,
+  "upperMachines": 1,
+  "pavilion": [
+    1.7,
+    1.35,
+    4.6,
+    5.85
+  ],
+  "openings": 56,
+  "independentPackage": true,
+  "offlineAfterLoad": true,
+  "slidingDoor": true,
+  "labelsOnlyKitchen": true,
+  "pavilionToggle": true,
+  "reset": true,
+  "errors": []
+}

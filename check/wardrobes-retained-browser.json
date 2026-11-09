@@ -1,0 +1,23 @@
+{
+  "version": "O",
+  "openings": 56,
+  "doors": 20,
+  "windows": 36,
+  "allIndividualOpenClose": true,
+  "exactRoundtrip": true,
+  "rearGlassTrackTravel": 0.8175,
+  "allOpenClose": true,
+  "floorPersistence": true,
+  "reset": true,
+  "clickGate": true,
+  "clickWindow": true,
+  "dragNoToggle": true,
+  "keyboard": true,
+  "labelsOnlyKitchen": true,
+  "kitchenLabels": 10,
+  "pavilionRoofToggle": true,
+  "laundryFocus": true,
+  "mobile390": true,
+  "offlineAfterLoad": true,
+  "errors": []
+}

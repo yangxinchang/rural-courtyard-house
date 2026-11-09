@@ -1,0 +1,14 @@
+{
+  "version": "K",
+  "new_east_suites_both_floors": true,
+  "reclaimed_private_floor": true,
+  "round_table_diameter_m": 1.2,
+  "six_chairs": true,
+  "connected_courtyard_walls": true,
+  "kitchen_appliance_meshes": true,
+  "independent_exhaust_three_connected_segments": true,
+  "open_terrace_drying_rack": true,
+  "grand_front_door_details": true,
+  "rear_ground_glass_door": true,
+  "large_beds_preserved": true
+}

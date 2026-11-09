@@ -1,0 +1,7 @@
+{
+  "missingModelMessage": "三维模型打开失败：fetch for \"http://127.0.0.1:8765/delivery/%E6%89%8B%E6%9C%BA%E6%9F%A5%E7%9C%8B%E7%AB%99%E7%82%B9-O/model/courtyard-house.glb\" responded with 404: Not Found",
+  "originalEmbeddedModel": true,
+  "originalReset": true,
+  "noWebGLMessage": "当前浏览器未能启用 WebGL 三维显示。请用支持 WebGL 的 Chrome / Edge 打开，或在浏览器设置中启用图形加速。上方仍可打开装修图纸。",
+  "controlsDisabled": true
+}

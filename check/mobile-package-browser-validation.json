@@ -1,0 +1,147 @@
+{
+  "engine": "chromium",
+  "engineVersion": "153.0.8010.52",
+  "realDevice": false,
+  "results": [
+    {
+      "name": "small-android",
+      "w": 360,
+      "h": 800,
+      "dpr": 2,
+      "loadMs": 629,
+      "overflow": false,
+      "canvas": [
+        720,
+        1040
+      ],
+      "cssCanvas": [
+        360,
+        520
+      ],
+      "model": 670,
+      "renderCalls": 732,
+      "heapMiB": 117,
+      "networkMiB": 14.605528831481934,
+      "floors": true,
+      "roomFocus": true,
+      "indoor": true,
+      "doorToggle": true,
+      "pavilionRoof": true,
+      "reset": true,
+      "offlineAfterLoad": true,
+      "errors": []
+    },
+    {
+      "name": "iphone-sized",
+      "w": 390,
+      "h": 844,
+      "dpr": 3,
+      "loadMs": 640,
+      "overflow": false,
+      "canvas": [
+        780,
+        1097
+      ],
+      "cssCanvas": [
+        390,
+        549
+      ],
+      "model": 670,
+      "renderCalls": 732,
+      "heapMiB": 118,
+      "networkMiB": 14.605528831481934,
+      "floors": true,
+      "roomFocus": true,
+      "indoor": true,
+      "doorToggle": true,
+      "pavilionRoof": true,
+      "reset": true,
+      "offlineAfterLoad": true,
+      "errors": []
+    },
+    {
+      "name": "large-phone",
+      "w": 430,
+      "h": 932,
+      "dpr": 3,
+      "loadMs": 661,
+      "overflow": false,
+      "canvas": [
+        860,
+        1211
+      ],
+      "cssCanvas": [
+        430,
+        606
+      ],
+      "model": 670,
+      "renderCalls": 732,
+      "heapMiB": 108,
+      "networkMiB": 14.605528831481934,
+      "floors": true,
+      "roomFocus": true,
+      "indoor": true,
+      "doorToggle": true,
+      "pavilionRoof": true,
+      "reset": true,
+      "offlineAfterLoad": true,
+      "errors": []
+    },
+    {
+      "name": "phone-landscape",
+      "w": 844,
+      "h": 390,
+      "dpr": 3,
+      "loadMs": 929,
+      "overflow": false,
+      "canvas": [
+        1248,
+        668
+      ],
+      "cssCanvas": [
+        624,
+        334
+      ],
+      "model": 670,
+      "renderCalls": 732,
+      "heapMiB": 118,
+      "networkMiB": 14.605528831481934,
+      "floors": true,
+      "roomFocus": true,
+      "indoor": true,
+      "doorToggle": true,
+      "pavilionRoof": true,
+      "reset": true,
+      "offlineAfterLoad": true,
+      "errors": []
+    },
+    {
+      "name": "small-320",
+      "w": 320,
+      "h": 568,
+      "dpr": 2,
+      "loadMs": 633,
+      "overflow": false,
+      "canvas": [
+        640,
+        820
+      ],
+      "cssCanvas": [
+        320,
+        410
+      ],
+      "model": 670,
+      "renderCalls": 732,
+      "heapMiB": 115,
+      "networkMiB": 14.605528831481934,
+      "floors": true,
+      "roomFocus": true,
+      "indoor": true,
+      "doorToggle": true,
+      "pavilionRoof": true,
+      "reset": true,
+      "offlineAfterLoad": true,
+      "errors": []
+    }
+  ]
+}

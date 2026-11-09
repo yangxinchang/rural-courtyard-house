@@ -1,0 +1,43 @@
+{
+  "wardrobes": [
+    {
+      "id": "wardrobe-rear1-5",
+      "mesh_parts": 51,
+      "slide_travel": 0.645,
+      "rail_height": 1.55,
+      "bounds": [
+        7.96,
+        22.15,
+        8.51,
+        23.5
+      ]
+    },
+    {
+      "id": "wardrobe-rear2-0",
+      "mesh_parts": 51,
+      "slide_travel": 0.645,
+      "rail_height": 1.85,
+      "bounds": [
+        3.49,
+        21.75,
+        4.04,
+        23.1
+      ]
+    },
+    {
+      "id": "wardrobe-rear2-5",
+      "mesh_parts": 51,
+      "slide_travel": 0.645,
+      "rail_height": 1.75,
+      "bounds": [
+        7.96,
+        21.95,
+        8.51,
+        23.3
+      ]
+    }
+  ],
+  "fullGeometryInsideFootprint": true,
+  "slidingInsideFootprint": true,
+  "embeddedGlbMatches": true
+}

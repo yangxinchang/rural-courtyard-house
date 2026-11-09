@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-07",
+  "purpose": "本地方案材料外观参考；非采购定案或性能证明",
+  "notice": "厂家展示图版权归相应厂商；设计渲染不是材质实拍。图片均保存本地，非运行时外链。",
+  "images": [
+    {
+      "id": "courtyard-paving",
+      "title": "院子铺地效果",
+      "source": "本项目设计渲染",
+      "source_page": null,
+      "origin": "renders/02-courtyard.png",
+      "file": "courtyard-paving.jpg",
+      "note": "看暖灰色铺地与排版；实际防滑、厚度及基层另核。",
+      "kind": "design-render",
+      "path": "assets/material-reference/courtyard-paving.jpg",
+      "size": [
+        1500,
+        1125
+      ],
+      "sha256": "9438eba6f940d75e355554c434145a2f96d65713584d153f95b0dd49f95d71fc"
+    },
+    {
+      "id": "stone-tile",
+      "title": "浅色墙地砖应用",
+      "source": "蒙娜丽莎产品展示",
+      "source_page": "https://www.monalisa.com.cn/productcenter/list.aspx",
+      "origin": "tmp/material-images-2026-11-07/candidates/stone-6.jpg",
+      "file": "stone-tile.jpg",
+      "note": "看浅色砖纹理与配色；图片不证明湿区防滑等级。",
+      "kind": "manufacturer-display",
+      "path": "assets/material-reference/stone-tile.jpg",
+      "size": [
+        1400,
+        1126
+      ],
+      "sha256": "230a4fccabf346e9da904426bc9e9d99a4db4ccf3369b2d80482f27bc2b933b6",
+      "source_image": "https://www.monalisa.com.cn/uploadfiles/2026/10/20261010095620368.jpg?RlZCMTA2MTFMTSAoMSkuanBn"
+    },
+    {
+      "id": "wood-tile",
+      "title": "木纹瓷砖表面",
+      "source": "蒙娜丽莎产品展示",
+      "source_page": "https://www.monalisa.com.cn/productcenter/info_itemid_13830_lcid_24.html",
+      "origin": "tmp/material-images-2026-11-07/candidates/wood-close.jpg",
+      "file": "wood-tile.jpg",
+      "note": "木纹砖外观参考；不是实木地板，色泽以实样为准。",
+      "kind": "manufacturer-display",
+      "path": "assets/material-reference/wood-tile.jpg",
+      "size": [
+        600,
+        452
+      ],
+      "sha256": "3fe74b7f633ffc4f303b90045ff7e236180bdc9e7299eb0a3cf963472f065b3d",
+      "source_image": "https://www.monalisa.com.cn/uploadfiles/zy/96e130a3-346c-4eef-9112-2577ee8ae243.jpg"
+    },
+    {
+      "id": "wall-primer",
+      "title": "内墙底漆配套示例",
+      "source": "立邦产品展示",
+      "source_page": "https://www.nipponpaint.com.cn/product/1279",
+      "origin": "tmp/material-images-2026-11-07/candidates/paint.jpg",
+      "file": "wall-primer.jpg",
+      "note": "图为底漆包装；面漆的暖白色与光泽需单独取样。",
+      "kind": "manufacturer-display",
+      "path": "assets/material-reference/wall-primer.jpg",
+      "size": [
+        450,
+        450
+      ],
+      "sha256": "2314e03fe08fdfcf68a914d1cd6455d931ab28e9e0c0e6aa3067caaae4ebfea9",
+      "source_image": "https://official-website-resource.nipponpaint.com.cn/nippon-official/upload/product/product/sku/manual_upload/images/极致净味高效内墙底漆_5升.png"
+    },
+    {
+      "id": "window",
+      "title": "深灰系统窗应用",
+      "source": "派雅产品展示",
+      "source_page": "https://www.paiya.com/product/index.html",
+      "origin": "tmp/material-images-2026-11-07/candidates/window.jpg",
+      "file": "window.jpg",
+      "note": "看框色和视觉分格；玻璃、开启与性能按本案核定。",
+      "kind": "manufacturer-display",
+      "path": "assets/material-reference/window.jpg",
+      "size": [
+        600,
+        600
+      ],
+      "sha256": "dd47658324c4f171c68f3fba7a3e18e4992533e56063fceee86d84eff784e7e2",
+      "source_image": "https://img.paiya.com/upload/20250524/676510bb7a2443b19b718c0d0ab86ad5.png"
+    },
+    {
+      "id": "courtyard-gate",
+      "title": "本案临街大门造型",
+      "source": "本项目设计渲染",
+      "source_page": null,
+      "origin": "renders/05-grand-gate.png",
+      "file": "courtyard-gate.jpg",
+      "note": "木色门面与金属细节意向；不是实际材质或成品照片。",
+      "kind": "design-render",
+      "path": "assets/material-reference/courtyard-gate.jpg",
+      "size": [
+        1500,
+        1125
+      ],
+      "sha256": "6d7bfb45ab69a45ab08254689f7911fb5d971e91c4b298a3403c8f5f08af093b"
+    },
+    {
+      "id": "interior-door",
+      "title": "木色室内门与墙面搭配",
+      "source": "TATA木门展示",
+      "source_page": "https://www.tata.com.cn/info/3498.html",
+      "origin": "tmp/material-images-2026-11-07/candidates/door-3.jpg",
+      "file": "interior-door.jpg",
+      "note": "看深木纹与浅色墙的搭配；不作为室外院门选型。",
+      "kind": "manufacturer-display",
+      "path": "assets/material-reference/interior-door.jpg",
+      "size": [
+        1400,
+        700
+      ],
+      "sha256": "935828ffb4d85d2be031faa40f5421a604a8de2fd736a6669d058f27398b12b0",
+      "source_image": "https://www.tata.com.cn/uploads/images/2024/0328/29wXiETH68fDEfP5EC1m3QzvM7feDLKaIlL6EGWx.jpg"
+    },
+    {
+      "id": "wardrobe-panel",
+      "title": "本案五列衣柜饰面",
+      "source": "本项目设计渲染",
+      "source_page": null,
+      "origin": "renders/13-wardrobe-rear1-5.png",
+      "file": "wardrobe-panel.jpg",
+      "note": "浅木色柜体与五金效果；板材、封边及五金另比实样。",
+      "kind": "design-render",
+      "crop": [
+        264,
+        51,
+        984,
+        852
+      ],
+      "path": "assets/material-reference/wardrobe-panel.jpg",
+      "size": [
+        720,
+        801
+      ],
+      "sha256": "6d7bd4f04d80c1a5c208cb2e35c065f37719099b470219ad5a1c4479af617bab"
+    }
+  ]
+}

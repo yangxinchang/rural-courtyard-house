@@ -1,0 +1,22 @@
+{
+  "version": "精装方案 N",
+  "storage": [
+    11,
+    -7.4,
+    14.6,
+    0
+  ],
+  "tops": [
+    3.42,
+    2
+  ],
+  "images": 13,
+  "decor": 85,
+  "independent_package": true,
+  "offline_after_load": true,
+  "extendedStorage": true,
+  "enclosedWestWall": true,
+  "roofToggle": true,
+  "reset": true,
+  "errors": []
+}

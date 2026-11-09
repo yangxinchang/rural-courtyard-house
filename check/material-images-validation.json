@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-07",
+  "pdf_pages": 39,
+  "image_pages": [
+    38,
+    39
+  ],
+  "reference_images": 8,
+  "manufacturer_images": 5,
+  "project_renderings": 3,
+  "provenance": "assets/material-reference/sources.json",
+  "visual_review": "Two PDF photo pages plus desktop/mobile gallery inspected; images preserve aspect ratio and captions identify origin.",
+  "browser": {
+    "images": 8,
+    "manufacturerDisplays": 5,
+    "projectRenderings": 3,
+    "localAssets": true,
+    "photosEnlarge": true,
+    "offlineReload": true,
+    "mobile390": true,
+    "materialAdviceCards": 24,
+    "errors": [],
+    "paths": [
+      {
+        "src": "../assets/material-reference/courtyard-paving.jpg",
+        "alt": "院子铺地效果，本项目设计渲染",
+        "width": 1500,
+        "height": 1125
+      },
+      {
+        "src": "../assets/material-reference/stone-tile.jpg",
+        "alt": "浅色墙地砖应用，蒙娜丽莎产品展示",
+        "width": 1400,
+        "height": 1126
+      },
+      {
+        "src": "../assets/material-reference/wood-tile.jpg",
+        "alt": "木纹瓷砖表面，蒙娜丽莎产品展示",
+        "width": 600,
+        "height": 452
+      },
+      {
+        "src": "../assets/material-reference/wall-primer.jpg",
+        "alt": "内墙底漆配套示例，立邦产品展示",
+        "width": 450,
+        "height": 450
+      },
+      {
+        "src": "../assets/material-reference/window.jpg",
+        "alt": "深灰系统窗应用，派雅产品展示",
+        "width": 600,
+        "height": 600
+      },
+      {
+        "src": "../assets/material-reference/courtyard-gate.jpg",
+        "alt": "本案临街大门造型，本项目设计渲染",
+        "width": 1500,
+        "height": 1125
+      },
+      {
+        "src": "../assets/material-reference/interior-door.jpg",
+        "alt": "木色室内门与墙面搭配，TATA木门展示",
+        "width": 1400,
+        "height": 700
+      },
+      {
+        "src": "../assets/material-reference/wardrobe-panel.jpg",
+        "alt": "本案五列衣柜饰面，本项目设计渲染",
+        "width": 720,
+        "height": 801
+      }
+    ]
+  },
+  "original_images_unchanged": true,
+  "delivery_manifest_files": 204,
+  "limitations": [
+    "Only appearance reference; not product/finish performance approval",
+    "Manufacturer displays and project renderings are separately labeled"
+  ],
+  "sha256": {
+    "assets/material-reference/sources.json": "0091bcf7cd6e77f04edc36744c45e905c0aa142af07bf5a5e13b568733cae9ab",
+    "assets/material-reference/courtyard-paving.jpg": "9438eba6f940d75e355554c434145a2f96d65713584d153f95b0dd49f95d71fc",
+    "assets/material-reference/stone-tile.jpg": "230a4fccabf346e9da904426bc9e9d99a4db4ccf3369b2d80482f27bc2b933b6",
+    "assets/material-reference/wood-tile.jpg": "3fe74b7f633ffc4f303b90045ff7e236180bdc9e7299eb0a3cf963472f065b3d",
+    "assets/material-reference/wall-primer.jpg": "2314e03fe08fdfcf68a914d1cd6455d931ab28e9e0c0e6aa3067caaae4ebfea9",
+    "assets/material-reference/window.jpg": "dd47658324c4f171c68f3fba7a3e18e4992533e56063fceee86d84eff784e7e2",
+    "assets/material-reference/courtyard-gate.jpg": "6d7bfb45ab69a45ab08254689f7911fb5d971e91c4b298a3403c8f5f08af093b",
+    "assets/material-reference/interior-door.jpg": "935828ffb4d85d2be031faa40f5421a604a8de2fd736a6669d058f27398b12b0",
+    "assets/material-reference/wardrobe-panel.jpg": "6d7bd4f04d80c1a5c208cb2e35c065f37719099b470219ad5a1c4479af617bab",
+    "scripts/material_recommendations.py": "9896f76978a21982e196cb57701fba6af1d0a5d4c56512715fe05dfc3f1d38a3",
+    "scripts/build_interior_gallery.py": "cdf565b5f92ad3996b7470122f3b10b73ff44beb689d8aad16f0719dd80f9b66",
+    "scripts/draw_sheets.py": "ab83fa5bb5862d46c130304418b8653b0dd77ecd69b0c356972b7ca465785802",
+    "精装效果图/index.html": "a0ccb86024d4c05d85d7177d3c55a4ee4d3394ffd1a21b9fed3416579ae9c075",
+    "drawings/农村院落住宅-水电深化P.pdf": "3aec240a5d109182e82aa0e925445958a9e31782197d9210b88247a2c56d4300",
+    "3d.html": "063b39abc47c178625417d22a48d7aa59dbf27e0fbb2fe534781d87464fb52c0",
+    "index.html": "8467263c0d4eb4e776193a2f7b242834e21180af78e1e852866d59ead0ae5459",
+    "README.md": "5e8f2a1ab447f084b035f02a5bcc8fa650dcd0fa1147368f46a5f7b4984b0123",
+    "docs/delivery-files.txt": "ddb4f06d6c27c1942e8efe847f3efc720130d24852a68e775c8bb59e9136ff1e",
+    "drawings/37-material-images-1.svg": "cbe3fbe01d2d31be68776082dd392f5885a76c9dde3ff5e620c10a351929a86b",
+    "drawings/37-material-images-1.png": "2236f62dc4c52f1e23b72cc64c2bbea6a35cea8b4d1866730634e04bc098d0f7",
+    "drawings/38-material-images-2.svg": "699a4bf5a954ee2d6ac70491d7258303be36e739da099c3a917e47038f38beb0",
+    "drawings/38-material-images-2.png": "fce41795ddc7aa8e0566ec3ceb1694eb6116e86a6df4eea9088e0f8f5eca675b"
+  }
+}

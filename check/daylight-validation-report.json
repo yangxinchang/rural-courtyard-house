@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-07",
+  "type": "illustrative daylight animation",
+  "hours": [
+    6,
+    18
+  ],
+  "maximum_altitude_deg": 55,
+  "axis": {
+    "east": "+X",
+    "south": "+Z",
+    "north": "-Z"
+  },
+  "default_enabled": false,
+  "location_date_calibrated": false,
+  "unit_test": "node tmp/daylight/test-daylight.mjs PASS",
+  "core_browser": {
+    "presetsEastSouthWest": true,
+    "defaultOff": true,
+    "shadowConfig": {
+      "autoUpdate": false,
+      "clip": true,
+      "frontSide": true
+    },
+    "orbitDoesNotRegenerateShadows": true,
+    "timeRegeneratesShadows": true,
+    "roomTimePersists": true,
+    "play": true,
+    "pause": true,
+    "offClearsCasts": true,
+    "reset": true,
+    "errors": []
+  },
+  "production_browser": [
+    {
+      "name": "desktop",
+      "path": true,
+      "play": true,
+      "inlinePause": true,
+      "roomTimes": [
+        9,
+        15
+      ],
+      "off": true,
+      "defaultUnshadowed": true,
+      "doors": true,
+      "reset": true,
+      "noOverflow": true,
+      "offline": true,
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "path": true,
+      "play": true,
+      "inlinePause": true,
+      "roomTimes": [
+        9,
+        15
+      ],
+      "off": true,
+      "defaultUnshadowed": true,
+      "doors": true,
+      "reset": true,
+      "noOverflow": true,
+      "offline": true,
+      "errors": []
+    }
+  ],
+  "portrait": [
+    {
+      "width": 360,
+      "allThreeEndpointsVisible": true,
+      "boxes": [
+        {
+          "text": "东 · 日出",
+          "left": 266.296875,
+          "right": 329.234375,
+          "width": 360
+        },
+        {
+          "text": "南 · 正午",
+          "left": 78.875,
+          "right": 141.8125,
+          "width": 360
+        },
+        {
+          "text": "西 · 日落",
+          "left": 57.15625,
+          "right": 120.09375,
+          "width": 360
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "allThreeEndpointsVisible": true,
+      "boxes": [
+        {
+          "text": "东 · 日出",
+          "left": 292.296875,
+          "right": 355.234375,
+          "width": 390
+        },
+        {
+          "text": "南 · 正午",
+          "left": 87.15625,
+          "right": 150.09375,
+          "width": 390
+        },
+        {
+          "text": "西 · 日落",
+          "left": 65.6875,
+          "right": 128.625,
+          "width": 390
+        }
+      ]
+    }
+  ],
+  "review": {
+    "independent": true,
+    "critical": 0,
+    "important": 0,
+    "minor_fixed": [
+      "Portrait solar endpoint clipping; framing now accounts for aspect and OrbitControls distance limit"
+    ]
+  },
+  "phone_package": {
+    "version": "O-mobile",
+    "files": 45,
+    "interior_images": 13,
+    "exterior_and_detail_images": 18,
+    "site_bytes": 20284414,
+    "zip_bytes": 8216750,
+    "first_3d_load_mib": 15.46,
+    "largest_asset_mib": 14.68,
+    "zip_sha256": "b9706ba4e6469b3bb4d5fee008993eeecc72cad02103c51a2697a9a253c59c48",
+    "source_hashes": {
+      "3d.html": "13f8cc671fce77ceed494448862e0680c23d13360a76533d6cc56fd6335d9446",
+      "viewer/viewer.bundle.js": "58c9f97cd4ef35a31db301f7e850775e7c67ef9e26fc6cce1e8832b655e679d2",
+      "model/design-data.js": "961bf1617d153152a0c736c20aac19298e99d6e7072ebe3a9c6340ce212e20a0",
+      "model/courtyard-house.glb": "062275e9bfe7a906eaebb44e8391f8d63ded0d795f19cff5f6b4ffab9e10d47a",
+      "drawings/农村院落住宅-水电深化P.pdf": "12b5ec716089d131290c80d2e1ae5450360a8ca40a8a99861980bad70f04c160",
+      "docs/drying-verification.md": "89735b1dec16e962ceb19d96dfedcd9eb74ccce96d8e466a1c7014b8423fbf48",
+      "docs/laundry-and-services.md": "ca6f8a43d00d47568558159062fe85e5140a179e5a523c79ed18a2458ef3d292"
+    },
+    "all_local_links_valid": true,
+    "publicly_deployed": false,
+    "path": "delivery/农村院落住宅-O-手机查看包.zip"
+  },
+  "scene_geometry_changed": false,
+  "not_checked": [
+    "physical phone GPU/frame rate",
+    "real locality/date/season solar position",
+    "actual surrounding building and terrain occlusion"
+  ],
+  "source_hashes": {
+    "viewer/daylight.mjs": "1d60262075e0ced93460e30e4f33ad9df001621b54e67074e293430cf58a3a67",
+    "viewer/viewer.js": "867c11d4bf24451ac151e1747b23300ec9deb58d5f71fed1c91e1d165ac5836c",
+    "viewer/viewer.bundle.js": "58c9f97cd4ef35a31db301f7e850775e7c67ef9e26fc6cce1e8832b655e679d2",
+    "3d.html": "13f8cc671fce77ceed494448862e0680c23d13360a76533d6cc56fd6335d9446"
+  }
+}

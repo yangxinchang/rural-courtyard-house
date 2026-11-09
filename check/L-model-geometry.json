@@ -1,0 +1,21 @@
+{
+  "version": "L",
+  "forecourt_depth_m": 8,
+  "storage_size_m": [
+    3.6,
+    4.2
+  ],
+  "storage_left_of_gate": true,
+  "single_floor": true,
+  "storage_roof_max_m": 3.3,
+  "shelf_boards": 8,
+  "entry_path_clear": true,
+  "road_outside_forecourt": true,
+  "K_main_house_data_preserved": true,
+  "site_bounds": [
+    0,
+    -8,
+    14.6,
+    29.4
+  ]
+}
