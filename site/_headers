@@ -1,0 +1,6 @@
+/model/courtyard-house.glb
+  Cache-Control: public, max-age=604800
+/model/design-data.js
+  Cache-Control: public, max-age=3600
+/viewer/viewer.bundle.js
+  Cache-Control: public, max-age=604800
