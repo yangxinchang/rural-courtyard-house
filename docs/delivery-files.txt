@@ -109,6 +109,8 @@ renders/05-grand-gate.png
 renders/06-entertainment-terrace.png
 renders/07-front-forecourt.png
 scripts/build_interior_gallery.py
+scripts/build_delivery.py
+scripts/package_mobile.py
 scripts/design.py
 scripts/draw_sheets.py
 scripts/engineering.py
@@ -121,6 +123,7 @@ scripts/render_interiors.py
 scripts/render_model.py
 vendor/three-LICENSE.txt
 viewer/build.txt
+site/_headers
 viewer/state.mjs
 viewer/viewer.bundle.js
 viewer/viewer.js

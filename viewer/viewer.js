@@ -55,7 +55,6 @@ const engineeringNames={Structure:'梁柱结构',Electrical:'电气线路',Plumb
 const titles={whole:'整屋外观',ground:'首层布局',upper:'后楼二层',attic:'半层隔热阁楼'};
 const layers={},meshes=[],labels=[],applianceLabels=[],openings=new Map();
 let mode='whole',selectedRoom=null,indoor=false,ready=false;
-let savedCamera;
 let wardrobeDetail=null;
 let dryingLift=null,dryingLowered=false;
 const dryingCables=[];
@@ -83,12 +82,12 @@ function requestSolarShadow(){
 function updateDaylight(){
  const enabled=$('sun-enabled').checked&&!wardrobeDetail,profile=daylightAt(solarHour),changed=solarShadowState!==enabled;
  solarShadowState=enabled;renderer.shadowMap.enabled=enabled;sun.castShadow=enabled;ground.receiveShadow=enabled;
- for(const mesh of meshes){
+ if(changed)for(const mesh of meshes){
   const materials=Array.isArray(mesh.material)?mesh.material:[mesh.material];
   const engineering=engineeringGroups.includes(mesh.userData.floorGroup);
   mesh.castShadow=enabled&&!engineering&&!materials.some(mat=>mat.transparent);
   mesh.receiveShadow=enabled&&!engineering;
-  for(const mat of materials){mat.clipShadows=true;mat.shadowSide=THREE.FrontSide;if(changed)mat.needsUpdate=true;}
+  for(const mat of materials){mat.clipShadows=true;mat.shadowSide=THREE.FrontSide;mat.needsUpdate=true;}
  }
  if(changed)ground.material.needsUpdate=true;
  if(enabled){
@@ -507,16 +506,19 @@ async function load(){
     meta.ceilingLight=obj.name.startsWith('Ceiling_light');
     meta.furnishing=!!meta.fixtureId||/^(Timber_table|Table_leg|Chair_|Storage_(north_shelf|east_shelf|shelf_upright|covered_box))/.test(obj.name);
     const attributes=Object.entries(obj.geometry.attributes).sort().map(([name,attr])=>`${name}:${attr.itemSize}:${attr.array.constructor.name}:${attr.normalized}`).join(',');
-    const key=[group,pivot?.uuid||'',meta.openingId||'',meta.engineeringFloor||'',obj.material.uuid,!!meta.sectionable,meta.fixtureId||'',!!meta.ceilingLight,!!meta.interiorCeiling,!!meta.furnishing,!!obj.geometry.index,attributes].join('|');
-    if(!buckets.has(key))buckets.set(key,{material:obj.material,meta,part,geometries:[]});
-    const geom=obj.geometry.clone();geom.applyMatrix4(part?new THREE.Matrix4().copy(pivot.matrixWorld).invert().multiply(obj.matrixWorld):obj.matrixWorld);buckets.get(key).geometries.push(geom);
+    // Keep wardrobes and transparent fixtures separate for isolation and depth sorting.
+    const identity=meta.wardrobeId||(obj.material.transparent?meta.fixtureId:'')||'';
+    const key=[group,pivot?.uuid||'',meta.openingId||'',meta.engineeringFloor||'',obj.material.uuid,!!meta.sectionable,identity,!!meta.ceilingLight,!!meta.interiorCeiling,!!meta.furnishing,!!obj.geometry.index,attributes].join('|');
+    if(!buckets.has(key))buckets.set(key,{material:obj.material,meta,part,fixtureIds:new Set(),geometries:[]});
+    const bucket=buckets.get(key);if(meta.fixtureId)bucket.fixtureIds.add(meta.fixtureId);
+    const geom=obj.geometry.clone();geom.applyMatrix4(part?new THREE.Matrix4().copy(pivot.matrixWorld).invert().multiply(obj.matrixWorld):obj.matrixWorld);bucket.geometries.push(geom);
   });
-  for(const {material,meta,part,geometries} of buckets.values()){
+  for(const {material,meta,part,fixtureIds,geometries} of buckets.values()){
     const merged=mergeGeometries(geometries,false);
     if(!merged)throw new Error('无法组合模型几何，请重新导出三维模型。');
     const mat=material.clone();mat.side=THREE.DoubleSide;
     if(mat.transparent){mat.opacity=.25;mat.depthWrite=false;}
-    const mesh=new THREE.Mesh(merged,mat);mesh.userData=meta;
+    const mesh=new THREE.Mesh(merged,mat);mesh.userData={...meta,fixtureIds:[...fixtureIds]};
     if(['Electrical','Plumbing','HVAC'].includes(meta.floorGroup)){
       mat.depthTest=false;mat.depthWrite=false;mesh.renderOrder=3;mesh.castShadow=false;mesh.receiveShadow=false;
     }
@@ -544,7 +546,7 @@ async function load(){
     getState:()=>({ready,mode,room:selectedRoom?.id||null,indoor,cut:$('cut').checked,roof:$('roof').checked,
       engineering:engineeringSelection(),engineeringVisible:Object.fromEntries(engineeringGroups.map(group=>[group,meshes.filter(mesh=>mesh.userData.floorGroup===group&&mesh.visible&&layers[group]?.visible).length])),
       groups:Object.fromEntries(Object.entries(layers).map(([name,g])=>[name,g.visible])),meshes:meshes.length,
-      decorVisible:new Set(meshes.filter(mesh=>mesh.userData.fixtureId?.startsWith('decor-')&&mesh.visible&&layers[mesh.userData.floorGroup]?.visible).map(mesh=>mesh.userData.fixtureId)).size,
+      decorVisible:new Set(meshes.filter(mesh=>mesh.visible&&layers[mesh.userData.floorGroup]?.visible).flatMap(mesh=>mesh.userData.fixtureIds.filter(id=>id.startsWith('decor-')))).size,
       ceilingsVisible:meshes.filter(mesh=>mesh.userData.interiorCeiling&&mesh.visible&&layers[mesh.userData.floorGroup]?.visible).length,
       sunlight:{enabled:$('sun-enabled').checked,hour:solarHour,playing:solarPlaying,position:sun.position.toArray(),shadows:renderer.shadowMap.enabled,clock:daylightAt(solarHour).clock},
       drying:{ready:!!dryingLift,lowered:dryingLowered,position:dryingLift?.group.position.toArray(),cableScales:dryingCables.map(p=>p.group.scale.y)},

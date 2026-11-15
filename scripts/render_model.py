@@ -292,13 +292,6 @@ def chair(x, y, z, turn=0):
     cube("Chair back", (x, y+.18, z+.72), (.43, .055, .5), PALEWOOD, .015)
 
 
-def bath(x, y, z):
-    cube("Shower tray", (x, y+.8, z+.06), (.85, .85, .08), WATER, .02)
-    cube("Shower screen", (x+.4, y+.8, z+1.0), (.015, .85, 1.85), GLASS)
-    cube("WC cistern", (x, y-.25, z+.55), (.44, .2, .65), WATER, .07)
-    cube("WC pan", (x, y-.52, z+.28), (.4, .58, .38), WATER, .12)
-
-
 def rail(a, b, z, height=1.1):
     rod("Timber handrail", (*a, z+height), (*b, z+height), .035, DARKWOOD)
     length = (Vector(b)-Vector(a)).length

@@ -77,11 +77,16 @@ blender -b --python scripts/render_model.py
 blender -b model/courtyard-house.blend --python scripts/render_interiors.py
 python3 scripts/build_interior_gallery.py
 python3 scripts/draw_sheets.py
+python3 scripts/build_delivery.py
 ```
+
+模型、图册或查看器更新后，最后运行 `python3 scripts/build_delivery.py`：使用已安装的本地 esbuild 重打包查看器，生成手机站点与 ZIP，同步 `site/` 部署目录，并重建单文件离线 3D。仅修改网页与交付逻辑时可直接运行此命令，无需重新渲染模型；本地依赖安装见 [viewer/build.txt](viewer/build.txt)。资源 URL 按内容摘要更新，手机包会校验文件和 HTML 锚点；`site/_headers` 保留为缓存配置源文件。
+
+2026-11-15 查看器优化：按楼层和材质合并不透明静态装饰，门窗、衣柜与透明物件保留独立分组；日照仅在阴影开关状态变化时更新网格属性。手机 ZIP 完整写入并校验后才替换旧包，构建中断时保留上一份有效 ZIP。
 
 O版室内正式输出完整13机位；单图预览使用`-- preview 03`，只写本地检查目录。渲染入口检查O版模型，图库检查全13机位；模型导出先刷新JSON并做几何检查。纹理嵌入GLB，无运行时CDN；查看器打包命令见viewer/build.txt。
 
-完整ZIP按[明确交付清单](docs/delivery-files.txt)生成，保留页面链接所需文件和源模型；工具、测试、检查、截图、临时备份和.blend1不入交付。历史包保留，未上传。Q版完整包另加[docs/revision-Q-details.md](docs/revision-Q-details.md)，共206文件。本轮状态及验收依据见[check/Q-finish-validation.json](check/Q-finish-validation.json)；历史检查不当作本轮验收。
+完整ZIP按[明确交付清单](docs/delivery-files.txt)生成，保留页面链接所需文件和源模型；工具、测试、检查、截图、临时备份和.blend1不入交付。历史包保留，未上传。Q版完整包另加[docs/revision-Q-details.md](docs/revision-Q-details.md)，文件数量以交付清单为准。本轮状态及验收依据见[check/Q-finish-validation.json](check/Q-finish-validation.json)；历史检查不当作本轮验收。
 
 杂物屋及前场没有现场测绘，新屋对前客房采光、屋顶排水和实际位置仍待核实。本方案未进行现场测绘、地基结构、荷载、防火、防水、日照通风、机电回路及实际产品安装校核。新增套卫、露台、烟管和厚门的图示尺寸均为设计意向，扩大边界及法定面积仍需核实，不能直接施工。
 
