@@ -119,6 +119,7 @@ def furnishings():
         group += [item('shower',7,(11.65,23.20,13.30,24.06),'北侧淋浴区',2.05),
                   item('wc',7,(13.31,22.70,14.02,23.20),'坐便器',.72,180),
                   item('vanity',7,(13.55,22.03,14.02,22.63),'洗手台 / 镜柜',.82,180)]
+    next(obj for obj in rear1 if obj['room']==7 and obj['kind']=='vanity')['open_shelf'] = True
     front=[obj for obj in front if not (obj['room']==0 and obj['kind'] in ('table','chair','banquette'))]
     next(obj for obj in front if obj['kind']=='fridge')['bounds']=(10.34,4.75,11.14,5.55)
     front += [item('dishwasher',0,(10.54,4.00,11.14,4.60),'洗碗机预留600',.88),
@@ -231,7 +232,9 @@ def decoration():
     add('rear1','lantern',3,(5.65,19.25,6.35,19.85),'堂屋框形暖光灯',2.42,.33,'metal')
     add('rear1','lantern',3,(5.65,DINING_Y-.35,6.35,DINING_Y+.35),'圆桌中心木框餐叙灯',2.10,.26,'metal')
     add('rear1','lightstrip',6,(11.10,23.48,11.13,23.78),'老人休闲区阅读灯',1.45,.30,'light')
-    add('rear1','lightstrip',5,(11.10,18.35,11.13,18.75),'老人夜间导向灯',.25,.045,'light')
+    add('rear1','lightstrip',5,(7.92,19.96,7.946,20.11),'床尾夜间导向灯',.24,.035,'light')
+    add('rear1','lightstrip',6,(11.134,21.81,11.16,21.94),'套卫门外夜间导向灯',.24,.035,'light')
+    add('rear1','lightstrip',7,(13.57,22.10,13.60,22.55),'台盆下夜间导向灯',.377,.022,'light')
     add('rear2','lightstrip',6,(9.35,24.10,9.65,24.14),'次卧桌面阅读灯',1.12,.045,'light')
     add('rear2','lightstrip',6,(7.94,21.95,7.97,23.30),'次卧衣柜侧照明',2.50,.035,'light')
     for group in ('rear1','rear2'):

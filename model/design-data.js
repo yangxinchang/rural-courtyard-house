@@ -1892,7 +1892,8 @@ window.HOUSE_DESIGN={
         ],
         "name": "洗手台 / 镜柜",
         "height": 0.82,
-        "rotation": 180
+        "rotation": 180,
+        "open_shelf": true
       },
       {
         "kind": "armchair",
@@ -3017,14 +3018,42 @@ window.HOUSE_DESIGN={
         "kind": "lightstrip",
         "room": 5,
         "bounds": [
-          11.1,
-          18.35,
-          11.13,
-          18.75
+          7.92,
+          19.96,
+          7.946,
+          20.11
         ],
-        "name": "老人夜间导向灯",
-        "z": 0.25,
-        "height": 0.045,
+        "name": "床尾夜间导向灯",
+        "z": 0.24,
+        "height": 0.035,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 6,
+        "bounds": [
+          11.134,
+          21.81,
+          11.16,
+          21.94
+        ],
+        "name": "套卫门外夜间导向灯",
+        "z": 0.24,
+        "height": 0.035,
+        "material": "light"
+      },
+      {
+        "kind": "lightstrip",
+        "room": 7,
+        "bounds": [
+          13.57,
+          22.1,
+          13.6,
+          22.55
+        ],
+        "name": "台盆下夜间导向灯",
+        "z": 0.377,
+        "height": 0.022,
         "material": "light"
       },
       {
@@ -10139,28 +10168,98 @@ window.HOUSE_DESIGN={
             3.41
           ],
           [
-            11.115,
+            7.933,
             16.1,
             3.41
           ],
           [
-            11.115,
-            18.55,
+            7.933,
+            20.035,
             3.41
           ],
           [
-            11.115,
-            18.55,
-            0.55
+            7.933,
+            20.035,
+            0.54
           ]
         ],
         "floor": "rear1",
-        "label": "DECO 老人夜间导向灯 预留",
+        "label": "DECO 床尾夜间导向灯 预留",
         "circuit": "DB1-L",
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
       {
         "id": "R-096",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            11.147,
+            16.1,
+            3.41
+          ],
+          [
+            11.147,
+            21.875,
+            3.41
+          ],
+          [
+            11.147,
+            21.875,
+            0.54
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 套卫门外夜间导向灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-097",
+        "system": "electric",
+        "points": [
+          [
+            7.62,
+            16.1,
+            1.7
+          ],
+          [
+            7.62,
+            16.1,
+            3.41
+          ],
+          [
+            13.585,
+            16.1,
+            3.41
+          ],
+          [
+            13.585,
+            22.325,
+            3.41
+          ],
+          [
+            13.585,
+            22.325,
+            0.677
+          ]
+        ],
+        "floor": "rear1",
+        "label": "DECO 台盆下夜间导向灯 预留",
+        "circuit": "DB1-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-098",
         "system": "electric",
         "points": [
           [
@@ -10200,86 +10299,6 @@ window.HOUSE_DESIGN={
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
       {
-        "id": "R-097",
-        "system": "electric",
-        "points": [
-          [
-            7.6,
-            18.6,
-            5.0
-          ],
-          [
-            7.6,
-            18.6,
-            6.71
-          ],
-          [
-            7.6,
-            16.1,
-            6.71
-          ],
-          [
-            0.9225,
-            16.1,
-            6.71
-          ],
-          [
-            0.9225,
-            22.05,
-            6.71
-          ],
-          [
-            0.9225,
-            22.05,
-            5.48
-          ]
-        ],
-        "floor": "rear2",
-        "label": "DECO 洗手台镜前灯 预留",
-        "circuit": "DB2-L",
-        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
-      },
-      {
-        "id": "R-098",
-        "system": "electric",
-        "points": [
-          [
-            7.6,
-            18.6,
-            5.0
-          ],
-          [
-            7.6,
-            18.6,
-            6.71
-          ],
-          [
-            7.6,
-            16.1,
-            6.71
-          ],
-          [
-            13.9975,
-            16.1,
-            6.71
-          ],
-          [
-            13.9975,
-            22.33,
-            6.71
-          ],
-          [
-            13.9975,
-            22.33,
-            5.48
-          ]
-        ],
-        "floor": "rear2",
-        "label": "DECO 洗手台镜前灯 预留",
-        "circuit": "DB2-L",
-        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
-      },
-      {
         "id": "R-099",
         "system": "electric",
         "points": [
@@ -10299,23 +10318,23 @@ window.HOUSE_DESIGN={
             6.71
           ],
           [
-            0.865,
+            0.9225,
             16.1,
             6.71
           ],
           [
-            0.865,
-            16.75,
+            0.9225,
+            22.05,
             6.71
           ],
           [
-            0.865,
-            16.75,
-            4.9
+            0.9225,
+            22.05,
+            5.48
           ]
         ],
         "floor": "rear2",
-        "label": "DECO 床头两侧阅读灯 预留",
+        "label": "DECO 洗手台镜前灯 预留",
         "circuit": "DB2-L",
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
@@ -10339,6 +10358,86 @@ window.HOUSE_DESIGN={
             6.71
           ],
           [
+            13.9975,
+            16.1,
+            6.71
+          ],
+          [
+            13.9975,
+            22.33,
+            6.71
+          ],
+          [
+            13.9975,
+            22.33,
+            5.48
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 洗手台镜前灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-101",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
+            0.865,
+            16.1,
+            6.71
+          ],
+          [
+            0.865,
+            16.75,
+            6.71
+          ],
+          [
+            0.865,
+            16.75,
+            4.9
+          ]
+        ],
+        "floor": "rear2",
+        "label": "DECO 床头两侧阅读灯 预留",
+        "circuit": "DB2-L",
+        "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
+      },
+      {
+        "id": "R-102",
+        "system": "electric",
+        "points": [
+          [
+            7.6,
+            18.6,
+            5.0
+          ],
+          [
+            7.6,
+            18.6,
+            6.71
+          ],
+          [
+            7.6,
+            16.1,
+            6.71
+          ],
+          [
             0.865,
             16.1,
             6.71
@@ -10360,7 +10459,7 @@ window.HOUSE_DESIGN={
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
       {
-        "id": "R-101",
+        "id": "R-103",
         "system": "electric",
         "points": [
           [
@@ -10400,7 +10499,7 @@ window.HOUSE_DESIGN={
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
       {
-        "id": "R-102",
+        "id": "R-104",
         "system": "electric",
         "points": [
           [
@@ -10440,7 +10539,7 @@ window.HOUSE_DESIGN={
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
       {
-        "id": "R-103",
+        "id": "R-105",
         "system": "cold",
         "points": [
           [
@@ -10483,7 +10582,7 @@ window.HOUSE_DESIGN={
         "label": "CW 外围供水干管（埋深待定）"
       },
       {
-        "id": "R-104",
+        "id": "R-106",
         "system": "cold",
         "points": [
           [
@@ -10516,7 +10615,7 @@ window.HOUSE_DESIGN={
         "label": "热源进水"
       },
       {
-        "id": "R-105",
+        "id": "R-107",
         "system": "hot",
         "points": [
           [
@@ -10554,7 +10653,7 @@ window.HOUSE_DESIGN={
         "label": "HW 外围热水分配（保温/循环待深化）"
       },
       {
-        "id": "R-106",
+        "id": "R-108",
         "system": "hot",
         "points": [
           [
@@ -10577,7 +10676,7 @@ window.HOUSE_DESIGN={
         "label": "HW 西侧支干管"
       },
       {
-        "id": "R-107",
+        "id": "R-109",
         "system": "waste",
         "points": [
           [
@@ -10605,7 +10704,7 @@ window.HOUSE_DESIGN={
         "label": "WW 西卫浴/洗衣至屋后检查井"
       },
       {
-        "id": "R-108",
+        "id": "R-110",
         "system": "waste",
         "points": [
           [
@@ -10633,7 +10732,7 @@ window.HOUSE_DESIGN={
         "label": "WW 东卫浴至屋后检查井"
       },
       {
-        "id": "R-109",
+        "id": "R-111",
         "system": "waste",
         "points": [
           [
@@ -10661,7 +10760,7 @@ window.HOUSE_DESIGN={
         "label": "WW 西检查井至汇集井"
       },
       {
-        "id": "R-110",
+        "id": "R-112",
         "system": "waste",
         "points": [
           [
@@ -10689,7 +10788,7 @@ window.HOUSE_DESIGN={
         "label": "WW 东检查井至汇集井"
       },
       {
-        "id": "R-111",
+        "id": "R-113",
         "system": "waste",
         "points": [
           [
@@ -10717,7 +10816,7 @@ window.HOUSE_DESIGN={
         "label": "WW 汇集井至化粪池西侧进水"
       },
       {
-        "id": "R-112",
+        "id": "R-114",
         "system": "waste",
         "points": [
           [
@@ -10760,7 +10859,7 @@ window.HOUSE_DESIGN={
         "label": "WW 三格过流关系（内部构造未设计）"
       },
       {
-        "id": "R-113",
+        "id": "R-115",
         "system": "waste",
         "points": [
           [
@@ -10793,7 +10892,7 @@ window.HOUSE_DESIGN={
         "label": "WW 后续处理/排放接点待定，不表示可直接外排"
       },
       {
-        "id": "R-114",
+        "id": "R-116",
         "system": "cold",
         "points": [
           [
@@ -10811,7 +10910,7 @@ window.HOUSE_DESIGN={
         "label": "西cold立管：首层/室外连接"
       },
       {
-        "id": "R-115",
+        "id": "R-117",
         "system": "cold",
         "points": [
           [
@@ -10829,7 +10928,7 @@ window.HOUSE_DESIGN={
         "label": "西cold立管：首层/二层连接"
       },
       {
-        "id": "R-116",
+        "id": "R-118",
         "system": "cold",
         "points": [
           [
@@ -10847,7 +10946,7 @@ window.HOUSE_DESIGN={
         "label": "东cold立管：首层/室外连接"
       },
       {
-        "id": "R-117",
+        "id": "R-119",
         "system": "cold",
         "points": [
           [
@@ -10865,7 +10964,7 @@ window.HOUSE_DESIGN={
         "label": "东cold立管：首层/二层连接"
       },
       {
-        "id": "R-118",
+        "id": "R-120",
         "system": "hot",
         "points": [
           [
@@ -10883,7 +10982,7 @@ window.HOUSE_DESIGN={
         "label": "西hot立管：首层/室外连接"
       },
       {
-        "id": "R-119",
+        "id": "R-121",
         "system": "hot",
         "points": [
           [
@@ -10901,7 +11000,7 @@ window.HOUSE_DESIGN={
         "label": "西hot立管：首层/二层连接"
       },
       {
-        "id": "R-120",
+        "id": "R-122",
         "system": "hot",
         "points": [
           [
@@ -10919,7 +11018,7 @@ window.HOUSE_DESIGN={
         "label": "东hot立管：首层/室外连接"
       },
       {
-        "id": "R-121",
+        "id": "R-123",
         "system": "hot",
         "points": [
           [
@@ -10937,7 +11036,7 @@ window.HOUSE_DESIGN={
         "label": "东hot立管：首层/二层连接"
       },
       {
-        "id": "R-122",
+        "id": "R-124",
         "system": "waste",
         "points": [
           [
@@ -10955,7 +11054,7 @@ window.HOUSE_DESIGN={
         "label": "西waste立管：首层/室外连接"
       },
       {
-        "id": "R-123",
+        "id": "R-125",
         "system": "waste",
         "points": [
           [
@@ -10973,7 +11072,7 @@ window.HOUSE_DESIGN={
         "label": "西waste立管：首层/二层连接"
       },
       {
-        "id": "R-124",
+        "id": "R-126",
         "system": "waste",
         "points": [
           [
@@ -10991,7 +11090,7 @@ window.HOUSE_DESIGN={
         "label": "东waste立管：首层/室外连接"
       },
       {
-        "id": "R-125",
+        "id": "R-127",
         "system": "waste",
         "points": [
           [
@@ -11009,7 +11108,7 @@ window.HOUSE_DESIGN={
         "label": "东waste立管：首层/二层连接"
       },
       {
-        "id": "R-126",
+        "id": "R-128",
         "system": "cold",
         "points": [
           [
@@ -11037,7 +11136,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 水槽"
       },
       {
-        "id": "R-127",
+        "id": "R-129",
         "system": "hot",
         "points": [
           [
@@ -11065,7 +11164,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 水槽"
       },
       {
-        "id": "R-128",
+        "id": "R-130",
         "system": "waste",
         "points": [
           [
@@ -11100,7 +11199,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-129",
+        "id": "R-131",
         "system": "waste",
         "points": [
           [
@@ -11128,7 +11227,7 @@ window.HOUSE_DESIGN={
         "label": "厨房排水井接入"
       },
       {
-        "id": "R-130",
+        "id": "R-132",
         "system": "cold",
         "points": [
           [
@@ -11156,7 +11255,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 洗碗机预留600"
       },
       {
-        "id": "R-131",
+        "id": "R-133",
         "system": "waste",
         "points": [
           [
@@ -11191,7 +11290,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-132",
+        "id": "R-134",
         "system": "waste",
         "points": [
           [
@@ -11219,7 +11318,7 @@ window.HOUSE_DESIGN={
         "label": "厨房排水井接入"
       },
       {
-        "id": "R-133",
+        "id": "R-135",
         "system": "cold",
         "points": [
           [
@@ -11252,7 +11351,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 洗衣机"
       },
       {
-        "id": "R-134",
+        "id": "R-136",
         "system": "waste",
         "points": [
           [
@@ -11287,7 +11386,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-135",
+        "id": "R-137",
         "system": "cold",
         "points": [
           [
@@ -11320,7 +11419,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 淋浴区"
       },
       {
-        "id": "R-136",
+        "id": "R-138",
         "system": "hot",
         "points": [
           [
@@ -11353,7 +11452,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 淋浴区"
       },
       {
-        "id": "R-137",
+        "id": "R-139",
         "system": "waste",
         "points": [
           [
@@ -11388,7 +11487,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-138",
+        "id": "R-140",
         "system": "cold",
         "points": [
           [
@@ -11421,7 +11520,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 坐便器"
       },
       {
-        "id": "R-139",
+        "id": "R-141",
         "system": "waste",
         "points": [
           [
@@ -11456,7 +11555,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-140",
+        "id": "R-142",
         "system": "cold",
         "points": [
           [
@@ -11489,7 +11588,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 洗手台"
       },
       {
-        "id": "R-141",
+        "id": "R-143",
         "system": "hot",
         "points": [
           [
@@ -11522,7 +11621,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 洗手台"
       },
       {
-        "id": "R-142",
+        "id": "R-144",
         "system": "waste",
         "points": [
           [
@@ -11557,7 +11656,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-143",
+        "id": "R-145",
         "system": "cold",
         "points": [
           [
@@ -11590,7 +11689,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 北侧淋浴区"
       },
       {
-        "id": "R-144",
+        "id": "R-146",
         "system": "hot",
         "points": [
           [
@@ -11628,7 +11727,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 北侧淋浴区"
       },
       {
-        "id": "R-145",
+        "id": "R-147",
         "system": "waste",
         "points": [
           [
@@ -11663,7 +11762,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-146",
+        "id": "R-148",
         "system": "cold",
         "points": [
           [
@@ -11696,7 +11795,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 坐便器"
       },
       {
-        "id": "R-147",
+        "id": "R-149",
         "system": "waste",
         "points": [
           [
@@ -11731,7 +11830,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-148",
+        "id": "R-150",
         "system": "cold",
         "points": [
           [
@@ -11764,7 +11863,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 洗手台"
       },
       {
-        "id": "R-149",
+        "id": "R-151",
         "system": "hot",
         "points": [
           [
@@ -11802,7 +11901,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 洗手台"
       },
       {
-        "id": "R-150",
+        "id": "R-152",
         "system": "waste",
         "points": [
           [
@@ -11837,7 +11936,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-151",
+        "id": "R-153",
         "system": "cold",
         "points": [
           [
@@ -11870,7 +11969,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 淋浴区"
       },
       {
-        "id": "R-152",
+        "id": "R-154",
         "system": "hot",
         "points": [
           [
@@ -11903,7 +12002,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 淋浴区"
       },
       {
-        "id": "R-153",
+        "id": "R-155",
         "system": "waste",
         "points": [
           [
@@ -11938,7 +12037,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-154",
+        "id": "R-156",
         "system": "cold",
         "points": [
           [
@@ -11971,7 +12070,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 坐便器"
       },
       {
-        "id": "R-155",
+        "id": "R-157",
         "system": "waste",
         "points": [
           [
@@ -12006,7 +12105,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-156",
+        "id": "R-158",
         "system": "cold",
         "points": [
           [
@@ -12039,7 +12138,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 洗手台"
       },
       {
-        "id": "R-157",
+        "id": "R-159",
         "system": "hot",
         "points": [
           [
@@ -12072,7 +12171,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 洗手台"
       },
       {
-        "id": "R-158",
+        "id": "R-160",
         "system": "waste",
         "points": [
           [
@@ -12107,7 +12206,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-159",
+        "id": "R-161",
         "system": "cold",
         "points": [
           [
@@ -12140,7 +12239,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 北侧淋浴区"
       },
       {
-        "id": "R-160",
+        "id": "R-162",
         "system": "hot",
         "points": [
           [
@@ -12178,7 +12277,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 北侧淋浴区"
       },
       {
-        "id": "R-161",
+        "id": "R-163",
         "system": "waste",
         "points": [
           [
@@ -12213,7 +12312,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-162",
+        "id": "R-164",
         "system": "cold",
         "points": [
           [
@@ -12246,7 +12345,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 坐便器"
       },
       {
-        "id": "R-163",
+        "id": "R-165",
         "system": "waste",
         "points": [
           [
@@ -12281,7 +12380,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-164",
+        "id": "R-166",
         "system": "cold",
         "points": [
           [
@@ -12314,7 +12413,7 @@ window.HOUSE_DESIGN={
         "label": "cold · 洗手台"
       },
       {
-        "id": "R-165",
+        "id": "R-167",
         "system": "hot",
         "points": [
           [
@@ -12352,7 +12451,7 @@ window.HOUSE_DESIGN={
         "label": "hot · 洗手台"
       },
       {
-        "id": "R-166",
+        "id": "R-168",
         "system": "waste",
         "points": [
           [
@@ -12387,7 +12486,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-167",
+        "id": "R-169",
         "system": "waste",
         "points": [
           [
@@ -12417,7 +12516,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-168",
+        "id": "R-170",
         "system": "waste",
         "points": [
           [
@@ -12447,7 +12546,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-169",
+        "id": "R-171",
         "system": "waste",
         "points": [
           [
@@ -12477,7 +12576,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-170",
+        "id": "R-172",
         "system": "waste",
         "points": [
           [
@@ -12507,7 +12606,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-171",
+        "id": "R-173",
         "system": "waste",
         "points": [
           [
@@ -12537,7 +12636,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-172",
+        "id": "R-174",
         "system": "waste",
         "points": [
           [
@@ -12567,7 +12666,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-173",
+        "id": "R-175",
         "system": "waste",
         "points": [
           [
@@ -12597,7 +12696,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-174",
+        "id": "R-176",
         "system": "waste",
         "points": [
           [
@@ -12627,7 +12726,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-175",
+        "id": "R-177",
         "system": "cold",
         "points": [
           [
@@ -12660,7 +12759,7 @@ window.HOUSE_DESIGN={
         "label": "主洗衣机冷水支管"
       },
       {
-        "id": "R-176",
+        "id": "R-178",
         "system": "waste",
         "points": [
           [
@@ -12698,7 +12797,7 @@ window.HOUSE_DESIGN={
         "label": "主洗衣机接西侧污废水井"
       },
       {
-        "id": "R-177",
+        "id": "R-179",
         "system": "electric",
         "points": [
           [
@@ -12747,7 +12846,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-W1"
       },
       {
-        "id": "R-178",
+        "id": "R-180",
         "system": "waste",
         "points": [
           [
@@ -12785,7 +12884,7 @@ window.HOUSE_DESIGN={
         "label": "叠放烘干机接西侧污废水井"
       },
       {
-        "id": "R-179",
+        "id": "R-181",
         "system": "electric",
         "points": [
           [
@@ -12834,7 +12933,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-W2"
       },
       {
-        "id": "R-180",
+        "id": "R-182",
         "system": "cold",
         "points": [
           [
@@ -12867,7 +12966,7 @@ window.HOUSE_DESIGN={
         "label": "分区洗衣机冷水支管"
       },
       {
-        "id": "R-181",
+        "id": "R-183",
         "system": "waste",
         "points": [
           [
@@ -12905,7 +13004,7 @@ window.HOUSE_DESIGN={
         "label": "分区洗衣机接西侧污废水井"
       },
       {
-        "id": "R-182",
+        "id": "R-184",
         "system": "electric",
         "points": [
           [
@@ -12954,7 +13053,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-W3"
       },
       {
-        "id": "R-183",
+        "id": "R-185",
         "system": "cold",
         "points": [
           [
@@ -12982,7 +13081,7 @@ window.HOUSE_DESIGN={
         "label": "院内洗衣池冷水支管"
       },
       {
-        "id": "R-184",
+        "id": "R-186",
         "system": "waste",
         "points": [
           [
@@ -13020,7 +13119,7 @@ window.HOUSE_DESIGN={
         "label": "院内洗衣池接西侧污废水井"
       },
       {
-        "id": "R-185",
+        "id": "R-187",
         "system": "waste",
         "points": [
           [
@@ -13058,7 +13157,7 @@ window.HOUSE_DESIGN={
         "label": "洗衣区地漏接污废水（非雨水）"
       },
       {
-        "id": "R-186",
+        "id": "R-188",
         "system": "cold",
         "points": [
           [
@@ -13091,7 +13190,7 @@ window.HOUSE_DESIGN={
         "label": "二楼洗衣池冷水支管"
       },
       {
-        "id": "R-187",
+        "id": "R-189",
         "system": "waste",
         "points": [
           [
@@ -13129,7 +13228,7 @@ window.HOUSE_DESIGN={
         "label": "二楼洗衣池接西侧污废水井"
       },
       {
-        "id": "R-188",
+        "id": "R-190",
         "system": "waste",
         "points": [
           [
@@ -13167,7 +13266,7 @@ window.HOUSE_DESIGN={
         "label": "洗衣区地漏接污废水（非雨水）"
       },
       {
-        "id": "R-189",
+        "id": "R-191",
         "system": "electric",
         "points": [
           [
@@ -13207,7 +13306,7 @@ window.HOUSE_DESIGN={
         "installation": "吊顶检修层穿管敷设，末端沿墙垂直下引"
       },
       {
-        "id": "R-190",
+        "id": "R-192",
         "system": "cold",
         "points": [
           [
@@ -13245,7 +13344,7 @@ window.HOUSE_DESIGN={
         "label": "二楼洗衣冷水沿外墙及过厅吊顶至凹位"
       },
       {
-        "id": "R-191",
+        "id": "R-193",
         "system": "waste",
         "points": [
           [
@@ -13276,7 +13375,7 @@ window.HOUSE_DESIGN={
         "applianceId": "upper-combo"
       },
       {
-        "id": "R-192",
+        "id": "R-194",
         "system": "waste",
         "points": [
           [
@@ -13294,7 +13393,7 @@ window.HOUSE_DESIGN={
         "label": "二楼洗衣专用立管沿西外墙（可检修）"
       },
       {
-        "id": "R-193",
+        "id": "R-195",
         "system": "waste",
         "points": [
           [
@@ -13322,7 +13421,7 @@ window.HOUSE_DESIGN={
         "label": "二楼洗衣立管沿西侧埋地接检查井"
       },
       {
-        "id": "R-194",
+        "id": "R-196",
         "system": "waste",
         "points": [
           [
@@ -13352,7 +13451,7 @@ window.HOUSE_DESIGN={
         "installation": "楼板下可检修排水；预留套管，禁止凿梁穿柱"
       },
       {
-        "id": "R-195",
+        "id": "R-197",
         "system": "waste",
         "points": [
           [
@@ -13370,7 +13469,7 @@ window.HOUSE_DESIGN={
         "label": "洗衣立管通气至屋面以上，终端避开门窗待深化"
       },
       {
-        "id": "R-196",
+        "id": "R-198",
         "system": "electric",
         "points": [
           [
@@ -13419,7 +13518,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-EXT-L"
       },
       {
-        "id": "R-197",
+        "id": "R-199",
         "system": "electric",
         "points": [
           [
@@ -13468,7 +13567,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-D1"
       },
       {
-        "id": "R-198",
+        "id": "R-200",
         "system": "electric",
         "points": [
           [
@@ -13497,7 +13596,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-D1"
       },
       {
-        "id": "R-199",
+        "id": "R-201",
         "system": "rain",
         "points": [
           [
@@ -13525,7 +13624,7 @@ window.HOUSE_DESIGN={
         "label": "RW 西侧雨水收集"
       },
       {
-        "id": "R-200",
+        "id": "R-202",
         "system": "rain",
         "points": [
           [
@@ -13548,7 +13647,7 @@ window.HOUSE_DESIGN={
         "label": "RW 东侧雨水收集"
       },
       {
-        "id": "R-201",
+        "id": "R-203",
         "system": "rain",
         "points": [
           [
@@ -13576,7 +13675,7 @@ window.HOUSE_DESIGN={
         "label": "RW 梯间屋面独立接雨水干管"
       },
       {
-        "id": "R-202",
+        "id": "R-204",
         "system": "rain",
         "points": [
           [
@@ -13604,7 +13703,7 @@ window.HOUSE_DESIGN={
         "label": "RW 避雨门厅屋面接独立雨水干管"
       },
       {
-        "id": "R-203",
+        "id": "R-205",
         "system": "rain",
         "points": [
           [
@@ -13637,7 +13736,7 @@ window.HOUSE_DESIGN={
         "label": "RW 二层东侧雨廊接独立雨水干管"
       },
       {
-        "id": "R-204",
+        "id": "R-206",
         "system": "rain",
         "points": [
           [
@@ -13655,7 +13754,7 @@ window.HOUSE_DESIGN={
         "label": "RW 雨水立管（独立于污废水）"
       },
       {
-        "id": "R-205",
+        "id": "R-207",
         "system": "rain",
         "points": [
           [
@@ -13683,7 +13782,7 @@ window.HOUSE_DESIGN={
         "label": "RW 雨水立管（独立于污废水）"
       },
       {
-        "id": "R-206",
+        "id": "R-208",
         "system": "rain",
         "points": [
           [
@@ -13701,7 +13800,7 @@ window.HOUSE_DESIGN={
         "label": "RW 雨水立管（独立于污废水）"
       },
       {
-        "id": "R-207",
+        "id": "R-209",
         "system": "rain",
         "points": [
           [
@@ -13724,7 +13823,7 @@ window.HOUSE_DESIGN={
         "label": "RW 雨水立管（独立于污废水）"
       },
       {
-        "id": "R-208",
+        "id": "R-210",
         "system": "rain",
         "points": [
           [
@@ -13757,43 +13856,43 @@ window.HOUSE_DESIGN={
         "label": "亭子雨水接西侧雨水收集"
       },
       {
-        "id": "R-209",
-        "system": "waste",
-        "points": [
-          [
-            0.15,
-            23.64,
-            3.72
-          ],
-          [
-            0.15,
-            23.64,
-            10.6
-          ]
-        ],
-        "floor": "rear2",
-        "label": "污水立管通气延伸，终端位置待深化"
-      },
-      {
-        "id": "R-210",
-        "system": "waste",
-        "points": [
-          [
-            14.42,
-            23.64,
-            3.72
-          ],
-          [
-            14.42,
-            23.64,
-            10.6
-          ]
-        ],
-        "floor": "rear2",
-        "label": "污水立管通气延伸，终端位置待深化"
-      },
-      {
         "id": "R-211",
+        "system": "waste",
+        "points": [
+          [
+            0.15,
+            23.64,
+            3.72
+          ],
+          [
+            0.15,
+            23.64,
+            10.6
+          ]
+        ],
+        "floor": "rear2",
+        "label": "污水立管通气延伸，终端位置待深化"
+      },
+      {
+        "id": "R-212",
+        "system": "waste",
+        "points": [
+          [
+            14.42,
+            23.64,
+            3.72
+          ],
+          [
+            14.42,
+            23.64,
+            10.6
+          ]
+        ],
+        "floor": "rear2",
+        "label": "污水立管通气延伸，终端位置待深化"
+      },
+      {
+        "id": "R-213",
         "system": "waste",
         "points": [
           [
@@ -13816,7 +13915,7 @@ window.HOUSE_DESIGN={
         "label": "化粪池独立通气位置示意"
       },
       {
-        "id": "R-212",
+        "id": "R-214",
         "system": "rain",
         "points": [
           [
@@ -13844,7 +13943,7 @@ window.HOUSE_DESIGN={
         "label": "RW 东套卫屋面独立雨水"
       },
       {
-        "id": "R-213",
+        "id": "R-215",
         "system": "rain",
         "points": [
           [
@@ -13877,7 +13976,7 @@ window.HOUSE_DESIGN={
         "label": "RW 中庭玻璃顶雨水及清水冲洗排水"
       },
       {
-        "id": "R-214",
+        "id": "R-216",
         "system": "cold",
         "points": [
           [
@@ -13905,7 +14004,7 @@ window.HOUSE_DESIGN={
         "label": "CW 亭内水池冷水支管接露台水枪接口"
       },
       {
-        "id": "R-215",
+        "id": "R-217",
         "system": "rain",
         "points": [
           [
@@ -15176,17 +15275,43 @@ window.HOUSE_DESIGN={
         "id": "D-096",
         "system": "electric",
         "point": [
-          11.115,
-          18.55,
-          0.55
+          7.933,
+          20.035,
+          0.54
         ],
         "floor": "rear1",
-        "label": "DECO 老人夜间导向灯 预留",
+        "label": "DECO 床尾夜间导向灯 预留",
         "type": "light",
         "circuit": "DB1-L"
       },
       {
         "id": "D-097",
+        "system": "electric",
+        "point": [
+          11.147,
+          21.875,
+          0.54
+        ],
+        "floor": "rear1",
+        "label": "DECO 套卫门外夜间导向灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-098",
+        "system": "electric",
+        "point": [
+          13.585,
+          22.325,
+          0.677
+        ],
+        "floor": "rear1",
+        "label": "DECO 台盆下夜间导向灯 预留",
+        "type": "light",
+        "circuit": "DB1-L"
+      },
+      {
+        "id": "D-099",
         "system": "electric",
         "point": [
           5.515,
@@ -15199,7 +15324,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-098",
+        "id": "D-100",
         "system": "electric",
         "point": [
           0.9225,
@@ -15212,7 +15337,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-099",
+        "id": "D-101",
         "system": "electric",
         "point": [
           13.9975,
@@ -15225,7 +15350,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-100",
+        "id": "D-102",
         "system": "electric",
         "point": [
           0.865,
@@ -15238,7 +15363,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-101",
+        "id": "D-103",
         "system": "electric",
         "point": [
           0.865,
@@ -15251,7 +15376,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-102",
+        "id": "D-104",
         "system": "electric",
         "point": [
           9.5,
@@ -15264,7 +15389,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-103",
+        "id": "D-105",
         "system": "electric",
         "point": [
           7.955,
@@ -15277,7 +15402,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB2-L"
       },
       {
-        "id": "D-104",
+        "id": "D-106",
         "system": "cold",
         "point": [
           13.4,
@@ -15289,7 +15414,7 @@ window.HOUSE_DESIGN={
         "type": "inlet"
       },
       {
-        "id": "D-105",
+        "id": "D-107",
         "system": "hot",
         "point": [
           4.0,
@@ -15301,7 +15426,7 @@ window.HOUSE_DESIGN={
         "type": "heater"
       },
       {
-        "id": "D-106",
+        "id": "D-108",
         "system": "cold",
         "point": [
           4.0,
@@ -15313,7 +15438,7 @@ window.HOUSE_DESIGN={
         "type": "heater_inlet"
       },
       {
-        "id": "D-107",
+        "id": "D-109",
         "system": "waste",
         "point": [
           0.95,
@@ -15325,7 +15450,7 @@ window.HOUSE_DESIGN={
         "type": "inspection"
       },
       {
-        "id": "D-108",
+        "id": "D-110",
         "system": "waste",
         "point": [
           12.5,
@@ -15337,7 +15462,7 @@ window.HOUSE_DESIGN={
         "type": "inspection"
       },
       {
-        "id": "D-109",
+        "id": "D-111",
         "system": "waste",
         "point": [
           7.25,
@@ -15349,7 +15474,7 @@ window.HOUSE_DESIGN={
         "type": "inspection"
       },
       {
-        "id": "D-110",
+        "id": "D-112",
         "system": "waste",
         "point": [
           8.0,
@@ -15361,7 +15486,7 @@ window.HOUSE_DESIGN={
         "type": "septic_inlet"
       },
       {
-        "id": "D-111",
+        "id": "D-113",
         "system": "waste",
         "point": [
           11.6,
@@ -15373,7 +15498,7 @@ window.HOUSE_DESIGN={
         "type": "septic_outlet"
       },
       {
-        "id": "D-112",
+        "id": "D-114",
         "system": "waste",
         "point": [
           13.4,
@@ -15385,7 +15510,7 @@ window.HOUSE_DESIGN={
         "type": "future_connection"
       },
       {
-        "id": "D-113",
+        "id": "D-115",
         "system": "cold",
         "point": [
           10.84,
@@ -15397,7 +15522,7 @@ window.HOUSE_DESIGN={
         "type": "sink"
       },
       {
-        "id": "D-114",
+        "id": "D-116",
         "system": "hot",
         "point": [
           10.84,
@@ -15409,7 +15534,7 @@ window.HOUSE_DESIGN={
         "type": "sink"
       },
       {
-        "id": "D-115",
+        "id": "D-117",
         "system": "waste",
         "point": [
           10.84,
@@ -15421,45 +15546,33 @@ window.HOUSE_DESIGN={
         "type": "sink"
       },
       {
-        "id": "D-116",
-        "system": "cold",
-        "point": [
-          10.84,
-          4.3,
-          0.95
-        ],
-        "floor": "front",
-        "label": "洗碗机预留600",
-        "type": "dishwasher"
-      },
-      {
-        "id": "D-117",
-        "system": "waste",
-        "point": [
-          10.84,
-          4.3,
-          0.95
-        ],
-        "floor": "front",
-        "label": "洗碗机预留600",
-        "type": "dishwasher"
-      },
-      {
         "id": "D-118",
         "system": "cold",
         "point": [
-          3.69,
-          23.75,
+          10.84,
+          4.3,
           0.95
         ],
-        "floor": "rear1",
-        "label": "洗衣机",
-        "type": "washer"
+        "floor": "front",
+        "label": "洗碗机预留600",
+        "type": "dishwasher"
       },
       {
         "id": "D-119",
         "system": "waste",
         "point": [
+          10.84,
+          4.3,
+          0.95
+        ],
+        "floor": "front",
+        "label": "洗碗机预留600",
+        "type": "dishwasher"
+      },
+      {
+        "id": "D-120",
+        "system": "cold",
+        "point": [
           3.69,
           23.75,
           0.95
@@ -15469,36 +15582,24 @@ window.HOUSE_DESIGN={
         "type": "washer"
       },
       {
-        "id": "D-120",
+        "id": "D-121",
+        "system": "waste",
+        "point": [
+          3.69,
+          23.75,
+          0.95
+        ],
+        "floor": "rear1",
+        "label": "洗衣机",
+        "type": "washer"
+      },
+      {
+        "id": "D-122",
         "system": "cold",
         "point": [
           1.71,
           23.65,
           1.45
-        ],
-        "floor": "rear1",
-        "label": "淋浴区",
-        "type": "shower"
-      },
-      {
-        "id": "D-121",
-        "system": "hot",
-        "point": [
-          1.71,
-          23.65,
-          1.53
-        ],
-        "floor": "rear1",
-        "label": "淋浴区",
-        "type": "shower"
-      },
-      {
-        "id": "D-122",
-        "system": "waste",
-        "point": [
-          1.71,
-          23.65,
-          0.318
         ],
         "floor": "rear1",
         "label": "淋浴区",
@@ -15506,6 +15607,30 @@ window.HOUSE_DESIGN={
       },
       {
         "id": "D-123",
+        "system": "hot",
+        "point": [
+          1.71,
+          23.65,
+          1.53
+        ],
+        "floor": "rear1",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-124",
+        "system": "waste",
+        "point": [
+          1.71,
+          23.65,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-125",
         "system": "cold",
         "point": [
           1.29,
@@ -15517,7 +15642,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-124",
+        "id": "D-126",
         "system": "waste",
         "point": [
           1.29,
@@ -15529,7 +15654,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-125",
+        "id": "D-127",
         "system": "cold",
         "point": [
           1.145,
@@ -15541,7 +15666,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-126",
+        "id": "D-128",
         "system": "hot",
         "point": [
           1.145,
@@ -15553,7 +15678,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-127",
+        "id": "D-129",
         "system": "waste",
         "point": [
           1.145,
@@ -15565,7 +15690,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-128",
+        "id": "D-130",
         "system": "cold",
         "point": [
           12.475,
@@ -15577,7 +15702,7 @@ window.HOUSE_DESIGN={
         "type": "shower"
       },
       {
-        "id": "D-129",
+        "id": "D-131",
         "system": "hot",
         "point": [
           12.475,
@@ -15589,7 +15714,7 @@ window.HOUSE_DESIGN={
         "type": "shower"
       },
       {
-        "id": "D-130",
+        "id": "D-132",
         "system": "waste",
         "point": [
           12.475,
@@ -15601,7 +15726,7 @@ window.HOUSE_DESIGN={
         "type": "shower"
       },
       {
-        "id": "D-131",
+        "id": "D-133",
         "system": "cold",
         "point": [
           13.665,
@@ -15613,7 +15738,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-132",
+        "id": "D-134",
         "system": "waste",
         "point": [
           13.665,
@@ -15625,7 +15750,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-133",
+        "id": "D-135",
         "system": "cold",
         "point": [
           13.785,
@@ -15637,7 +15762,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-134",
+        "id": "D-136",
         "system": "hot",
         "point": [
           13.785,
@@ -15649,7 +15774,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-135",
+        "id": "D-137",
         "system": "waste",
         "point": [
           13.785,
@@ -15661,36 +15786,12 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-136",
+        "id": "D-138",
         "system": "cold",
         "point": [
           1.71,
           23.65,
           4.75
-        ],
-        "floor": "rear2",
-        "label": "淋浴区",
-        "type": "shower"
-      },
-      {
-        "id": "D-137",
-        "system": "hot",
-        "point": [
-          1.71,
-          23.65,
-          4.83
-        ],
-        "floor": "rear2",
-        "label": "淋浴区",
-        "type": "shower"
-      },
-      {
-        "id": "D-138",
-        "system": "waste",
-        "point": [
-          1.71,
-          23.65,
-          3.618
         ],
         "floor": "rear2",
         "label": "淋浴区",
@@ -15698,6 +15799,30 @@ window.HOUSE_DESIGN={
       },
       {
         "id": "D-139",
+        "system": "hot",
+        "point": [
+          1.71,
+          23.65,
+          4.83
+        ],
+        "floor": "rear2",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-140",
+        "system": "waste",
+        "point": [
+          1.71,
+          23.65,
+          3.618
+        ],
+        "floor": "rear2",
+        "label": "淋浴区",
+        "type": "shower"
+      },
+      {
+        "id": "D-141",
         "system": "cold",
         "point": [
           1.29,
@@ -15709,7 +15834,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-140",
+        "id": "D-142",
         "system": "waste",
         "point": [
           1.29,
@@ -15721,7 +15846,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-141",
+        "id": "D-143",
         "system": "cold",
         "point": [
           1.145,
@@ -15733,7 +15858,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-142",
+        "id": "D-144",
         "system": "hot",
         "point": [
           1.145,
@@ -15745,7 +15870,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-143",
+        "id": "D-145",
         "system": "waste",
         "point": [
           1.145,
@@ -15757,7 +15882,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-144",
+        "id": "D-146",
         "system": "cold",
         "point": [
           12.475,
@@ -15769,7 +15894,7 @@ window.HOUSE_DESIGN={
         "type": "shower"
       },
       {
-        "id": "D-145",
+        "id": "D-147",
         "system": "hot",
         "point": [
           12.475,
@@ -15781,7 +15906,7 @@ window.HOUSE_DESIGN={
         "type": "shower"
       },
       {
-        "id": "D-146",
+        "id": "D-148",
         "system": "waste",
         "point": [
           12.475,
@@ -15793,7 +15918,7 @@ window.HOUSE_DESIGN={
         "type": "shower"
       },
       {
-        "id": "D-147",
+        "id": "D-149",
         "system": "cold",
         "point": [
           13.665,
@@ -15805,7 +15930,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-148",
+        "id": "D-150",
         "system": "waste",
         "point": [
           13.665,
@@ -15817,7 +15942,7 @@ window.HOUSE_DESIGN={
         "type": "wc"
       },
       {
-        "id": "D-149",
+        "id": "D-151",
         "system": "cold",
         "point": [
           13.785,
@@ -15829,7 +15954,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-150",
+        "id": "D-152",
         "system": "hot",
         "point": [
           13.785,
@@ -15841,7 +15966,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-151",
+        "id": "D-153",
         "system": "waste",
         "point": [
           13.785,
@@ -15853,7 +15978,7 @@ window.HOUSE_DESIGN={
         "type": "vanity"
       },
       {
-        "id": "D-152",
+        "id": "D-154",
         "system": "waste",
         "point": [
           1.7,
@@ -15864,40 +15989,40 @@ window.HOUSE_DESIGN={
         "label": "西淋浴地漏",
         "type": "floor_drain",
         "roomId": "rear1-1",
-        "trap": "带可维护水封防臭，避免重复存水弯"
-      },
-      {
-        "id": "D-153",
-        "system": "waste",
-        "point": [
-          2.25,
-          23.05,
-          0.318
-        ],
-        "floor": "rear1",
-        "label": "西卫浴干区地漏",
-        "type": "floor_drain",
-        "roomId": "rear1-1",
-        "trap": "带可维护水封防臭，避免重复存水弯"
-      },
-      {
-        "id": "D-154",
-        "system": "waste",
-        "point": [
-          12.5,
-          23.65,
-          0.318
-        ],
-        "floor": "rear1",
-        "label": "东淋浴地漏",
-        "type": "floor_drain",
-        "roomId": "rear1-7",
         "trap": "带可维护水封防臭，避免重复存水弯"
       },
       {
         "id": "D-155",
         "system": "waste",
         "point": [
+          2.25,
+          23.05,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "西卫浴干区地漏",
+        "type": "floor_drain",
+        "roomId": "rear1-1",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-156",
+        "system": "waste",
+        "point": [
+          12.5,
+          23.65,
+          0.318
+        ],
+        "floor": "rear1",
+        "label": "东淋浴地漏",
+        "type": "floor_drain",
+        "roomId": "rear1-7",
+        "trap": "带可维护水封防臭，避免重复存水弯"
+      },
+      {
+        "id": "D-157",
+        "system": "waste",
+        "point": [
           12.85,
           22.75,
           0.318
@@ -15909,7 +16034,7 @@ window.HOUSE_DESIGN={
         "trap": "带可维护水封防臭，避免重复存水弯"
       },
       {
-        "id": "D-156",
+        "id": "D-158",
         "system": "waste",
         "point": [
           1.7,
@@ -15923,7 +16048,7 @@ window.HOUSE_DESIGN={
         "trap": "带可维护水封防臭，避免重复存水弯"
       },
       {
-        "id": "D-157",
+        "id": "D-159",
         "system": "waste",
         "point": [
           2.25,
@@ -15937,7 +16062,7 @@ window.HOUSE_DESIGN={
         "trap": "带可维护水封防臭，避免重复存水弯"
       },
       {
-        "id": "D-158",
+        "id": "D-160",
         "system": "waste",
         "point": [
           12.5,
@@ -15951,7 +16076,7 @@ window.HOUSE_DESIGN={
         "trap": "带可维护水封防臭，避免重复存水弯"
       },
       {
-        "id": "D-159",
+        "id": "D-161",
         "system": "waste",
         "point": [
           12.85,
@@ -15965,7 +16090,7 @@ window.HOUSE_DESIGN={
         "trap": "带可维护水封防臭，避免重复存水弯"
       },
       {
-        "id": "D-160",
+        "id": "D-162",
         "system": "cold",
         "point": [
           1.17,
@@ -15977,7 +16102,7 @@ window.HOUSE_DESIGN={
         "type": "tap"
       },
       {
-        "id": "D-161",
+        "id": "D-163",
         "system": "waste",
         "point": [
           1.17,
@@ -15989,7 +16114,7 @@ window.HOUSE_DESIGN={
         "type": "waste"
       },
       {
-        "id": "D-162",
+        "id": "D-164",
         "system": "electric",
         "point": [
           0.82,
@@ -16002,7 +16127,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-W1"
       },
       {
-        "id": "D-163",
+        "id": "D-165",
         "system": "waste",
         "point": [
           1.17,
@@ -16014,7 +16139,7 @@ window.HOUSE_DESIGN={
         "type": "waste"
       },
       {
-        "id": "D-164",
+        "id": "D-166",
         "system": "electric",
         "point": [
           0.82,
@@ -16027,7 +16152,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-W2"
       },
       {
-        "id": "D-165",
+        "id": "D-167",
         "system": "cold",
         "point": [
           1.2,
@@ -16039,7 +16164,7 @@ window.HOUSE_DESIGN={
         "type": "tap"
       },
       {
-        "id": "D-166",
+        "id": "D-168",
         "system": "waste",
         "point": [
           1.2,
@@ -16051,7 +16176,7 @@ window.HOUSE_DESIGN={
         "type": "waste"
       },
       {
-        "id": "D-167",
+        "id": "D-169",
         "system": "electric",
         "point": [
           0.82,
@@ -16064,7 +16189,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-W3"
       },
       {
-        "id": "D-168",
+        "id": "D-170",
         "system": "cold",
         "point": [
           1.17,
@@ -16076,7 +16201,7 @@ window.HOUSE_DESIGN={
         "type": "tap"
       },
       {
-        "id": "D-169",
+        "id": "D-171",
         "system": "waste",
         "point": [
           1.17,
@@ -16088,7 +16213,7 @@ window.HOUSE_DESIGN={
         "type": "waste"
       },
       {
-        "id": "D-170",
+        "id": "D-172",
         "system": "waste",
         "point": [
           1.65,
@@ -16100,7 +16225,7 @@ window.HOUSE_DESIGN={
         "type": "floor_drain"
       },
       {
-        "id": "D-171",
+        "id": "D-173",
         "system": "cold",
         "point": [
           3.3,
@@ -16112,7 +16237,7 @@ window.HOUSE_DESIGN={
         "type": "tap"
       },
       {
-        "id": "D-172",
+        "id": "D-174",
         "system": "waste",
         "point": [
           3.3,
@@ -16124,7 +16249,7 @@ window.HOUSE_DESIGN={
         "type": "waste"
       },
       {
-        "id": "D-173",
+        "id": "D-175",
         "system": "waste",
         "point": [
           4.2,
@@ -16136,7 +16261,7 @@ window.HOUSE_DESIGN={
         "type": "floor_drain"
       },
       {
-        "id": "D-174",
+        "id": "D-176",
         "system": "electric",
         "point": [
           4.025,
@@ -16150,7 +16275,7 @@ window.HOUSE_DESIGN={
         "applianceId": "upper-combo"
       },
       {
-        "id": "D-175",
+        "id": "D-177",
         "system": "cold",
         "point": [
           3.34,
@@ -16162,7 +16287,7 @@ window.HOUSE_DESIGN={
         "type": "tap"
       },
       {
-        "id": "D-176",
+        "id": "D-178",
         "system": "waste",
         "point": [
           3.34,
@@ -16176,7 +16301,7 @@ window.HOUSE_DESIGN={
         "trap": "独立存水弯及可拆清扫口，禁止接雨水"
       },
       {
-        "id": "D-177",
+        "id": "D-179",
         "system": "waste",
         "point": [
           3.35,
@@ -16190,7 +16315,7 @@ window.HOUSE_DESIGN={
         "trap": "独立水封；保持补水与检修"
       },
       {
-        "id": "D-178",
+        "id": "D-180",
         "system": "waste",
         "point": [
           0.18,
@@ -16202,7 +16327,7 @@ window.HOUSE_DESIGN={
         "type": "cleanout"
       },
       {
-        "id": "D-179",
+        "id": "D-181",
         "system": "electric",
         "point": [
           3.15,
@@ -16215,7 +16340,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-EXT-L"
       },
       {
-        "id": "D-180",
+        "id": "D-182",
         "system": "electric",
         "point": [
           3.15,
@@ -16229,7 +16354,7 @@ window.HOUSE_DESIGN={
         "applianceId": "pavilion-drying"
       },
       {
-        "id": "D-181",
+        "id": "D-183",
         "system": "electric",
         "point": [
           4.3,
@@ -16242,7 +16367,7 @@ window.HOUSE_DESIGN={
         "circuit": "DB0-D1"
       },
       {
-        "id": "D-182",
+        "id": "D-184",
         "system": "rain",
         "point": [
           13.75,
@@ -16254,7 +16379,7 @@ window.HOUSE_DESIGN={
         "type": "outlet"
       },
       {
-        "id": "D-183",
+        "id": "D-185",
         "system": "rain",
         "point": [
           14.15,
@@ -16266,7 +16391,7 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-184",
+        "id": "D-186",
         "system": "rain",
         "point": [
           14.15,
@@ -16278,7 +16403,7 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-185",
+        "id": "D-187",
         "system": "rain",
         "point": [
           11.48,
@@ -16290,38 +16415,14 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-186",
-        "system": "rain",
-        "point": [
-          0.12,
-          6.3,
-          3.6
-        ],
-        "floor": "front",
-        "label": "RW 屋面雨水口（暂定）",
-        "type": "rain_drain"
-      },
-      {
-        "id": "D-187",
-        "system": "rain",
-        "point": [
-          11.94,
-          6.3,
-          3.6
-        ],
-        "floor": "front",
-        "label": "RW 屋面雨水口（暂定）",
-        "type": "rain_drain"
-      },
-      {
         "id": "D-188",
         "system": "rain",
         "point": [
           0.12,
-          15.28,
-          7.9
+          6.3,
+          3.6
         ],
-        "floor": "rear2",
+        "floor": "front",
         "label": "RW 屋面雨水口（暂定）",
         "type": "rain_drain"
       },
@@ -16330,6 +16431,18 @@ window.HOUSE_DESIGN={
         "system": "rain",
         "point": [
           11.94,
+          6.3,
+          3.6
+        ],
+        "floor": "front",
+        "label": "RW 屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-190",
+        "system": "rain",
+        "point": [
+          0.12,
           15.28,
           7.9
         ],
@@ -16338,7 +16451,19 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-190",
+        "id": "D-191",
+        "system": "rain",
+        "point": [
+          11.94,
+          15.28,
+          7.9
+        ],
+        "floor": "rear2",
+        "label": "RW 屋面雨水口（暂定）",
+        "type": "rain_drain"
+      },
+      {
+        "id": "D-192",
         "system": "rain",
         "point": [
           1.76,
@@ -16350,7 +16475,7 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-191",
+        "id": "D-193",
         "system": "rain",
         "point": [
           14.12,
@@ -16362,7 +16487,7 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-192",
+        "id": "D-194",
         "system": "rain",
         "point": [
           1.875,
@@ -16374,7 +16499,7 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-193",
+        "id": "D-195",
         "system": "cold",
         "point": [
           4.19,
@@ -16387,7 +16512,7 @@ window.HOUSE_DESIGN={
         "note": "水池冷水支管分接，设可检修关断及防回流；不与排水相接。"
       },
       {
-        "id": "D-194",
+        "id": "D-196",
         "system": "rain",
         "point": [
           1.875,
@@ -16399,7 +16524,7 @@ window.HOUSE_DESIGN={
         "type": "rain_drain"
       },
       {
-        "id": "D-195",
+        "id": "D-197",
         "system": "rain",
         "point": [
           0.16,

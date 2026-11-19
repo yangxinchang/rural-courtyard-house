@@ -694,7 +694,13 @@ for group,items in furnishings().items():
             cube("WC seat",(cx+sign*.05,cy,floor+.49),(width-.21,depth-.12,.055),WATER,.1)
         elif kind=="vanity":
             side=x1-.02 if obj["rotation"]==0 else x2+.02
-            cube("Vanity cabinet",(cx,cy,floor+.45),(width,depth,.72),PALEWOOD,.02)
+            if obj.get('open_shelf'):
+                cube('Vanity floating basin cabinet',(cx,cy,floor+.605),(width,depth,.41),PALEWOOD,.018)
+                cube('Vanity open lower shelf',(cx,cy,floor+.22),(width,depth,.045),PALEWOOD,.009)
+                support_x=x2-.04 if obj['rotation']==180 else x1+.04
+                cube('Vanity shelf back support',(support_x,cy,floor+.365),(.038,depth-.03,.26),PALEWOOD,.006)
+            else:
+                cube("Vanity cabinet",(cx,cy,floor+.45),(width,depth,.72),PALEWOOD,.02)
             cube("Vanity basin rim",(cx,cy,floor+.84),(width+.025,depth+.025,.09),WATER,.025)
             cube("Basin inset",(cx,cy,floor+.89),(width-.13,depth-.15,.025),GLASS,.04)
             cube("Bathroom mirror",(side,cy,floor+1.5),(.03,depth,.65),MIRROR,.01)

@@ -555,7 +555,7 @@ class Details:
             rug_x1, rug_x2 = x1 - .35, x2 + .35
         rug_y1 = max(iy1 + .05, y1 - .35)
         rug_y2 = min(iy2 - .05, y2 + .35)
-        if rug_x2 - rug_x1 > .8 and rug_y2 - rug_y1 > .8:
+        if room['id'] != 'rear1-5' and rug_x2 - rug_x1 > .8 and rug_y2 - rug_y1 > .8:
             self.rug(rug_x1, rug_y1, rug_x2, rug_y2, floor + .014, self.F.rug)
         feature = room["id"] in ("rear1-5", "rear2-5")
         if feature:
@@ -700,8 +700,9 @@ class Details:
                 self.box("Bath towel", x1 + .045 + fold * .012, y0,
                          x1 + .062 + fold * .012, y0 + .24, floor + .70, .53,
                          self.F.towel, .006)
-        self.box("Bath mat", x1 + .28, y1 + .30, x1 + .92, y1 + .90, floor + .010, .012,
-                 self.F.towel, .008)
+        if room['id'] != 'rear1-7':
+            self.box("Bath mat", x1 + .28, y1 + .30, x1 + .92, y1 + .90, floor + .010, .012,
+                     self.F.towel, .008)
         vanity = next((item for item in self.furniture[room["group"]]
                        if item["room"] == room["index"] and item["kind"] == "vanity"), None)
         if vanity:
@@ -710,6 +711,10 @@ class Details:
                      floor + 1.01, .030, self.F.ceramic, 16)
             self.box("Folded hand towel", vx1 + .02, vy2 - .16, vx2 - .03, vy2 - .05,
                      floor + .86, .045, self.F.towel, .01)
+            if vanity.get('open_shelf'):
+                for z, material in ((.243,self.F.towel),(.277,self.F.boucle)):
+                    self.box('Folded towel on vanity shelf', vx1+.045,vy1+.14,vx2-.085,vy1+.36,
+                             floor+z,.033,material,.008)
         shower = next((item for item in self.furniture[room["group"]]
                        if item["room"] == room["index"] and item["kind"] == "shower"), None)
         if shower:
