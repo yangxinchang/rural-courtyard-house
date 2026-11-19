@@ -154,6 +154,7 @@ function updateVisibility(){
   if(layers.StairRoof)layers.StairRoof.visible=mode==='whole'&&$('roof').checked;
   if(layers.EntryRoof)layers.EntryRoof.visible=mode==='upper'||(mode==='whole'&&$('roof').checked);
   if(layers.BridgeCanopy)layers.BridgeCanopy.visible=mode==='whole'&&$('roof').checked;
+  if(layers.CourtyardCanopy)layers.CourtyardCanopy.visible&&=$('roof').checked;
   if(layers.OutbuildingRoof)layers.OutbuildingRoof.visible=mode==='whole'&&$('roof').checked;
   if(layers.PavilionRoof)layers.PavilionRoof.visible=['whole','upper'].includes(mode)&&$('roof').checked;
   if(layers.Pavilion)layers.Pavilion.visible=mode==='upper'||(mode==='whole'&&$('roof').checked);
@@ -209,7 +210,7 @@ function updateVisibility(){
 function setMode(next){
   wardrobeDetail=null;
   viewState(next);mode=next;selectedRoom=null;$('room').value='';indoor=false;
-  $('cut').checked=viewState(mode).cutWalls;$('roof').checked=mode==='whole';
+  $('cut').checked=viewState(mode).cutWalls;$('roof').checked=mode==='whole'||mode==='upper';
   $('labels').checked=mode==='ground'||mode==='upper';
   updateVisibility();overview();
 }
@@ -297,15 +298,25 @@ $('rain-entry').addEventListener('click',()=>{
   if(innerWidth<=800)container.scrollIntoView({block:'start'});
 });
 $('east-canopy').addEventListener('click',()=>{
-  setMode('whole');const target=toWorld(10.8,10.5,4.8);
+  $('roof').checked=true;setMode('whole');const target=toWorld(10.8,10.5,4.8);
   frame(target.clone().add(new THREE.Vector3(10,7,8)),target);
   $('view-name').textContent='二层东侧雨廊';
-  const title=document.createElement('strong');title.textContent='二层东侧连廊 · 连续加顶';
-  const note=document.createElement('p');note.textContent='浅色轻型顶棚覆盖前露台至后楼小门的整段连廊，向东收集雨水；细柱沿原栏杆线布置。二层布局隐藏高处顶棚便于看通路，整屋屋顶开关可控制显示。';
+  const title=document.createElement('strong');title.textContent='二层东侧雨廊 · 深色细框透光顶';
+  const note=document.createElement('p');note.textContent='东连廊保留原高位雨棚和向东收水，与二层挑空口的低位玻璃顶分开。';
   $('room-info').replaceChildren(title,note);
   if(innerWidth<=800)container.scrollIntoView({block:'start'});
 });
 $('terrace-design').addEventListener('click',()=>{setMode('upper');const t=toWorld(6,3.8,3.9);frame(t.clone().add(new THREE.Vector3(8,10,9)),t);$('view-name').textContent='开放娱乐晾晒露台';const p=document.createElement('p');p.textContent='西侧亭内为电动升降晾衣、水池与收纳，右侧旧晾衣架取消；洗衣机移至后楼过厅，中部活动及两侧连廊通行；排烟立管在外侧。荷载、防水与固定需深化。';$('room-info').replaceChildren(p);});
+$('courtyard-canopy').addEventListener('click',()=>{
+  setMode('upper');$('labels').checked=false;updateVisibility();
+  const [x1,y1,x2,y2]=data.courtyard_canopy.bounds;
+  const target=toWorld((x1+x2)/2,(y1+y2)/2,data.courtyard_canopy.west_z);
+  frame(target.clone().add(new THREE.Vector3(11,9,-3).multiplyScalar(Math.max(1,1.12/camera.aspect))),target);
+  $('view-name').textContent='中庭分格玻璃顶';
+  const note=document.createElement('p');note.textContent='玻璃只封二层挑空口，不可踩踏。水枪快接口在前屋露台水池柜东侧；从护栏外冲洗和检修。西侧集水槽设可提取拦污篮，主排水与独立溢流分开，溢流末端待现场核定。';
+  $('room-info').replaceChildren(note);
+  if(innerWidth<=800)container.scrollIntoView({block:'start'});
+});
 $('forecourt-design').addEventListener('click',()=>{setMode('whole');const t=toWorld(7.5,-2,1);frame(t.clone().add(new THREE.Vector3(-13,13,17)),t);$('view-name').textContent='门前空地与右侧杂物屋';const p=document.createElement('p');p.textContent='门前空地暂按8米深，大门右前方一层杂物屋暂按3.6×7.4米；按最新标注移到东南侧，西门朝中部空地。中央直达入户，其余开敞。杂物屋已覆盖北段原空地，东西院墙上方缺口封闭。尺寸和地界需实测。';$('room-info').replaceChildren(p);});
 $('decoration-design').addEventListener('click',()=>{$('furniture').checked=true;selectRoom('rear2-3');});
 $('top').addEventListener('click',topView);

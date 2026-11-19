@@ -14,6 +14,7 @@ from engineering import engineering_layout
 from engineering_sheets import append_engineering_sheets
 from hvac import hvac_layout
 from material_recommendations import MATERIAL_PAGES, append_material_sheets
+from design import COURTYARD_CANOPY, COURTYARD_PAVER, COURTYARD_SEATS, COURTYARD_LOW_TABLE
 
 check()
 FONT = "/usr/share/fonts/truetype/wqy/wqy-microhei.ttc"
@@ -42,6 +43,7 @@ DECORATION_STYLES = {
     "border": ("石材细边线", "#55534a", None),
 }
 PAGES = []
+SHEET_CODES = set()
 
 
 def txt(ax,x,y,s,size=8,color=INK,ha="left",va="center",**kwargs):
@@ -59,6 +61,9 @@ def line(ax,xs,ys,color=INK,lw=.7,**kwargs):
 
 
 def sheet(code,title,subtitle,scale="图示标尺 / 尺寸 mm"):
+    if code in SHEET_CODES:
+        raise ValueError(f'Duplicate sheet code: {code}')
+    SHEET_CODES.add(code)
     fig = plt.figure(figsize=(420/25.4,297/25.4),facecolor="#fffefa")
     page = fig.add_axes([0,0,1,1]); page.set(xlim=(0,420),ylim=(0,297)); page.axis("off")
     rect(page,8,8,404,281,ec=LINE,lw=.65)
@@ -105,13 +110,14 @@ def scale_bar(ax,x=0,y=-1.45):
 
 
 def yard(ax):
-    rect(ax,0,6.6,12,7.8,"#f0f0e7",LINE,.6)
-    for x in range(1,12):line(ax,[x,x],[6.6,14.4],"#d8ddd3",.3)
-    for y in range(7,15):line(ax,[0,12],[y,y],"#d8ddd3",.3)
-    rect(ax,4.8,6.6,2.4,7.8,"#e0e7da","none",0)
-    rect(ax,8.65,10.1,1.3,.8,"#b4a08a",GREEN,.6)
-    for x in (8.75,9.7):
-        for y in (9.6,11.2):rect(ax,x-.2,y-.2,.4,.4,"#dad3c5",GREEN,.5)
+    w,d=COURTYARD_PAVER
+    rect(ax,.6,6.6,10.8,7.8,"#eeeeeb",LINE,.6)
+    rect(ax,4.8,6.6,2.4,7.8,"#e4e9e1","none",0)
+    for i in range(1,9):line(ax,[.6+i*w]*2,[6.6,14.4],"#cbd1cd",.3)
+    for i in range(1,13):line(ax,[.6,11.4],[6.6+i*d]*2,"#cbd1cd",.3)
+    x,y,w,d=COURTYARD_LOW_TABLE
+    rect(ax,x-w/2,y-d/2,w,d,"#b4a08a",GREEN,.6)
+    for x,y in COURTYARD_SEATS:rect(ax,x-.29,y-.305,.71,.61,"#dad3c5",GREEN,.5)
     for x,y,w in [(4.8,6.6,2.4),(4.5,14.1,3)]:
         rect(ax,x,y,w,.3,"#ddd8ca",MUTED,.4)
     for a,b,c,d in COURTYARD_WALLS:rect(ax,a,b,c-a,d-b,INK,INK,.5)
@@ -346,16 +352,25 @@ def save(fig,name):
     fig.savefig(ROOT/"drawings"/(name+".png"),dpi=120,facecolor=fig.get_facecolor())
 
 
-LAYOUT=engineering_layout(ROOMS,furnishings())
+LAYOUT=engineering_layout(ROOMS,furnishings(),COURTYARD_CANOPY)
 HVAC=hvac_layout()
+
+def canopy_plan(ax):
+    for roof in (COURTYARD_CANOPY,EAST_CANOPY):
+        a,b,c,d=roof['bounds']
+        rect(ax,a,b,c-a,d-b,'#dce8e8',INK,.8)
+        for y in roof['crossbars']:line(ax,[a,c],[y,y],INK,.45)
+    a,b,c,d=COURTYARD_CANOPY['bounds']
+    for i in range(1,COURTYARD_CANOPY['bays']):
+        x=a+(c-a)*i/COURTYARD_CANOPY['bays']
+        line(ax,[x,x],[b,d],INK,.4)
 
 def main_plan(fig,groups=("front","rear1"),roof=False):
     ax=axes(fig,(18,29,149,222),(-1.8,17.2,-10,31.4));yard(ax);forecourt_plan(ax)
     if roof:
         roof_plan(ax,FRONT,True)
-        cx1,cy1,cx2,cy2=EAST_CANOPY['bounds']
-        rect(ax,cx1,cy1,cx2-cx1,cy2-cy1,'#e8e6d9',GREEN,.8)
-        txt(ax,10.8,10.5,'二层东侧雨廊顶棚',5.5,GREEN,ha='center',rotation=90)
+        canopy_plan(ax)
+        txt(ax,5.5,10.6,'中庭分格玻璃顶',5.8,GREEN,ha='center',bbox=dict(fc='#dce8e8',ec='none',pad=1))
         roof_plan(ax,REAR)
         x1,y1,x2,y2=STAIR["bounds"]
         rect(ax,x1,y1,x2-x1,y2-y1,"#e3dfcf",GREEN,.8)
@@ -408,7 +423,7 @@ bullets(p,250,158,"布局与家具",["侧主门Y17.00～18.10，经独立过道�
 txt(p,40,46,"侧梯遮挡原东窗；北书桌外窗与卧室敞开相连，实际采光通风须专项校核。",8,MUTED)
 save(fig,"03-upper-floor")
 
-fig,p=sheet("A-103","红瓦隔热阁楼与平屋顶","仅后楼设红色琉璃瓦坡屋面；前房为上人平露台，双侧连廊贯通。")
+fig,p=sheet("A-103","屋顶平面与红瓦隔热阁楼","后楼保留红瓦坡屋面，前房保留上人平露台；低位玻璃顶仅封两侧连廊之间的挑空口。")
 a=main_plan(fig,roof=True)
 bullets(p,187,234,"后楼半层",["二层顶板控制面+6.900。","阁楼墙顶+8.000，红瓦屋脊+10.200。","墙边约1.10m高、脊部约3.30m高。","东西山墙百叶通风；仅隔热检修，不作常住卧室。"])
 d=axes(fig,(198,83,190,83),(0,12,0,5.25))
@@ -435,13 +450,19 @@ for z in (.3,3.6):
 a.add_patch(Polygon([(14.4,6.9),(14.4,8),(19.4,10.2),(24.4,8),(24.4,6.9)],fc="#f3e4d0",ec=INK,lw=.6))
 line(a,[13.95,19.4,24.85],[7.78,10.2,7.78],"#aa4b35",2.6)
 line(a,[6.6,14.4],[3.6,3.6],GREEN,.8,linestyle="--")
-txt(a,10.5,3.96,"双侧连廊投影",7,ha="center")
+wx,sy,ex,ny=COURTYARD_CANOPY['bounds']
+glass_w=wx+COURTYARD_CANOPY['glass_inset']
+zw,ze=COURTYARD_CANOPY['west_z'],COURTYARD_CANOPY['east_z']
+glass_z=zw+(ze-zw)*(6-glass_w)/(ex-glass_w)
+line(a,[sy,ny],[glass_z,glass_z],'#56828c',2)
+txt(a,(sy+ny)/2,glass_z+.48,f'中庭玻璃顶 +{glass_z:.3f}（中线 / 详 A-107）',7,ha='center')
+txt(a,10.5,3.23,"双侧连廊投影",7,ha="center")
 for x,y,label in ((3.6,1.6,"前房"),(10.5,.8,"院子"),(19.4,1.7,"堂屋完整空间"),(19.4,5,"家庭厅"),(19.4,7.7,"隔热阁楼"),(27,1,"屋后5米")):
     txt(a,x,y,label,8,ha="center")
 for z in (.3,3.6,6.9,8,10.2):txt(a,25,z,f"+{z:.3f}",7,MUTED)
 for lo,hi in ((.6,6.6),(6.6,14.4),(14.4,24.4),(24.4,29.4)):dim(a,lo,hi,-.45)
 bullets(p,315,224,"封闭侧梯",["首层+0.300。","北中间平台+1.950。","南顶平台+3.600。","每跑10个踢面。","侧梯由外墙、顶盖封闭。","侧门接独立入户过道。"])
-bullets(p,28,48,"深化边界",["钢筋混凝土框架方案；截面、配筋、基础、上人露台、连廊及封闭侧梯均未结构验算。"])
+bullets(p,28,48,"深化边界",["玻璃顶只封二层挑空，东西向找坡；基础、梁板、连廊及玻璃顶支承均待结构验算。"])
 save(fig,"05-longitudinal-section")
 
 fig,p=sheet("A-301","朝院立面与前房平露台立面","首层堂屋正门、二层朝院中央窗及两端小门保留；右后侧梯南墙在本立面中投影表达。")
@@ -509,12 +530,12 @@ txt(p,35,51,"次卧床头朝东；衣帽书桌区及套卫北移1m，仍从私�
 txt(p,35,38,"侧梯遮东窗，北书桌外窗加宽；卧室实际采光通风、梯间防火及平台结构均待专项设计。",8,MUTED)
 save(fig,"09-bedroom-stair-interior")
 
-fig,p=sheet("I-104","地面材料与圆桌客厅","院内去掉树及树池，保留铺装与可移动休闲家具。")
+fig,p=sheet("I-104","地面材料与庭院布置","玻璃顶下的中庭：浅灰横铺、东侧双座小茶区，西侧洗晾与中轴通行保留。")
 a=main_plan(fig)
 y=231
 for kind,(name,color) in FINISHES.items():
     rect(p,190,y-3,12,6,color,LINE,.5);txt(p,209,y,name,10,GREEN);y-=22
-bullets(p,190,104,"装修协调",["卧室浅橡木、厅区暖灰、卫浴灰绿防滑砖。","堂屋北段圆桌，南侧活动通行保留。","木饰板、窗帘、灯具及收纳详见I-106装修专页。","红色琉璃瓦只用于后楼；前房为平露台。"])
+bullets(p,190,104,"院内装修协调",["浅灰哑光石纹，按1200×600排版意向；防滑按湿态样板核对。","前后屋中间保留约2.4m无家具带；东侧双座与矮桌可移动。","保留进深、台阶及原有雨水收集，铺贴前复核坡向和收边。","不设树池；只在侧边散放小盆栽，不占洗衣和通行。"])
 save(fig,"10-finishes")
 
 fig,p=sheet("A-104","双侧连廊与右侧封闭侧梯","左右两条名义1200mm连廊，由公共过厅两端小门通往前房露台。")
@@ -527,7 +548,7 @@ bullets(p,188,157,"尺寸",["连廊名义1200mm，栏杆内净宽暂约1030mm。
 bullets(p,188,90,"承重与使用",["连廊及封闭侧梯承重位置见结构层，截面配筋未设计。","不得在梁柱上随意穿电管、水管、空调冷媒管。","两侧临界、露台荷载及栏杆节点需现场专业设计。"])
 save(fig,"11-terrace-connection")
 
-append_engineering_sheets(sheet,axes,rect,line,txt,save,site_outline,floor_plan,LAYOUT)
+append_engineering_sheets(sheet,axes,rect,line,txt,save,site_outline,floor_plan,LAYOUT,COURTYARD_CANOPY['bounds'])
 
 fig,p=sheet("H-101","空调室内外机与管路位置","紫红：冷媒管 / 绿色：冷凝水 / 编号与模型一致；选型、散热净距及支架待设备设计。")
 a=main_plan(fig)
@@ -696,43 +717,69 @@ txt(p,24,55,'新增封闭投影约6.17m²，另记；面宽及退界仍待实测
 txt(p,24,38,'本页落实用户红框区域的空间遮雨安排；不表示防水等级、节点、荷载或施工条件已验算。',8,MUTED)
 save(fig,'21-rain-entry')
 
-fig,p=sheet('A-107','二层东侧连廊连续加顶','用户补充确认二层东侧连廊加顶；保留西侧连廊与开敞庭院，新增浅色轻型顶棚和独立收水。')
-a=axes(fig,(20,67,165,177),(9.65,12.05,5.8,15.1))
-rect(a,10.2,6.6,1.2,7.8,'#dfd4b9',GREEN,.7)
-cx1,cy1,cx2,cy2=EAST_CANOPY['bounds']
-rect(a,cx1,cy1,cx2-cx1,cy2-cy1,'none',GREEN,1,linestyle='--')
-line(a,[10.25,10.25],[6.6,14.35],MUTED,.7)
-line(a,[11.35,11.35],[6.6,14.35],MUTED,.7)
-for x in EAST_CANOPY['post_x']:
-    for y in EAST_CANOPY['post_y']:rect(a,x-.03,y-.03,.06,.06,INK,INK,.3)
-line(a,[10.8,10.8],[6.85,14.15],GREEN,1.2)
-a.annotate('',xy=(10.8,14.15),xytext=(10.8,13.4),arrowprops=dict(arrowstyle='->',color=GREEN,lw=1.2))
-txt(a,10.8,6.1,'前房露台',7,GREEN,ha='center')
-txt(a,10.8,14.86,'后楼二层小门',7,GREEN,ha='center')
-txt(a,10.78,10.45,'东侧连廊 / 整段有顶',6.2,GREEN,ha='center',rotation=90)
-dim(a,10.1,11.5,6.32,'1400 顶棚',size=5.8)
-dim(a,6.4,14.64,11.82,'8240 顶棚',True,size=5.8)
-txt(p,24,251,'01  连廊平面 / 虚线为顶棚外轮廓',8,GREEN)
-b=axes(fig,(215,156,181,83),(5.9,15.1,3.1,7.3))
-rect(b,6.6,3.42,7.8,.18,'#c4c5bb',INK,.6)
-rect(b,6.4,6.52,8.24,.06,'#e8e6d9',GREEN,.7)
-rect(b,6.4,6.40,8.24,.12,'#b8bdb4',INK,.5)
-for y in EAST_CANOPY['post_y']:rect(b,y-.03,3.6,.06,2.8,'#9ea69d',INK,.4)
-rect(b,14.4,6.0,.24,.72,'#dddcd0',INK,.6)
-txt(b,10.5,6.92,'轻型顶棚控制面 +6.600',7,GREEN,ha='center')
-txt(b,10.5,4.95,'示意最小梁下净高约2.78m',7,MUTED,ha='center')
-txt(b,10.5,3.14,'连廊与前露台、二层同为 +3.600',6.5,GREEN,ha='center')
-txt(p,218,251,'02  纵向示意 / 立柱沿原栏杆线设置',8,GREEN)
-bullets(p,218,132,'遮雨安排',[
-    '仅二层东侧连廊新增顶棚，西侧连廊维持原样。',
-    '前露台端略出挑，北端搭接后楼小门上方。',
-    '浅色轻型板面、细框架；柱不比原扶手更占通路。',
-    '屋面向东收水，雨水管接独立雨水干管。',
-    '不向连廊、楼梯口或院内通行面直接滴水。',
-    '图示构件粗细不是施工截面，连接与抗风需深化。',
-])
-txt(p,23,51,'屋面横向高差40mm为模型排水方向意向；搭接、泛水、管径、固定、防水及侧向飘雨条件需现场深化。',7.6,MUTED)
-txt(p,23,35,'整屋显示顶棚；首层及二层布局自动隐藏高处顶棚以看清通路，可用“查看东侧雨廊”直接查看。',7.6,MUTED)
+fig,p=sheet('A-107','二层玻璃顶 · 排水与清洗检修','只封红线内挑空；主排水与应急溢流分开。保留护栏，不踩玻璃、不跨护栏。')
+wx,sy,ex,ny=COURTYARD_CANOPY['bounds']
+zw,ze=COURTYARD_CANOPY['west_z'],COURTYARD_CANOPY['east_z']
+gx,gy,gz=COURTYARD_CANOPY['gutter_outlet']
+overflow=COURTYARD_CANOPY['overflow_path']
+ox,oy,oz=overflow[0]
+overflow_color='#a45e2a'
+rx=EAST_CANOPY['bounds'][2]
+a=axes(fig,(23,96,179,149),(-.45,12.5,4.85,15.6))
+for x,y,u,v in BRIDGES:rect(a,x,y,u-x,v-y,'#f1ebdf',MUTED,.55)
+canopy_plan(a)
+line(a,[gx,gx],[sy,ny],GREEN,1.9)
+line(a,[ex,ex],[sy,ny],INK,1.6)
+a.add_patch(Circle((gx,gy),.10,fc=GREEN))
+a.add_patch(Circle((ox,oy),.105,fc=overflow_color))
+a.annotate('',xy=(overflow[-1][0],oy),xytext=(ox,oy),arrowprops=dict(arrowstyle='->',color=overflow_color,lw=1.2,linestyle='--'))
+a.annotate('',xy=(gx,gy-.35),xytext=(gx,8.5),arrowprops=dict(arrowstyle='->',color=GREEN,lw=1.25))
+tx,ty,_=COURTYARD_CANOPY['wash_tap']
+a.add_patch(Circle((tx,ty),.105,fc='#2782ac'))
+txt(a,tx+.28,ty,'露台水池柜东侧 / 水枪快接口',7,'#216d90')
+stands=[(point,'A') for point in COURTYARD_CANOPY['wash_stands']]+[(COURTYARD_CANOPY['grate_stand'],'B')]
+for point,label in stands:
+    a.add_patch(Circle(point,.21,fc='#fffefa',ec=GREEN,lw=.8,zorder=5))
+    txt(a,*point,label,7,GREEN,ha='center',zorder=6)
+for beg,end,y in ((8.6,2.,11.1),(10.35,11.30,11.1)):
+    a.annotate('',xy=(end,y),xytext=(beg,y),arrowprops=dict(arrowstyle='->',color=GREEN,lw=1.4))
+txt(a,5.5,10.55,'中庭玻璃顶向西收水',7.5,GREEN,ha='center',bbox=dict(fc='#dce8e8',ec='none',pad=1))
+txt(a,6,15.05,'后楼二层 / 北侧交接',7,GREEN,ha='center')
+dim(a,wx,ex,5.60,'8400 挑空口（示意）',size=6.5)
+dim(a,sy,ny,12.0,'7800（示意）',True,size=5.8)
+txt(p,24,248,'01  平面 / 冲洗、检修与两条排水路线',8,GREEN)
+b=axes(fig,(218,161,179,77),(-.6,12.2,-.16,7.5))
+for lo,_,hi,_ in BRIDGES:rect(b,lo,3.42,hi-lo,.18,'#c4c5bb',INK,.6)
+for x in (1.75,10.25):line(b,[x,x],[3.6,4.7],MUTED,1.8)
+line(b,[wx,ex],[zw,ze],INK,2.6)
+east_z=EAST_CANOPY['roof_level']
+line(b,[EAST_CANOPY['bounds'][0],rx],[east_z,east_z-EAST_CANOPY['fall']],INK,2)
+line(b,[.6,11.4],[0,0],MUTED,.9)
+txt(b,6,4.74,'保留护栏 / 玻璃不承人行',7,GREEN,ha='center')
+txt(b,wx-.15,2.85,'西侧集水槽',6.7,GREEN)
+txt(b,rx,6.91,'原东雨廊高顶',6.7,GREEN,ha='right')
+txt(b,6,2.2,'中央不设落地柱',7,GREEN,ha='center')
+txt(p,218,248,'02  东西向横剖 / 保留护栏，不可踩玻璃',8,GREEN)
+txt(p,218,150,'03  西槽纵剖 / 高差放大，只示意水流关系',8,GREEN)
+c=axes(fig,(218,92,179,53),(5.7,15.6,-.2,3.9))
+south_z,north_z=COURTYARD_CANOPY['gutter_ends_z']
+def gutter_level(z):return 1.05+(z-gz)*38
+line(c,[sy,ny],[gutter_level(COURTYARD_CANOPY['gutter_rim_z'])]*2,MUTED,.7,linestyle=':')
+line(c,[sy,gy,ny],[gutter_level(z) for z in (south_z,gz,north_z)],INK,1.4)
+c.annotate('',xy=(11.8,1.6),xytext=(8.25,2.30),arrowprops=dict(arrowstyle='->',color=GREEN,lw=1.1))
+c.annotate('',xy=(gy,.4),xytext=(gy,gutter_level(gz)),arrowprops=dict(arrowstyle='->',color=GREEN,lw=1.3))
+c.annotate('',xy=(oy+1.45,gutter_level(oz)),xytext=(oy,gutter_level(oz)),arrowprops=dict(arrowstyle='->',color=overflow_color,lw=1.15))
+txt(c,6.65,2.9,'南端',7,GREEN)
+txt(c,14.34,2.08,'北端',7,GREEN,ha='right')
+txt(c,13.68,.17,'主排水低点',7,GREEN,ha='right')
+txt(c,12.45,gutter_level(oz)+.18,'独立溢流口',7,overflow_color,ha='right')
+txt(p,24,76,'A  护栏外试冲洗站位，软管用后收起，不占通道。',8,GREEN)
+txt(p,24,64,'B  西连廊试检修站位，测试提拿格栅、清污和复位。',8,GREEN)
+txt(p,24,52,'供水仍用一个快接口；带可检修关断和防回流。',8,MUTED)
+txt(p,218,76,'主排水：西槽低点→西廊板下向外降坡→独立雨水管。',8,GREEN)
+txt(p,218,64,'溢流：不接主立管；引至西外侧待核接水点。',8,overflow_color)
+txt(p,218,52,'冲洗只用清水；雨水接驳、受水位置和检修可达性待核。',8,MUTED)
+txt(p,24,33,'待核：主排及溢流容量、支承与玻璃防踩踏、周边防水、冷凝排水，以及夏季遮阳通风。',7.6,MUTED)
 save(fig,'22-east-covered-bridge')
 
 fig,p=sheet('I-107','前屋内门与精装风格','按用户红框设通堂两侧内门；六张参考图转化为暖白、木色、浅石、米色织物及简化新中式细部。')
@@ -753,7 +800,8 @@ txt(p,22,56,'暖白 / 原木与胡桃木 / 浅米灰石材 / 米色织物 / 暖�
 for i,color in enumerate(('#eeeae0','#bb9874','#6c5137','#d5d1c4','#c8baa5','#d3af73')):
     rect(p,22+i*28,40,22,10,color,LINE,.5)
 txt(p,219,249,'02  用户提供的风格参考（不是本项目渲染成品）',8,GREEN)
-references=sorted((ROOT/'装修图片及风格').iterdir())
+references=sorted(path for path in (ROOT/'装修图片及风格').iterdir()
+                  if path.name.startswith(('Code_Generated_Image','Gemini_Generated_Image')))
 for i,path in enumerate(references):
     xx=219+(i%2)*93;yy=195-(i//2)*61
     ax=fig.add_axes([xx/420,yy/297,88/420,49/297]);ax.imshow(Image.open(path));ax.axis('off')
@@ -945,7 +993,7 @@ bullets(p,222,103,'首层与实施条件',[
 ])
 save(fig,'30-pavilion-laundry-drying')
 
-fig,p=sheet('P-101','二楼过厅洗衣机与水电深化','按用户蓝框移位；保留1000mm通行／操作带，设备及专业安装条件待核。')
+fig,p=sheet('P-103','二楼过厅洗衣机与水电深化','按用户蓝框移位；保留1000mm通行／操作带，设备及专业安装条件待核。')
 ax=axes(fig,(20,118,137,123),(2.55,4.45,14.35,17.1))
 plan_walls(ax,'rear2');furniture(ax,'rear2')
 a,b,c,d=UPPER_LAUNDRY['work_area'];rect(ax,a,b,c-a,d-b,'#e4eee0',GREEN,.7,linestyle='--')
@@ -977,7 +1025,7 @@ bullets(p,20,96,'回路与施工前核对',[
 ])
 save(fig,'31-upper-laundry-services')
 
-fig,p=sheet('P-102','三卧室五列衣柜','老人房、主卧、次卧均为五列／五扇门；内部可展示，平开与通行分时。')
+fig,p=sheet('I-108','三卧室五列衣柜','老人房、主卧、次卧均为五列／五扇门；内部可展示，平开与通行分时。')
 ax=axes(fig,(20,99,205,145),(-.18,2.18,-.40,2.55))
 rect(ax,0,0,2,2.4,'#e3ceb3',GREEN,1)
 for i in range(1,5):line(ax,[i*.4,i*.4],[.12,2.08],GREEN,.7)

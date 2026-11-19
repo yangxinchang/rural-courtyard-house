@@ -1,1 +1,1 @@
-window.HOUSE_MODEL_URL='model/courtyard-house.glb?v=0cd4c0f13303';
+window.HOUSE_MODEL_URL='model/courtyard-house.glb?v=072b39b40132';

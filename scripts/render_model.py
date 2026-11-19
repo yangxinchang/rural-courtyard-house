@@ -1,14 +1,15 @@
-"""Run with Blender 4.2+: blender -b --python scripts/render_model.py.
+"""Run with Blender 4.2+: blender -b --python-exit-code 1 --python scripts/render_model.py.
 
 The generated model is a concept model. Timber and masonry sizes are visual
 placeholders, not structural specifications.
 """
 import sys
 from pathlib import Path
+from tempfile import TemporaryDirectory
+import base64
 import math
 import random
 import json
-import runpy
 import bpy
 from mathutils import Vector
 
@@ -16,9 +17,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from design import ROOT, SITE, SITE_BOUNDS, FORECOURT, STORAGE, FRONT, REAR, BRIDGES, STAIR, COVERED_ENTRY, EAST_CANOPY, EAST_SUITE, COURTYARD_WALLS, COURTYARD_WALL_TOPS, COURTYARD_LAUNDRY, TERRACE_PAVILION, TERRACE_LAUNDRY, UPPER_LAUNDRY, TERRACE_DRYING, KITCHEN_EXHAUST, TERRACE_LAYOUT, LEVELS, walls, ROOMS, furnishings, decoration, room_specs
 from engineering import engineering_layout
 from hvac import hvac_layout
+from design import COURTYARD_CANOPY, COURTYARD_PAVER, COURTYARD_SEATS, COURTYARD_LOW_TABLE, design_data
 
-# Refresh shared browser data before replacing any model artifacts.
-runpy.run_path(str(ROOT / "scripts" / "design.py"), run_name="__main__")
+design_json = json.dumps(design_data(), ensure_ascii=False, indent=2)
 random.seed(42)
 bpy.ops.object.select_all(action="SELECT")
 bpy.ops.object.delete(use_global=False)
@@ -26,7 +27,7 @@ for old in list(bpy.data.collections):
     if old.name != "Collection":
         bpy.data.collections.remove(old)
 COLS = {}
-for key in ["Site", "Front", "Rear1", "Rear2", "Attic", "Roofs", "Terrace", "Stairs", "StairShell1", "StairShell2", "StairRoof", "EntryRoof", "BridgeCanopy", "Garden", "Outbuilding", "OutbuildingRoof", "Pavilion", "PavilionRoof", "Structure", "Electrical", "Plumbing", "HVAC", "Lights"]:
+for key in ["Site", "Front", "Rear1", "Rear2", "Attic", "Roofs", "Terrace", "Stairs", "StairShell1", "StairShell2", "StairRoof", "EntryRoof", "BridgeCanopy", "CourtyardCanopy", "Garden", "Outbuilding", "OutbuildingRoof", "Pavilion", "PavilionRoof", "Structure", "Electrical", "Plumbing", "HVAC", "Lights"]:
     col = bpy.data.collections.new(key)
     bpy.context.scene.collection.children.link(col)
     COLS[key] = col
@@ -83,12 +84,17 @@ PAVILIONPOST = material("Warm grey bronze pavilion post",(.62,.565,.475),.34,.4)
 DARKWOOD = material("Medium walnut frames", (.235, .175, .115), .44)
 FLOOR = textured_material("Warm stone floor",'warm-stone.png',(.65,.62,.55),.65)
 PAVE = [material("Courtyard stone %s" % i, (.43 + i*.025, .46+i*.022, .43+i*.02), .82, noise=.2) for i in range(4)]
+COURT_STONE = [material(f'Courtyard matte grey {i}',(.49+i*.012,.52+i*.012,.545+i*.012),.83,noise=.12) for i in range(3)]
 ROOFMATS = [material("Glazed celadon tile %s" % i, (.30+i*.018, .045+i*.006, .025+i*.004), .24, .1) for i in range(6)]
 GLASS = material("Blue grey glazing", (.55, .68, .68), .15, .1)
 FABRIC = textured_material("Linen",'linen.png',(.65,.57,.45),.95)
 BEDDING = material("Cotton", (.81, .77, .69), .94)
 WATER = material("Sanitary porcelain", (.83, .85, .81), .25)
 DOORMETAL=material('Charcoal glazed door frame',(.045,.047,.043),.35,.6)
+CANOPY_FRAME=material('Matte graphite rain canopy frame',(.048,.052,.056),.46,.45)
+CANOPY_GLASS=material('Clear rain canopy glazing',(.66,.77,.83),.16)
+CANOPY_GLASS.node_tree.nodes.get('Principled BSDF').inputs['Alpha'].default_value=.16
+CANOPY_GLASS.surface_render_method='DITHERED'
 GATEBRONZE=material('Gate bronze accents',(.32,.22,.12),.3,.7)
 GATELIGHT=material('Gate warm lantern glass',(.95,.75,.40),.35)
 GATELIGHT.node_tree.nodes.get('Principled BSDF').inputs['Emission Color'].default_value=(1,.74,.36,1)
@@ -178,12 +184,13 @@ def build_walls(group, floor):
                 z0 = floor+op["sill"]
                 width, height = op["width"], op["height"]
                 frame = .065
+                frame_mat = DOORMETAL if (group,wall_index) in (('front',1),('rear1',0)) else DARKWOOD
                 for pos in (start+frame/2, end-frame/2):
-                    block(pos-frame/2, pos+frame/2, op["sill"], height, DARKWOOD, "Opening jamb")
-                block(start, end, op["sill"]+height-frame, frame, DARKWOOD, "Opening header")
+                    block(pos-frame/2, pos+frame/2, op["sill"], height, frame_mat, "Opening jamb")
+                block(start, end, op["sill"]+height-frame, frame, frame_mat, "Opening header")
                 if op['kind']=='window' or op.get('operation')=='sliding':
                     sliding_door=op['kind']=='door'
-                    sash_mat=DOORMETAL if sliding_door else DARKWOOD
+                    sash_mat=DOORMETAL if sliding_door else frame_mat
                     block(start,end,op['sill'],.018 if sliding_door else frame,sash_mat,'Sliding door lower track' if sliding_door else 'Window sill')
                     if sliding_door:block(start,end,op['sill']+height-.025,.025,sash_mat,'Sliding door upper track')
                     clear_width=width-2*frame;sash_width=(clear_width+.035)/2
@@ -277,13 +284,6 @@ def bed(x, y, z, width=1.6, head_top=1.15):
     for polygon in quilt.data.polygons:polygon.use_smooth=True
 
 
-def table(x, y, z, width=1.4, depth=.8):
-    cube("Timber table", (x, y, z+.76), (width, depth, .08), PALEWOOD, .025)
-    for dx in (-width/2+.1, width/2-.1):
-        for dy in (-depth/2+.1, depth/2-.1):
-            cube("Table leg", (x+dx, y+dy, z+.37), (.06, .06, .74), DARKWOOD)
-
-
 def chair(x, y, z, turn=0):
     seat = cube("Chair seat", (x, y, z+.43), (.43, .43, .08), PALEWOOD, .02)
     for dx in (-.16, .16):
@@ -334,10 +334,12 @@ for (a,b,c,d),top in zip(COURTYARD_WALLS,COURTYARD_WALL_TOPS):
         coping=cube("Boundary coping", (side, center, top+.03), (.26, length, .12), STONE, .025)
         coping['sectionable']=True
     cube("Boundary plinth", (side, center, .23), (c-a+.04, length, .46), STONE)
-for x in range(18):
-    for y in range(13):
-        cx, cy = .9+x*.6, 6.9+y*.6
-        cube("Courtyard paving", (cx, cy, -.015), (.587, .587, .05), PAVE[(x+2*y)%4])
+w,d = COURTYARD_PAVER
+cube('Courtyard grout bed', (6,10.5,-.032), (10.8,7.8,.062), COURT_STONE[0])
+for x in range(round((FRONT[2]-FRONT[0])/w)):
+    for y in range(round((REAR[1]-FRONT[3])/d)):
+        cx,cy = FRONT[0]+(x+.5)*w, FRONT[3]+(y+.5)*d
+        cube('Courtyard paving', (cx,cy,.002), (w-.007,d-.007,.016), COURT_STONE[(x+2*y+x*y)%3])
 for cy in (6.78, 14.2):
     cube("Courtyard drain - indicative", (6, cy, .015), (9.8, .07, .02), STONE)
 # Every +0.300 entrance has a visible intermediate +0.150 tread.
@@ -906,22 +908,62 @@ for a,b in [((.7,.7),(11.3,.7)),((.7,.7),(.7,6.6)),((11.3,.7),(11.3,6.6)),
 CURRENT='BridgeCanopy'
 cx1,cy1,cx2,cy2=EAST_CANOPY['bounds']
 roof_west=EAST_CANOPY['roof_level'];roof_east=roof_west-EAST_CANOPY['fall']
-mesh('East covered bridge roof',[(cx1,cy1,roof_west),(cx2,cy1,roof_east),(cx2,cy2,roof_east),(cx1,cy2,roof_west),
-     (cx1,cy1,roof_west-.06),(cx2,cy1,roof_east-.06),(cx2,cy2,roof_east-.06),(cx1,cy2,roof_west-.06)],
-     [(0,1,2,3),(7,6,5,4),(0,4,5,1),(1,5,6,2),(2,6,7,3),(3,7,4,0)],PLASTER)
+mesh('East covered bridge roof',[(cx1,cy1,roof_west),(cx2,cy1,roof_east),
+     (cx2,cy2,roof_east),(cx1,cy2,roof_west)],[(0,1,2,3)],CANOPY_GLASS)
+for x,z in ((cx1,roof_west),(cx2,roof_east)):
+    cube('East canopy slim perimeter',(x,(cy1+cy2)/2,z-.018),(.044,cy2-cy1,.042),CANOPY_FRAME)
 for x in EAST_CANOPY['post_x']:
     top=roof_west-EAST_CANOPY['fall']*(x-cx1)/(cx2-cx1)-.06
-    cube('East canopy edge beam',(x,(cy1+cy2)/2,top-.06),(.06,cy2-cy1,.12),METAL)
+    cube('East canopy edge beam',(x,(cy1+cy2)/2,top-.06),(.06,cy2-cy1,.12),CANOPY_FRAME)
     for y in EAST_CANOPY['post_y']:
         height=top-.12-3.6
-        cube('East canopy post',(x,y,3.6+height/2),(EAST_CANOPY['post_size'],EAST_CANOPY['post_size'],height),METAL)
-for y in EAST_CANOPY['post_y']:
-    rod('East canopy crossbeam',(10.25,y,6.46),(11.35,y,6.43),.03,METAL)
-for y in (8,10.5,13):
-    cube('Ceiling light / East covered bridge',(10.8,y,6.28),(.28,.18,.045),LED,.01)
-rod('East canopy gutter',(11.49,cy1,6.56),(11.49,cy2,6.56),.035,METAL)
-rod('East canopy gutter outlet',(11.49,13.95,6.56),(11.58,13.95,6.56),.035,METAL)
-rod('East canopy rain pipe',(11.58,13.95,.24),(11.58,13.95,6.56),.035,METAL)
+        cube('East canopy post',(x,y,3.6+height/2),(EAST_CANOPY['post_size'],EAST_CANOPY['post_size'],height),CANOPY_FRAME)
+for y in EAST_CANOPY['crossbars']:
+    bar=cube('East canopy crossbeam',((cx1+cx2)/2,y,(roof_west+roof_east)/2-.03),(cx2-cx1,.05,.065),CANOPY_FRAME)
+    bar.rotation_euler.y=math.atan2(EAST_CANOPY['fall'],cx2-cx1)
+for y in (8,10.5,12.95):
+    cube('Ceiling light / East covered bridge',(10.8,y,6.506),(.48,.034,.025),LED,.005)
+rod('East canopy gutter',(11.49,cy1,6.56),(11.49,cy2,6.56),.035,CANOPY_FRAME)
+rod('East canopy gutter outlet',(11.49,13.95,6.56),(11.58,13.95,6.56),.035,CANOPY_FRAME)
+rod('East canopy rain pipe',(11.58,13.95,.24),(11.58,13.95,6.56),.035,CANOPY_FRAME)
+
+CURRENT='CourtyardCanopy'
+wx,sy,ex,ny=COURTYARD_CANOPY['bounds']
+zw,ze=COURTYARD_CANOPY['west_z'],COURTYARD_CANOPY['east_z']
+glass_w=wx+COURTYARD_CANOPY['glass_inset']
+def canopy_height(x):
+    return zw+(ze-zw)*(x-glass_w)/(ex-glass_w)
+
+mesh('Courtyard canopy glazing',[(glass_w,sy,zw),(ex,sy,ze),(ex,ny,ze),(glass_w,ny,zw)],[(0,1,2,3)],CANOPY_GLASS)
+for i in range(COURTYARD_CANOPY['bays']+1):
+    x=glass_w+.027+(ex-glass_w-.054)*i/COURTYARD_CANOPY['bays']
+    cube('Courtyard canopy longitudinal frame',(x,(sy+ny)/2,canopy_height(x)-.032),(.054,ny-sy,.07),CANOPY_FRAME)
+for i,y in enumerate(COURTYARD_CANOPY['crossbars']):
+    mid=(glass_w+ex)/2
+    depth=.16 if i%2 else .075
+    bar=cube('Courtyard canopy crossbeam',(mid,y,canopy_height(mid)-depth/2),(ex-glass_w,.06,depth),CANOPY_FRAME)
+    bar.rotation_euler.y=-math.atan2(ze-zw,ex-glass_w)
+edge=[(wx,sy),(ex,sy),(ex,ny),(wx,ny)]
+mesh('Courtyard canopy perimeter curb',[(x,y,z) for z in (3.52,) for x,y in edge]+
+     [(x,y,ze if x==ex else zw-.026) for x,y in edge],
+     [(i,(i+1)%4,(i+1)%4+4,i+4) for i in range(4)],CANOPY_FRAME)
+gx,gy,gz=COURTYARD_CANOPY['gutter_outlet']
+south_z,north_z=COURTYARD_CANOPY['gutter_ends_z']
+profile=((sy,south_z),(gy,gz),(ny,north_z))
+mesh('Courtyard canopy west gutter bottom',[(x,y,z) for y,z in profile for x in (gx-.075,gx+.075)],
+     [(0,1,3,2),(2,3,5,4)],CANOPY_FRAME)
+for x in (gx-.075,gx+.075):
+    mesh('Courtyard canopy west gutter side',[(x,y,z) for y,z in profile]+[(x,y,COURTYARD_CANOPY['gutter_rim_z']) for y,_ in profile],
+         [(0,1,4,3),(1,2,5,4)],CANOPY_FRAME)
+for i in range(4):
+    cube('Courtyard canopy outlet grate',(gx,gy-.036+i*.024,gz+.026),(.10,.008,.012),METAL)
+rod('Courtyard canopy lift-out basket',(gx-.03,gy,gz+.040),(gx+.03,gy,gz+.040),.006,METAL)
+for name,path,radius in (
+    ('Courtyard canopy main drain',((gx,gy,gz),*COURTYARD_CANOPY['main_drain_tail']),.032),
+    ('Courtyard canopy independent overflow',COURTYARD_CANOPY['overflow_path'],.028),
+):
+    for a,b in zip(path,path[1:]):rod(name,a,b,radius,CANOPY_FRAME)
+
 for index,(a,b) in enumerate(zip(KITCHEN_EXHAUST['points'],KITCHEN_EXHAUST['points'][1:])):
     CURRENT='Front' if index<2 else 'Terrace'
     duct=rod('Independent kitchen exhaust',a,b,KITCHEN_EXHAUST['diameter']/2,METAL,32)
@@ -938,9 +980,22 @@ CURRENT="Terrace"
 for i in range(9):
     cube("Terrace tile seam",(1.2+i*1.05,3.6,3.606),(.008,5.75,.008),STONE)
 CURRENT = "Garden"
-table(9.3, 10.5, 0, 1.3, .8)
-for x,y in [(8.75,9.8),(9.7,9.8),(8.75,11.2),(9.7,11.2)]:
-    chair(x,y,0)
+for x,y in COURTYARD_SEATS:
+    cube('Courtyard lounge seat',(x,y,.41),(.58,.61,.09),PALEWOOD,.027)
+    cube('Courtyard lounge outdoor cushion',(x-.012,y,.48),(.54,.56,.08),FABRIC,.036)
+    for dy in (-.285,.285):
+        for dx in (-.24,.24):
+            rod('Courtyard lounge leg',(x+dx*1.18,y+dy,.01),(x+dx,y+dy,.41),.022,DARKWOOD)
+        rod('Courtyard lounge back frame',(x+.27,y+dy,.44),(x+.42,y+dy,1.03),.022,DARKWOOD)
+        rod('Courtyard lounge arm',(x-.2,y+dy,.66),(x+.325,y+dy,.66),.024,PALEWOOD)
+    for i in range(17):
+        h=i*.032
+        rod('Courtyard lounge woven back',(x+.27+h*.25,y-.28,.47+h),(x+.27+h*.25,y+.28,.47+h),.011,PALEWOOD)
+x,y,w,d = COURTYARD_LOW_TABLE
+cube('Courtyard low table timber rim',(x,y,.43),(w,d,.045),PALEWOOD,.012)
+cube('Courtyard low table stone insert',(x,y,.456),(w-.07,d-.07,.014),COUNTER,.004)
+for dx in (-w/2+.055,w/2-.055):
+    for dy in (-d/2+.055,d/2-.055):cube('Courtyard low table leg',(x+dx,y+dy,.22),(.043,.043,.42),DARKWOOD)
 def laundry_machine(machine,base=0,front='east'):
     a,b,c,d=machine['bounds'];cx,cy=(a+c)/2,(b+d)/2;bottom=base+machine['z'];height=machine['height']
     start=set(bpy.data.objects)
@@ -1041,6 +1096,10 @@ rod('Upper laundry tap',(3.30,5.51,4.55),(3.30,5.51,4.80),.015,METAL)
 rod('Upper laundry tap spout',(3.30,5.51,4.80),(3.30,5.31,4.80),.015,METAL)
 cube('Upper laundry shelf',(3.5,5.47,5.18),(1.0,.23,.04),PALEWOOD,.012)
 for part in set(bpy.data.objects)-start:part['fixtureId']='terrace-laundry';part['fixtureKind']='laundry'
+x,y,z=COURTYARD_CANOPY['wash_tap']
+rod('Courtyard wash hose outlet',(x-.03,y,z),(x+.07,y,z),.021,METAL,20)
+rod('Courtyard wash hose connector',(x+.067,y,z),(x+.067,y,z-.05),.018,GATEBRONZE,20)
+cube('Courtyard wash valve handle',(x+.055,y,z+.028),(.046,.028,.018),CANOPY_FRAME,.003)
 x,y,z=TERRACE_LAUNDRY['drain'];cube('Upper laundry trapped drain',(x,y,z),(.12,.12,.015),METAL)
 CURRENT='Rear2'
 start=set(bpy.data.objects)
@@ -1089,7 +1148,7 @@ for unit in hvac["units"]:
         rod("Outdoor fan",(ox,oy+.21,oz),(ox,oy+.225,oz),.23,STONE,32)
     cube("AC mount position",(ox,oy,oz-.38),(.5,1,.08) if side_mount else (1,.5,.08),STONE)
 
-layout=engineering_layout(ROOMS,furnishings())
+layout=engineering_layout(ROOMS,furnishings(),COURTYARD_CANOPY)
 COLORS={"Structure":(.44,.23,.7),"electric":(.85,.42,.06),"cold":(.05,.34,.8),
         "hot":(.7,.08,.06),"waste":(.3,.13,.05),"rain":(.02,.46,.46),
         "refrigerant":(.65,.08,.5),"condensate":(.07,.55,.22)}
@@ -1188,7 +1247,7 @@ def camera(name, position, target, lens=43, ortho=None):
 
 cameras = {
     "01-aerial": camera("01 Aerial / southwest", (39,-36,34), (7,10,2.8), 48),
-    "02-courtyard": camera("02 Courtyard looking north", (7.8,7.05,2.25), (6,17,3), 16),
+    "02-courtyard": camera("02 Courtyard looking north", (6.05,7.05,1.82), (7.5,14.15,2.30), 17),
     "03-entrance": camera("03 South entrance", (23,-23,12), (6,5,2.6), 45),
     "04-cutaway": camera("04 Ground floor cutaway", (33,-24,43), (7,10,1), ortho=44),
     "05-grand-gate": camera('05 Modern Chinese entrance',(10,-9,3.8),(6,.72,1.7),48),
@@ -1199,10 +1258,13 @@ cameras = {
     "11-terrace-pavilion": camera('11 Terrace pavilion and laundry',(9,-2,8),(3.1,3.5,4.6),40),
     "12-kitchen-appliances": camera('12 Kitchen appliances',(9.15,5.1,2.5),(10.4,2.1,1.1),19),
     "07-front-forecourt": camera('07 Open forecourt and right storage',(-9,-22,14),(7.5,-2.2,1.1),45),
+    "19-east-canopy": camera('19 East rain corridor',(10.8,6.08,5.32),(10.76,13.4,5.13),18),
+    "20-courtyard-glass-roof": camera('20 Central glass roof from above',(17,3.9,12.7),(6.0,10.2,3.65),33),
 }
 scene.camera = cameras["01-aerial"]
 scene["Design status"] = "Revision O / layout and interior renovation; width15.2m provisional; rear clearance5m confirmed / concept only"
 scene["Interior finish revision"] = "2026-11-07 / furniture, joinery details and layered lighting"
+scene["Courtyard finish revision"] = "2026-11-19 / glass at marked second-floor opening, terrace wash outlet"
 scene["Wardrobe revision"] = "2026-11-07 / 3 five-column wardrobes with 15 independent hinged doors"
 scene["Dimensions"] = "Metres; same source as drawings. Rear: 2 floors + ventilated attic."
 scene["Stair"] = "20 x 0.165m; 2 flights; upper-floor opening retained."
@@ -1219,18 +1281,13 @@ for obj in scene.objects:
         for loop in polygon.loop_indices:
             point=obj.data.vertices[obj.data.loops[loop].vertex_index].co
             uv.data[loop].uv=(point[axes[0]],point[axes[1]])
-bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/"model"/"courtyard-house.blend"))
 mesh_count = sum(obj.type=="MESH" for obj in scene.objects)
 assert mesh_count > 100
 assert all(abs(obj.dimensions.z-3.3)<.001 for obj in scene.objects if obj.name.startswith("Porch timber post"))
 report = {"version":"O","decoration_items":sum(len(v) for v in decoration().values()),"blender":bpy.app.version_string,"mesh_objects":mesh_count,"units":"m",
-          "covered_entry":COVERED_ENTRY,"east_canopy":EAST_CANOPY,"site":SITE,"rear_bays":3,"front_bays":3,
+          "covered_entry":COVERED_ENTRY,"east_canopy":EAST_CANOPY,"courtyard_canopy":COURTYARD_CANOPY,"site":SITE,"rear_bays":3,"front_bays":3,
           "levels":LEVELS,"stairs":{"risers":20,"riser":.165,"tread":.27,"bounds":STAIR["bounds"]},
           "occupants":6,"front_roof":"flat accessible terrace","bridge_width":1.2,"bridge_count":2,"stair_location":"enclosed east stairwell","roof_color":"red","views":list(cameras),"status":"Concept geometry; no structural checks"}
-(ROOT/"model"/"model-report.json").write_text(json.dumps(report,indent=2))
-
-# Export editable geometry plus a file://-safe embedded GLB payload.
-import base64
 for key,col in COLS.items():
     if key=="Lights":continue
     group=bpy.data.objects.new(key,None)
@@ -1243,34 +1300,48 @@ bpy.ops.object.select_all(action="DESELECT")
 for obj in scene.objects:
     if obj.type in ("MESH","EMPTY") and obj.name not in ("Surrounding terrain","South road"):
         obj.select_set(True)
-bpy.ops.export_scene.gltf(filepath=str(ROOT/"model"/"courtyard-house.glb"),
-    export_format="GLB",use_selection=True,export_extras=True,export_cameras=False,
-    export_lights=False,export_yup=True,export_apply=True)
-payload=base64.b64encode((ROOT/"model"/"courtyard-house.glb").read_bytes()).decode("ascii")
-(ROOT/"model"/"scene-data.js").write_text("window.HOUSE_MODEL='"+payload+"';")
-(ROOT/"model"/"design-data.js").write_text("window.HOUSE_DESIGN="+(ROOT/"model"/"design.json").read_text()+";")
-bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/"model"/"courtyard-house.blend"))
 for key in ("Structure","Electrical","Plumbing","HVAC"):
     COLS[key].hide_render=True
 selected=sys.argv[sys.argv.index("--")+1:] if "--" in sys.argv else []
-for name,cam in cameras.items():
-    if "no-render" in selected or (selected and name not in selected):continue
-    for key in ("Roofs","Attic","Rear2","Terrace","StairShell2","StairRoof","EntryRoof","BridgeCanopy","OutbuildingRoof","Pavilion","PavilionRoof"):COLS[key].hide_render=name=="04-cutaway"
-    for obj in scene.objects:
-        if obj.get('decorKind') in ('cove','lantern'):obj.hide_render=name=='04-cutaway'
-    effect_light=None
-    if name=='12-kitchen-appliances':
-        lamp=bpy.data.lights.new('Kitchen effect fill','AREA');lamp.energy=260;lamp.shape='DISK';lamp.size=2.0;lamp.color=(1,.9,.78)
-        effect_light=bpy.data.objects.new('Kitchen effect fill',lamp);COLS['Lights'].objects.link(effect_light)
-        effect_light.location=(9.2,3.6,3.05)
-        effect_light.rotation_euler=(Vector((10.4,2.4,1.2))-effect_light.location).to_track_quat('-Z','Y').to_euler()
-    scene.camera=cam
-    scene.render.filepath=str(ROOT/"renders"/(name+".png"))
-    print("RENDER START",name,flush=True)
-    bpy.ops.render.render(write_still=True)
-    if effect_light:bpy.data.objects.remove(effect_light,do_unlink=True)
-    print("RENDER DONE",name,flush=True)
-for key,col in COLS.items():col.hide_render=key in ("Structure","Electrical","Plumbing","HVAC")
-scene.camera=cameras["01-aerial"]
-bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/"model"/"courtyard-house.blend"))
+if selected != ['no-render'] and set(selected) - cameras.keys():
+    raise ValueError(f'Unknown rendering views: {selected}')
+with TemporaryDirectory(prefix='.model-', dir=ROOT/'model') as temp:
+    stage=Path(temp)
+    glb=stage/'courtyard-house.glb'
+    if bpy.ops.export_scene.gltf(filepath=str(glb),
+        export_format="GLB",use_selection=True,export_extras=True,export_cameras=False,
+        export_lights=False,export_yup=True,export_apply=True) != {'FINISHED'}:
+        raise RuntimeError('GLB export did not finish')
+    binary=glb.read_bytes()
+    if binary[:4] != b'glTF' or int.from_bytes(binary[8:12], 'little') != len(binary):
+        raise ValueError('Incomplete GLB export')
+    payload=base64.b64encode(binary).decode("ascii")
+    (stage/"scene-data.js").write_text("window.HOUSE_MODEL='"+payload+"';")
+    (stage/"design-data.js").write_text("window.HOUSE_DESIGN="+design_json+";")
+    (stage/"design.json").write_text(design_json)
+    (stage/"model-report.json").write_text(json.dumps(report,indent=2))
+    blend=stage/'courtyard-house.blend'
+    if bpy.ops.wm.save_as_mainfile(filepath=str(blend),copy=True,relative_remap=False) != {'FINISHED'}:
+        raise RuntimeError('Blender save did not finish')
+    for name,cam in cameras.items():
+        if selected and name not in selected:continue
+        for key in ("Roofs","Attic","Rear2","Terrace","StairShell2","StairRoof","EntryRoof","BridgeCanopy","CourtyardCanopy","OutbuildingRoof","Pavilion","PavilionRoof"):COLS[key].hide_render=name=="04-cutaway"
+        for obj in scene.objects:
+            if obj.get('decorKind') in ('cove','lantern'):obj.hide_render=name=='04-cutaway'
+        effect_light=None
+        if name=='12-kitchen-appliances':
+            lamp=bpy.data.lights.new('Kitchen effect fill','AREA');lamp.energy=260;lamp.shape='DISK';lamp.size=2.0;lamp.color=(1,.9,.78)
+            effect_light=bpy.data.objects.new('Kitchen effect fill',lamp);COLS['Lights'].objects.link(effect_light)
+            effect_light.location=(9.2,3.6,3.05)
+            effect_light.rotation_euler=(Vector((10.4,2.4,1.2))-effect_light.location).to_track_quat('-Z','Y').to_euler()
+        scene.camera=cam
+        png=stage/(name+'.png')
+        scene.render.filepath=str(png)
+        print("RENDER START",name,flush=True)
+        if bpy.ops.render.render(write_still=True) != {'FINISHED'} or not png.is_file():
+            raise RuntimeError(f'Render did not finish: {name}')
+        if effect_light:bpy.data.objects.remove(effect_light,do_unlink=True)
+        print("RENDER DONE",name,flush=True)
+    for path in stage.iterdir():
+        path.replace(ROOT/('renders' if path.suffix=='.png' else 'model')/path.name)
 print("MODEL AND RENDERS COMPLETE",flush=True)

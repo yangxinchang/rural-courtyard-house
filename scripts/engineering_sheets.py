@@ -6,7 +6,7 @@ INK, MUTED, STRUCTURE = "#293d39", "#6c7770", "#8b66c7"
 
 
 def append_engineering_sheets(sheet, axes, rect, line, txt, save,
-                              site_outline, floor_plan, layout):
+                              site_outline, floor_plan, layout, glass_bounds):
     """Append structure, two electric, plumbing and rear septic layout pages."""
     def background(ax, *floors):
         for floor in floors:
@@ -99,9 +99,13 @@ def append_engineering_sheets(sheet, axes, rect, line, txt, save,
         line(ax, [-.25,14.25], [y,y], "#b49c91", .45, linestyle="--")
         txt(ax, -.6, y, label, 7, STRUCTURE, ha="center")
     structure(ax, {"front","rear1","site"})
+    x1,y1,x2,y2=glass_bounds
+    rect(ax,x1,y1,x2-x1,y2-y1,'#dce8e8','#56828c',.75,alpha=.62,linestyle='--')
+    for x in (x1,x2):line(ax,[x,x],[y1,y2],'#56828c',1.4,linestyle='--')
     txt(ax, 6, 3.5, "前房 / 框架轴线", 7, INK, ha="center")
     txt(ax, 6, 19, "堂屋内部保持完整", 7, INK, ha="center")
-    txt(ax, 6, 10.6, "两侧连廊支承示意", 6.8, INK, ha="center")
+    txt(ax, 6, 10.9, "二层挑空玻璃顶", 6.8, INK, ha="center")
+    txt(ax, 6, 10.0, "蓝色虚线：拟支承边 / 非梁截面", 5.9, INK, ha="center")
     txt(ax, 12.9, 19.2, "右后侧梯支承", 6, INK, ha="center", rotation=90)
     upper = axes(fig, (211,132,185,112), (-.2,14.7,13.6,25))
     background(upper, "rear2"); structure(upper, {"rear2"})
@@ -113,13 +117,13 @@ def append_engineering_sheets(sheet, axes, rect, line, txt, save,
     rect(page, 354, 119, 3, 3, "#e6e8df", "#bbc5bb", .4)
     txt(page, 361, 120.5, "填充墙", 8, INK)
     note(page, 214, 102, [
-        "A—D：沿三开间边界及外墙布置柱轴；庭院保持开敞。",
+        "A—D：沿三开间边界及外墙布置柱轴。",
         "中央堂屋 3.60 × 8.80 m，柱沿两侧边界布置。",
-        "左右连廊、右后侧梯需独立核对支承与连接节点。",
+        "玻璃顶拟在两侧连廊内边支承，不把护栏作为承重构件。",
         "二层墙体为填充/隔墙，不表示已核定承重墙。",
         "柱、梁的绘制宽度只供识别，不代表设计截面。",
         "基础、梁板、屋架、抗震、荷载及配筋均未设计验算。",
-        "待现场勘察及结构设计深化后，确定实际截面与配筋。",
+        "玻璃梁、连廊边梁、侧梯连接及传力至基础须专项复核。",
     ])
     txt(page, 20, 32, "本页仅说明可能的传力位置；不得据此拆改墙体、凿梁穿柱或施工。", 8.5, STRUCTURE)
     save(fig, "12-structure")
@@ -130,7 +134,7 @@ def append_engineering_sheets(sheet, axes, rect, line, txt, save,
     background(front, "front"); route_plan(front, {"front","site"}, {"electric"})
     rear = axes(fig, (210,67,188,170), (-.1,14.7,13.6,25.2))
     background(rear, "rear1"); route_plan(rear, {"rear1","site"}, {"electric"})
-    txt(page, 22, 182, "前房：左客房 / 中通堂 / 右中西厨餐厅", 9, INK)
+    txt(page, 22, 182, "前房：左客房 / 中通堂 / 右中西厨房", 9, INK)
     txt(page, 215, 242, "后楼首层：照明及插座预留", 9, INK)
     legend(page, 22, 241, "electric", "强电路径 / 位置示意")
     note(page, 22, 228, [
@@ -191,8 +195,8 @@ def append_engineering_sheets(sheet, axes, rect, line, txt, save,
     right = sink["point"][0] > 6
     front = axes(fig, (20,57,125,76), (7.5 if right else .05,12.3 if right else 4.8,.2,6.9))
     background(front, "front"); route_plan(front, {"front"}, {"cold","hot","waste"}, False)
-    txt(page, 22, 132, "厨房水槽 / 同一设备点", 9, INK)
-    txt(page, 22, 53, "厨房仅水槽接水；洗衣机接冷水和排水。", 7.2, MUTED)
+    txt(page, 22, 132, "厨房水槽与洗碗机", 9, INK)
+    txt(page, 22, 53, "水槽接冷热水与排水；洗碗机预留冷水与排水。", 7.2, MUTED)
     txt(page, 163, 130, "立管上下关系 / 展开示意", 9, INK)
     # A diagrammatic expansion separates close risers while preserving their floor relationships.
     for y, label in ((108,"二层"),(86,"首层"),(64,"暂定出户/水源")):

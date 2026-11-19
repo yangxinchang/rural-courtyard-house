@@ -25,7 +25,19 @@ STAIR = dict(bounds=(11.4,16.5,14.34,21.88), start_y=18.16, mid_y=20.59,
 COVERED_ENTRY = dict(bounds=(11.4,14.4,14.34,16.5),
                      roof_bounds=(11.4,14.4,14.34,16.74),roof_level=3.6)
 EAST_CANOPY = dict(bounds=(10.1,6.4,11.5,14.64),roof_level=6.6,fall=.04,
-                   post_x=(10.25,11.35),post_y=(6.75,9.25,11.75,14.15),post_size=.06)
+                   post_x=(10.25,11.35),post_y=(6.75,9.25,11.75,14.15),post_size=.06,
+                   crossbars=(6.43,6.75,8.,9.25,10.5,11.75,12.95,14.15,14.61))
+COURTYARD_CANOPY = dict(bounds=(BRIDGES[0][2],FRONT[3],BRIDGES[1][0],REAR[1]),
+                       west_z=3.74,east_z=3.98,glass_inset=.105,bays=7,
+                       crossbars=(6.63,7.92,9.21,10.50,11.79,13.08,14.37),
+                       gutter_outlet=(1.875,13.95,3.65),gutter_ends_z=(3.689,3.657),gutter_rim_z=3.714,
+                       main_drain_tail=((1.875,13.95,3.29),(.46,13.95,3.26),(.46,13.95,.255),(.12,13.95,.24)),
+                       overflow_path=((1.875,12.55,3.694),(1.875,12.55,3.31),(.27,12.55,3.26),(.27,12.55,.32),(.16,12.55,.28)),
+                       wash_tap=(4.19,5.32,4.40),wash_stands=((6.,6.15),(1.20,9.7),(10.80,9.7)),
+                       grate_stand=(1.24,13.95))
+COURTYARD_PAVER = (1.2, .6)
+COURTYARD_SEATS = ((9.25,9.72), (9.25,11.28))
+COURTYARD_LOW_TABLE = (8.97,10.5,.56,.48)
 EAST_SUITE = dict(bounds=(11.4,21.88,14.34,24.4),inner=(11.4,21.88,14.1,24.16),roof_level=6.9)
 COURTYARD_WALLS = ((.6,6.48,.78,15.72),(11.22,6.48,11.42,14.64))
 COURTYARD_WALL_TOPS = (LEVELS['upper']-.18,LEVELS['upper']-.18)
@@ -245,7 +257,7 @@ def check():
                 assert math.hypot(max(a-x,0,x-c),max(b-y,0,y-d))>=.3-1e-8, ('老人房600mm通路被阻挡',obj['name'],x,y)
 
 
-if __name__ == "__main__":
+def design_data():
     check()
     data = dict(units="metres", status="concept / assumed site", site=SITE,
                 front=FRONT, rear=REAR, bays=BAYS, levels=LEVELS, rooms=ROOMS,
@@ -261,6 +273,7 @@ if __name__ == "__main__":
     data['forecourt']=FORECOURT
     data['storage']=STORAGE
     data["east_canopy"]=EAST_CANOPY
+    data['courtyard_canopy']=COURTYARD_CANOPY
     data['east_suite']=EAST_SUITE
     data['courtyard_walls']=COURTYARD_WALLS
     data['courtyard_wall_tops']=COURTYARD_WALL_TOPS
@@ -281,7 +294,11 @@ if __name__ == "__main__":
     data['interior_rendering_note']='Q版浅色精装渲染；后排石纹砖、晾衣亭浅色顶棚；五列衣柜及二楼洗衣位置以交互3D为准；非现场照片'
     data['entry_route']={'door_y':(17.0,18.1),'hall':'rear2-9','connection':'rear2-8',
                          'interior_change':'L-shaped guest bedroom and independent entry passage'}
-    data["engineering"]=engineering_layout(ROOMS,furnishings())
+    data["engineering"]=engineering_layout(ROOMS,furnishings(),COURTYARD_CANOPY)
     data["hvac"]=hvac_layout()
-    (ROOT / "model" / "design.json").write_text(json.dumps(data, ensure_ascii=False, indent=2))
+    return data
+
+
+if __name__ == "__main__":
+    (ROOT / "model" / "design.json").write_text(json.dumps(design_data(), ensure_ascii=False, indent=2))
     print("Geometry checks passed; model/design.json written.")

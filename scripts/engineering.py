@@ -1,7 +1,7 @@
 """Shared concept axes and service routes; positions only, never construction sizing."""
 
 
-def engineering_layout(rooms, fixtures):
+def engineering_layout(rooms, fixtures, courtyard_canopy):
     """Return metre-based XYZ members, routes, devices and septic placement without importing design."""
     members, routes, devices, circuits = [], [], [], []
     septic = dict(bounds=[8.0,25.9,11.6,28.3], inlet=[8.0,27.1,-.55],
@@ -350,6 +350,16 @@ def engineering_layout(rooms, fixtures):
     route("waste","site","化粪池独立通气位置示意",[septic["outlet"],(11.6,28.15,-.7),(11.6,28.15,2.2)])
     suite_drain=device('rain',(14.12,24.15,6.9),'rear2','RW 东套卫屋面雨水口','rain_drain')
     route('rain','rear2','RW 东套卫屋面独立雨水',[suite_drain,(14.54,24.15,6.9),(14.54,24.15,.24),(14.54,15.28,.24)])
+    gutter = device('rain',courtyard_canopy['gutter_outlet'],'rear2','RW 中庭玻璃顶西槽雨水口（暂定）','rain_drain')
+    route('rain','rear2','RW 中庭玻璃顶雨水及清水冲洗排水',[gutter,*courtyard_canopy['main_drain_tail']])
+    wash_tap = device('cold',courtyard_canopy['wash_tap'],'rear2','CW 二层露台水枪快接口','tap')
+    devices[-1]['note']='水池冷水支管分接，设可检修关断及防回流；不与排水相接。'
+    x,y,_ = wash_tap
+    route('cold','rear2','CW 亭内水池冷水支管接露台水枪接口',[(3.3,5.5,4.25),(x,5.5,4.25),(x,y,4.25),wash_tap])
+    overflow = courtyard_canopy['overflow_path']
+    device('rain',overflow[0],'rear2','RW 玻璃顶独立溢流口（标高待核）','rain_drain')
+    device('rain',overflow[-1],'site','RW 中庭独立溢流末端（接水位置待核）','outlet')
+    route('rain','rear2','RW 中庭玻璃顶独立溢流（不接主立管）',overflow)
 
     notes = [
         "用户已确认按钢筋混凝土框架做方案；本图表达梁柱轴线，墙为填充/隔墙，未进行荷载、基础、抗震或构件验算。",

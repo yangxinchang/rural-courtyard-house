@@ -2,7 +2,7 @@
   "version": "O",
   "decoration_items": 85,
   "blender": "4.2.3 LTS",
-  "mesh_objects": 6053,
+  "mesh_objects": 6026,
   "units": "m",
   "covered_entry": {
     "bounds": [
@@ -38,7 +38,121 @@
       11.75,
       14.15
     ],
-    "post_size": 0.06
+    "post_size": 0.06,
+    "crossbars": [
+      6.43,
+      6.75,
+      8.0,
+      9.25,
+      10.5,
+      11.75,
+      12.95,
+      14.15,
+      14.61
+    ]
+  },
+  "courtyard_canopy": {
+    "bounds": [
+      1.8,
+      6.6,
+      10.2,
+      14.4
+    ],
+    "west_z": 3.74,
+    "east_z": 3.98,
+    "glass_inset": 0.105,
+    "bays": 7,
+    "crossbars": [
+      6.63,
+      7.92,
+      9.21,
+      10.5,
+      11.79,
+      13.08,
+      14.37
+    ],
+    "gutter_outlet": [
+      1.875,
+      13.95,
+      3.65
+    ],
+    "gutter_ends_z": [
+      3.689,
+      3.657
+    ],
+    "gutter_rim_z": 3.714,
+    "main_drain_tail": [
+      [
+        1.875,
+        13.95,
+        3.29
+      ],
+      [
+        0.46,
+        13.95,
+        3.26
+      ],
+      [
+        0.46,
+        13.95,
+        0.255
+      ],
+      [
+        0.12,
+        13.95,
+        0.24
+      ]
+    ],
+    "overflow_path": [
+      [
+        1.875,
+        12.55,
+        3.694
+      ],
+      [
+        1.875,
+        12.55,
+        3.31
+      ],
+      [
+        0.27,
+        12.55,
+        3.26
+      ],
+      [
+        0.27,
+        12.55,
+        0.32
+      ],
+      [
+        0.16,
+        12.55,
+        0.28
+      ]
+    ],
+    "wash_tap": [
+      4.19,
+      5.32,
+      4.4
+    ],
+    "wash_stands": [
+      [
+        6.0,
+        6.15
+      ],
+      [
+        1.2,
+        9.7
+      ],
+      [
+        10.8,
+        9.7
+      ]
+    ],
+    "grate_stand": [
+      1.24,
+      13.95
+    ]
   },
   "site": [
     15.2,
@@ -84,7 +198,9 @@
     "10-courtyard-laundry",
     "11-terrace-pavilion",
     "12-kitchen-appliances",
-    "07-front-forecourt"
+    "07-front-forecourt",
+    "19-east-canopy",
+    "20-courtyard-glass-roof"
   ],
   "status": "Concept geometry; no structural checks"
 }

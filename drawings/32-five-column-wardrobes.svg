@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-07T15:00:36.674851</dc:date>
+    <dc:date>2026-11-19T15:10:36.357948</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,20 +36,20 @@ L 1167.874016 22.677165
 L 22.677165 22.677165 
 L 22.677165 819.212598 
 z
-" clip-path="url(#p526b03257d)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#pa1995f8fb7)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 51.023622 119.055118 
 L 1139.527559 119.055118 
-" clip-path="url(#p526b03257d)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
+" clip-path="url(#pa1995f8fb7)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 51.023622 779.527559 
 L 1139.527559 779.527559 
-" clip-path="url(#p526b03257d)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#pa1995f8fb7)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 院 · 居 -->
      <g style="fill: #263a36" transform="translate(53.858268 64.722872) scale(0.2 -0.2)">
       <defs>
@@ -193,7 +193,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 三卧室五列衣柜 -->
      <g style="fill: #263a36" transform="translate(181.417323 60.849163) scale(0.16 -0.16)">
       <defs>
@@ -457,7 +457,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 老人房、主卧、次卧均为五列／五扇门；内部可展示，平开与通行分时。 -->
      <g style="fill: #6c7770" transform="translate(53.858268 98.585961) scale(0.085 -0.085)">
       <defs>
@@ -1406,35 +1406,23 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p526b03257d)">
-     <!-- P-102 -->
-     <g style="fill: #263a36" transform="translate(1106.089163 62.644747) scale(0.12 -0.12)">
+    <g clip-path="url(#pa1995f8fb7)">
+     <!-- I-108 -->
+     <g style="fill: #263a36" transform="translate(1108.937288 62.644747) scale(0.12 -0.12)">
       <defs>
-       <path id="WenQuanYiMicroHei-50" d="M 3359 3231 
-Q 3359 2947 3273 2684 
-Q 3188 2422 2991 2220 
-Q 2794 2019 2470 1898 
-Q 2147 1778 1672 1778 
-L 1203 1778 
-L 1203 0 
-L 622 0 
-L 622 4569 
-L 1753 4569 
-Q 2172 4569 2475 4480 
-Q 2778 4391 2975 4220 
-Q 3172 4050 3265 3800 
-Q 3359 3550 3359 3231 
-z
-M 1203 2272 
-L 1606 2272 
-Q 1897 2272 2114 2322 
-Q 2331 2372 2473 2483 
-Q 2616 2594 2687 2770 
-Q 2759 2947 2759 3200 
-Q 2759 3644 2503 3858 
-Q 2247 4072 1703 4072 
-L 1203 4072 
-L 1203 2272 
+       <path id="WenQuanYiMicroHei-49" d="M 1913 0 
+L 256 0 
+L 256 319 
+L 794 447 
+L 794 4122 
+L 256 4250 
+L 256 4569 
+L 1913 4569 
+L 1913 4250 
+L 1375 4122 
+L 1375 447 
+L 1913 319 
+L 1913 0 
 z
 " transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-2d" d="M 256 1453 
@@ -1499,50 +1487,83 @@ Q 978 3459 931 3109
 Q 884 2759 884 2291 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-32" d="M 3150 0 
-L 300 0 
-L 300 488 
-L 1394 1678 
-Q 1628 1931 1812 2140 
-Q 1997 2350 2126 2550 
-Q 2256 2750 2325 2951 
-Q 2394 3153 2394 3391 
-Q 2394 3575 2341 3715 
-Q 2288 3856 2189 3954 
-Q 2091 4053 1956 4103 
-Q 1822 4153 1656 4153 
-Q 1359 4153 1120 4033 
-Q 881 3913 666 3725 
-L 347 4097 
-Q 472 4209 615 4307 
-Q 759 4406 925 4478 
-Q 1091 4550 1275 4592 
-Q 1459 4634 1663 4634 
-Q 1963 4634 2205 4550 
-Q 2447 4466 2615 4308 
-Q 2784 4150 2876 3923 
-Q 2969 3697 2969 3413 
-Q 2969 3147 2886 2906 
-Q 2803 2666 2658 2433 
-Q 2513 2200 2311 1965 
-Q 2109 1731 1875 1478 
-L 997 544 
-L 997 519 
-L 3150 519 
-L 3150 0 
+       <path id="WenQuanYiMicroHei-38" d="M 1766 4641 
+Q 2028 4641 2261 4572 
+Q 2494 4503 2670 4365 
+Q 2847 4228 2950 4022 
+Q 3053 3816 3053 3541 
+Q 3053 3331 2990 3162 
+Q 2928 2994 2818 2858 
+Q 2709 2722 2559 2614 
+Q 2409 2506 2234 2419 
+Q 2416 2322 2589 2203 
+Q 2763 2084 2898 1936 
+Q 3034 1788 3117 1603 
+Q 3200 1419 3200 1191 
+Q 3200 903 3095 670 
+Q 2991 438 2802 275 
+Q 2613 113 2348 25 
+Q 2084 -63 1766 -63 
+Q 1422 -63 1155 21 
+Q 888 106 705 264 
+Q 522 422 426 650 
+Q 331 878 331 1166 
+Q 331 1400 401 1587 
+Q 472 1775 590 1925 
+Q 709 2075 871 2190 
+Q 1034 2306 1216 2394 
+Q 1063 2491 928 2605 
+Q 794 2719 695 2859 
+Q 597 3000 539 3170 
+Q 481 3341 481 3547 
+Q 481 3819 586 4023 
+Q 691 4228 869 4365 
+Q 1047 4503 1280 4572 
+Q 1513 4641 1766 4641 
+z
+M 891 1159 
+Q 891 994 941 855 
+Q 991 716 1097 617 
+Q 1203 519 1365 464 
+Q 1528 409 1753 409 
+Q 1972 409 2139 464 
+Q 2306 519 2418 620 
+Q 2531 722 2587 865 
+Q 2644 1009 2644 1184 
+Q 2644 1347 2583 1478 
+Q 2522 1609 2408 1721 
+Q 2294 1834 2134 1934 
+Q 1975 2034 1778 2131 
+L 1684 2175 
+Q 1291 1988 1091 1745 
+Q 891 1503 891 1159 
+z
+M 1759 4166 
+Q 1428 4166 1233 4000 
+Q 1038 3834 1038 3519 
+Q 1038 3341 1092 3212 
+Q 1147 3084 1244 2984 
+Q 1341 2884 1477 2804 
+Q 1613 2725 1772 2650 
+Q 1922 2719 2055 2800 
+Q 2188 2881 2286 2984 
+Q 2384 3088 2440 3219 
+Q 2497 3350 2497 3519 
+Q 2497 3834 2300 4000 
+Q 2103 4166 1759 4166 
 z
 " transform="scale(0.015625)"/>
       </defs>
-      <use xlink:href="#WenQuanYiMicroHei-50"/>
-      <use xlink:href="#WenQuanYiMicroHei-2d" transform="translate(57.617188 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(89.794922 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(144.873047 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-32" transform="translate(199.951172 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-49"/>
+      <use xlink:href="#WenQuanYiMicroHei-2d" transform="translate(33.886719 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(66.064453 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(121.142578 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-38" transform="translate(176.220703 0)"/>
      </g>
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 精装方案 P·水电深化  /  2026.11.07  /  示意面宽 15.20 m  /  后方净空 5.00 m -->
      <g style="fill: #6c7770" transform="translate(53.858268 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -1783,6 +1804,33 @@ L 400 1050
 L 400 1475 
 z
 " transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-50" d="M 3359 3231 
+Q 3359 2947 3273 2684 
+Q 3188 2422 2991 2220 
+Q 2794 2019 2470 1898 
+Q 2147 1778 1672 1778 
+L 1203 1778 
+L 1203 0 
+L 622 0 
+L 622 4569 
+L 1753 4569 
+Q 2172 4569 2475 4480 
+Q 2778 4391 2975 4220 
+Q 3172 4050 3265 3800 
+Q 3359 3550 3359 3231 
+z
+M 1203 2272 
+L 1606 2272 
+Q 1897 2272 2114 2322 
+Q 2331 2372 2473 2483 
+Q 2616 2594 2687 2770 
+Q 2759 2947 2759 3200 
+Q 2759 3644 2503 3858 
+Q 2247 4072 1703 4072 
+L 1203 4072 
+L 1203 2272 
+z
+" transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-6c34" d="M 2975 5175 
 L 3475 5175 
 L 3475 4150 
@@ -1967,6 +2015,39 @@ L 622 0
 L 63 0 
 L 1766 4569 
 L 2322 4569 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-32" d="M 3150 0 
+L 300 0 
+L 300 488 
+L 1394 1678 
+Q 1628 1931 1812 2140 
+Q 1997 2350 2126 2550 
+Q 2256 2750 2325 2951 
+Q 2394 3153 2394 3391 
+Q 2394 3575 2341 3715 
+Q 2288 3856 2189 3954 
+Q 2091 4053 1956 4103 
+Q 1822 4153 1656 4153 
+Q 1359 4153 1120 4033 
+Q 881 3913 666 3725 
+L 347 4097 
+Q 472 4209 615 4307 
+Q 759 4406 925 4478 
+Q 1091 4550 1275 4592 
+Q 1459 4634 1663 4634 
+Q 1963 4634 2205 4550 
+Q 2447 4466 2615 4308 
+Q 2784 4150 2876 3923 
+Q 2969 3697 2969 3413 
+Q 2969 3147 2886 2906 
+Q 2803 2666 2658 2433 
+Q 2513 2200 2311 1965 
+Q 2109 1731 1875 1478 
+L 997 544 
+L 997 519 
+L 3150 519 
+L 3150 0 
 z
 " transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-36" d="M 353 1953 
@@ -2529,7 +2610,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 图示标尺 / 尺寸 mm  ·  A3 原尺寸打印  ·  概念方案，非施工图 -->
      <g style="fill: #6c7770" transform="translate(950.680684 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3205,7 +3286,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 三套规格 -->
      <g style="fill: #476552" transform="translate(697.322835 181.699865) scale(0.12 -0.12)">
       <defs>
@@ -3390,7 +3471,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 均为2000宽×550深×2400高mm，五列约400mm。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 211.945811) scale(0.084 -0.084)">
       <defs>
@@ -3567,7 +3648,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 南到北五列分区，暖木色柜门、细金属拉手。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 241.426126) scale(0.084 -0.084)">
       <defs>
@@ -4160,7 +4241,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 老人房长衣杆1550，主卧1850，次卧1750mm。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 270.906441) scale(0.084 -0.084)">
       <defs>
@@ -4232,72 +4313,6 @@ L 2975 4425
 L 2975 4900 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-38" d="M 1766 4641 
-Q 2028 4641 2261 4572 
-Q 2494 4503 2670 4365 
-Q 2847 4228 2950 4022 
-Q 3053 3816 3053 3541 
-Q 3053 3331 2990 3162 
-Q 2928 2994 2818 2858 
-Q 2709 2722 2559 2614 
-Q 2409 2506 2234 2419 
-Q 2416 2322 2589 2203 
-Q 2763 2084 2898 1936 
-Q 3034 1788 3117 1603 
-Q 3200 1419 3200 1191 
-Q 3200 903 3095 670 
-Q 2991 438 2802 275 
-Q 2613 113 2348 25 
-Q 2084 -63 1766 -63 
-Q 1422 -63 1155 21 
-Q 888 106 705 264 
-Q 522 422 426 650 
-Q 331 878 331 1166 
-Q 331 1400 401 1587 
-Q 472 1775 590 1925 
-Q 709 2075 871 2190 
-Q 1034 2306 1216 2394 
-Q 1063 2491 928 2605 
-Q 794 2719 695 2859 
-Q 597 3000 539 3170 
-Q 481 3341 481 3547 
-Q 481 3819 586 4023 
-Q 691 4228 869 4365 
-Q 1047 4503 1280 4572 
-Q 1513 4641 1766 4641 
-z
-M 891 1159 
-Q 891 994 941 855 
-Q 991 716 1097 617 
-Q 1203 519 1365 464 
-Q 1528 409 1753 409 
-Q 1972 409 2139 464 
-Q 2306 519 2418 620 
-Q 2531 722 2587 865 
-Q 2644 1009 2644 1184 
-Q 2644 1347 2583 1478 
-Q 2522 1609 2408 1721 
-Q 2294 1834 2134 1934 
-Q 1975 2034 1778 2131 
-L 1684 2175 
-Q 1291 1988 1091 1745 
-Q 891 1503 891 1159 
-z
-M 1759 4166 
-Q 1428 4166 1233 4000 
-Q 1038 3834 1038 3519 
-Q 1038 3341 1092 3212 
-Q 1147 3084 1244 2984 
-Q 1341 2884 1477 2804 
-Q 1613 2725 1772 2650 
-Q 1922 2719 2055 2800 
-Q 2188 2881 2286 2984 
-Q 2384 3088 2440 3219 
-Q 2497 3350 2497 3519 
-Q 2497 3834 2300 4000 
-Q 2103 4166 1759 4166 
-z
-" transform="scale(0.015625)"/>
       </defs>
       <use xlink:href="#WenQuanYiMicroHei-8001"/>
       <use xlink:href="#WenQuanYiMicroHei-4eba" transform="translate(100 0)"/>
@@ -4330,7 +4345,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 柜门单扇平开约400mm，可逐扇点击，也可五扇全开。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 300.386756) scale(0.084 -0.084)">
       <defs>
@@ -4630,7 +4645,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 内部展示暂时隐藏门，查看挂衣、层板及抽屉结构。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 329.867071) scale(0.084 -0.084)">
       <defs>
@@ -5418,7 +5433,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 布局协调 -->
      <g style="fill: #476552" transform="translate(697.322835 411.306164) scale(0.12 -0.12)">
       <defs>
@@ -5623,7 +5638,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 三套位于原各卧室私用衣帽／书桌区，柜体加长至2m。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 441.55211) scale(0.084 -0.084)">
       <defs>
@@ -6118,7 +6133,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 北窗横向让位，避免高柜遮窗；窗帘随窗洞同步调整。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 471.032425) scale(0.084 -0.084)">
       <defs>
@@ -6942,7 +6957,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 老人床北至柜南端约640mm，检查600mm人体转弯。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 500.51274) scale(0.084 -0.084)">
       <defs>
@@ -7263,7 +7278,7 @@ z
     </g>
    </g>
    <g id="text_17">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 主卧衣帽插座移到可达实墙，避新柜体。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 529.993055) scale(0.084 -0.084)">
       <defs>
@@ -7716,7 +7731,7 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 门打开时占操作通道，使用后关闭，实际五金待选型。 -->
      <g style="fill: #6c7770" transform="translate(697.322835 559.47337) scale(0.084 -0.084)">
       <defs>
@@ -8332,7 +8347,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#p526b03257d)">
+    <g clip-path="url(#pa1995f8fb7)">
      <!-- 立面以老人房1550mm长衣杆示意；其余两套杆高按右侧表述，柱宽及实际板厚随定制深化。 -->
      <g style="fill: #6c7770" transform="translate(56.692913 662.550566) scale(0.08 -0.08)">
       <defs>
@@ -9050,7 +9065,7 @@ L 486.574136 505.527826
 L 486.574136 171.135727 
 L 207.914053 171.135727 
 z
-" clip-path="url(#pdb96cc5516)" style="fill: #e3ceb3; stroke: #476552; stroke-linejoin: miter"/>
+" clip-path="url(#pe21d63517e)" style="fill: #e3ceb3; stroke: #476552; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 322.164687 486.02162 
@@ -9058,7 +9073,7 @@ L 372.323502 486.02162
 L 372.323502 460.942213 
 L 322.164687 460.942213 
 z
-" clip-path="url(#pdb96cc5516)" style="fill: #c09b70; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pe21d63517e)" style="fill: #c09b70; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 322.164687 458.155612 
@@ -9066,7 +9081,7 @@ L 372.323502 458.155612
 L 372.323502 433.076204 
 L 322.164687 433.076204 
 z
-" clip-path="url(#pdb96cc5516)" style="fill: #c09b70; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pe21d63517e)" style="fill: #c09b70; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 322.164687 430.289604 
@@ -9074,110 +9089,110 @@ L 372.323502 430.289604
 L 372.323502 405.210196 
 L 322.164687 405.210196 
 z
-" clip-path="url(#pdb96cc5516)" style="fill: #c09b70; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pe21d63517e)" style="fill: #c09b70; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_3">
     <path d="M 263.64607 488.808221 
 L 263.64607 215.72134 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
     <path d="M 319.378086 488.808221 
 L 319.378086 215.72134 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
     <path d="M 375.110103 488.808221 
 L 375.110103 215.72134 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_6">
     <path d="M 430.842119 488.808221 
 L 430.842119 215.72134 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
     <path d="M 207.914053 215.72134 
 L 486.574136 215.72134 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="line2d_8">
     <path d="M 213.487255 289.566262 
 L 258.072868 289.566262 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #263a36; stroke-width: 1.3; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #263a36; stroke-width: 1.3; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
     <path d="M 269.219271 373.164287 
 L 313.804885 373.164287 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #263a36; stroke-width: 1.3; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #263a36; stroke-width: 1.3; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
     <path d="M 269.219271 251.947151 
 L 313.804885 251.947151 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #263a36; stroke-width: 1.3; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #263a36; stroke-width: 1.3; stroke-linecap: square"/>
    </g>
    <g id="line2d_11">
     <path d="M 319.378086 401.030295 
 L 375.110103 401.030295 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_12">
     <path d="M 319.378086 343.904978 
 L 375.110103 343.904978 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_13">
     <path d="M 319.378086 285.386361 
 L 375.110103 285.386361 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_14">
     <path d="M 375.110103 440.042707 
 L 430.842119 440.042707 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_15">
     <path d="M 375.110103 384.31069 
 L 430.842119 384.31069 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_16">
     <path d="M 375.110103 328.578673 
 L 430.842119 328.578673 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_17">
     <path d="M 375.110103 272.846657 
 L 430.842119 272.846657 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_18">
     <path d="M 430.842119 401.030295 
 L 486.574136 401.030295 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_19">
     <path d="M 430.842119 310.465768 
 L 486.574136 310.465768 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #476552; stroke-width: 0.7; stroke-linecap: square"/>
    </g>
    <g id="line2d_20">
     <path d="M 207.914053 543.146937 
 L 486.574136 543.146937 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
    </g>
    <g id="line2d_21">
     <path d="M 189.801148 561.259843 
 L 226.026958 525.034032 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_22">
     <path d="M 468.46123 561.259843 
 L 504.687041 525.034032 
-" clip-path="url(#pdb96cc5516)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#pe21d63517e)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_20">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 被褥 -->
      <g style="fill: #263a36" transform="translate(229.280061 195.11701) scale(0.065 -0.065)">
       <defs>
@@ -9338,7 +9353,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 1 -->
      <g style="fill: #476552" transform="translate(233.714632 163.330866) scale(0.075 -0.075)">
       <use xlink:href="#WenQuanYiMicroHei-31"/>
@@ -9346,7 +9361,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 被褥 -->
      <g style="fill: #263a36" transform="translate(285.012078 195.11701) scale(0.065 -0.065)">
       <use xlink:href="#WenQuanYiMicroHei-88ab"/>
@@ -9355,7 +9370,7 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 2 -->
      <g style="fill: #476552" transform="translate(289.446648 163.330866) scale(0.075 -0.075)">
       <use xlink:href="#WenQuanYiMicroHei-32"/>
@@ -9363,7 +9378,7 @@ z
     </g>
    </g>
    <g id="text_24">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 被褥 -->
      <g style="fill: #263a36" transform="translate(340.744094 195.11701) scale(0.065 -0.065)">
       <use xlink:href="#WenQuanYiMicroHei-88ab"/>
@@ -9372,7 +9387,7 @@ z
     </g>
    </g>
    <g id="text_25">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 3 -->
      <g style="fill: #476552" transform="translate(345.178665 163.330866) scale(0.075 -0.075)">
       <use xlink:href="#WenQuanYiMicroHei-33"/>
@@ -9380,7 +9395,7 @@ z
     </g>
    </g>
    <g id="text_26">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 被褥 -->
      <g style="fill: #263a36" transform="translate(396.476111 195.11701) scale(0.065 -0.065)">
       <use xlink:href="#WenQuanYiMicroHei-88ab"/>
@@ -9389,7 +9404,7 @@ z
     </g>
    </g>
    <g id="text_27">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 4 -->
      <g style="fill: #476552" transform="translate(400.910681 163.330866) scale(0.075 -0.075)">
       <use xlink:href="#WenQuanYiMicroHei-34"/>
@@ -9397,7 +9412,7 @@ z
     </g>
    </g>
    <g id="text_28">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 被褥 -->
      <g style="fill: #263a36" transform="translate(452.208128 195.11701) scale(0.065 -0.065)">
       <use xlink:href="#WenQuanYiMicroHei-88ab"/>
@@ -9406,7 +9421,7 @@ z
     </g>
    </g>
    <g id="text_29">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 5 -->
      <g style="fill: #476552" transform="translate(456.642698 163.330866) scale(0.075 -0.075)">
       <use xlink:href="#WenQuanYiMicroHei-35"/>
@@ -9414,7 +9429,7 @@ z
     </g>
    </g>
    <g id="text_30">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 长衣 -->
      <g style="fill: #263a36" transform="translate(230.280061 493.023533) scale(0.055 -0.055)">
       <use xlink:href="#WenQuanYiMicroHei-957f"/>
@@ -9423,7 +9438,7 @@ z
     </g>
    </g>
    <g id="text_31">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 双层短衣 -->
      <g style="fill: #263a36" transform="translate(280.512078 493.023533) scale(0.055 -0.055)">
       <defs>
@@ -9532,7 +9547,7 @@ z
     </g>
    </g>
    <g id="text_32">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 抽屉叠放 -->
      <g style="fill: #263a36" transform="translate(336.244094 493.023533) scale(0.055 -0.055)">
       <defs>
@@ -9686,7 +9701,7 @@ z
     </g>
    </g>
    <g id="text_33">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 活动层板 -->
      <g style="fill: #263a36" transform="translate(391.976111 493.023533) scale(0.055 -0.055)">
       <defs>
@@ -9794,7 +9809,7 @@ z
     </g>
    </g>
    <g id="text_34">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 被褥杂物 -->
      <g style="fill: #263a36" transform="translate(447.708128 493.023533) scale(0.055 -0.055)">
       <defs>
@@ -9917,7 +9932,7 @@ z
     </g>
    </g>
    <g id="text_35">
-    <g clip-path="url(#pdb96cc5516)">
+    <g clip-path="url(#pe21d63517e)">
      <!-- 2000 -->
      <g style="fill: #6c7770" transform="translate(339.863626 520.637337) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-32"/>
@@ -9930,10 +9945,10 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p526b03257d">
+  <clipPath id="pa1995f8fb7">
    <rect x="0" y="0" width="1190.551181" height="841.889764"/>
   </clipPath>
-  <clipPath id="pdb96cc5516">
+  <clipPath id="pe21d63517e">
    <rect x="182.834646" y="150.23622" width="328.818898" height="411.023622"/>
   </clipPath>
  </defs>

@@ -93,6 +93,6 @@ python3 scripts/build_interior_gallery.py
 - 13张2560×1440效果图、总览、图库：`精装效果图/`。
 - 同一模型优化前后对比：[00-优化前后对比.jpg](../精装效果图/00-优化前后对比.jpg)（通堂／厨房／客房）。
 - 更新后的模型/GLB/内嵌离线数据：`model/`（GLB约19MB，3D首屏约19MiB）。
-- 完整交付包：[农村院落住宅-Q-精装方案.zip](../delivery/农村院落住宅-Q-精装方案.zip)。
-- 手机查看包：[农村院落住宅-O-手机查看包.zip](../delivery/农村院落住宅-O-手机查看包.zip)（已按Q版图重建，45文件、9.4MB）。
+- 本轮历史完整包：`delivery/农村院落住宅-Q-精装方案.zip`。
+- 当前手机包与完整设计包见[手机端查看方式](手机端查看方式.md)。
 - 验收：`check/Q-finish-validation.json`（27项）；手机包：`check/mobile-package-report.json`。

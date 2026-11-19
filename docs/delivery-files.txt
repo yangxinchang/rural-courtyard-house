@@ -1,4 +1,6 @@
 3d.html
+delivery/院居-3D-单文件离线版.html
+delivery/手机查看二维码-局域网.png
 README.md
 assets/finishes/linen.png
 assets/finishes/reference-ink-art.png
@@ -7,6 +9,8 @@ assets/finishes/warm-stone.png
 docs/delivery-files.txt
 docs/design-brief.md
 docs/renovation-plan.md
+docs/revision-Q-details.md
+docs/手机端查看方式.md
 docs/revision-D-plan.md
 docs/revision-E-plan.md
 docs/revision-F-plan.md
@@ -103,6 +107,8 @@ model/model-report.json
 model/scene-data.js
 renders/01-aerial.png
 renders/02-courtyard.png
+renders/19-east-canopy.png
+renders/20-courtyard-glass-roof.png
 renders/03-entrance.png
 renders/04-cutaway.png
 renders/05-grand-gate.png
@@ -117,6 +123,7 @@ scripts/engineering.py
 scripts/engineering_sheets.py
 scripts/finish_textures.py
 scripts/hvac.py
+scripts/interior_details.py
 scripts/interior_views.py
 scripts/interiors.py
 scripts/render_interiors.py

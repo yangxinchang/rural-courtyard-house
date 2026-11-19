@@ -1,8 +1,10 @@
 # 院居 · 六人住宅精装方案 P／Q（水电深化与室内家具细节）
 
-> **在线查看**：[项目主页](https://yangxinchang.github.io/rural-courtyard-house/) ｜ [交互3D](https://yangxinchang.github.io/rural-courtyard-house/3d.html) ｜ [13张浅色效果图](https://yangxinchang.github.io/rural-courtyard-house/精装效果图/index.html) ｜ [单文件离线3D](https://yangxinchang.github.io/rural-courtyard-house/delivery/院居-3D-单文件离线版.html)
+> **当前本地方案**：[全部方案](index.html) ｜ [交互3D](3d.html) ｜ [单文件离线3D](delivery/院居-3D-单文件离线版.html)。本轮未上传公网。
 >
-> **源码**：[GitHub](https://github.com/yangxinchang/rural-courtyard-house) ｜ **下载包**：[Releases v1.0](https://github.com/yangxinchang/rural-courtyard-house/releases/tag/v1.0)（手机查看包、图片包、完整交付包）
+> **历史公开版**：[项目主页](https://yangxinchang.github.io/rural-courtyard-house/) ｜ [Releases v1.0](https://github.com/yangxinchang/rural-courtyard-house/releases/tag/v1.0)。它们不代表当前玻璃顶方案。
+
+2026-11-19 庭院装修：玻璃按红线只封二层挑空口，双连廊和前屋露台保留；露台水池旁留水枪快接口，玻璃向西槽排水。[院内仰视](renders/02-courtyard.png)／[玻璃顶俯视](renders/20-courtyard-glass-roof.png)／[设计说明](设计方案.md#2026-11-19庭院装修深化)。
 
 
 2026-11-07 浅色精装（Q）：整体改为暖白墙面、浅橡木门窗柜体、米色亚麻软包与浅灰米石纹地面；二楼晾衣亭顶棚及柱梁不再用黑色，后排卧室不做木地板改用浅色石纹砖，卧室加木格栅背墙、亚麻床头与搭毯。13张效果图、3D、GLB与交付包同版更新；布置、门窗、五列衣柜与P版水电不变。[细节清单](docs/revision-Q-details.md)／[13张新图](精装效果图/index.html)。
@@ -55,38 +57,36 @@ O版落实门窗单项与全部开关、后楼首层横拉玻璃门、两侧院�
 手机查看：[手机端查看方式](docs/手机端查看方式.md)（三种：发图／同Wi-Fi扫码看3D／上传HTTPS网站）。
 - 微信发图：[15张手机图](https://github.com/yangxinchang/rural-courtyard-house/releases/download/v1.0/rural-house-photos.zip)／[一张总览](精装效果图/00-精装总览.jpg)。
 - 同Wi-Fi扫码：[局域网二维码](delivery/手机查看二维码-局域网.png)（当前 `http://10.0.24.215:8088/`，电脑需开着并保持同一 Wi-Fi）。
-- 网页包：[精简手机查看包](https://github.com/yangxinchang/rural-courtyard-house/releases/download/v1.0/rural-house-mobile.zip)（已按Q版效果图与当前GLB重建）。
-- 完整交付包：[Q版精装方案](https://github.com/yangxinchang/rural-courtyard-house/releases/download/v1.0/rural-house-full.zip)（Blender源模型、PNG原图、图册）。
-- 在线站点已部署在GitHub Pages；真实手机Safari／微信内置浏览器仍建议先自测一次。
+- 当前手机包：`delivery/农村院落住宅-O-手机查看包.zip`；名称保留旧的 `O` 字样，内容随本地方案更新。
+- 当前完整包：`delivery/农村院落住宅-玻璃顶深化-完整方案.zip`（Blender 源模型、高清图、同版图册、离线 3D）。
+- 旧 `Q` 版完整包和 GitHub Pages 仅供历史对照；真实手机 Safari／微信内置浏览器仍建议自测。
 
 
 门窗可在侧栏选择后开关、定位，亦可点击模型中的门窗；“全部打开/关闭”统一操作，“恢复整屋”恢复门开窗关。厨房电器标签仅在厨房视角显示。通过“查看院内洗衣区”“查看亭子与二楼洗衣”定位新增布置，二层也可用屋顶开关查看亭顶下设备。
 
 选“整屋外观”“首层布局”或“二层与露台”，拖动旋转、滚轮缩放、右键平移；手机双指操作。选择房间后可看俯视或室内视角，房间说明内有对应高清图片。屋顶、调低墙体、家具装修和工程图层可单独切换；“恢复整屋”恢复默认状态，页面可保存当前PNG。
 
-“查看门前空地”定位前场与杂物屋；“查看侧门动线”“查看避雨入口”“查看东侧雨廊”保留；“查看娱乐晾晒露台”可直接聚焦露台。室内视角未加入行走碰撞。L形次卧单独说明形状，不用外包矩形冒充整间净尺寸或净面积。
+“查看中庭玻璃顶”定位二层挑空口；二层与露台视图也可看玻璃，关闭“显示屋顶”可隐藏。“查看门前空地”“查看侧门动线”“查看避雨入口”“查看东侧雨廊”和“查看娱乐晾晒露台”保留。室内视角未加入行走碰撞。L形次卧单独说明形状，不用外包矩形冒充整间净尺寸或净面积。
 
 ## 再生成与交付
 
 现有Python、Matplotlib、Pillow与文泉驿字体；Blender 4.2.3。共用数据在scripts/design.py、interiors.py、engineering.py与hvac.py；查看器源码和打包命令在viewer/。不增加新依赖。
 
 ```bash
-python3 scripts/design.py
-python3 scripts/draw_sheets.py
-blender -b --python scripts/render_model.py
-blender -b model/courtyard-house.blend --python scripts/render_interiors.py
-python3 scripts/build_interior_gallery.py
-python3 scripts/draw_sheets.py
+blender -b --python-exit-code 1 --python scripts/render_model.py &&
+blender -b model/courtyard-house.blend --python-exit-code 1 --python scripts/render_interiors.py &&
+python3 scripts/build_interior_gallery.py &&
+python3 scripts/draw_sheets.py &&
 python3 scripts/build_delivery.py
 ```
 
-模型、图册或查看器更新后，最后运行 `python3 scripts/build_delivery.py`：使用已安装的本地 esbuild 重打包查看器，生成手机站点与 ZIP，同步 `site/` 部署目录，并重建单文件离线 3D。仅修改网页与交付逻辑时可直接运行此命令，无需重新渲染模型；本地依赖安装见 [viewer/build.txt](viewer/build.txt)。资源 URL 按内容摘要更新，手机包会校验文件和 HTML 锚点；`site/_headers` 保留为缓存配置源文件。
+模型、图册或查看器更新后，最后运行 `python3 scripts/build_delivery.py`。它从临时快照生成完整 ZIP、手机 ZIP 和单文件离线 3D，核对 ZIP 中的 PDF 和 GLB，再替换本地交付及 `site/`。仅修改网页与交付逻辑时无需重新渲染；本地依赖安装见 [viewer/build.txt](viewer/build.txt)。
 
 2026-11-15 查看器优化：按楼层和材质合并不透明静态装饰，门窗、衣柜与透明物件保留独立分组；日照仅在阴影开关状态变化时更新网格属性。手机 ZIP 完整写入并校验后才替换旧包，构建中断时保留上一份有效 ZIP。
 
 O版室内正式输出完整13机位；单图预览使用`-- preview 03`，只写本地检查目录。渲染入口检查O版模型，图库检查全13机位；模型导出先刷新JSON并做几何检查。纹理嵌入GLB，无运行时CDN；查看器打包命令见viewer/build.txt。
 
-完整ZIP按[明确交付清单](docs/delivery-files.txt)生成，保留页面链接所需文件和源模型；工具、测试、检查、截图、临时备份和.blend1不入交付。历史包保留，未上传。Q版完整包另加[docs/revision-Q-details.md](docs/revision-Q-details.md)，文件数量以交付清单为准。本轮状态及验收依据见[check/Q-finish-validation.json](check/Q-finish-validation.json)；历史检查不当作本轮验收。
+完整 ZIP 按[交付清单](docs/delivery-files.txt)生成；工具、测试、检查结果、截图和备份不入包。历史完整包保留。Blender 脚本会先在临时目录完成本次模型导出和指定渲染，失败不更换旧模型。发布阶段逐文件替换，请勿在同一工作区并行构建。
 
 杂物屋及前场没有现场测绘，新屋对前客房采光、屋顶排水和实际位置仍待核实。本方案未进行现场测绘、地基结构、荷载、防火、防水、日照通风、机电回路及实际产品安装校核。新增套卫、露台、烟管和厚门的图示尺寸均为设计意向，扩大边界及法定面积仍需核实，不能直接施工。
 

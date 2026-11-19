@@ -1,7 +1,7 @@
 const modes = {
-  whole: {groups:['Site','Front','Rear1','Rear2','Attic','Roofs','Terrace','Stairs','StairShell1','StairShell2','StairRoof','EntryRoof','BridgeCanopy','Garden','Outbuilding','OutbuildingRoof','Pavilion','PavilionRoof'],floor:.3,cutWalls:false},
+  whole: {groups:['Site','Front','Rear1','Rear2','Attic','Roofs','Terrace','Stairs','StairShell1','StairShell2','StairRoof','EntryRoof','BridgeCanopy','CourtyardCanopy','Garden','Outbuilding','OutbuildingRoof','Pavilion','PavilionRoof'],floor:.3,cutWalls:false},
   ground: {groups:['Site','Front','Rear1','Stairs','StairShell1','Garden','Outbuilding'],floor:.3,cutWalls:true},
-  upper: {groups:['Rear2','Terrace','Stairs','StairShell2','EntryRoof','Pavilion','PavilionRoof'],floor:3.6,cutWalls:true},
+  upper: {groups:['Rear2','Terrace','Stairs','StairShell2','EntryRoof','CourtyardCanopy','Pavilion','PavilionRoof'],floor:3.6,cutWalls:true},
   attic: {groups:['Attic'],floor:6.9,cutWalls:true},
 };
 
