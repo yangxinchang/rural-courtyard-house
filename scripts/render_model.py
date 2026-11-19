@@ -911,7 +911,7 @@ roof_west=EAST_CANOPY['roof_level'];roof_east=roof_west-EAST_CANOPY['fall']
 mesh('East covered bridge roof',[(cx1,cy1,roof_west),(cx2,cy1,roof_east),
      (cx2,cy2,roof_east),(cx1,cy2,roof_west)],[(0,1,2,3)],CANOPY_GLASS)
 for x,z in ((cx1,roof_west),(cx2,roof_east)):
-    cube('East canopy slim perimeter',(x,(cy1+cy2)/2,z-.018),(.044,cy2-cy1,.042),CANOPY_FRAME)
+    cube('East canopy slim perimeter',(x,(cy1+cy2)/2,z-.029),(.044,cy2-cy1,.042),CANOPY_FRAME)
 for x in EAST_CANOPY['post_x']:
     top=roof_west-EAST_CANOPY['fall']*(x-cx1)/(cx2-cx1)-.06
     cube('East canopy edge beam',(x,(cy1+cy2)/2,top-.06),(.06,cy2-cy1,.12),CANOPY_FRAME)
@@ -919,7 +919,7 @@ for x in EAST_CANOPY['post_x']:
         height=top-.12-3.6
         cube('East canopy post',(x,y,3.6+height/2),(EAST_CANOPY['post_size'],EAST_CANOPY['post_size'],height),CANOPY_FRAME)
 for y in EAST_CANOPY['crossbars']:
-    bar=cube('East canopy crossbeam',((cx1+cx2)/2,y,(roof_west+roof_east)/2-.03),(cx2-cx1,.05,.065),CANOPY_FRAME)
+    bar=cube('East canopy crossbeam',((cx1+cx2)/2,y,(roof_west+roof_east)/2-.045),(cx2-cx1,.05,.065),CANOPY_FRAME)
     bar.rotation_euler.y=math.atan2(EAST_CANOPY['fall'],cx2-cx1)
 for y in (8,10.5,12.95):
     cube('Ceiling light / East covered bridge',(10.8,y,6.506),(.48,.034,.025),LED,.005)
@@ -935,17 +935,19 @@ def canopy_height(x):
     return zw+(ze-zw)*(x-glass_w)/(ex-glass_w)
 
 mesh('Courtyard canopy glazing',[(glass_w,sy,zw),(ex,sy,ze),(ex,ny,ze),(glass_w,ny,zw)],[(0,1,2,3)],CANOPY_GLASS)
+# Overlapping faces shimmer in the viewer even when the shadow map is off.
 for i in range(COURTYARD_CANOPY['bays']+1):
     x=glass_w+.027+(ex-glass_w-.054)*i/COURTYARD_CANOPY['bays']
-    cube('Courtyard canopy longitudinal frame',(x,(sy+ny)/2,canopy_height(x)-.032),(.054,ny-sy,.07),CANOPY_FRAME)
+    cube('Courtyard canopy longitudinal frame',(x,(sy+ny)/2,canopy_height(x)-.041),(.054,ny-sy,.07),CANOPY_FRAME)
 for i,y in enumerate(COURTYARD_CANOPY['crossbars']):
     mid=(glass_w+ex)/2
     depth=.16 if i%2 else .075
-    bar=cube('Courtyard canopy crossbeam',(mid,y,canopy_height(mid)-depth/2),(ex-glass_w,.06,depth),CANOPY_FRAME)
+    bar=cube('Courtyard canopy crossbeam',(mid,y,canopy_height(mid)-depth/2-.012),(ex-glass_w,.06,depth),CANOPY_FRAME)
     bar.rotation_euler.y=-math.atan2(ze-zw,ex-glass_w)
-edge=[(wx,sy),(ex,sy),(ex,ny),(wx,ny)]
+inset=.004
+edge=[(wx+inset,sy+inset),(ex-inset,sy+inset),(ex-inset,ny-inset),(wx+inset,ny-inset)]
 mesh('Courtyard canopy perimeter curb',[(x,y,z) for z in (3.52,) for x,y in edge]+
-     [(x,y,ze if x==ex else zw-.026) for x,y in edge],
+     [(x,y,ze if x>glass_w else zw-.026) for x,y in edge],
      [(i,(i+1)%4,(i+1)%4+4,i+4) for i in range(4)],CANOPY_FRAME)
 gx,gy,gz=COURTYARD_CANOPY['gutter_outlet']
 south_z,north_z=COURTYARD_CANOPY['gutter_ends_z']
