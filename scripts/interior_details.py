@@ -622,15 +622,13 @@ class Details:
                      .007, self.F.fabric, .003)
             self.vase(cx, cy, top + .008, .24)
             self.bowl(cx + .22, cy - .16, top + .008, .12)
-        # Low sideboard against the north wall, below the wall panelling.
-        self.box("Dining sideboard", ix1 + .12, iy2 - .50, ix1 + .82, iy2 - .05, floor, .80,
+        self.box("Dining sideboard", ix1 + .12, iy2 - .37, ix1 + .82, iy2 - .05, floor, .80,
                  self.F.wood, .012)
-        self.box("Sideboard top", ix1 + .10, iy2 - .52, ix1 + .84, iy2 - .03, floor + .80, .032,
+        self.box("Sideboard top", ix1 + .10, iy2 - .39, ix1 + .84, iy2 - .03, floor + .80, .032,
                  self.F.counter, .005)
-        self.lamp(ix1 + .33, iy2 - .28, floor + .83, .40, 7, .12, "sideboard")
-        self.vase(ix1 + .64, iy2 - .28, floor + .83, .30)
+        self.lamp(ix1 + .33, iy2 - .20, floor + .83, .40, 7, .12, "sideboard")
+        self.vase(ix1 + .64, iy2 - .20, floor + .83, .30)
         self.art((ix1 + .12 + ix1 + .82) / 2, iy2 - .012, floor + 1.32, .95, .58, "y", -1)
-        self.rug(ix1 + .55, iy1 + 2.60, ix2 - .35, iy2 - .55, floor + .014, self.F.rug)
         self.plant(ix2 - .30, iy2 - .40, floor, 1.05, .14)
         self.art(ix1 + .012, iy1 + 5.55, floor + 1.20, .82, .56, "x", 1)
 
@@ -724,7 +722,6 @@ class Details:
     def entry_dressing(self, room):
         floor = room["floor"]
         x1, y1, x2, y2 = room["inner"]
-        self.rug(x1 + .20, y1 + .25, x2 - .20, y2 - .40, floor + .014, self.F.rug_pale)
         # Coat hooks on the east wall clear of the window.
         for index in range(3):
             yy = y1 + 1.28 + index * .20
@@ -737,12 +734,11 @@ class Details:
             self.box("Entry bench cushion", a + .015, b + .03, c - .015, d - .03,
                      floor + .45, .055, self.F.boucle, .02)
         self.art(x1 + .012, y2 - .34, floor + 1.42, .52, .52, "x", 1)
-        self.cyl("Umbrella stand", x1 + .22, y2 - .28, floor, floor + .52, .11,
-                 self.F.stone, 24)
-        for index in range(2):
-            self.rod("Umbrella", (x1 + .20 + index * .04, y2 - .28, floor + .10),
-                     (x1 + .17 + index * .04, y2 - .28, floor + .82), .018,
-                     self.F.darkwood, 10)
+        if bench:
+            x, y = c - .13, b - .13
+            self.cyl("Umbrella drip pot beside bench", x, y, floor, floor + .46, .085, self.F.stone, 24)
+            for dx in (-.025,.025):
+                self.rod("Umbrella", (x + dx, y, floor + .10), (x + dx, y, floor + .77), .018, self.F.darkwood, 10)
 
     def study_dressing(self, room, plant_at):
         floor = room["floor"]

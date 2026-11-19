@@ -49,6 +49,9 @@ def bathroom(room, mirror=False):
     return data
 
 
+DINING_Y = 22.10
+
+
 def furnishings():
     front = [
         item("cabinet",0,(.86,1.01,1.46,3.87),"厨房西侧地柜",.88),
@@ -79,7 +82,7 @@ def furnishings():
         item("tv",0,(3.66,18.25,4.02,19.30),"电视 / 矮柜",.55,180),
         item("washer",2,(3.36,22.42,4.02,23.08),"洗衣机",.88),
         item("cabinet",2,(2.88,22.42,3.33,23.08),"窗下家务矮柜",.76),
-        item("bench",8,(13.62,14.92,14.08,15.92),"门厅换鞋凳",.45),
+        {**item("bench",8,(13.62,14.92,14.08,15.92),"门厅开放鞋格换鞋凳",.45), 'shoe_storage':True},
     ] + bathroom(1) + bathroom(7,True)
     rear2 = [
         {**item("bed",0,(.98,16.75,3.13,19.09),"主卧 2.2m 西向低床头床",.75,90),"head_top":.75},
@@ -140,9 +143,9 @@ def furnishings():
     hob=next(obj for obj in front if obj['kind']=='hob')
     hob.update(bounds=(10.59,1.20,11.09,1.82),name='猛火灶 1（示意）',burners=1)
     front.append({**item('hob',0,(10.59,1.94,11.09,2.56),'猛火灶 2（示意）',.93),'mirrored':True,'burners':1})
-    rear1.append(item('roundtable',3,(5.40,21.80,6.60,23.00),'六人圆桌餐叙会客',.76))
+    rear1.append(item('roundtable',3,(5.40,DINING_Y-.60,6.60,DINING_Y+.60),'六人圆桌餐叙会客',.76))
     for i in range(6):
-        angle=math.radians(i*60);cx=6+.89*math.sin(angle);cy=22.4+.89*math.cos(angle)
+        angle=math.radians(i*60);cx=6+.89*math.sin(angle);cy=DINING_Y+.89*math.cos(angle)
         rear1.append({**item('chair',3,(cx-.22,cy-.22,cx+.22,cy+.22),'圆桌软垫会客椅',.9,-i*60),'upholstered':True})
     for items,room,bedroom,name,rail in ((rear1,6,'rear1-5','老人房独立衣柜',1.55),
                                        (rear2,2,'rear2-0','主卧独立衣柜',1.85),
@@ -226,7 +229,7 @@ def decoration():
     add('rear1','border',3,(4.52,16.05,7.48,22.95),'堂屋石材细边线',.018,.001,'metal')
     add('front','lantern',1,(5.72,3.10,6.28,3.55),'通堂木框暖光灯',2.44,.30,'metal')
     add('rear1','lantern',3,(5.65,19.25,6.35,19.85),'堂屋框形暖光灯',2.42,.33,'metal')
-    add('rear1','lantern',3,(5.65,22.05,6.35,22.75),'圆桌中心木框餐叙灯',2.10,.26,'metal')
+    add('rear1','lantern',3,(5.65,DINING_Y-.35,6.35,DINING_Y+.35),'圆桌中心木框餐叙灯',2.10,.26,'metal')
     add('rear1','lightstrip',6,(11.10,23.48,11.13,23.78),'老人休闲区阅读灯',1.45,.30,'light')
     add('rear1','lightstrip',5,(11.10,18.35,11.13,18.75),'老人夜间导向灯',.25,.045,'light')
     add('rear2','lightstrip',6,(9.35,24.10,9.65,24.14),'次卧桌面阅读灯',1.12,.045,'light')

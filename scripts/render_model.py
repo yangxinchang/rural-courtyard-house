@@ -546,6 +546,12 @@ for group,items in furnishings().items():
                 part.rotation_euler.z+=rotation
         elif kind=='wardrobe' and obj.get('bedroom'):
             wardrobe(obj,floor)
+        elif kind=='bench' and obj.get('shoe_storage'):
+            for z in (.068,.428):
+                cube('Entry shoe bench deck',(cx,cy,floor+z),(width,depth,.044),PALEWOOD,.006)
+            for y in (y1+.018,cy,y2-.018):
+                cube('Entry shoe bench divider',(cx,y,floor+.248),(width,.036,.32),PALEWOOD,.006)
+            cube('Entry shoe bench back',(x2-.012,cy,floor+.248),(.024,depth,.32),PALEWOOD)
         elif kind in ("cabinet","wardrobe","console","nightstand","bench","fridge","washer"):
             height=obj["height"]
             mat=WATER if kind in ("fridge","washer") else PALEWOOD

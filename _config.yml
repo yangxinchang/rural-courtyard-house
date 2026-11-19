@@ -1,0 +1,6 @@
+exclude:
+  - check
+  - test
+  - tests
+  - tmp
+  - tools

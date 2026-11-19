@@ -1,8 +1,10 @@
 # 院居 · 六人住宅精装方案 P／Q（水电深化与室内家具细节）
 
-> **当前本地方案**：[全部方案](index.html) ｜ [交互3D](3d.html) ｜ [单文件离线3D](delivery/院居-3D-单文件离线版.html)。本轮未上传公网。
+> **在线查看**：[全部方案](https://yangxinchang.github.io/rural-courtyard-house/) ｜ [交互3D](https://yangxinchang.github.io/rural-courtyard-house/3d.html)。
 >
-> **历史公开版**：[项目主页](https://yangxinchang.github.io/rural-courtyard-house/) ｜ [Releases v1.0](https://github.com/yangxinchang/rural-courtyard-house/releases/tag/v1.0)。它们不代表当前玻璃顶方案。
+> **离线查看**：[全部方案](index.html) ｜ [单文件离线3D](delivery/院居-3D-单文件离线版.html)。[Releases v1.0](https://github.com/yangxinchang/rural-courtyard-house/releases/tag/v1.0) 下载保留为历史版。
+
+2026-11-19 首层细化：[堂屋圆桌](精装效果图/05-圆桌客厅.png)南移 300 毫米，[避雨门厅](精装效果图/11-避雨门厅.png)换鞋凳改开放鞋格。新版效果图、3D 与首层平面同步。
 
 2026-11-19 庭院装修：玻璃按红线只封二层挑空口，双连廊和前屋露台保留；露台水池旁留水枪快接口，玻璃向西槽排水。[院内仰视](renders/02-courtyard.png)／[玻璃顶俯视](renders/20-courtyard-glass-roof.png)／[设计说明](设计方案.md#2026-11-19庭院装修深化)。
 
@@ -59,7 +61,7 @@ O版落实门窗单项与全部开关、后楼首层横拉玻璃门、两侧院�
 - 同Wi-Fi扫码：[局域网二维码](delivery/手机查看二维码-局域网.png)（当前 `http://10.0.24.215:8088/`，电脑需开着并保持同一 Wi-Fi）。
 - 当前手机包：`delivery/农村院落住宅-O-手机查看包.zip`；名称保留旧的 `O` 字样，内容随本地方案更新。
 - 当前完整包：`delivery/农村院落住宅-玻璃顶深化-完整方案.zip`（Blender 源模型、高清图、同版图册、离线 3D）。
-- 旧 `Q` 版完整包和 GitHub Pages 仅供历史对照；真实手机 Safari／微信内置浏览器仍建议自测。
+- GitHub Pages 跟随 `main` 更新；旧 `Q` 版内页与 `v1.0` 下载留作历史对照。真实手机 Safari／微信内置浏览器仍建议自测。
 
 
 门窗可在侧栏选择后开关、定位，亦可点击模型中的门窗；“全部打开/关闭”统一操作，“恢复整屋”恢复门开窗关。厨房电器标签仅在厨房视角显示。通过“查看院内洗衣区”“查看亭子与二楼洗衣”定位新增布置，二层也可用屋顶开关查看亭顶下设备。
