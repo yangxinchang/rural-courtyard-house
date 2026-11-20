@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>院居｜整体设计交底与施工注意事项（工程师版）</title>
+<style>
+  :root{
+    --paper:#fafbf7;--card:#ffffff;--ink:#1f382e;--muted:#55665d;--line:#d5ded5;
+    --pale:#eef3ec;--warn-bg:#fdf4ee;--warn-line:#c86d3b;--warn-ink:#7d3411;
+    --info-bg:#eff5f2;--info-line:#2e6b52;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:20px}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.72;font-size:15px}
+  a{color:inherit;text-underline-offset:4px}
+  header,main,footer{width:min(1260px,92%);margin:auto}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;border-bottom:2px solid var(--ink);flex-wrap:wrap}
+  .brand{font-family:"Noto Serif CJK SC","Songti SC",SimSun,serif;font-size:22px;letter-spacing:3px;text-decoration:none;font-weight:600}
+  nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}
+  nav a{text-decoration:none;padding:4px 0}
+  nav a:hover{text-decoration:underline}
+  .print-btn{background:var(--ink);color:#fff;border:0;padding:7px 14px;border-radius:4px;cursor:pointer;font-size:13px;font-family:inherit}
+  .hero{padding:28px 0 22px;border-bottom:1px solid var(--line)}
+  h1{font-family:"Noto Serif CJK SC","Songti SC",SimSun,serif;font-size:clamp(26px,3vw,38px);margin:0 0 10px;font-weight:600;line-height:1.3}
+  h2{font-family:"Noto Serif CJK SC","Songti SC",SimSun,serif;font-size:23px;margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line);font-weight:600}
+  h3{font-size:16px;margin:0 0 8px;color:var(--ink)}
+  .meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;color:var(--muted);margin-top:8px}
+  .banner{margin:18px 0 0;padding:14px 18px;border-left:4px solid var(--warn-line);background:var(--warn-bg);color:var(--warn-ink);font-size:14px}
+  .toc{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 28px;padding:14px 16px;background:var(--pale);border:1px solid var(--line);border-radius:4px;font-size:13px}
+  .toc a{text-decoration:none;padding:4px 10px;background:#fff;border:1px solid var(--line);border-radius:3px}
+  .toc a:hover{border-color:var(--ink)}
+  section{margin:0 0 42px}
+  .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+  .grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:16px 18px}
+  .card.warn{border-left:4px solid var(--warn-line);background:var(--warn-bg)}
+  .card.info{border-left:4px solid var(--info-line);background:var(--info-bg)}
+  ul{margin:8px 0 0;padding-left:19px}
+  li{margin:5px 0;color:#2b4137}
+  .muted{color:var(--muted);font-size:13px}
+  table{width:100%;border-collapse:collapse;background:#fff;font-size:13.5px;margin-top:10px}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:var(--pale);font-weight:600;color:var(--ink)}
+  .tag{display:inline-block;font-size:11.5px;padding:1px 7px;border-radius:3px;background:var(--pale);color:var(--ink);border:1px solid var(--line);margin-right:6px;font-weight:600}
+  .tag.red{background:#fdece4;color:#8c2f0c;border-color:#e8b39a}
+  .table-wrap{overflow-x:auto}
+  footer{padding:20px 0 36px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  @media(max-width:900px){.grid-2,.grid-3{grid-template-columns:1fr}}
+  @media print{
+    nav,.print-btn,.toc{display:none!important}
+    body{background:#fff;font-size:12px;line-height:1.55}
+    header,main,footer{width:100%}
+    .card,table,tr{break-inside:avoid}
+    section{margin-bottom:22px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="index.html">院居 · 工程交底手册</a>
+  <nav aria-label="页面导航">
+    <a href="index.html">返回方案首页</a>
+    <a href="3d.html">交互 3D</a>
+    <a href="精装效果图/index.html">13 张高清效果图</a>
+    <a href="drawings/农村院落住宅-水电深化P.pdf">39 页 PDF 图册</a>
+    <button class="print-btn" type="button" onclick="window.print()">打印 / 导出 PDF</button>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>农村前后院住宅 · 整体设计交底与施工注意事项</h1>
+    <div class="meta">
+      <span><strong>方案版本：</strong>P／Q 版深化（2026-11-20 最新）</span>
+      <span><strong>适用对象：</strong>结构 / 水电 / 暖通 / 门窗 / 精装施工工程师</span>
+      <span><strong>设计定位：</strong>坐北朝南 · 常住 6 人 · 浅色现代中式精装</span>
+    </div>
+    <div class="banner">
+      <strong>重要工程声明：</strong>本方案所有模型、图纸与参数均为<strong>设计意向与空间复核成果，不可直接作为施工图使用</strong>。所在地（县/市）、施工现状、权属地界、道路与雨污水接点标高、地质基础、结构配筋及具体设备型号尚未核定，开工前须由专业人员现场实测并完成专项深化。
+    </div>
+    <div class="toc" aria-label="章节快捷跳转">
+      <a href="#s1">1. 总控尺寸与空间基线</a>
+      <a href="#s2">2. 结构安全与专项红线</a>
+      <a href="#s3">3. 给排水 / 防水防潮 / 排烟暖通</a>
+      <a href="#s4">4. 电气弱电与 29 组回路表</a>
+      <a href="#s5">5. 精装构造 / 适老 / 选材落地</a>
+      <a href="#s6">6. 开工前现场必测回传单</a>
+    </div>
+  </div>
+
+  <section id="s1">
+    <h2>1. 建筑总控参数与空间布局基线</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th style="width:18%">控制项</th><th style="width:34%">当前模型基准尺寸 / 标高</th><th>布局意图与复核要点</th></tr></thead>
+        <tbody>
+          <tr><td>朝向与用地示意</td><td>坐北朝南；示意面宽 <strong>15.20m</strong> × 总深 <strong>37.40m</strong>（含门前 8.00m 前场 + 主体后院 29.40m）</td><td>完整权属边界、道路高程与法定可建范围待实测；屋后北墙外净空已确认留 <strong>5.00m</strong>（排污检查井与化粪池区）。</td></tr>
+          <tr><td>建筑三大段</td><td>前屋 <strong>10.80×6.00m</strong>（单层平露台）；中庭净深 <strong>7.80m</strong>；后楼 <strong>10.80×10.00m</strong>（两层 + 红瓦通风隔热阁楼）</td><td>三开间各 3.60m；东西双连廊宽 1.20m 成环；右侧设封闭楼梯间与避雨门厅，不占中庭采光面。</td></tr>
+          <tr><td>竖向标高基线</td><td>院坪 <code>±0.000</code>；首层完成面 <code>+0.300</code>；二层/露台 <code>+3.600</code>；檐口/屋面 <code>+6.900</code>；后楼脊高 <code>+10.200</code></td><td>入口 300mm 高差设两级 150mm 踏步；楼梯 20 步（踏高 165mm、踏深 270mm、梯段宽 1050mm）。</td></tr>
+          <tr><td>两层东套卫外扩</td><td>楼梯北侧 <code>X11.40~14.34 / Y21.88~24.40</code>，名义 <strong>2.94×2.52m</strong>（参考净空 2.70×2.28m）</td><td>上下叠合，西门仅接各层私用区、不通楼梯；原东湿区 6.30㎡ 归还老人衣帽休闲区及次卧书桌区。</td></tr>
+          <tr><td>右前方杂物屋</td><td>东南角 <code>X11.00~14.60 / Y-7.40~0.00</code>，暂按 <strong>3.60×7.40m</strong>，平屋顶约 <code>+3.30</code></td><td>西门朝前场空地，北/东货架；北距前屋南墙仅 <strong>600mm 示意</strong>，实际退距、防火、排水及对前屋采光须现场核定。</td></tr>
+          <tr><td>常住 6 人床位与核心净距</td><td>老人房 2.2m 床、主卧 2.2m 床、次卧 1.8m 床、前客房 1.8m 备用床；堂屋 1.20m 六人圆桌</td><td>老人房/主卧床尾 ≥900mm；次卧南侧通路 830mm、床尾 950mm、独立入户过道 1.24m；堂屋圆桌南移 300mm 后北侧椅背余量约 650mm。</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="s2">
+    <h2>2. 结构安全与关键专项深化红线</h2>
+    <div class="grid-2">
+      <div class="card warn">
+        <h3><span class="tag red">红线 01</span>中庭 8.40 × 7.80m 挑空玻璃顶</h3>
+        <ul>
+          <li>玻璃仅封二层东西连廊之间挑空口，西低东高找坡（<code>+3.74m → +3.98m</code>），不覆盖两侧连廊与前屋露台；东侧高位雨廊单独保留。</li>
+          <li><strong>严禁把护栏计入承重，严禁将「中央无柱」视为已验算结论</strong>：须由结构专业按实测跨距、两侧连廊边梁与柱位核算钢/铝主次梁截面、抗风揭、挠度及连接节点。</li>
+          <li>顶面必须选用<strong>夹胶中空 Low-E 安全玻璃</strong>（禁止单片钢化），周边保留护栏并设置「不可踩踏」永久标识。</li>
+        </ul>
+      </div>
+      <div class="card warn">
+        <h3><span class="tag red">红线 02</span>东西院墙补高与东套卫外扩</h3>
+        <ul>
+          <li>东西两侧院墙补高至 <code>+3.420m</code> 与二层连廊板底相接形成整面实墙，取消旧中部压顶；顶部拉结、抗侧移与防水收口须做专项结构节点，不可直接砌筑无拉结高墙。</li>
+          <li>两层东侧外扩套卫（每层外包投影约 7.41㎡）须核实可建红线，并与主楼框架拉结设计独立基础/梁板及外墙保温防水。</li>
+        </ul>
+      </div>
+      <div class="card warn">
+        <h3><span class="tag red">红线 03</span>前屋露台与电动晾衣亭荷载</h3>
+        <ul>
+          <li>前屋平屋顶为上人娱乐晾晒露台，铺装必须采用<strong>轻量室外防滑系统</strong>（300×300 / 300×600mm），<strong>严禁把院子厚石材与厚砂浆垫层直接搬上楼顶</strong>。</li>
+          <li>西侧晾衣亭电动升降晾衣机支架须可靠锚固于亭梁（<strong>禁止挂在薄屋面饰板上</strong>），按所选机型核定静/动荷载、抗风摆动及室外防雨等级。</li>
+        </ul>
+      </div>
+      <div class="card warn">
+        <h3><span class="tag red">红线 04</span>临街厚重大门与落地玻璃推拉门</h3>
+        <ul>
+          <li>临街 2400mm 双开厚门（110mm 门扇意向）选用耐候金属门体配木纹饰面（防腐钢/铝合金/铸铝），<strong>室内木门不得直接当室外门</strong>；提前预埋重型铰链与门柱加强件。</li>
+          <li>后楼首层朝院双轨横拉玻璃门须核定安全玻璃、重型滑轮承载、轨道外排水与低门槛防倒灌节点，不以「无门槛」牺牲挡水能力。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="s3">
+    <h2>3. 给排水、防水防潮与暖通排烟要点</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>雨污分流与中庭玻璃顶排水（图册 A-107 / P-102）</h3>
+        <ul>
+          <li><strong>中庭主排 + 独立溢流：</strong>玻璃顶向西槽收水，西槽两端向北段低点（<code>X1.875, Y13.95</code>）找坡，主排水管沿西廊板下向外降坡接西侧雨水干管；槽内另设<strong>独立溢流口与溢流管</strong>，不与主立管共用。</li>
+          <li><strong>二楼冲洗与防回流：</strong>露台水池柜东侧预留水枪快接口、可检修关断阀及防回流装置；雨水系统<strong>严禁接入洗衣废水或含清洁剂污水</strong>。</li>
+          <li><strong>冷凝水与渗漏：</strong>玻璃顶与外墙、露台、西槽交接处须补泛水收边及玻璃内侧冷凝水接排槽，防止冬夏季滴水至首层。</li>
+          <li><strong>屋后排污：</strong>西/东湿区与二楼过厅洗衣机排水（均带防臭存水弯与立管清扫口/通气帽）统一排至屋后检查井 IW1～IW3 及化粪池；二楼板下横管 1.5% 坡度须结合吊顶净高逐点复核无反升。</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>农村自建房防水防潮与双路热水</h3>
+        <ul>
+          <li><strong>首层必做防潮层：</strong>首层全部房间（尤其老人房、堂屋、起居室）地面垫层下满铺 <strong>SBS / PE 防潮膜</strong>，内墙脚 1.2m 内刷抗碱防潮底漆，防止梅雨季地面返潮、墙皮起碱脱落。</li>
+          <li><strong>厨卫闭水与节点：</strong>管根、地漏、门口止水坎、窗台外坡及淋浴区先做满涂防水并闭水验收，美缝与防霉胶不替代防水系统。</li>
+          <li><strong>前厨 / 后楼双路热水：</strong>前屋厨房与后楼湿区跨院相隔，建议<strong>前屋厨房设独立小厨宝或独立燃气支路，后楼设集中热水器 + 回水管（零冷水）</strong>，首层热源接口位于家务前室东侧实墙（避开北窗）。</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>厨房双猛火灶独立排烟（图册 25）</h3>
+        <ul>
+          <li>烟机顶部沿东墙穿墙上翻，室外独立立管位于 <code>X11.80 / Y1.60</code>，示意终端标高 <code>+6.10m</code>，意向管径 <strong>Φ180mm</strong>，总路径约 4.88m，设防雨帽、止逆阀及室外检修口。</li>
+          <li>排放点远离前屋露台休闲与晾衣区，<strong>独立排放，严禁并入卫浴排风或污水通气管</strong>；双灶同开时须核实烟机风压、止逆防倒灌及自然补风路径。</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>空调内机避吹与中庭夏季散热</h3>
+        <ul>
+          <li><strong>老人房空调（AC-3）</strong>已移至东墙南段梳妆台上方，避开床头直吹；全部 6 台空调（AC-1～AC-6）外机集中西侧设备区，冷凝水独立有组织排放。</li>
+          <li><strong>中庭防晒散热：</strong>玻璃顶下方设夏季电动折叠遮阳天幕 + 东侧高边电动排热天窗；实际落地建议<strong>优先评估外遮阳</strong>（隔热效率显著高于内遮阳），并在低处预留可开启防蚊百叶进风口形成自然拔风。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="s4">
+    <h2>4. 电气、弱电与 29 组回路总表</h2>
+    <div class="grid-2" style="margin-bottom:16px">
+      <div class="card info">
+        <h3>配电分区与强电新增预留</h3>
+        <ul>
+          <li>三级分箱：<strong>DB0（前屋）</strong>、<strong>DB1（后楼首层）</strong>、<strong>DB2（二层家庭厅东墙完整墙段）</strong>。插座与设备回路按 <strong>30mA 剩余电流保护</strong>设计意向，PE 导体全程连续。</li>
+          <li><strong>必留独立/专用点位：</strong>二楼过厅洗烘一体机（DB2-W1）、亭内电动晾衣机（DB0-D1）、中庭电动遮阳天幕与东侧电动排热天窗、卫浴电热毛巾架、堂屋备餐柜轨道插座、中庭台阶 IP65 防水感应灯带、大门及室外安防监控。</li>
+          <li>烤箱与洗碗机插座设在<strong>邻柜可开启检修位</strong>，禁止封死在设备背面；全屋具体线径、断路器与进线负荷须按最终电器功率校核。</li>
+        </ul>
+      </div>
+      <div class="card info">
+        <h3>跨栋全屋弱电与智能布线</h3>
+        <ul>
+          <li>前屋 + 中庭 + 后楼两层跨度大、砖混/框架墙体厚，普通单路由器信号极易衰减。</li>
+          <li><strong>建议弱电箱统一预埋超六类（Cat6A）网线</strong>至：前屋通堂/客房、后楼首层起居室、堂屋、老人房、二层家庭厅、主卧、次卧，采用 <strong>AC+AP 吸顶/面板或有线 Mesh</strong> 实现全屋及院落无缝漫游。</li>
+          <li>老人房床头配<strong>双控一键总关</strong> + 墙脚/套卫门外/台盆下低位感应起夜导向灯。</li>
+        </ul>
+      </div>
+    </div>
+    <details open>
+      <summary style="cursor:pointer;font-weight:600;padding:8px 0">展开 / 收起：全屋 29 组电气回路明细表（设计意向，线径与断路器按负荷校核）</summary>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>回路编号</th><th>所属分箱</th><th>用途说明</th><th>独立专用</th><th>漏电保护意向</th></tr></thead>
+          <tbody>
+            <tr><td>DB0-L / DB1-L / DB2-L</td><td>DB0 / DB1 / DB2</td><td>各层照明与开关（含入口双控、柜下灯带、起夜导向灯）</td><td>否</td><td>按照明保护校核</td></tr>
+            <tr><td>DB0-S / DB1-S / DB2-S</td><td>DB0 / DB1 / DB2</td><td>各层普通插座（含堂屋备餐柜轨道插座、书桌及床头插座）</td><td>否</td><td>30mA</td></tr>
+            <tr><td>DB0-A01 ～ DB0-A08</td><td>DB0（前屋）</td><td>厨房专线：K2 烤箱、K3 西厨台面、K1 烟机/灶具、K4 冰箱、K5 洗碗机、K6 微波炉、K7 电饼铛、K8 电饭煲</td><td>是（8 路独立）</td><td>30mA</td></tr>
+            <tr><td>DB0-A09 / DB1-A03~04 / DB2-A02~04</td><td>DB0 / DB1 / DB2</td><td>全屋 6 台空调专用电源预留（AC-1 ～ AC-6）</td><td>是（6 路独立）</td><td>30mA</td></tr>
+            <tr><td>DB0-W1 / DB0-W2 / DB0-W3</td><td>DB0（前屋）</td><td>首层院内洗衣区：主洗衣机、叠放烘干机、分区洗衣机</td><td>是（3 路独立）</td><td>30mA</td></tr>
+            <tr><td>DB1-A01 / DB2-W1</td><td>DB1 / DB2</td><td>首层西北洗衣机专用（W1）；二楼过厅洗烘一体机防溅专用插座</td><td>是（2 路独立）</td><td>30mA</td></tr>
+            <tr><td>DB1-A02 / DB2-A01</td><td>DB1 / DB2</td><td>两层东套卫排风 / 浴霸风暖及电热毛巾架预留</td><td>是（2 路独立）</td><td>30mA</td></tr>
+            <tr><td>DB0-EXT-L / DB0-D1</td><td>DB0（前屋）</td><td>亭子、中庭壁灯、台阶灯带及室外照明；亭内电动升降晾衣机专线（另补中庭电动天幕/天窗电源）</td><td>D1 独立</td><td>30mA</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section id="s5">
+    <h2>5. 精装构造、适老细节与选材落地（2026-11-20 最新）</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>地面与墙顶构造</h3>
+        <ul>
+          <li><strong>后排卧室与公区统一石纹砖：</strong>浅灰米哑光/柔光石纹砖（600×1200 / 600×600mm）通铺，<strong>取消通堂与堂屋黑色波导线</strong>，用同色环氧彩砂美缝；仅前屋客房留浅橡木纹砖或防潮多层实木。</li>
+          <li><strong>吊顶化繁为简建议：</strong>公区可用极简双眼皮石膏板边吊替代复杂深灯槽，卧室单边双眼皮 + 窗帘盒，降本且杜绝积灰藏虫。</li>
+          <li><strong>中庭与入户台阶：</strong>踏步前缘嵌深色金属防滑条，后楼门廊台阶底面暗藏 IP65 防水暖光感应灯带。</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>厨卫与定制柜体收口</h3>
+        <ul>
+          <li><strong>厨房防油升级：</strong>墙砖通铺到吊顶（避开北窗）；冰箱上方补同色顶柜收口并留散热缝；北墙改三门封闭浅橡木吊柜 + 柜下感应灯带；地柜优先隐形免拉手。</li>
+          <li><strong>卫浴墙砖通铺到顶：</strong>四套卫浴均取消 1.32m 半高墙裙，墙砖绕窗满贴至吊顶防受潮起皮；升级四杆<strong>电热毛巾架</strong>；配储物镜柜与淋浴防磕碰嵌入式壁龛。</li>
+          <li><strong>全屋衣柜与高柜到顶：</strong>三间五列衣柜、家庭厅共享高柜、客房衣柜与食品高柜顶部加同色封板贴齐 2.88m 吊顶底，消除积灰死角。</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>起居、适老与窗帘门厅</h3>
+        <ul>
+          <li><strong>客厅与家庭厅：</strong>电视背景墙及木格栅通顶落地，电视柜改<strong>离地 200mm 悬空壁挂 + 底灯</strong>（扫地机器人可进出）；家庭厅双人书桌向东延伸衔接共享高柜。</li>
+          <li><strong>老人房与套卫适老：</strong>老人房床头精简掉台灯（用阅读壁灯 + 起夜灯带）；取消散铺地毯防绊倒；淋浴区微坡无高差 + 长条地漏；坐便侧墙<strong>预埋实木基层</strong>备装上翻扶手（坐便中心距墙/柜 ≥400mm）。</li>
+          <li><strong>窗帘与门厅：</strong>主卧西窗改内嵌全遮光蜂巢帘（或罗马帘）；次卧北窗齐窗台短帘；避雨门厅挂衣钩移至东窗北侧加浅橡木防污背板，双鞋格配可取出接水托盘。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="s6">
+    <h2>6. 开工前现场必测回传单（未实测不得直接下单施工）</h2>
+    <p class="muted">请测量人员使用<strong>同一现场水准基准</strong>逐项记录实测标高（勿抄模型值）。最先回传：县/市、施工状态、雨污水接入端管内底标高及两侧连廊边梁实测照片。</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th style="width:14%">测点编号</th><th style="width:30%">模型定位 <code>(X, Y, Z)</code>（米）</th><th style="width:40%">现场实测核对内容</th><th style="width:16%">实测值 / 照片号</th></tr></thead>
+        <tbody>
+          <tr><td><strong>RW-0 / RW-1</strong></td><td>南地界 <code>Y=-8.00</code>；主雨水出户 <code>(13.75, 0.06, +0.240)</code></td><td>门前道路高点、市政/村镇雨水沟底及拟接入管内底标高</td><td>＿＿＿＿＿＿</td></tr>
+          <tr><td><strong>RW-3 / RW-4</strong></td><td>中庭西槽低点 <code>(1.875, 13.95, +3.650)</code>；独立溢流 <code>(0.16, 12.55, +0.280)</code></td><td>西槽两端/低点、廊板下横管净高及独立溢流安全受水点</td><td>＿＿＿＿＿＿</td></tr>
+          <tr><td><strong>WW-0 ~ WW-2</strong></td><td>屋后检查井 IW1~IW3 及化粪池 <code>X8.0~11.6 / Y25.9~28.3</code></td><td>下游污水实际接收方式、各井口/管内底标高及清掏车可达性</td><td>＿＿＿＿＿＿</td></tr>
+          <tr><td><strong>STR-01</strong></td><td>中庭挑空 <code>8.40 × 7.80m</code> 两侧连廊边梁</td><td>实测净跨距、梁截面/配筋图或原结构照片、下部柱位确认</td><td>＿＿＿＿＿＿</td></tr>
+          <tr><td><strong>SITE-01</strong></td><td>右前方杂物屋与前屋南墙间距（模型 <code>600mm</code>）</td><td>实测权属边线、邻房位置高度、杂物屋退距/采光/防火维护条件</td><td>＿＿＿＿＿＿</td></tr>
+          <tr><td><strong>USE-01</strong></td><td>门洞净宽、双灶排烟、二楼冲洗站位 A/B</td><td>装门框后有效净宽、冰箱/洗碗机开门净距、护栏外试冲洗与提篮验证</td><td>＿＿＿＿＿＿</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>院居 · 农村前后院住宅（P／Q 版）· 工程交底与注意事项专页 · 2026-11-20</span>
+  <span>设计示意与核对清单，结构、防水、防火及机电负荷须按现场专项深化。</span>
+</footer>
+</body>
+</html>

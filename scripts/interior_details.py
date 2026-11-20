@@ -571,14 +571,20 @@ class Details:
         if room["id"] != "rear2-0":
             offset = .085 if feature else .012
             self.art(wall_x + inward * offset, (y1 + y2) / 2, floor + 1.42, .92, .60, "x", inward)
-        # Bedside lamps.
+        # Bedside lamps (elder bedroom relies on wall sconces + night strips, keeping nightstand tops clear).
         for item in self.furniture[room["group"]]:
             if item["room"] != room["index"] or item["kind"] != "nightstand":
                 continue
             a, b, c, d = item["bounds"]
             if not (b < y2 + .25 and d > y1 - .25):
                 continue
-            self.lamp((a + c) / 2, (b + d) / 2, floor + .50, .40, 6, .10, "bedside")
+            if room["id"] == "rear1-5":
+                self.box("Nightstand ceramic tray", (a + c) / 2 - .08, (b + d) / 2 - .10,
+                         (a + c) / 2 + .08, (b + d) / 2 + .10, floor + .50, .016, self.F.ceramic, .004)
+                self.cyl("Bedside water mug", (a + c) / 2, (b + d) / 2 + .03, floor + .516,
+                         floor + .61, .038, self.F.ceramic, 18)
+            else:
+                self.lamp((a + c) / 2, (b + d) / 2, floor + .50, .40, 6, .10, "bedside")
         # Bench at the foot in the main bedroom only.
         if room["id"] == "rear2-0":
             self.box("Bed-end bench", x2 + .06, y1 + .18, x2 + .40, y2 - .18, floor + .30, .15,
@@ -649,33 +655,45 @@ class Details:
                      self.F.brass, .004)
         self.box("Sideboard top", sb_x1 - .02, iy2 - .39, sb_x2 + .02, iy2 - .03, floor + .80, .032,
                  self.F.counter, .005)
+        # Quartz splashback strip + sleek power track above the tea/serving sideboard.
+        self.box("Sideboard splashback", sb_x1 - .01, iy2 - .044, sb_x2 + .01, iy2 - .030, floor + .832, .30,
+                 self.F.counter, .003)
+        self.box("Sideboard power track", sb_x1 + .82, iy2 - .058, sb_x2 - .18, iy2 - .042, floor + .97, .055,
+                 self.F.blackmetal, .004)
         self.lamp(sb_x1 + .26, iy2 - .20, floor + .83, .40, 7, .12, "sideboard")
         self.vase(sb_x1 + .76, iy2 - .20, floor + .83, .28)
         self.cyl("Tea kettle on sideboard", sb_x2 - .34, iy2 - .20, floor + .83, floor + 1.04, .085,
                  self.F.blackmetal, 20)
         self.bowl(sb_x2 - .74, iy2 - .20, floor + .83, .11)
-        self.art(sb_x1 + .50, iy2 - .012, floor + 1.32, .95, .58, "y", -1)
+        # Remove duplicate north-window & west-wall art; keep clean breathing room + east focal artwork.
         self.plant(ix2 - .30, iy2 - .38, floor, 1.05, .14)
-        self.art(ix1 + .012, iy1 + 5.55, floor + 1.20, .82, .56, "x", 1)
         self.art(ix2 - .012, iy1 + 6.22, floor + 1.24, 1.05, .62, "x", -1)
 
     def kitchen_dressing(self, room):
         floor = room["floor"]
         x1, y1, x2, y2 = room["inner"]
         top = floor + .88
-        self.box("Kitchen splashback tile", 8.95, y2 - .030, 11.12, y2, top + .02, 1.52,
+        # Full-height easy-clean wall tiles on north (clear of x=8.0..9.0 window) and east cooking wall.
+        self.box("Kitchen splashback tile north", 9.02, y2 - .030, x2, y2, top + .02, 2.10,
                  self.F.tile, .003)
-        for index in range(1, 5):
+        self.box("Kitchen splashback tile east", x2 - .030, y1 + .02, x2, y2, top + .02, 2.10,
+                 self.F.tile, .003)
+        for index in range(1, 7):
             zz = top + .02 + index * .30
-            self.box("Kitchen tile joint", 8.95, y2 - .038, 11.12, y2 - .031, zz, .005,
+            self.box("Kitchen tile joint north", 9.02, y2 - .036, x2, y2 - .030, zz, .004,
                      self.F.counter, 0)
-        self.box("Kitchen open shelf", 9.06, y2 - .34, 10.52, y2 - .07, floor + 1.74, .042,
-                 self.F.wood, .006)
-        for index, xx in enumerate((9.24, 9.58, 9.92, 10.26)):
-            self.cyl("Pantry jar", xx, y2 - .20, floor + 1.782, floor + 1.99, .072,
-                     self.F.ceramic if index % 2 else self.F.glass, 20)
-            self.cyl("Pantry jar lid", xx, y2 - .20, floor + 1.99, floor + 2.01, .075,
-                     self.F.darkwood, 20)
+            self.box("Kitchen tile joint east", x2 - .036, y1 + .02, x2 - .030, y2, zz, .004,
+                     self.F.counter, 0)
+        # Upgrade north open shelf to enclosed pale-oak upper cabinet (less grease dust, clear of window & fridge).
+        cab_x1, cab_x2 = 9.04, 10.28
+        self.box("Kitchen north upper cabinet", cab_x1, y2 - .34, cab_x2, y2 - .03, floor + 1.72, .84,
+                 self.F.wood, .010)
+        for index in range(1, 3):
+            xx = cab_x1 + (cab_x2 - cab_x1) * index / 3
+            self.box("North upper cabinet seam", xx - .004, y2 - .346, xx + .004, y2 - .338, floor + 1.74, .80,
+                     self.F.darkwood, 0)
+        self.box("North upper cabinet bottom lip", cab_x1, y2 - .344, cab_x2, y2 - .325, floor + 1.705, .015,
+                 self.F.wood, .003)
         self.box("Cutting board", 9.50, y2 - .46, 9.92, y2 - .20, top + .028, .024, self.F.wood, .008)
         self.cyl("Kettle", 10.60, y2 - .35, top + .028, top + .25, .10, self.F.blackmetal, 24)
         self.cyl("Utensil crock", 10.24, y2 - .40, top + .028, top + .19, .062, self.F.ceramic, 20)
@@ -704,26 +722,54 @@ class Details:
     def bath_dressing(self, room):
         floor = room["floor"]
         x1, y1, x2, y2 = room["inner"]
-        self.box("Bathroom tile wainscot", x1, y2 - .030, x2, y2, floor, 1.32, self.F.tile, .003)
-        self.box("Bathroom tile wainscot", x1, y1, x1 + .030, y2, floor, 1.32, self.F.tile, .003)
-        for index in range(1, 5):
+        # Full-height moisture-proof wall tiles (up to 3.00m ceiling, neatly framing high windows).
+        is_east_suite = room["index"] == 7
+        win_n = (11.68, 12.92, 1.48, 2.22) if is_east_suite else (1.10, 1.94, 1.48, 2.22)
+        self.box("Bathroom full-height tile north low", x1, y2 - .030, x2, y2, floor, win_n[2], self.F.tile, .002)
+        self.box("Bathroom full-height tile north high", x1, y2 - .030, x2, y2, floor + win_n[3], 3.00 - win_n[3], self.F.tile, .002)
+        if win_n[0] > x1 + .02:
+            self.box("Bathroom full-height tile north left", x1, y2 - .030, win_n[0], y2, floor + win_n[2], win_n[3] - win_n[2], self.F.tile, .002)
+        if x2 > win_n[1] + .02:
+            self.box("Bathroom full-height tile north right", win_n[1], y2 - .030, x2, y2, floor + win_n[2], win_n[3] - win_n[2], self.F.tile, .002)
+        if is_east_suite:
+            # West wall full-height tile in shower zone (clear of west door at y=22.08..22.98).
+            self.box("Bathroom full-height tile west shower", x1, 23.06, x1 + .030, y2, floor, 3.00, self.F.tile, .002)
+        else:
+            # West wall tile clear of west window (y=22.42..23.22, sill=0.85..2.45).
+            self.box("Bathroom full-height tile west low", x1, y1, x1 + .030, y2, floor, .84, self.F.tile, .002)
+            self.box("Bathroom full-height tile west high", x1, y1, x1 + .030, y2, floor + 2.46, .54, self.F.tile, .002)
+            self.box("Bathroom full-height tile west south", x1, y1, x1 + .030, 22.40, floor + .84, 1.62, self.F.tile, .002)
+            self.box("Bathroom full-height tile west north", x1, 23.24, x1 + .030, y2, floor + .84, 1.62, self.F.tile, .002)
+        for index in range(1, 10):
             zz = floor + index * .30
-            self.box("Bath tile joint", x1, y2 - .034, x2, y2 - .029, zz, .006,
-                     self.F.counter, 0)
-            self.box("Bath tile joint", x1 + .024, y1, x1 + .029, y2, zz, .006,
-                     self.F.counter, 0)
+            if not (win_n[2] < index * .30 < win_n[3]):
+                self.box("Bath tile joint", x1, y2 - .034, x2, y2 - .029, zz, .005, self.F.counter, 0)
+            if is_east_suite:
+                self.box("Bath tile joint west", x1 + .024, 23.06, x1 + .029, y2, zz, .005, self.F.counter, 0)
         for index in range(1, 5):
             xx = x1 + (x2 - x1) * index / 4
-            self.box("Bath tile joint", xx - .004, y2 - .034, xx + .004, y2 - .029,
-                     floor, 1.32, self.F.counter, 0)
-        self.box("Tile trim", x1, y2 - .045, x2, y2 - .025, floor + 1.32, .022, self.F.metal, .003)
-        self.rod("Towel rail", (x1 + .05, y1 + .30, floor + 1.24), (x1 + .05, y1 + 1.05, floor + 1.24),
-                 .014, self.F.metal, 12)
+            if not (win_n[0] < xx < win_n[1]):
+                self.box("Bath tile joint v", xx - .003, y2 - .034, xx + .003, y2 - .029,
+                         floor, 3.00, self.F.counter, 0)
+            else:
+                self.box("Bath tile joint v low", xx - .003, y2 - .034, xx + .003, y2 - .029,
+                         floor, win_n[2], self.F.counter, 0)
+        # Upgrade single rail to electric heated towel warmer (4-bar ladder + thermostat).
+        wy0, wy1 = y1 + .30, y1 + .88
+        tx = x1 + .055
+        for ty in (wy0, wy1):
+            self.rod("Heated towel warmer upright", (tx, ty, floor + .96), (tx, ty, floor + 1.56),
+                     .012, self.F.metal, 12)
+        for bar in range(4):
+            bz = floor + 1.04 + bar * .15
+            self.rod("Heated towel warmer bar", (tx, wy0, bz), (tx, wy1, bz), .011, self.F.metal, 12)
+        self.box("Towel warmer thermostat", tx - .015, wy0 - .03, tx + .015, wy0 + .03, floor + .88, .08,
+                 self.F.blackmetal, .004)
         for index in range(2):
-            y0 = y1 + .38 + index * .32
-            for fold in range(3):
-                self.box("Bath towel", x1 + .045 + fold * .012, y0,
-                         x1 + .062 + fold * .012, y0 + .24, floor + .70, .53,
+            y0 = wy0 + .06 + index * .24
+            for fold in range(2):
+                self.box("Bath towel", tx + .006 + fold * .012, y0,
+                         tx + .022 + fold * .012, y0 + .20, floor + .98, .48,
                          self.F.towel, .006)
         if room['id'] != 'rear1-7':
             self.box("Bath mat", x1 + .28, y1 + .30, x1 + .92, y1 + .90, floor + .010, .012,
@@ -772,10 +818,12 @@ class Details:
     def entry_dressing(self, room):
         floor = room["floor"]
         x1, y1, x2, y2 = room["inner"]
-        # Coat hooks on the east wall clear of the window.
+        # Coat hooks mounted on an oak anti-scuff backplate on the east wall north of the window (clear of casing).
+        self.box("Coat hook oak backplate", x2 - .022, 16.06, x2 - .002, 16.44, floor + 1.48, .22,
+                 self.F.wood, .005)
         for index in range(3):
-            yy = y1 + 1.28 + index * .20
-            self.rod("Coat hook", (x2 - .015, yy, floor + 1.58), (x2 - .11, yy, floor + 1.62),
+            yy = 16.12 + index * .13
+            self.rod("Coat hook", (x2 - .022, yy, floor + 1.58), (x2 - .11, yy, floor + 1.62),
                      .011, self.F.brass, 10)
         bench = next((item for item in self.furniture[room["group"]]
                       if item["room"] == room["index"] and item["kind"] == "bench"), None)

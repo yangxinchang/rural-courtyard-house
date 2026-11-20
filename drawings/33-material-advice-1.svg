@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-20T16:12:25.398579</dc:date>
+    <dc:date>2026-11-20T17:22:01.167950</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,7 +36,7 @@ L 1167.874016 22.677165
 L 22.677165 22.677165 
 L 22.677165 819.212598 
 z
-" clip-path="url(#p82c928a02a)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 56.692913 328.818898 
@@ -44,7 +44,7 @@ L 566.929134 328.818898
 L 566.929134 144.566929 
 L 56.692913 144.566929 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 507.401575 184.251969 
@@ -52,7 +52,7 @@ L 549.92126 184.251969
 L 549.92126 155.905512 
 L 507.401575 155.905512 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #a8aaa0; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #a8aaa0; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 623.622047 328.818898 
@@ -60,7 +60,7 @@ L 1133.858268 328.818898
 L 1133.858268 144.566929 
 L 623.622047 144.566929 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 1074.330709 184.251969 
@@ -68,7 +68,7 @@ L 1116.850394 184.251969
 L 1116.850394 155.905512 
 L 1074.330709 155.905512 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #bcb5a7; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #bcb5a7; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 56.692913 541.417323 
@@ -76,7 +76,7 @@ L 566.929134 541.417323
 L 566.929134 357.165354 
 L 56.692913 357.165354 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 507.401575 396.850394 
@@ -84,7 +84,7 @@ L 549.92126 396.850394
 L 549.92126 368.503937 
 L 507.401575 368.503937 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #d6cdbc; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #d6cdbc; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 623.622047 541.417323 
@@ -92,7 +92,7 @@ L 1133.858268 541.417323
 L 1133.858268 357.165354 
 L 623.622047 357.165354 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 1074.330709 396.850394 
@@ -100,7 +100,7 @@ L 1116.850394 396.850394
 L 1116.850394 368.503937 
 L 1074.330709 368.503937 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #bd9870; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #d2cbbd; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 56.692913 754.015748 
@@ -108,7 +108,7 @@ L 566.929134 754.015748
 L 566.929134 569.76378 
 L 56.692913 569.76378 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 507.401575 609.448819 
@@ -116,7 +116,7 @@ L 549.92126 609.448819
 L 549.92126 581.102362 
 L 507.401575 581.102362 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #c0c4bb; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #c0c4bb; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 623.622047 754.015748 
@@ -124,7 +124,7 @@ L 1133.858268 754.015748
 L 1133.858268 569.76378 
 L 623.622047 569.76378 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
     <path d="M 1074.330709 609.448819 
@@ -132,20 +132,20 @@ L 1116.850394 609.448819
 L 1116.850394 581.102362 
 L 1074.330709 581.102362 
 z
-" clip-path="url(#p82c928a02a)" style="fill: #b8b7ac; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: #b8b7ac; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 51.023622 119.055118 
 L 1139.527559 119.055118 
-" clip-path="url(#p82c928a02a)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 51.023622 779.527559 
 L 1139.527559 779.527559 
-" clip-path="url(#p82c928a02a)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p424bbf4f0e)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 院 · 居 -->
      <g style="fill: #263a36" transform="translate(53.858268 64.722872) scale(0.2 -0.2)">
       <defs>
@@ -289,7 +289,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 装修选材建议 · 院子与室内地面 -->
      <g style="fill: #263a36" transform="translate(181.417323 60.849163) scale(0.16 -0.16)">
       <defs>
@@ -890,7 +890,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 暖白木色与现代中式 / 中档耐用、易维护 / 规格为本案起选建议，非采购定案 -->
      <g style="fill: #6c7770" transform="translate(53.858268 98.585961) scale(0.085 -0.085)">
       <defs>
@@ -2091,7 +2091,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- MAT-101 -->
      <g style="fill: #263a36" transform="translate(1089.037913 62.644747) scale(0.12 -0.12)">
       <defs>
@@ -2229,7 +2229,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 精装方案 P·水电深化  /  2026.11.07  /  示意面宽 15.20 m  /  后方净空 5.00 m -->
      <g style="fill: #6c7770" transform="translate(53.858268 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3130,7 +3130,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 图示标尺 / 尺寸 mm  ·  A3 原尺寸打印  ·  概念方案，非施工图 -->
      <g style="fill: #6c7770" transform="translate(950.680684 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3745,7 +3745,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 院子主铺地 -->
      <g style="fill: #355b48" transform="translate(70.866142 173.066045) scale(0.115 -0.115)">
       <defs>
@@ -3879,7 +3879,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 首选：浅灰、细颗粒面的室外专用瓷质铺地砖。 -->
      <g style="fill: #293d39" transform="translate(70.866142 209.059212) scale(0.082 -0.082)">
       <defs>
@@ -4576,7 +4576,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 效果图为600×1200mm；找坡受限可改300×600或600×600mm。 -->
      <g style="fill: #56665d" transform="translate(70.866142 234.51907) scale(0.08 -0.08)">
       <defs>
@@ -5110,7 +5110,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 要求对应型号的湿态防滑及室外适用资料；寒冷地区核抗冻。 -->
      <g style="fill: #56665d" transform="translate(70.866142 252.093873) scale(0.08 -0.08)">
       <defs>
@@ -6185,7 +6185,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 备选火烧面／细荔枝面花岗岩，先看清洁难度与实样。 -->
      <g style="fill: #56665d" transform="translate(70.866142 269.668676) scale(0.08 -0.08)">
       <defs>
@@ -7112,7 +7112,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 人行、停车区分开核基层和厚度；先定排水，再排砖。 -->
      <g style="fill: #56665d" transform="translate(70.866142 287.243479) scale(0.08 -0.08)">
       <defs>
@@ -7673,7 +7673,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 依据 1,2 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 317.803422) scale(0.067 -0.067)">
       <defs>
@@ -8302,7 +8302,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 门廊、台阶与洗衣区 -->
      <g style="fill: #355b48" transform="translate(637.795276 173.066045) scale(0.115 -0.115)">
       <defs>
@@ -8574,7 +8574,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 首选：同色系防滑地砖，台阶前缘易辨认。 -->
      <g style="fill: #293d39" transform="translate(637.795276 209.059212) scale(0.082 -0.082)">
       <defs>
@@ -8941,7 +8941,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 起选300×600mm；踏步与平台统一色调，边口作细部处理。 -->
      <g style="fill: #56665d" transform="translate(637.795276 234.51907) scale(0.08 -0.08)">
       <defs>
@@ -9525,7 +9525,7 @@ z
     </g>
    </g>
    <g id="text_17">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 老人常走路线保持顺平，不用亮光石材或凸起装饰条。 -->
      <g style="fill: #56665d" transform="translate(637.795276 252.093873) scale(0.08 -0.08)">
       <defs>
@@ -10275,7 +10275,7 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 格栅沟盖、地漏和门口收边一起排版，避免细窄补砖。 -->
      <g style="fill: #56665d" transform="translate(637.795276 269.668676) scale(0.08 -0.08)">
       <defs>
@@ -10884,7 +10884,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- “哑光”只说明外观，防滑还要看试验方法和适用场景。 -->
      <g style="fill: #56665d" transform="translate(637.795276 287.243479) scale(0.08 -0.08)">
       <defs>
@@ -11514,7 +11514,7 @@ z
     </g>
    </g>
    <g id="text_20">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 依据 1,2 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 317.803422) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -11548,7 +11548,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 客厅、堂屋与厨房地面 -->
      <g style="fill: #355b48" transform="translate(70.866142 385.66447) scale(0.115 -0.115)">
       <defs>
@@ -11865,7 +11865,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 首选：浅米灰哑光瓷质砖，公共区尽量统一。 -->
      <g style="fill: #293d39" transform="translate(70.866142 421.657637) scale(0.082 -0.082)">
       <defs>
@@ -12099,7 +12099,7 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 本案起选600×600mm；通道大且预算允许再看600×1200。 -->
      <g style="fill: #56665d" transform="translate(70.866142 447.117495) scale(0.08 -0.08)">
       <defs>
@@ -12541,7 +12541,7 @@ z
     </g>
    </g>
    <g id="text_24">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 厨房同色可用更易擦洗的细纹面，避免粗糙沟纹藏油。 -->
      <g style="fill: #56665d" transform="translate(70.866142 464.692298) scale(0.08 -0.08)">
       <defs>
@@ -13097,7 +13097,7 @@ z
     </g>
    </g>
    <g id="text_25">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 用同色近色填缝，留缝宽度按产品与铺贴系统确定。 -->
      <g style="fill: #56665d" transform="translate(70.866142 482.267101) scale(0.08 -0.08)">
       <defs>
@@ -13688,7 +13688,7 @@ z
     </g>
    </g>
    <g id="text_26">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 不靠“无缝铺贴”或加厚找平掩盖基层问题。 -->
      <g style="fill: #56665d" transform="translate(70.866142 499.841905) scale(0.08 -0.08)">
       <defs>
@@ -14068,7 +14068,7 @@ z
     </g>
    </g>
    <g id="text_27">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 依据 1,3 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 530.401847) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -14102,7 +14102,7 @@ z
     </g>
    </g>
    <g id="text_28">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 卧室与衣帽区 -->
      <g style="fill: #355b48" transform="translate(637.795276 385.66447) scale(0.115 -0.115)">
       <defs>
@@ -14234,10 +14234,63 @@ z
     </g>
    </g>
    <g id="text_29">
-    <g clip-path="url(#p82c928a02a)">
-     <!-- 首选：暖橡木色木纹瓷砖，延续现有木色效果。 -->
+    <g clip-path="url(#p424bbf4f0e)">
+     <!-- 首选：后排卧室浅灰米哑光/柔光石纹砖，前屋客房保留浅橡木纹砖。 -->
      <g style="fill: #293d39" transform="translate(637.795276 421.657637) scale(0.082 -0.082)">
       <defs>
+       <path id="WenQuanYiMicroHei-67d4" d="M 400 1475 
+L 2950 1475 
+L 2950 1975 
+L 3475 1975 
+L 3475 1475 
+L 5975 1475 
+L 5975 1050 
+L 3875 1050 
+Q 4725 325 6075 -50 
+L 5825 -550 
+Q 4375 -50 3475 925 
+L 3475 -600 
+L 2950 -600 
+L 2950 975 
+Q 2075 0 650 -550 
+L 300 -100 
+Q 1625 325 2475 1050 
+L 400 1050 
+L 400 1475 
+z
+M 975 5025 
+L 5200 5025 
+L 5200 4600 
+Q 4500 4200 3500 3875 
+L 5800 3875 
+L 5800 3450 
+Q 5450 2900 4975 2425 
+L 4575 2725 
+Q 4950 3075 5200 3450 
+L 3725 3450 
+L 3725 2700 
+Q 3725 2375 3587 2237 
+Q 3450 2100 3000 2100 
+Q 2725 2100 2475 2150 
+L 2400 2625 
+Q 2700 2550 3000 2550 
+Q 3200 2550 3200 2775 
+L 3200 3450 
+L 3175 3450 
+Q 2225 2600 650 2075 
+L 325 2500 
+Q 1700 2875 2550 3450 
+L 450 3450 
+L 450 3875 
+L 2675 3875 
+Q 2375 4050 2000 4200 
+L 2400 4475 
+Q 2750 4300 3050 4100 
+Q 3800 4325 4350 4600 
+L 975 4600 
+L 975 5025 
+z
+" transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-6a61" d="M 450 4025 
 L 1125 4025 
 L 1125 5175 
@@ -14322,1648 +14375,46 @@ L 5375 3550
 L 4650 3550 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5ef6" d="M 1075 1975 
-Q 1250 1425 1475 1075 
-Q 1800 1600 1975 2600 
-L 750 2600 
-L 700 3050 
-L 1825 4375 
-L 450 4375 
-L 450 4850 
-L 2425 4850 
-L 2425 4375 
-Q 1875 3650 1375 3075 
-L 2500 3075 
-Q 2400 1625 1825 625 
-Q 2300 125 4275 125 
-L 6100 125 
-L 5900 -425 
-L 4275 -425 
-Q 2200 -425 1525 200 
-Q 1125 -250 600 -600 
-L 300 -150 
-Q 800 175 1175 600 
-Q 825 1075 650 1800 
-L 1075 1975 
-z
-M 5550 5150 
-L 5900 4750 
-Q 5350 4600 4700 4475 
-L 4700 3200 
-L 5700 3200 
-L 5700 2725 
-L 4700 2725 
-L 4700 1250 
-L 5925 1250 
-L 5925 775 
-L 2950 775 
-L 2950 3750 
-L 3450 3750 
-L 3450 1250 
-L 4225 1250 
-L 4225 4400 
-Q 3600 4300 2900 4225 
-L 2675 4700 
-Q 4475 4875 5550 5150 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-7eed" d="M 2000 4150 
-L 2450 3975 
-Q 1825 2575 1075 1750 
-Q 1675 1900 2150 2075 
-L 2275 1700 
-Q 1475 1375 525 1200 
-L 375 1600 
-Q 900 2150 1375 2950 
-Q 950 2875 525 2825 
-L 425 3275 
-Q 950 4000 1300 5175 
-L 1775 5025 
-Q 1450 3925 950 3300 
-Q 1325 3325 1600 3375 
-Q 1825 3750 2000 4150 
-z
-M 2175 950 
-L 2275 500 
-Q 1475 175 525 -50 
-L 325 475 
-Q 1350 700 2175 950 
-z
-M 2825 4600 
-L 4000 4600 
-L 4000 5175 
-L 4525 5175 
-L 4525 4600 
-L 5700 4600 
-L 5700 4175 
-L 4525 4175 
-L 4525 3575 
-L 5925 3575 
-L 5925 3175 
-Q 5700 2675 5425 2275 
-L 5050 2550 
-Q 5250 2875 5400 3150 
-L 2575 3150 
-L 2575 3575 
-L 4000 3575 
-L 4000 4175 
-L 2825 4175 
-L 2825 4600 
-z
-M 3450 2950 
-Q 3825 2725 4125 2400 
-L 3825 2025 
-Q 3500 2400 3175 2650 
-L 3450 2950 
-z
-M 2450 1325 
-L 4125 1325 
-Q 4300 1850 4300 2900 
-L 4775 2900 
-Q 4775 1925 4650 1325 
-L 6050 1325 
-L 6050 875 
-L 4500 875 
-Q 4050 -75 2575 -575 
-L 2350 -175 
-Q 3450 200 3925 875 
-L 2450 875 
-L 2450 1325 
-z
-M 2925 2425 
-Q 3325 2150 3675 1775 
-L 3400 1450 
-Q 3025 1875 2650 2150 
-L 2925 2425 
-z
-M 4900 650 
-Q 5600 300 6150 -175 
-L 5825 -600 
-Q 5225 -50 4550 325 
-L 4900 650 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-6709" d="M 475 4500 
-L 2375 4500 
-Q 2550 4850 2700 5200 
-L 3175 5100 
-Q 3075 4800 2950 4500 
-L 5950 4500 
-L 5950 4025 
-L 2700 4025 
-Q 2500 3650 2225 3275 
-L 5450 3275 
-L 5450 75 
-Q 5450 -225 5275 -387 
-Q 5100 -550 4750 -550 
-Q 4375 -550 3850 -500 
-L 3725 0 
-Q 4400 -50 4725 -50 
-Q 4950 -50 4950 200 
-L 4950 725 
-L 2150 725 
-L 2150 -600 
-L 1650 -600 
-L 1650 2525 
-Q 1225 2075 750 1700 
-L 375 2050 
-Q 1475 2950 2125 4025 
-L 475 4025 
-L 475 4500 
-z
-M 2150 2200 
-L 4950 2200 
-L 4950 2800 
-L 2150 2800 
-L 2150 2200 
-z
-M 2150 1175 
-L 4950 1175 
-L 4950 1750 
-L 2150 1750 
-L 2150 1175 
-z
-" transform="scale(0.015625)"/>
       </defs>
       <use xlink:href="#WenQuanYiMicroHei-9996"/>
       <use xlink:href="#WenQuanYiMicroHei-9009" transform="translate(100 0)"/>
       <use xlink:href="#WenQuanYiMicroHei-ff1a" transform="translate(200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6696" transform="translate(300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6a61" transform="translate(400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-8272" transform="translate(600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-74f7" transform="translate(900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(1000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(1100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5ef6" transform="translate(1200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7eed" transform="translate(1300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-73b0" transform="translate(1400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6709" transform="translate(1500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(1600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-8272" transform="translate(1700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6548" transform="translate(1800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-679c" transform="translate(1900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-540e" transform="translate(300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6392" transform="translate(400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5367" transform="translate(500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5ba4" transform="translate(600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6d45" transform="translate(700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7070" transform="translate(800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7c73" transform="translate(900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-54d1" transform="translate(1000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5149" transform="translate(1100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-2f" transform="translate(1200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-67d4" transform="translate(1237.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5149" transform="translate(1337.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-77f3" transform="translate(1437.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(1537.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(1637.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(1737.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-524d" transform="translate(1837.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5c4b" transform="translate(1937.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5ba2" transform="translate(2037.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-623f" transform="translate(2137.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-4fdd" transform="translate(2237.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7559" transform="translate(2337.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6d45" transform="translate(2437.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6a61" transform="translate(2537.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(2637.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(2737.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(2837.304688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2937.304688 0)"/>
      </g>
     </g>
    </g>
    <g id="text_30">
-    <g clip-path="url(#p82c928a02a)">
-     <!-- 起选150×900或200×1200mm，木纹宜柔和、少结疤。 -->
+    <g clip-path="url(#p424bbf4f0e)">
+     <!-- 后排卧室与公区通铺600×1200或600×600mm石纹砖，防潮易打理。 -->
      <g style="fill: #56665d" transform="translate(637.795276 447.117495) scale(0.08 -0.08)">
       <defs>
-       <path id="WenQuanYiMicroHei-39" d="M 3213 2619 
-Q 3213 2291 3180 1964 
-Q 3147 1638 3064 1341 
-Q 2981 1044 2837 786 
-Q 2694 528 2472 340 
-Q 2250 153 1940 45 
-Q 1631 -63 1216 -63 
-Q 1156 -63 1084 -59 
-Q 1013 -56 941 -48 
-Q 869 -41 800 -31 
-Q 731 -22 678 -6 
-L 678 481 
-Q 788 441 925 422 
-Q 1063 403 1197 403 
-Q 1619 403 1891 550 
-Q 2163 697 2322 948 
-Q 2481 1200 2548 1534 
-Q 2616 1869 2631 2241 
-L 2591 2241 
-Q 2528 2128 2440 2031 
-Q 2353 1934 2234 1862 
-Q 2116 1791 1966 1750 
-Q 1816 1709 1631 1709 
-Q 1334 1709 1093 1801 
-Q 853 1894 684 2072 
-Q 516 2250 423 2508 
-Q 331 2766 331 3097 
-Q 331 3453 429 3739 
-Q 528 4025 708 4223 
-Q 888 4422 1145 4528 
-Q 1403 4634 1722 4634 
-Q 2038 4634 2309 4512 
-Q 2581 4391 2781 4141 
-Q 2981 3891 3097 3511 
-Q 3213 3131 3213 2619 
-z
-M 1728 4153 
-Q 1541 4153 1386 4090 
-Q 1231 4028 1118 3897 
-Q 1006 3766 945 3567 
-Q 884 3369 884 3097 
-Q 884 2878 936 2704 
-Q 988 2531 1091 2409 
-Q 1194 2288 1348 2222 
-Q 1503 2156 1709 2156 
-Q 1922 2156 2094 2229 
-Q 2266 2303 2387 2420 
-Q 2509 2538 2576 2688 
-Q 2644 2838 2644 2988 
-Q 2644 3197 2586 3405 
-Q 2528 3613 2414 3780 
-Q 2300 3947 2128 4050 
-Q 1956 4153 1728 4153 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5b9c" d="M 3250 5225 
-Q 3425 4950 3525 4625 
-L 5925 4625 
-L 5925 3475 
-L 5425 3475 
-L 5425 4175 
-L 975 4175 
-L 975 3475 
-L 475 3475 
-L 475 4625 
-L 2975 4625 
-Q 2850 4875 2725 5075 
-L 3250 5225 
-z
-M 5050 3650 
-L 5050 75 
-L 6125 75 
-L 6125 -400 
-L 325 -400 
-L 325 75 
-L 1375 75 
-L 1375 3650 
-L 5050 3650 
-z
-M 1875 2450 
-L 4550 2450 
-L 4550 3175 
-L 1875 3175 
-L 1875 2450 
-z
-M 1875 1250 
-L 4550 1250 
-L 4550 2000 
-L 1875 2000 
-L 1875 1250 
-z
-M 1875 75 
-L 4550 75 
-L 4550 800 
-L 1875 800 
-L 1875 75 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-67d4" d="M 400 1475 
-L 2950 1475 
-L 2950 1975 
-L 3475 1975 
-L 3475 1475 
-L 5975 1475 
-L 5975 1050 
-L 3875 1050 
-Q 4725 325 6075 -50 
-L 5825 -550 
-Q 4375 -50 3475 925 
-L 3475 -600 
-L 2950 -600 
-L 2950 975 
-Q 2075 0 650 -550 
-L 300 -100 
-Q 1625 325 2475 1050 
-L 400 1050 
-L 400 1475 
-z
-M 975 5025 
-L 5200 5025 
-L 5200 4600 
-Q 4500 4200 3500 3875 
-L 5800 3875 
-L 5800 3450 
-Q 5450 2900 4975 2425 
-L 4575 2725 
-Q 4950 3075 5200 3450 
-L 3725 3450 
-L 3725 2700 
-Q 3725 2375 3587 2237 
-Q 3450 2100 3000 2100 
-Q 2725 2100 2475 2150 
-L 2400 2625 
-Q 2700 2550 3000 2550 
-Q 3200 2550 3200 2775 
-L 3200 3450 
-L 3175 3450 
-Q 2225 2600 650 2075 
-L 325 2500 
-Q 1700 2875 2550 3450 
-L 450 3450 
-L 450 3875 
-L 2675 3875 
-Q 2375 4050 2000 4200 
-L 2400 4475 
-Q 2750 4300 3050 4100 
-Q 3800 4325 4350 4600 
-L 975 4600 
-L 975 5025 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5c11" d="M 2900 5150 
-L 3400 5150 
-L 3400 1325 
-L 2900 1325 
-L 2900 5150 
-z
-M 4800 4525 
-Q 5475 3750 5925 2825 
-L 5425 2600 
-Q 5000 3575 4350 4325 
-L 4800 4525 
-z
-M 1500 4500 
-L 2000 4325 
-Q 1575 2875 900 1875 
-L 425 2175 
-Q 1125 3200 1500 4500 
-z
-M 4975 2400 
-L 5325 2000 
-Q 3675 0 600 -575 
-L 325 -100 
-Q 2100 325 3137 887 
-Q 4175 1450 4975 2400 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-7ed3" d="M 2125 4175 
-L 2575 4000 
-Q 1950 2675 1150 1775 
-Q 1775 1925 2300 2100 
-L 2425 1700 
-Q 1575 1375 525 1200 
-L 375 1625 
-Q 925 2150 1425 2950 
-Q 1000 2850 525 2800 
-L 425 3275 
-Q 1000 3975 1375 5175 
-L 1850 5025 
-Q 1500 3975 975 3300 
-Q 1375 3325 1700 3375 
-L 2125 4175 
-z
-M 2425 975 
-L 2525 525 
-Q 1625 200 525 -50 
-L 325 475 
-Q 1500 700 2425 975 
-z
-M 2725 4350 
-L 4125 4350 
-L 4125 5175 
-L 4625 5175 
-L 4625 4350 
-L 6075 4350 
-L 6075 3875 
-L 4625 3875 
-L 4625 3000 
-L 5850 3000 
-L 5850 2525 
-L 2950 2525 
-L 2950 3000 
-L 4125 3000 
-L 4125 3875 
-L 2725 3875 
-L 2725 4350 
-z
-M 5775 1900 
-L 5775 -575 
-L 5300 -575 
-L 5300 -150 
-L 3575 -150 
-L 3575 -575 
-L 3100 -575 
-L 3100 1900 
-L 5775 1900 
-z
-M 3575 325 
-L 5300 325 
-L 5300 1425 
-L 3575 1425 
-L 3575 325 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-75a4" d="M 1375 2425 
-L 1375 4625 
-L 3525 4625 
-Q 3425 4875 3275 5075 
-L 3750 5225 
-Q 3950 4950 4075 4625 
-L 6000 4625 
-L 6000 4175 
-L 1875 4175 
-L 1875 2250 
-Q 1875 675 1050 -600 
-L 600 -325 
-Q 1300 800 1350 1900 
-Q 875 1500 475 1275 
-L 225 1800 
-Q 925 2100 1375 2425 
-z
-M 800 4100 
-Q 1025 3600 1150 2975 
-L 650 2800 
-Q 525 3450 325 3950 
-L 800 4100 
-z
-M 5650 3550 
-L 5650 1400 
-L 2825 1400 
-L 2825 225 
-Q 2825 100 2975 50 
-Q 3125 0 4025 0 
-Q 4750 0 4775 25 
-Q 5400 75 5475 125 
-Q 5575 275 5625 975 
-L 6100 700 
-Q 6000 -100 5800 -300 
-Q 5650 -450 4025 -450 
-Q 2775 -450 2550 -337 
-Q 2325 -225 2325 100 
-L 2325 3550 
-L 5650 3550 
-z
-M 3725 3100 
-L 2825 3100 
-L 2825 1825 
-L 3725 1825 
-L 3725 3100 
-z
-M 4200 1825 
-L 5150 1825 
-L 5150 3100 
-L 4200 3100 
-L 4200 1825 
-z
-" transform="scale(0.015625)"/>
-      </defs>
-      <use xlink:href="#WenQuanYiMicroHei-8d77"/>
-      <use xlink:href="#WenQuanYiMicroHei-9009" transform="translate(100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-35" transform="translate(255.078125 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(310.15625 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-d7" transform="translate(365.234375 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-39" transform="translate(420.3125 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(475.390625 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(530.46875 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6216" transform="translate(585.546875 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-32" transform="translate(685.546875 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(740.625 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(795.703125 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-d7" transform="translate(850.78125 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(905.859375 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-32" transform="translate(960.9375 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1016.015625 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1071.09375 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6d" transform="translate(1126.171875 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6d" transform="translate(1215.771484 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(1305.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(1405.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(1505.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5b9c" transform="translate(1605.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-67d4" transform="translate(1705.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-548c" transform="translate(1805.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-3001" transform="translate(1905.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5c11" transform="translate(2005.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7ed3" transform="translate(2105.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-75a4" transform="translate(2205.371094 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2305.371094 0)"/>
-     </g>
-    </g>
-   </g>
-   <g id="text_31">
-    <g clip-path="url(#p82c928a02a)">
-     <!-- 长条砖按厂家排版要求控制错缝，重点看翘曲与高低差。 -->
-     <g style="fill: #56665d" transform="translate(637.795276 464.692298) scale(0.08 -0.08)">
-      <defs>
-       <path id="WenQuanYiMicroHei-957f" d="M 350 2875 
-L 1650 2875 
-L 1650 5150 
-L 2150 5150 
-L 2150 2875 
-L 5900 2875 
-L 5900 2400 
-L 3575 2400 
-Q 4200 825 5900 175 
-L 5600 -350 
-Q 3675 450 3025 2400 
-L 2150 2400 
-L 2150 100 
-Q 2700 400 3100 725 
-L 3200 250 
-Q 2650 -175 1875 -550 
-L 1650 -300 
-L 1650 2400 
-L 350 2400 
-L 350 2875 
-z
-M 4725 5125 
-L 5125 4800 
-Q 4250 3725 2975 3100 
-L 2700 3550 
-Q 3825 4100 4725 5125 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5382" d="M 5950 4975 
-L 5950 4500 
-L 1225 4500 
-L 1225 2425 
-Q 1225 750 700 -600 
-L 250 -325 
-Q 725 1000 725 2575 
-L 725 4975 
-L 5950 4975 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5bb6" d="M 3250 5225 
-Q 3425 4950 3525 4625 
-L 5925 4625 
-L 5925 3475 
-L 5425 3475 
-L 5425 4175 
-L 975 4175 
-L 975 3475 
-L 475 3475 
-L 475 4625 
-L 2975 4625 
-Q 2850 4875 2725 5075 
-L 3250 5225 
-z
-M 1150 3675 
-L 5250 3675 
-L 5250 3225 
-L 3450 3225 
-L 3125 3000 
-Q 3600 2575 3775 2050 
-Q 4575 2375 5200 2900 
-L 5550 2500 
-Q 5125 2200 4700 1975 
-Q 5100 900 6000 300 
-L 5650 -150 
-Q 4725 550 4275 1750 
-L 3900 1600 
-Q 4000 1250 4000 825 
-Q 4000 125 3775 -237 
-Q 3550 -600 3125 -600 
-Q 2800 -600 2200 -525 
-L 2075 25 
-Q 2650 -75 3125 -75 
-Q 3275 -75 3362 150 
-Q 3450 375 3450 825 
-L 3450 1100 
-Q 2275 225 650 -250 
-L 400 225 
-Q 2150 700 3350 1625 
-Q 3300 1875 3225 2025 
-Q 2125 1200 775 850 
-L 525 1275 
-Q 1950 1700 2975 2425 
-Q 2850 2575 2700 2725 
-Q 1825 2250 975 2000 
-L 650 2450 
-Q 1775 2700 2700 3225 
-L 1150 3225 
-L 1150 3675 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-63a7" d="M 350 4125 
-L 1125 4125 
-L 1125 5175 
-L 1625 5175 
-L 1625 4125 
-L 2125 4125 
-L 2125 3650 
-L 1625 3650 
-L 1625 2425 
-L 2200 2700 
-L 2300 2250 
-Q 1975 2050 1625 1875 
-L 1625 125 
-Q 1625 -275 1500 -425 
-Q 1375 -575 1000 -575 
-Q 700 -575 450 -475 
-L 350 25 
-Q 625 -75 925 -75 
-Q 1025 -75 1075 -12 
-Q 1125 50 1125 225 
-L 1125 1650 
-L 500 1400 
-L 300 1925 
-L 1125 2225 
-L 1125 3650 
-L 350 3650 
-L 350 4125 
-z
-M 6000 4475 
-L 6000 3325 
-L 5500 3325 
-L 5500 4025 
-L 2925 4025 
-L 2925 3250 
-L 2425 3250 
-L 2425 4475 
-L 3950 4475 
-Q 3875 4775 3750 5050 
-L 4275 5175 
-Q 4425 4825 4500 4475 
-L 6000 4475 
-z
-M 4775 3550 
-Q 5375 3125 5875 2575 
-L 5525 2150 
-Q 5025 2775 4425 3200 
-L 4775 3550 
-z
-M 3550 3500 
-L 4000 3250 
-Q 3575 2575 2775 2075 
-L 2475 2475 
-Q 3200 2950 3550 3500 
-z
-M 2675 1775 
-L 5725 1775 
-L 5725 1325 
-L 4450 1325 
-L 4450 75 
-L 6050 75 
-L 6050 -375 
-L 2375 -375 
-L 2375 75 
-L 3950 75 
-L 3950 1325 
-L 2675 1325 
-L 2675 1775 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5236" d="M 1025 5050 
-L 1450 4925 
-Q 1400 4725 1325 4525 
-L 1850 4525 
-L 1850 5175 
-L 2350 5175 
-L 2350 4525 
-L 3550 4525 
-L 3550 4050 
-L 2350 4050 
-L 2350 3375 
-L 3800 3375 
-L 3800 2900 
-L 2350 2900 
-L 2350 2250 
-L 3650 2250 
-L 3650 475 
-Q 3650 175 3487 37 
-Q 3325 -100 3025 -100 
-Q 2850 -100 2600 -75 
-L 2500 375 
-Q 2825 350 3000 350 
-Q 3150 350 3150 575 
-L 3150 1775 
-L 2350 1775 
-L 2350 -575 
-L 1850 -575 
-L 1850 1775 
-L 1100 1775 
-L 1100 -75 
-L 600 -75 
-L 600 2250 
-L 1850 2250 
-L 1850 2900 
-L 325 2900 
-L 325 3375 
-L 600 3375 
-L 325 3600 
-Q 800 4225 1025 5050 
-z
-M 1850 3375 
-L 1850 4050 
-L 1150 4050 
-Q 1000 3675 800 3375 
-L 1850 3375 
-z
-M 5375 5150 
-L 5875 5150 
-L 5875 75 
-Q 5875 -300 5737 -437 
-Q 5600 -575 5275 -575 
-Q 4825 -575 4425 -475 
-L 4325 25 
-Q 4775 -100 5200 -100 
-Q 5375 -100 5375 200 
-L 5375 5150 
-z
-M 4275 4500 
-L 4775 4500 
-L 4775 875 
-L 4275 875 
-L 4275 4500 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-9519" d="M 3025 4425 
-L 3575 4425 
-L 3575 5175 
-L 4075 5175 
-L 4075 4425 
-L 4875 4425 
-L 4875 5175 
-L 5375 5175 
-L 5375 4425 
-L 5950 4425 
-L 5950 3950 
-L 5375 3950 
-L 5375 3150 
-L 6075 3150 
-L 6075 2675 
-L 2850 2675 
-L 2850 3150 
-L 3575 3150 
-L 3575 3950 
-L 3025 3950 
-L 3025 4425 
-z
-M 4075 3150 
-L 4875 3150 
-L 4875 3950 
-L 4075 3950 
-L 4075 3150 
-z
-M 5800 2275 
-L 5800 -575 
-L 5300 -575 
-L 5300 -150 
-L 3700 -150 
-L 3700 -575 
-L 3200 -575 
-L 3200 2275 
-L 5800 2275 
-z
-M 3700 1300 
-L 5300 1300 
-L 5300 1825 
-L 3700 1825 
-L 3700 1300 
-z
-M 3700 300 
-L 5300 300 
-L 5300 850 
-L 3700 850 
-L 3700 300 
-z
-M 1200 5175 
-L 1675 5025 
-Q 1575 4725 1450 4425 
-L 2825 4425 
-L 2825 3950 
-L 1225 3950 
-Q 950 3475 575 3100 
-L 225 3450 
-Q 875 4200 1200 5175 
-z
-M 1425 2925 
-L 975 2925 
-L 975 3375 
-L 2575 3375 
-L 2575 2925 
-L 1875 2925 
-L 1875 2025 
-L 2775 2025 
-L 2775 1525 
-L 1875 1525 
-L 1875 125 
-Q 2325 325 2675 575 
-L 2750 150 
-Q 2275 -150 1625 -425 
-L 1425 -200 
-L 1425 1525 
-L 575 1525 
-L 575 2025 
-L 1425 2025 
-L 1425 2925 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-91cd" d="M 5375 5075 
-L 5625 4650 
-Q 4625 4575 3425 4550 
-L 3425 4150 
-L 6025 4150 
-L 6025 3700 
-L 3425 3700 
-L 3425 3350 
-L 5475 3350 
-L 5475 1225 
-L 3425 1225 
-L 3425 875 
-L 5775 875 
-L 5775 425 
-L 3425 425 
-L 3425 75 
-L 6000 75 
-L 6000 -400 
-L 350 -400 
-L 350 75 
-L 2925 75 
-L 2925 425 
-L 600 425 
-L 600 875 
-L 2925 875 
-L 2925 1225 
-L 850 1225 
-L 850 3350 
-L 2925 3350 
-L 2925 3700 
-L 400 3700 
-L 400 4150 
-L 2925 4150 
-L 2925 4525 
-L 825 4475 
-L 675 4925 
-Q 3025 4925 5375 5075 
-z
-M 1325 2500 
-L 2925 2500 
-L 2925 2900 
-L 1325 2900 
-L 1325 2500 
-z
-M 3425 2900 
-L 3425 2500 
-L 5025 2500 
-L 5025 2900 
-L 3425 2900 
-z
-M 1325 1675 
-L 2925 1675 
-L 2925 2075 
-L 1325 2075 
-L 1325 1675 
-z
-M 3425 2075 
-L 3425 1675 
-L 5025 1675 
-L 5025 2075 
-L 3425 2075 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-70b9" d="M 5300 1025 
-Q 5750 425 6050 -275 
-L 5575 -550 
-Q 5325 150 4850 750 
-L 5300 1025 
-z
-M 1075 950 
-L 1525 700 
-Q 1150 -100 775 -550 
-L 350 -175 
-Q 800 350 1075 950 
-z
-M 3875 875 
-Q 4225 375 4475 -225 
-L 3950 -450 
-Q 3725 175 3400 675 
-L 3875 875 
-z
-M 2475 800 
-Q 2825 225 2950 -350 
-L 2400 -525 
-Q 2275 125 1950 675 
-L 2475 800 
-z
-M 2825 5175 
-L 3325 5175 
-L 3325 4500 
-L 5775 4500 
-L 5775 4025 
-L 3325 4025 
-L 3325 3200 
-L 5400 3200 
-L 5400 1200 
-L 975 1200 
-L 975 3200 
-L 2825 3200 
-L 2825 5175 
-z
-M 1475 1675 
-L 4900 1675 
-L 4900 2725 
-L 1475 2725 
-L 1475 1675 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-7fd8" d="M 2750 4775 
-L 2800 4325 
-L 1625 4025 
-Q 1675 3750 1800 3475 
-Q 2275 3800 2575 4125 
-L 2850 3775 
-Q 2500 3375 2075 3075 
-Q 2300 2725 2600 2725 
-Q 2650 2725 2675 2875 
-Q 2700 3025 2700 3300 
-L 3150 3200 
-Q 3100 2250 2625 2250 
-Q 2175 2250 1700 2825 
-Q 1150 2475 650 2300 
-L 375 2750 
-Q 950 2975 1450 3250 
-Q 1300 3525 1200 3925 
-L 375 3700 
-L 300 4150 
-L 1100 4375 
-Q 1050 4700 1025 5125 
-L 1475 5175 
-Q 1500 4800 1550 4475 
-L 2750 4775 
-z
-M 325 2050 
-L 3050 2050 
-L 3050 1625 
-L 2400 1625 
-L 2400 200 
-Q 2400 75 2600 25 
-Q 2800 -25 3900 -25 
-Q 5400 -25 5600 75 
-Q 5675 175 5750 675 
-L 6175 450 
-Q 6075 -175 5875 -312 
-Q 5675 -450 3900 -450 
-Q 2450 -450 2175 -350 
-Q 1900 -250 1900 75 
-L 1900 1625 
-L 1525 1625 
-Q 1500 675 1275 200 
-Q 1050 -275 575 -600 
-L 300 -175 
-Q 1050 325 1050 1625 
-L 325 1625 
-L 325 2050 
-z
-M 4600 4875 
-L 5825 4875 
-L 5825 1125 
-Q 5825 875 5712 737 
-Q 5600 600 5375 600 
-Q 5175 600 4825 650 
-L 4725 1100 
-Q 5100 1050 5250 1050 
-Q 5375 1050 5375 1200 
-L 5375 2250 
-Q 5075 1800 4750 1450 
-L 4550 1900 
-Q 5025 2325 5375 2900 
-L 5375 4450 
-L 4600 4450 
-L 4600 4875 
-z
-M 3200 4875 
-L 4425 4875 
-L 4425 1125 
-Q 4425 875 4312 737 
-Q 4200 600 4000 600 
-Q 3775 600 3450 650 
-L 3325 1100 
-Q 3725 1050 3850 1050 
-Q 4000 1050 4000 1200 
-L 4000 2250 
-Q 3700 1800 3375 1450 
-L 3175 1900 
-Q 3625 2325 4000 2900 
-L 4000 4450 
-L 3200 4450 
-L 3200 4875 
-z
-M 4875 4150 
-Q 5125 3675 5300 3175 
-L 4950 2975 
-Q 4800 3475 4550 3925 
-L 4875 4150 
-z
-M 3475 4150 
-Q 3750 3675 3900 3175 
-L 3550 2975 
-Q 3425 3475 3175 3925 
-L 3475 4150 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-66f2" d="M 5650 4125 
-L 5650 -600 
-L 5150 -600 
-L 5150 -225 
-L 1225 -225 
-L 1225 -600 
-L 725 -600 
-L 725 4125 
-L 2200 4125 
-L 2200 5175 
-L 2700 5175 
-L 2700 4125 
-L 3675 4125 
-L 3675 5175 
-L 4175 5175 
-L 4175 4125 
-L 5650 4125 
-z
-M 1225 2175 
-L 2200 2175 
-L 2200 3650 
-L 1225 3650 
-L 1225 2175 
-z
-M 2700 3650 
-L 2700 2175 
-L 3675 2175 
-L 3675 3650 
-L 2700 3650 
-z
-M 4175 3650 
-L 4175 2175 
-L 5150 2175 
-L 5150 3650 
-L 4175 3650 
-z
-M 1225 250 
-L 2200 250 
-L 2200 1700 
-L 1225 1700 
-L 1225 250 
-z
-M 2700 250 
-L 3675 250 
-L 3675 1700 
-L 2700 1700 
-L 2700 250 
-z
-M 4175 250 
-L 5150 250 
-L 5150 1700 
-L 4175 1700 
-L 4175 250 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-9ad8" d="M 3250 5225 
-Q 3425 5000 3525 4750 
-L 6050 4750 
-L 6050 4325 
-L 350 4325 
-L 350 4750 
-L 2925 4750 
-L 2725 5075 
-L 3250 5225 
-z
-M 1225 3950 
-L 5125 3950 
-L 5125 2650 
-L 1225 2650 
-L 1225 3950 
-z
-M 1725 3075 
-L 4625 3075 
-L 4625 3525 
-L 1725 3525 
-L 1725 3075 
-z
-M 5825 2300 
-L 5825 -25 
-Q 5825 -325 5637 -462 
-Q 5450 -600 5050 -600 
-Q 4775 -600 4400 -550 
-L 4300 -100 
-Q 4775 -150 5025 -150 
-Q 5325 -150 5325 75 
-L 5325 1875 
-L 1050 1875 
-L 1050 -600 
-L 550 -600 
-L 550 2300 
-L 5825 2300 
-z
-M 1775 1500 
-L 4575 1500 
-L 4575 150 
-L 1775 150 
-L 1775 1500 
-z
-M 2250 575 
-L 4100 575 
-L 4100 1100 
-L 2250 1100 
-L 2250 575 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-4f4e" d="M 1575 5175 
-L 2075 5025 
-Q 1875 4450 1625 3875 
-L 1625 -575 
-L 1125 -575 
-L 1125 2925 
-Q 825 2450 500 2050 
-L 250 2550 
-Q 1175 3800 1575 5175 
-z
-M 2850 2625 
-L 2850 25 
-L 3425 225 
-L 3550 -225 
-Q 3050 -400 2600 -500 
-L 2350 -225 
-L 2350 4800 
-Q 4375 4875 5275 5175 
-L 5675 4750 
-Q 5200 4600 4525 4500 
-Q 4550 3700 4600 3100 
-L 5925 3100 
-L 5925 2625 
-L 4650 2625 
-Q 4750 1325 5075 500 
-Q 5300 -25 5475 -25 
-Q 5550 -25 5600 262 
-Q 5650 550 5675 1100 
-L 6100 1000 
-Q 6025 -25 5875 -312 
-Q 5725 -600 5475 -600 
-Q 5075 -600 4750 25 
-Q 4300 875 4125 2625 
-L 2850 2625 
-z
-M 2850 4350 
-L 2850 3100 
-L 4100 3100 
-Q 4050 3700 4025 4425 
-Q 3500 4375 2850 4350 
-z
-M 4075 650 
-Q 4350 200 4500 -350 
-L 4050 -475 
-Q 3900 50 3650 500 
-L 4075 650 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-5dee" d="M 2100 5250 
-Q 2375 4925 2575 4550 
-L 3800 4550 
-Q 4075 4925 4225 5250 
-L 4800 5075 
-Q 4625 4775 4400 4550 
-L 5750 4550 
-L 5750 4075 
-L 3475 4075 
-Q 3425 3800 3350 3525 
-L 5550 3525 
-L 5550 3075 
-L 3200 3075 
-L 2975 2525 
-L 5950 2525 
-L 5950 2050 
-L 2725 2050 
-Q 2525 1700 2300 1425 
-L 5600 1425 
-L 5600 950 
-L 3700 950 
-L 3700 100 
-L 5925 100 
-L 5925 -375 
-L 975 -375 
-L 975 100 
-L 3200 100 
-L 3200 950 
-L 1850 950 
-Q 1250 425 600 175 
-L 325 625 
-Q 1375 1050 2100 2050 
-L 475 2050 
-L 475 2525 
-L 2400 2525 
-Q 2525 2750 2650 3075 
-L 800 3075 
-L 800 3525 
-L 2800 3525 
-Q 2875 3800 2925 4075 
-L 650 4075 
-L 650 4550 
-L 1950 4550 
-Q 1800 4800 1625 5025 
-L 2100 5250 
-z
-" transform="scale(0.015625)"/>
-      </defs>
-      <use xlink:href="#WenQuanYiMicroHei-957f"/>
-      <use xlink:href="#WenQuanYiMicroHei-6761" transform="translate(100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6309" transform="translate(300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5382" transform="translate(400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5bb6" transform="translate(500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6392" transform="translate(600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7248" transform="translate(700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-8981" transform="translate(800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6c42" transform="translate(900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-63a7" transform="translate(1000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5236" transform="translate(1100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-9519" transform="translate(1200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7f1d" transform="translate(1300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(1400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-91cd" transform="translate(1500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-70b9" transform="translate(1600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-770b" transform="translate(1700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7fd8" transform="translate(1800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-66f2" transform="translate(1900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-4e0e" transform="translate(2000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-9ad8" transform="translate(2100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-4f4e" transform="translate(2200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5dee" transform="translate(2300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2400 0)"/>
-     </g>
-    </g>
-   </g>
-   <g id="text_32">
-    <g clip-path="url(#p82c928a02a)">
-     <!-- 喜欢脚感可比样多层实木地板，先确认防潮与地暖条件。 -->
-     <g style="fill: #56665d" transform="translate(637.795276 482.267101) scale(0.08 -0.08)">
-      <defs>
-       <path id="WenQuanYiMicroHei-559c" d="M 400 4850 
-L 2925 4850 
-L 2925 5175 
-L 3425 5175 
-L 3425 4850 
-L 6000 4850 
-L 6000 4450 
-L 3425 4450 
-L 3425 4150 
-L 5650 4150 
-L 5650 3725 
-L 750 3725 
-L 750 4150 
-L 2925 4150 
-L 2925 4450 
-L 400 4450 
-L 400 4850 
-z
-M 1025 3425 
-L 5300 3425 
-L 5300 2200 
-L 1025 2200 
-L 1025 3425 
-z
-M 1475 2625 
-L 4800 2625 
-L 4800 3000 
-L 1475 3000 
-L 1475 2625 
-z
-M 2075 2125 
-Q 2250 1925 2350 1675 
-L 4000 1675 
-Q 4150 1900 4250 2125 
-L 4800 1975 
-L 4575 1675 
-L 6075 1675 
-L 6075 1250 
-L 325 1250 
-L 325 1675 
-L 1825 1675 
-Q 1725 1825 1600 1975 
-L 2075 2125 
-z
-M 5375 950 
-L 5375 -575 
-L 4900 -575 
-L 4900 -325 
-L 1425 -325 
-L 1425 -575 
-L 950 -575 
-L 950 950 
-L 5375 950 
-z
-M 1425 100 
-L 4900 100 
-L 4900 525 
-L 1425 525 
-L 1425 100 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-6b22" d="M 400 4875 
-L 2475 4875 
-Q 2375 3200 2025 1975 
-Q 2375 1375 2675 725 
-L 2275 350 
-Q 2050 850 1800 1325 
-Q 1350 225 625 -425 
-L 325 0 
-Q 1100 675 1475 1925 
-Q 975 2775 425 3575 
-L 800 3850 
-Q 1250 3225 1675 2575 
-Q 1850 3225 1925 4375 
-L 400 4375 
-L 400 4875 
-z
-M 3600 5225 
-L 4075 5100 
-Q 3975 4675 3825 4250 
-L 5850 4250 
-L 5850 3800 
-Q 5850 3775 5687 3387 
-Q 5525 3000 5350 2650 
-L 4925 2875 
-Q 5150 3325 5300 3775 
-L 3650 3775 
-Q 3375 3075 2900 2450 
-L 2525 2850 
-Q 3225 3825 3600 5225 
-z
-M 4050 3375 
-L 4525 3325 
-L 4500 2475 
-Q 4500 2200 4875 1325 
-Q 5250 450 6125 -175 
-L 5700 -575 
-Q 4750 200 4350 1525 
-Q 4050 275 2925 -575 
-L 2550 -175 
-Q 3350 425 3687 1162 
-Q 4025 1900 4050 3375 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-811a" d="M 2225 5025 
-L 2225 125 
-Q 2225 -200 2100 -350 
-Q 1975 -500 1700 -500 
-Q 1550 -500 1325 -475 
-L 1200 -25 
-Q 1450 -50 1600 -50 
-Q 1775 -50 1775 250 
-L 1775 1700 
-L 1075 1700 
-Q 1000 350 750 -600 
-L 325 -350 
-Q 650 1000 650 2625 
-L 650 5025 
-L 2225 5025 
-z
-M 1100 3600 
-L 1775 3600 
-L 1775 4575 
-L 1100 4575 
-L 1100 3600 
-z
-M 1100 2150 
-L 1775 2150 
-L 1775 3125 
-L 1100 3125 
-L 1100 2150 
-z
-M 5500 4350 
-L 4825 4350 
-L 4825 -575 
-L 4350 -575 
-L 4350 4800 
-L 5975 4800 
-L 5975 975 
-Q 5975 700 5850 562 
-Q 5725 425 5500 425 
-Q 5325 425 5075 475 
-L 4975 950 
-Q 5250 900 5375 900 
-Q 5500 900 5500 1050 
-L 5500 4350 
-z
-M 3000 2075 
-L 2400 2075 
-L 2400 2525 
-L 3075 2525 
-L 3075 3850 
-L 2500 3850 
-L 2500 4300 
-L 3075 4300 
-L 3075 5175 
-L 3525 5175 
-L 3525 4300 
-L 4100 4300 
-L 4100 3850 
-L 3525 3850 
-L 3525 2525 
-L 4175 2525 
-L 4175 2075 
-L 3525 2075 
-Q 3225 925 2900 400 
-Q 3275 450 3700 600 
-Q 3575 1100 3425 1500 
-L 3825 1675 
-Q 4125 875 4325 -50 
-L 3875 -250 
-Q 3825 -25 3800 175 
-Q 3200 0 2550 -75 
-L 2400 350 
-Q 2750 950 3000 2075 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-611f" d="M 3050 1350 
-Q 3500 1100 3875 750 
-L 3525 325 
-Q 3150 725 2725 1000 
-L 3050 1350 
-z
-M 5150 1225 
-Q 5650 725 6125 75 
-L 5675 -250 
-Q 5300 325 4750 925 
-L 5150 1225 
-z
-M 1725 1200 
-L 2225 1200 
-L 2225 150 
-Q 2225 50 2362 0 
-Q 2500 -50 3150 -50 
-Q 4000 -50 4175 0 
-Q 4350 50 4400 150 
-Q 4450 200 4475 575 
-L 4975 400 
-Q 4925 -175 4687 -350 
-Q 4450 -525 3150 -525 
-Q 2225 -525 1975 -412 
-Q 1725 -300 1725 -25 
-L 1725 1200 
-z
-M 1025 1125 
-L 1475 875 
-Q 1100 25 675 -400 
-L 275 -50 
-Q 750 450 1025 1125 
-z
-M 5900 4650 
-L 5900 4200 
-L 4275 4200 
-Q 4400 3250 4625 2700 
-Q 5050 3325 5275 3900 
-L 5700 3775 
-Q 5300 2875 4850 2225 
-Q 5125 1875 5200 1800 
-Q 5275 1725 5375 1725 
-Q 5475 1725 5525 1950 
-Q 5575 2175 5575 2625 
-L 6050 2500 
-Q 6025 1750 5850 1475 
-Q 5675 1200 5375 1200 
-Q 5050 1200 4575 1825 
-Q 4325 1475 4000 1150 
-L 3575 1475 
-Q 4000 1875 4325 2275 
-Q 3925 3050 3775 4200 
-L 1250 4200 
-L 1250 3025 
-Q 1250 2050 775 1300 
-L 325 1575 
-Q 775 2350 775 3275 
-L 775 4650 
-L 3725 4650 
-Q 3725 4925 3700 5175 
-L 4200 5175 
-Q 4225 4900 4225 4650 
-L 5000 4650 
-Q 4850 4825 4650 4975 
-L 4975 5225 
-Q 5325 4950 5575 4650 
-L 5900 4650 
-z
-M 1450 3800 
-L 3725 3800 
-L 3725 3375 
-L 1450 3375 
-L 1450 3800 
-z
-M 1575 3000 
-L 3550 3000 
-L 3550 1650 
-L 1575 1650 
-L 1575 3000 
-z
-M 2025 2075 
-L 3100 2075 
-L 3100 2575 
-L 2025 2575 
-L 2025 2075 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-6bd4" d="M 825 5100 
-L 1350 5100 
-L 1350 3325 
-L 2900 3325 
-L 2900 2825 
-L 1350 2825 
-L 1350 75 
-Q 2175 350 2825 675 
-L 2925 150 
-Q 2125 -225 1075 -575 
-L 825 -325 
-L 825 5100 
-z
-M 3400 5100 
-L 3925 5100 
-L 3925 3225 
-Q 4800 3575 5550 4075 
-L 5875 3625 
-Q 4975 3075 3925 2675 
-L 3925 225 
-Q 3925 125 4062 75 
-Q 4200 25 4950 25 
-Q 5325 25 5437 175 
-Q 5550 325 5600 925 
-L 6075 725 
-Q 5975 -100 5775 -300 
-Q 5575 -500 4950 -500 
-Q 3925 -500 3662 -350 
-Q 3400 -200 3400 125 
-L 3400 5100 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-591a" d="M 3225 5225 
-L 3725 5125 
-Q 3525 4875 3275 4675 
-L 5350 4675 
-L 5350 4225 
-Q 4375 2700 875 2200 
-L 675 2700 
-Q 3900 3025 4775 4225 
-L 2650 4225 
-L 2300 4025 
-Q 2575 3825 2850 3600 
-L 2500 3250 
-Q 2200 3525 1825 3800 
-Q 1500 3650 1175 3550 
-L 850 3900 
-Q 2000 4300 2475 4650 
-L 2500 4675 
-L 2525 4675 
-Q 2950 4950 3225 5225 
-z
-M 3525 2700 
-L 3975 2475 
-Q 3825 2350 3650 2225 
-L 5575 2225 
-L 5575 1775 
-Q 4475 -25 600 -600 
-L 400 -100 
-Q 4050 325 5000 1775 
-L 3050 1775 
-Q 2625 1475 2375 1375 
-Q 2700 1150 3000 900 
-L 2625 525 
-Q 2300 825 1900 1125 
-Q 1550 950 1200 825 
-L 900 1250 
-Q 2375 1750 3525 2700 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-677f" d="M 425 4025 
-L 1225 4025 
-L 1225 5175 
-L 1700 5175 
-L 1700 4025 
-L 2450 4025 
-L 2450 3550 
-L 1700 3550 
-L 1700 3250 
-Q 2175 2675 2525 2125 
-L 2200 1650 
-Q 1950 2175 1700 2575 
-L 1700 -575 
-L 1225 -575 
-L 1225 2150 
-Q 950 1325 575 775 
-L 225 1125 
-Q 950 2200 1175 3550 
-L 425 3550 
-L 425 4025 
-z
-M 3275 2925 
-Q 3225 875 2475 -475 
-L 2025 -175 
-Q 2775 1150 2775 3350 
-L 2775 4700 
-Q 4175 4850 5350 5150 
-L 5725 4750 
-Q 4625 4425 3275 4300 
-L 3275 3375 
-L 5675 3375 
-Q 5575 2000 4875 900 
-Q 5375 325 6075 -100 
-L 5700 -525 
-Q 5050 -125 4575 475 
-Q 4025 -150 3250 -550 
-L 2950 -100 
-Q 3750 250 4250 875 
-Q 3575 1875 3375 2925 
-L 3275 2925 
-z
-M 3875 2925 
-Q 4050 2050 4550 1300 
-Q 5000 2025 5125 2925 
-L 3875 2925 
-z
-" transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-6f6e" d="M 5950 5075 
 L 5950 25 
 Q 5950 -250 5825 -387 
@@ -16055,383 +14506,1752 @@ L 2250 2475
 L 2250 1975 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-4ef6" d="M 1500 5175 
-L 2000 5025 
-Q 1775 4325 1475 3650 
-L 1475 -575 
-L 975 -575 
-L 975 2700 
-Q 750 2350 500 2050 
-L 250 2550 
-Q 1100 3800 1500 5175 
+      </defs>
+      <use xlink:href="#WenQuanYiMicroHei-540e"/>
+      <use xlink:href="#WenQuanYiMicroHei-6392" transform="translate(100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5367" transform="translate(200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5ba4" transform="translate(300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-4e0e" transform="translate(400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-516c" transform="translate(500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-533a" transform="translate(600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-901a" transform="translate(700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-94fa" transform="translate(800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-36" transform="translate(900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(955.078125 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1010.15625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-d7" transform="translate(1065.234375 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(1120.3125 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-32" transform="translate(1175.390625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1230.46875 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1285.546875 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6216" transform="translate(1340.625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-36" transform="translate(1440.625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1495.703125 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1550.78125 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-d7" transform="translate(1605.859375 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-36" transform="translate(1660.9375 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1716.015625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1771.09375 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6d" transform="translate(1826.171875 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6d" transform="translate(1915.771484 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-77f3" transform="translate(2005.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(2105.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(2205.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(2305.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-9632" transform="translate(2405.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6f6e" transform="translate(2505.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6613" transform="translate(2605.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6253" transform="translate(2705.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7406" transform="translate(2805.371094 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2905.371094 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="text_31">
+    <g clip-path="url(#p424bbf4f0e)">
+     <!-- 取消过时黑色波导线，用同色环氧彩砂美缝放大空间感。 -->
+     <g style="fill: #56665d" transform="translate(637.795276 464.692298) scale(0.08 -0.08)">
+      <defs>
+       <path id="WenQuanYiMicroHei-53d6" d="M 400 4975 
+L 3225 4975 
+L 3225 4500 
+L 2925 4500 
+L 2925 1175 
+L 3300 1225 
+L 3375 775 
+Q 3150 725 2925 700 
+L 2925 -575 
+L 2425 -575 
+L 2425 625 
+Q 1475 475 425 350 
+L 325 850 
+L 775 900 
+L 775 4500 
+L 400 4500 
+L 400 4975 
 z
-M 2825 4950 
-L 3300 4800 
-Q 3175 4375 3000 3975 
-L 3875 3975 
-L 3875 5175 
-L 4375 5175 
-L 4375 3975 
-L 5875 3975 
-L 5875 3500 
-L 4375 3500 
-L 4375 2025 
-L 6100 2025 
-L 6100 1550 
-L 4375 1550 
-L 4375 -575 
-L 3875 -575 
-L 3875 1550 
-L 1900 1550 
-L 1900 2025 
-L 3875 2025 
-L 3875 3500 
-L 2800 3500 
-Q 2525 2900 2175 2450 
-L 1750 2775 
-Q 2475 3725 2825 4950 
+M 1275 3700 
+L 2425 3700 
+L 2425 4500 
+L 1275 4500 
+L 1275 3700 
+z
+M 1275 2450 
+L 2425 2450 
+L 2425 3250 
+L 1275 3250 
+L 1275 2450 
+z
+M 1275 950 
+L 2425 1100 
+L 2425 2000 
+L 1275 2000 
+L 1275 950 
+z
+M 3350 4875 
+L 5875 4875 
+Q 5725 2775 4975 1250 
+Q 5400 575 6125 -150 
+L 5800 -550 
+Q 5125 100 4700 750 
+Q 4175 -50 3475 -500 
+L 3200 -100 
+Q 3975 450 4425 1250 
+Q 3875 2400 3650 4400 
+L 3350 4400 
+L 3350 4875 
+z
+M 4100 4400 
+Q 4275 2800 4700 1800 
+Q 5200 3000 5325 4400 
+L 4100 4400 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-6d88" d="M 900 5125 
+Q 1450 4825 1900 4400 
+L 1575 3975 
+Q 1075 4450 550 4775 
+L 900 5125 
+z
+M 650 3575 
+Q 1150 3300 1575 2950 
+L 1225 2525 
+Q 800 2950 300 3225 
+L 650 3575 
+z
+M 1225 2000 
+L 1650 1700 
+Q 1350 525 775 -575 
+L 275 -225 
+Q 875 825 1225 2000 
+z
+M 3800 5200 
+L 4275 5200 
+L 4275 3675 
+L 5775 3675 
+L 5775 25 
+Q 5775 -275 5612 -425 
+Q 5450 -575 5100 -575 
+Q 4800 -575 4350 -525 
+L 4250 -50 
+Q 4800 -100 5075 -100 
+Q 5325 -100 5325 150 
+L 5325 900 
+L 2850 900 
+L 2850 -575 
+L 2400 -575 
+L 2400 3675 
+L 3800 3675 
+L 3800 5200 
+z
+M 2850 2525 
+L 5325 2525 
+L 5325 3250 
+L 2850 3250 
+L 2850 2525 
+z
+M 2850 1350 
+L 5325 1350 
+L 5325 2075 
+L 2850 2075 
+L 2850 1350 
+z
+M 2650 5075 
+Q 3000 4725 3325 4225 
+L 2950 3925 
+Q 2650 4375 2250 4800 
+L 2650 5075 
+z
+M 5300 5075 
+L 5775 4925 
+Q 5475 4325 5100 3900 
+L 4675 4150 
+Q 5100 4625 5300 5075 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-8fc7" d="M 750 5025 
+Q 1250 4700 1650 4250 
+L 1300 3825 
+Q 875 4325 400 4650 
+L 750 5025 
+z
+M 325 2950 
+L 1575 2950 
+L 1575 550 
+Q 1875 325 2337 225 
+Q 2800 125 4350 125 
+L 6100 125 
+L 5850 -425 
+L 3850 -425 
+Q 2750 -425 2250 -275 
+Q 1750 -125 1375 200 
+L 650 -525 
+L 300 0 
+Q 700 225 1075 475 
+L 1075 2475 
+L 325 2475 
+L 325 2950 
+z
+M 4375 5150 
+L 4875 5150 
+L 4875 4175 
+L 6000 4175 
+L 6000 3700 
+L 4875 3700 
+L 4875 975 
+Q 4875 625 4737 475 
+Q 4600 325 4150 325 
+Q 3800 325 3500 450 
+L 3400 950 
+Q 3725 800 4075 800 
+Q 4250 800 4312 862 
+Q 4375 925 4375 1100 
+L 4375 3700 
+L 2275 3700 
+L 2275 4175 
+L 4375 4175 
+L 4375 5150 
+z
+M 2900 3200 
+Q 3300 2525 3500 1700 
+L 2975 1525 
+Q 2775 2375 2400 3050 
+L 2900 3200 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-65f6" d="M 2750 3875 
+L 4800 3875 
+L 4800 5175 
+L 5300 5175 
+L 5300 3875 
+L 6050 3875 
+L 6050 3400 
+L 5300 3400 
+L 5300 125 
+Q 5300 -250 5162 -400 
+Q 5025 -550 4675 -550 
+Q 4275 -550 3900 -450 
+L 3800 75 
+Q 4200 -50 4600 -50 
+Q 4700 -50 4750 0 
+Q 4800 50 4800 250 
+L 4800 3400 
+L 2750 3400 
+L 2750 3875 
+z
+M 3475 2975 
+Q 3950 2200 4275 1300 
+L 3775 1075 
+Q 3475 2025 3025 2775 
+L 3475 2975 
+z
+M 2525 4700 
+L 2525 275 
+L 2050 275 
+L 2050 625 
+L 950 625 
+L 950 75 
+L 475 75 
+L 475 4700 
+L 2525 4700 
+z
+M 950 2900 
+L 2050 2900 
+L 2050 4250 
+L 950 4250 
+L 950 2900 
+z
+M 950 1075 
+L 2050 1075 
+L 2050 2450 
+L 950 2450 
+L 950 1075 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-9ed1" d="M 950 5000 
+L 5425 5000 
+L 5425 2725 
+L 3425 2725 
+L 3425 2225 
+L 5475 2225 
+L 5475 1775 
+L 3425 1775 
+L 3425 1250 
+L 5950 1250 
+L 5950 800 
+L 450 800 
+L 450 1250 
+L 2950 1250 
+L 2950 1775 
+L 900 1775 
+L 900 2225 
+L 2950 2225 
+L 2950 2725 
+L 950 2725 
+L 950 5000 
+z
+M 1450 3150 
+L 2950 3150 
+L 2950 4575 
+L 1450 4575 
+L 1450 3150 
+z
+M 2250 4350 
+Q 2475 3975 2600 3525 
+L 2150 3375 
+Q 2025 3850 1775 4200 
+L 2250 4350 
+z
+M 3425 4575 
+L 3425 3150 
+L 4925 3150 
+L 4925 4575 
+L 3425 4575 
+z
+M 4150 4375 
+L 4600 4200 
+Q 4400 3700 4150 3350 
+L 3725 3575 
+Q 4000 3975 4150 4375 
+z
+M 1050 725 
+L 1500 450 
+Q 1125 -200 725 -600 
+L 300 -225 
+Q 775 225 1050 725 
+z
+M 5300 725 
+Q 5675 325 6050 -175 
+L 5650 -600 
+Q 5325 -75 4875 425 
+L 5300 725 
+z
+M 2475 675 
+Q 2725 225 2900 -325 
+L 2375 -550 
+Q 2225 25 2000 450 
+L 2475 675 
+z
+M 3950 675 
+Q 4250 225 4450 -300 
+L 3950 -525 
+Q 3750 25 3475 450 
+L 3950 675 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-6ce2" d="M 1050 5150 
+Q 1700 4825 2250 4400 
+L 1900 3975 
+Q 1325 4450 700 4800 
+L 1050 5150 
+z
+M 750 3650 
+Q 1350 3350 1875 2950 
+L 1525 2525 
+Q 1000 2975 400 3300 
+L 750 3650 
+z
+M 1525 2025 
+L 1950 1700 
+Q 1550 525 800 -575 
+L 325 -225 
+Q 1075 850 1525 2025 
+z
+M 3925 4375 
+L 3925 5175 
+L 4425 5175 
+L 4425 4375 
+L 5925 4375 
+L 5925 3925 
+Q 5925 3900 5800 3562 
+Q 5675 3225 5550 2950 
+L 5075 3100 
+Q 5250 3500 5375 3900 
+L 4425 3900 
+L 4425 2675 
+L 5725 2675 
+Q 5600 1475 4775 575 
+Q 5300 200 6100 -125 
+L 5725 -600 
+Q 4975 -250 4400 225 
+Q 3800 -250 3000 -550 
+L 2750 -75 
+Q 3500 175 4025 575 
+Q 3550 1025 3200 1675 
+L 3575 1950 
+Q 3925 1325 4400 900 
+Q 4975 1500 5125 2225 
+L 3100 2225 
+L 3100 2075 
+Q 3100 600 2250 -575 
+L 1800 -300 
+Q 2275 400 2462 950 
+Q 2650 1500 2650 2275 
+L 2650 4375 
+L 3925 4375 
+z
+M 3100 2675 
+L 3925 2675 
+L 3925 3900 
+L 3100 3900 
+L 3100 2675 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-5bfc" d="M 4250 1975 
+L 4750 1975 
+L 4750 1500 
+L 5950 1500 
+L 5950 1050 
+L 4750 1050 
+L 4750 75 
+Q 4750 -275 4600 -425 
+Q 4450 -575 4000 -575 
+Q 3725 -575 3475 -525 
+L 3375 -25 
+Q 3700 -75 4000 -75 
+Q 4250 -75 4250 175 
+L 4250 1050 
+L 475 1050 
+L 475 1500 
+L 4250 1500 
+L 4250 1975 
+z
+M 1750 825 
+Q 2325 575 2775 250 
+L 2450 -150 
+Q 1950 225 1425 475 
+L 1750 825 
+z
+M 5200 4975 
+L 5200 3325 
+L 1450 3325 
+L 1450 2850 
+Q 1450 2700 1687 2650 
+Q 1925 2600 3325 2600 
+Q 5025 2600 5175 2675 
+Q 5275 2725 5350 3175 
+L 5825 2900 
+Q 5725 2375 5450 2225 
+Q 5275 2125 3325 2125 
+Q 1575 2125 1262 2250 
+Q 950 2375 950 2700 
+L 950 4975 
+L 5200 4975 
+z
+M 1450 4500 
+L 1450 3800 
+L 4700 3800 
+L 4700 4500 
+L 1450 4500 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-73af" d="M 325 4850 
+L 2250 4850 
+L 2250 4375 
+L 1550 4375 
+L 1550 2925 
+L 2200 2925 
+L 2200 2450 
+L 1550 2450 
+L 1550 975 
+Q 1950 1150 2300 1325 
+L 2375 875 
+Q 1500 400 425 75 
+L 325 575 
+Q 700 675 1075 800 
+L 1075 2450 
+L 375 2450 
+L 375 2925 
+L 1075 2925 
+L 1075 4375 
+L 325 4375 
+L 325 4850 
+z
+M 2575 4875 
+L 6050 4875 
+L 6050 4400 
+L 4650 4400 
+L 4500 3925 
+L 4500 -575 
+L 4000 -575 
+L 4000 2775 
+Q 3450 1675 2800 875 
+L 2400 1250 
+Q 3400 2400 4150 4400 
+L 2575 4400 
+L 2575 4875 
+z
+M 4975 3075 
+Q 5525 2325 6075 1300 
+L 5700 925 
+Q 5225 1900 4625 2825 
+L 4975 3075 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-6c27" d="M 1450 5250 
+L 1950 5150 
+Q 1875 4925 1775 4725 
+L 5850 4725 
+L 5850 4325 
+L 1550 4325 
+L 1300 4000 
+Q 1225 3875 1100 3762 
+Q 975 3650 800 3500 
+L 475 3875 
+Q 1125 4425 1450 5250 
+z
+M 1500 3975 
+L 5425 3975 
+L 5425 3575 
+L 1500 3575 
+L 1500 3975 
+z
+M 800 3225 
+L 5225 3225 
+Q 5225 750 5350 325 
+Q 5475 -100 5575 -100 
+Q 5700 -100 5725 750 
+L 6125 650 
+Q 6000 -575 5575 -575 
+Q 5200 -575 4987 -37 
+Q 4775 500 4750 2800 
+L 800 2800 
+L 800 3225 
+z
+M 1675 2675 
+Q 1900 2400 2000 2075 
+L 2825 2075 
+Q 3050 2375 3200 2675 
+L 3700 2525 
+Q 3550 2275 3375 2075 
+L 4200 2075 
+L 4200 1675 
+L 2725 1675 
+L 2725 1325 
+L 4000 1325 
+L 4000 900 
+L 2725 900 
+L 2725 525 
+L 4375 525 
+L 4375 75 
+L 2725 75 
+L 2725 -575 
+L 2225 -575 
+L 2225 75 
+L 525 75 
+L 525 525 
+L 2225 525 
+L 2225 900 
+L 875 900 
+L 875 1325 
+L 2225 1325 
+L 2225 1675 
+L 725 1675 
+L 725 2075 
+L 1500 2075 
+Q 1375 2325 1225 2525 
+L 1675 2675 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-5f69" d="M 5300 5125 
+L 5750 4875 
+Q 5100 3825 3900 3125 
+L 3575 3550 
+Q 4775 4325 5300 5125 
+z
+M 5400 3450 
+L 5875 3175 
+Q 5250 2200 4025 1525 
+L 3700 1950 
+Q 4800 2600 5400 3450 
+z
+M 5650 1850 
+L 6125 1575 
+Q 5300 325 3725 -550 
+L 3400 -125 
+Q 4925 775 5650 1850 
+z
+M 3300 5150 
+L 3550 4675 
+Q 2350 4400 600 4325 
+L 450 4800 
+Q 1875 4800 3300 5150 
+z
+M 3100 4325 
+L 3550 4175 
+Q 3300 3300 2975 2700 
+L 2550 2925 
+Q 2925 3650 3100 4325 
+z
+M 1925 4175 
+Q 2200 3775 2400 3300 
+L 1950 3075 
+Q 1800 3550 1525 3950 
+L 1925 4175 
+z
+M 875 4025 
+Q 1225 3550 1475 2975 
+L 1000 2750 
+Q 800 3300 475 3825 
+L 875 4025 
+z
+M 550 2300 
+L 1850 2300 
+L 1850 2925 
+L 2300 2925 
+L 2300 2300 
+L 3525 2300 
+L 3525 1850 
+L 2300 1850 
+L 2300 1625 
+Q 3025 1200 3525 775 
+L 3200 350 
+Q 2775 725 2300 1050 
+L 2300 -575 
+L 1850 -575 
+L 1850 1275 
+Q 1325 275 575 -225 
+L 300 225 
+Q 1250 850 1600 1850 
+L 550 1850 
+L 550 2300 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-7802" d="M 400 4775 
+L 2400 4775 
+L 2400 4300 
+L 1650 4300 
+Q 1475 3500 1200 2800 
+L 2275 2800 
+L 2275 200 
+L 1375 200 
+L 1375 -350 
+L 900 -350 
+L 900 2125 
+Q 750 1825 575 1525 
+L 225 1875 
+Q 850 2950 1175 4300 
+L 400 4300 
+L 400 4775 
+z
+M 1375 675 
+L 1825 675 
+L 1825 2350 
+L 1375 2350 
+L 1375 675 
+z
+M 4000 5175 
+L 4525 5175 
+L 4525 1400 
+L 4000 1400 
+L 4000 5175 
+z
+M 5225 4525 
+Q 5750 3675 6100 2700 
+L 5650 2450 
+Q 5350 3400 4825 4275 
+L 5225 4525 
+z
+M 3125 4475 
+L 3600 4300 
+Q 3350 2975 2950 2050 
+L 2475 2350 
+Q 2900 3300 3125 4475 
+z
+M 5300 2325 
+L 5800 2150 
+Q 5300 1075 4500 425 
+Q 3700 -225 2375 -600 
+L 2150 -125 
+Q 3375 200 4087 775 
+Q 4800 1350 5300 2325 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-7f8e" d="M 4325 5175 
+L 4875 5025 
+Q 4625 4650 4375 4375 
+L 5700 4375 
+L 5700 3900 
+L 3450 3900 
+L 3450 3375 
+L 5500 3375 
+L 5500 2900 
+L 3450 2900 
+L 3450 2375 
+L 5875 2375 
+L 5875 1925 
+L 525 1925 
+L 525 2375 
+L 2925 2375 
+L 2925 2900 
+L 875 2900 
+L 875 3375 
+L 2925 3375 
+L 2925 3900 
+L 650 3900 
+L 650 4375 
+L 2025 4375 
+Q 1850 4650 1600 4925 
+L 2025 5200 
+Q 2400 4800 2650 4375 
+L 3800 4375 
+Q 4100 4750 4325 5175 
+z
+M 350 1350 
+L 2875 1350 
+Q 2950 1575 3000 1825 
+L 3500 1750 
+Q 3475 1525 3400 1350 
+L 6050 1350 
+L 6050 900 
+L 3800 900 
+Q 4425 200 6050 -75 
+L 5800 -575 
+Q 3950 -150 3225 900 
+Q 2675 -200 550 -525 
+L 325 -50 
+Q 2075 200 2625 900 
+L 350 900 
+L 350 1350 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-653e" d="M 1800 5175 
+Q 2000 4725 2125 4200 
+L 3200 4200 
+L 3200 3725 
+L 1650 3725 
+Q 1650 3325 1600 2925 
+L 2950 2925 
+Q 2950 375 2762 -100 
+Q 2575 -575 2050 -575 
+Q 1825 -575 1525 -475 
+L 1425 25 
+Q 1750 -75 1975 -75 
+Q 2225 -75 2325 212 
+Q 2425 500 2475 2450 
+L 1575 2450 
+Q 1375 750 750 -575 
+L 275 -300 
+Q 1125 1325 1150 3725 
+L 325 3725 
+L 325 4200 
+L 1600 4200 
+Q 1500 4650 1325 5025 
+L 1800 5175 
+z
+M 4275 4125 
+L 5950 4125 
+L 5950 3650 
+L 5675 3650 
+Q 5525 1900 4975 1000 
+Q 5425 400 6125 -100 
+L 5750 -575 
+Q 5175 -100 4675 550 
+Q 4175 -125 3450 -600 
+L 3100 -150 
+Q 3850 300 4350 1025 
+Q 4000 1625 3700 2375 
+L 3500 1950 
+L 3100 2250 
+Q 3725 3575 4000 5175 
+L 4500 5025 
+Q 4400 4550 4275 4125 
+z
+M 5175 3650 
+L 4150 3650 
+Q 4125 3525 3975 3075 
+Q 4275 2175 4650 1525 
+Q 4975 2225 5125 3225 
+L 5125 3250 
+L 5175 3650 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-95f4" d="M 1600 5250 
+Q 1950 4850 2175 4375 
+L 1725 4100 
+Q 1525 4575 1175 4975 
+L 1600 5250 
+z
+M 2675 4950 
+L 5750 4950 
+L 5750 100 
+Q 5750 -250 5600 -425 
+Q 5450 -600 5175 -600 
+Q 4975 -600 4700 -575 
+L 4575 -50 
+Q 4875 -100 5075 -100 
+Q 5250 -100 5250 250 
+L 5250 4500 
+L 2675 4500 
+L 2675 4950 
+z
+M 650 4050 
+L 1150 4050 
+L 1150 -575 
+L 650 -575 
+L 650 4050 
+z
+M 4325 3525 
+L 4325 550 
+L 2050 550 
+L 2050 3525 
+L 4325 3525 
+z
+M 3850 2275 
+L 3850 3075 
+L 2525 3075 
+L 2525 2275 
+L 3850 2275 
+z
+M 2525 1800 
+L 2525 975 
+L 3850 975 
+L 3850 1800 
+L 2525 1800 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-611f" d="M 3050 1350 
+Q 3500 1100 3875 750 
+L 3525 325 
+Q 3150 725 2725 1000 
+L 3050 1350 
+z
+M 5150 1225 
+Q 5650 725 6125 75 
+L 5675 -250 
+Q 5300 325 4750 925 
+L 5150 1225 
+z
+M 1725 1200 
+L 2225 1200 
+L 2225 150 
+Q 2225 50 2362 0 
+Q 2500 -50 3150 -50 
+Q 4000 -50 4175 0 
+Q 4350 50 4400 150 
+Q 4450 200 4475 575 
+L 4975 400 
+Q 4925 -175 4687 -350 
+Q 4450 -525 3150 -525 
+Q 2225 -525 1975 -412 
+Q 1725 -300 1725 -25 
+L 1725 1200 
+z
+M 1025 1125 
+L 1475 875 
+Q 1100 25 675 -400 
+L 275 -50 
+Q 750 450 1025 1125 
+z
+M 5900 4650 
+L 5900 4200 
+L 4275 4200 
+Q 4400 3250 4625 2700 
+Q 5050 3325 5275 3900 
+L 5700 3775 
+Q 5300 2875 4850 2225 
+Q 5125 1875 5200 1800 
+Q 5275 1725 5375 1725 
+Q 5475 1725 5525 1950 
+Q 5575 2175 5575 2625 
+L 6050 2500 
+Q 6025 1750 5850 1475 
+Q 5675 1200 5375 1200 
+Q 5050 1200 4575 1825 
+Q 4325 1475 4000 1150 
+L 3575 1475 
+Q 4000 1875 4325 2275 
+Q 3925 3050 3775 4200 
+L 1250 4200 
+L 1250 3025 
+Q 1250 2050 775 1300 
+L 325 1575 
+Q 775 2350 775 3275 
+L 775 4650 
+L 3725 4650 
+Q 3725 4925 3700 5175 
+L 4200 5175 
+Q 4225 4900 4225 4650 
+L 5000 4650 
+Q 4850 4825 4650 4975 
+L 4975 5225 
+Q 5325 4950 5575 4650 
+L 5900 4650 
+z
+M 1450 3800 
+L 3725 3800 
+L 3725 3375 
+L 1450 3375 
+L 1450 3800 
+z
+M 1575 3000 
+L 3550 3000 
+L 3550 1650 
+L 1575 1650 
+L 1575 3000 
+z
+M 2025 2075 
+L 3100 2075 
+L 3100 2575 
+L 2025 2575 
+L 2025 2075 
 z
 " transform="scale(0.015625)"/>
       </defs>
-      <use xlink:href="#WenQuanYiMicroHei-559c"/>
-      <use xlink:href="#WenQuanYiMicroHei-6b22" transform="translate(100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-811a" transform="translate(200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-611f" transform="translate(300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-53ef" transform="translate(400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6bd4" transform="translate(500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6837" transform="translate(600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-591a" transform="translate(700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5c42" transform="translate(800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5b9e" transform="translate(900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(1000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5730" transform="translate(1100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-677f" transform="translate(1200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(1300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5148" transform="translate(1400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-786e" transform="translate(1500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-8ba4" transform="translate(1600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-9632" transform="translate(1700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6f6e" transform="translate(1800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-4e0e" transform="translate(1900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5730" transform="translate(2000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6696" transform="translate(2100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6761" transform="translate(2200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-4ef6" transform="translate(2300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-53d6"/>
+      <use xlink:href="#WenQuanYiMicroHei-6d88" transform="translate(100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-8fc7" transform="translate(200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-65f6" transform="translate(300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-9ed1" transform="translate(400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-8272" transform="translate(500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6ce2" transform="translate(600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5bfc" transform="translate(700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7ebf" transform="translate(800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7528" transform="translate(1000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-540c" transform="translate(1100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-8272" transform="translate(1200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-73af" transform="translate(1300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6c27" transform="translate(1400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5f69" transform="translate(1500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7802" transform="translate(1600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7f8e" transform="translate(1700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7f1d" transform="translate(1800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-653e" transform="translate(1900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5927" transform="translate(2000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7a7a" transform="translate(2100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-95f4" transform="translate(2200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-611f" transform="translate(2300 0)"/>
       <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2400 0)"/>
      </g>
     </g>
    </g>
-   <g id="text_33">
-    <g clip-path="url(#p82c928a02a)">
-     <!-- 木纹砖和真木地板是不同材料，交界标高要分别计算。 -->
-     <g style="fill: #56665d" transform="translate(637.795276 499.841905) scale(0.08 -0.08)">
+   <g id="text_32">
+    <g clip-path="url(#p424bbf4f0e)">
+     <!-- 前屋客房沿用暖橡木纹砖（150×900/200×1200）或防潮多层实木。 -->
+     <g style="fill: #56665d" transform="translate(637.795276 482.267101) scale(0.08 -0.08)">
       <defs>
-       <path id="WenQuanYiMicroHei-771f" d="M 3075 5175 
-L 3575 5175 
-L 3525 4725 
-L 5725 4725 
-L 5725 4275 
-L 3450 4275 
-L 3400 3900 
-L 5150 3900 
-L 5150 900 
-L 6025 900 
-L 6025 450 
-L 375 450 
-L 375 900 
-L 1325 900 
-L 1325 3900 
-L 2900 3900 
-L 2950 4275 
-L 600 4275 
-L 600 4725 
-L 3025 4725 
-L 3075 5175 
+       <path id="WenQuanYiMicroHei-6cbf" d="M 1050 5150 
+Q 1700 4825 2250 4400 
+L 1900 3975 
+Q 1325 4450 700 4800 
+L 1050 5150 
 z
-M 4675 3100 
-L 4675 3450 
-L 1800 3450 
-L 1800 3100 
-L 4675 3100 
+M 750 3650 
+Q 1350 3350 1875 2950 
+L 1525 2525 
+Q 1000 2975 400 3300 
+L 750 3650 
 z
-M 1800 2350 
-L 4675 2350 
-L 4675 2725 
-L 1800 2725 
-L 1800 2350 
+M 1525 2025 
+L 1950 1700 
+Q 1550 525 800 -575 
+L 325 -225 
+Q 1075 850 1525 2025 
 z
-M 1800 1625 
-L 4675 1625 
-L 4675 1975 
-L 1800 1975 
-L 1800 1625 
+M 5175 5000 
+L 5175 3500 
+Q 5175 3200 5375 3200 
+L 6075 3200 
+L 6075 2725 
+L 5250 2725 
+Q 4975 2725 4825 2875 
+Q 4675 3025 4675 3325 
+L 4675 4525 
+L 3350 4525 
+Q 3300 3600 3087 3200 
+Q 2875 2800 2375 2500 
+L 2025 2900 
+Q 2500 3175 2675 3537 
+Q 2850 3900 2850 5000 
+L 5175 5000 
 z
-M 1800 900 
-L 4675 900 
-L 4675 1250 
-L 1800 1250 
-L 1800 900 
+M 5575 2275 
+L 5575 -550 
+L 5075 -550 
+L 5075 -150 
+L 3050 -150 
+L 3050 -550 
+L 2550 -550 
+L 2550 2275 
+L 5575 2275 
 z
-M 2250 375 
-L 2675 25 
-Q 1925 -375 875 -625 
-L 575 -200 
-Q 1500 0 2250 375 
-z
-M 3925 350 
-Q 4850 175 5775 -150 
-L 5500 -625 
-Q 4575 -225 3625 -50 
-L 3925 350 
+M 3050 300 
+L 5075 300 
+L 5075 1825 
+L 3050 1825 
+L 3050 300 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-662f" d="M 1225 5050 
-L 5175 5050 
-L 5175 2775 
-L 1225 2775 
-L 1225 5050 
-z
-M 1700 4125 
-L 4700 4125 
-L 4700 4600 
-L 1700 4600 
-L 1700 4125 
-z
-M 1700 3225 
-L 4700 3225 
-L 4700 3725 
-L 1700 3725 
-L 1700 3225 
-z
-M 425 2425 
-L 5975 2425 
-L 5975 1975 
-L 3475 1975 
-L 3475 1325 
-L 5650 1325 
-L 5650 875 
-L 3475 875 
-L 3475 100 
-Q 4150 -25 5250 -25 
-L 6100 -25 
-L 5925 -525 
-L 5250 -525 
-Q 3700 -525 2887 -225 
-Q 2075 75 1625 600 
-Q 1225 -100 650 -575 
-L 250 -175 
-Q 1325 675 1525 1825 
-L 2025 1725 
-Q 1975 1375 1850 1050 
-Q 2300 475 2975 250 
-L 2975 1975 
-L 425 1975 
-L 425 2425 
+       <path id="WenQuanYiMicroHei-ff08" d="M 4100 4575 
+L 4700 4575 
+Q 3050 3575 3050 1750 
+Q 3050 -25 4700 -1000 
+L 4100 -1000 
+Q 3375 -675 2912 87 
+Q 2450 850 2450 1750 
+Q 2450 2675 2912 3437 
+Q 3375 4200 4100 4575 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-4ea4" d="M 450 4350 
-L 2900 4350 
-Q 2775 4725 2575 5025 
-L 3100 5200 
-Q 3325 4800 3475 4350 
-L 5925 4350 
-L 5925 3875 
-L 450 3875 
-L 450 4350 
+       <path id="WenQuanYiMicroHei-39" d="M 3213 2619 
+Q 3213 2291 3180 1964 
+Q 3147 1638 3064 1341 
+Q 2981 1044 2837 786 
+Q 2694 528 2472 340 
+Q 2250 153 1940 45 
+Q 1631 -63 1216 -63 
+Q 1156 -63 1084 -59 
+Q 1013 -56 941 -48 
+Q 869 -41 800 -31 
+Q 731 -22 678 -6 
+L 678 481 
+Q 788 441 925 422 
+Q 1063 403 1197 403 
+Q 1619 403 1891 550 
+Q 2163 697 2322 948 
+Q 2481 1200 2548 1534 
+Q 2616 1869 2631 2241 
+L 2591 2241 
+Q 2528 2128 2440 2031 
+Q 2353 1934 2234 1862 
+Q 2116 1791 1966 1750 
+Q 1816 1709 1631 1709 
+Q 1334 1709 1093 1801 
+Q 853 1894 684 2072 
+Q 516 2250 423 2508 
+Q 331 2766 331 3097 
+Q 331 3453 429 3739 
+Q 528 4025 708 4223 
+Q 888 4422 1145 4528 
+Q 1403 4634 1722 4634 
+Q 2038 4634 2309 4512 
+Q 2581 4391 2781 4141 
+Q 2981 3891 3097 3511 
+Q 3213 3131 3213 2619 
 z
-M 2025 3700 
-L 2425 3375 
-Q 1775 2575 750 2075 
-L 450 2550 
-Q 1325 2950 2025 3700 
-z
-M 4350 3650 
-Q 5175 3150 5850 2500 
-L 5475 2050 
-Q 4775 2775 4000 3300 
-L 4350 3650 
-z
-M 4275 2425 
-L 4750 2225 
-Q 4350 1450 3700 875 
-Q 4875 200 6125 -75 
-L 5825 -600 
-Q 4225 -125 3275 525 
-Q 2075 -250 550 -625 
-L 300 -125 
-Q 1850 200 2800 850 
-Q 2075 1400 1525 2075 
-L 1950 2400 
-Q 2475 1700 3225 1175 
-Q 3850 1700 4275 2425 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-754c" d="M 975 4975 
-L 5400 4975 
-L 5400 2300 
-L 4500 2300 
-Q 5225 1825 6075 1500 
-L 5775 1000 
-Q 4775 1450 3800 2300 
-L 2550 2300 
-Q 1850 1475 675 975 
-L 300 1450 
-Q 1200 1750 1875 2300 
-L 975 2300 
-L 975 4975 
-z
-M 1475 3875 
-L 2925 3875 
-L 2925 4500 
-L 1475 4500 
-L 1475 3875 
-z
-M 3450 4500 
-L 3450 3875 
-L 4900 3875 
-L 4900 4500 
-L 3450 4500 
-z
-M 1475 2775 
-L 2925 2775 
-L 2925 3400 
-L 1475 3400 
-L 1475 2775 
-z
-M 3450 3400 
-L 3450 2775 
-L 4900 2775 
-L 4900 3400 
-L 3450 3400 
-z
-M 1975 1600 
-L 2475 1600 
-Q 2475 650 2187 175 
-Q 1900 -300 1200 -575 
-L 850 -125 
-Q 1525 125 1750 475 
-Q 1975 825 1975 1600 
-z
-M 4000 1600 
-L 4500 1600 
-L 4500 -525 
-L 4000 -525 
-L 4000 1600 
+M 1728 4153 
+Q 1541 4153 1386 4090 
+Q 1231 4028 1118 3897 
+Q 1006 3766 945 3567 
+Q 884 3369 884 3097 
+Q 884 2878 936 2704 
+Q 988 2531 1091 2409 
+Q 1194 2288 1348 2222 
+Q 1503 2156 1709 2156 
+Q 1922 2156 2094 2229 
+Q 2266 2303 2387 2420 
+Q 2509 2538 2576 2688 
+Q 2644 2838 2644 2988 
+Q 2644 3197 2586 3405 
+Q 2528 3613 2414 3780 
+Q 2300 3947 2128 4050 
+Q 1956 4153 1728 4153 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-522b" d="M 825 5000 
-L 3425 5000 
-L 3425 3025 
-L 825 3025 
-L 825 5000 
-z
-M 1325 3500 
-L 2925 3500 
-L 2925 4525 
-L 1325 4525 
-L 1325 3500 
-z
-M 525 2225 
-L 1575 2225 
-L 1575 2800 
-L 2075 2800 
-Q 2075 2500 2050 2225 
-L 3525 2225 
-Q 3525 175 3350 -175 
-Q 3175 -525 2575 -525 
-Q 2325 -525 2075 -450 
-L 1950 50 
-Q 2275 -25 2575 -25 
-Q 2850 -25 2900 175 
-Q 3000 550 3000 1775 
-L 2025 1775 
-Q 1975 900 1700 375 
-Q 1425 -150 775 -600 
-L 425 -225 
-Q 1475 425 1550 1775 
-L 525 1775 
-L 525 2225 
-z
-M 5375 5150 
-L 5875 5150 
-L 5875 75 
-Q 5875 -300 5737 -437 
-Q 5600 -575 5275 -575 
-Q 4825 -575 4425 -475 
-L 4325 25 
-Q 4775 -100 5200 -100 
-Q 5375 -100 5375 200 
-L 5375 5150 
-z
-M 4275 4500 
-L 4775 4500 
-L 4775 875 
-L 4275 875 
-L 4275 4500 
+       <path id="WenQuanYiMicroHei-ff09" d="M 2300 -1000 
+L 1700 -1000 
+Q 3350 -25 3350 1750 
+Q 3350 3575 1700 4575 
+L 2300 4575 
+Q 3025 4200 3487 3437 
+Q 3950 2675 3950 1750 
+Q 3950 850 3487 87 
+Q 3025 -675 2300 -1000 
 z
 " transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-8ba1" d="M 1275 5175 
-Q 1700 4675 1975 4125 
-L 1500 3850 
-Q 1250 4400 825 4900 
-L 1275 5175 
+       <path id="WenQuanYiMicroHei-591a" d="M 3225 5225 
+L 3725 5125 
+Q 3525 4875 3275 4675 
+L 5350 4675 
+L 5350 4225 
+Q 4375 2700 875 2200 
+L 675 2700 
+Q 3900 3025 4775 4225 
+L 2650 4225 
+L 2300 4025 
+Q 2575 3825 2850 3600 
+L 2500 3250 
+Q 2200 3525 1825 3800 
+Q 1500 3650 1175 3550 
+L 850 3900 
+Q 2000 4300 2475 4650 
+L 2500 4675 
+L 2525 4675 
+Q 2950 4950 3225 5225 
 z
-M 325 3325 
-L 1675 3325 
-L 1675 425 
-L 2200 1000 
-L 2525 700 
-Q 2175 225 1575 -250 
-L 1200 75 
-L 1200 2875 
-L 325 2875 
-L 325 3325 
-z
-M 2050 3225 
-L 3825 3225 
-L 3825 5175 
-L 4325 5175 
-L 4325 3225 
-L 6075 3225 
-L 6075 2750 
-L 4325 2750 
-L 4325 -625 
-L 3825 -625 
-L 3825 2750 
-L 2050 2750 
-L 2050 3225 
+M 3525 2700 
+L 3975 2475 
+Q 3825 2350 3650 2225 
+L 5575 2225 
+L 5575 1775 
+Q 4475 -25 600 -600 
+L 400 -100 
+Q 4050 325 5000 1775 
+L 3050 1775 
+Q 2625 1475 2375 1375 
+Q 2700 1150 3000 900 
+L 2625 525 
+Q 2300 825 1900 1125 
+Q 1550 950 1200 825 
+L 900 1250 
+Q 2375 1750 3525 2700 
 z
 " transform="scale(0.015625)"/>
       </defs>
-      <use xlink:href="#WenQuanYiMicroHei-6728"/>
-      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-548c" transform="translate(300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-771f" transform="translate(400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5730" transform="translate(600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-677f" transform="translate(700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-662f" transform="translate(800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-4e0d" transform="translate(900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-540c" transform="translate(1000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6750" transform="translate(1100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6599" transform="translate(1200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(1300 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-4ea4" transform="translate(1400 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-754c" transform="translate(1500 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-6807" transform="translate(1600 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-9ad8" transform="translate(1700 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-8981" transform="translate(1800 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-5206" transform="translate(1900 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-522b" transform="translate(2000 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-8ba1" transform="translate(2100 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-7b97" transform="translate(2200 0)"/>
-      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-524d"/>
+      <use xlink:href="#WenQuanYiMicroHei-5c4b" transform="translate(100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5ba2" transform="translate(200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-623f" transform="translate(300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6cbf" transform="translate(400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7528" transform="translate(500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6696" transform="translate(600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6a61" transform="translate(700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7eb9" transform="translate(900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(1000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-ff08" transform="translate(1100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(1200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-35" transform="translate(1255.078125 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1310.15625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-d7" transform="translate(1365.234375 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-39" transform="translate(1420.3125 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1475.390625 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1530.46875 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-2f" transform="translate(1585.546875 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-32" transform="translate(1622.851562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1677.929688 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1733.007812 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-d7" transform="translate(1788.085938 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-31" transform="translate(1843.164062 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-32" transform="translate(1898.242188 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(1953.320312 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-30" transform="translate(2008.398438 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-ff09" transform="translate(2063.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6216" transform="translate(2163.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-9632" transform="translate(2263.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6f6e" transform="translate(2363.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-591a" transform="translate(2463.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5c42" transform="translate(2563.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5b9e" transform="translate(2663.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6728" transform="translate(2763.476562 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2863.476562 0)"/>
+     </g>
+    </g>
+   </g>
+   <g id="text_33">
+    <g clip-path="url(#p424bbf4f0e)">
+     <!-- 寒冷地区可预留地暖，或配可水洗防滑薄床边垫提升冬季脚感。 -->
+     <g style="fill: #56665d" transform="translate(637.795276 499.841905) scale(0.08 -0.08)">
+      <defs>
+       <path id="WenQuanYiMicroHei-914d" d="M 325 5000 
+L 3125 5000 
+L 3125 4550 
+L 2225 4550 
+L 2225 3925 
+L 2950 3925 
+L 2950 -575 
+L 2500 -575 
+L 2500 -175 
+L 900 -175 
+L 900 -575 
+L 475 -575 
+L 475 3925 
+L 1200 3925 
+L 1200 4550 
+L 325 4550 
+L 325 5000 
+z
+M 1850 3925 
+L 1850 4550 
+L 1600 4550 
+L 1600 3925 
+L 1850 3925 
+z
+M 900 1225 
+L 2500 1225 
+L 2500 1750 
+L 2475 1750 
+Q 2075 1750 1962 1862 
+Q 1850 1975 1850 2300 
+L 1850 3475 
+L 1600 3475 
+L 1600 3150 
+Q 1600 2050 1125 1375 
+L 900 1550 
+L 900 1225 
+z
+M 2225 3475 
+L 2225 2425 
+Q 2225 2250 2300 2250 
+Q 2350 2225 2475 2225 
+L 2500 2225 
+L 2500 3475 
+L 2225 3475 
+z
+M 900 1800 
+Q 1200 2350 1200 3150 
+L 1200 3475 
+L 900 3475 
+L 900 1800 
+z
+M 900 250 
+L 2500 250 
+L 2500 800 
+L 900 800 
+L 900 250 
+z
+M 3200 4950 
+L 5775 4950 
+L 5775 2150 
+L 5275 2150 
+L 5275 2475 
+L 3750 2475 
+L 3750 300 
+Q 3750 175 3875 112 
+Q 4000 50 4400 50 
+Q 5250 50 5437 200 
+Q 5625 350 5700 1250 
+L 6175 1125 
+Q 6075 0 5750 -275 
+Q 5525 -450 4400 -450 
+Q 3625 -450 3437 -325 
+Q 3250 -200 3250 125 
+L 3250 2950 
+L 5275 2950 
+L 5275 4475 
+L 3200 4475 
+L 3200 4950 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-8584" d="M 400 4825 
+L 1875 4825 
+L 1875 5175 
+L 2400 5175 
+L 2400 4825 
+L 4025 4825 
+L 4025 5175 
+L 4525 5175 
+L 4525 4825 
+L 6025 4825 
+L 6025 4375 
+L 4525 4375 
+L 4525 4075 
+L 4025 4075 
+L 4025 4375 
+L 2400 4375 
+L 2400 3975 
+L 1875 3975 
+L 1875 4375 
+L 400 4375 
+L 400 4825 
+z
+M 1075 3975 
+Q 1550 3675 1950 3325 
+L 1600 2900 
+Q 1200 3325 750 3625 
+L 1075 3975 
+z
+M 675 2750 
+Q 1100 2500 1450 2175 
+L 1100 1750 
+Q 725 2125 325 2400 
+L 675 2750 
+z
+M 1450 1500 
+L 1850 1225 
+Q 1475 275 825 -625 
+L 350 -275 
+Q 1050 575 1450 1500 
+z
+M 1950 3725 
+L 3725 3725 
+L 3725 3975 
+L 4200 3975 
+L 4200 3725 
+L 5125 3725 
+Q 5050 3850 4950 3950 
+L 5325 4175 
+Q 5525 3975 5675 3725 
+L 6000 3725 
+L 6000 3350 
+L 4200 3350 
+L 4200 3050 
+L 5700 3050 
+L 5700 1325 
+L 5225 1325 
+L 5225 1550 
+L 4200 1550 
+L 4200 1250 
+L 3725 1250 
+L 3725 1550 
+L 2700 1550 
+L 2700 1325 
+L 2225 1325 
+L 2225 3050 
+L 3725 3050 
+L 3725 3350 
+L 1950 3350 
+L 1950 3725 
+z
+M 5225 2450 
+L 5225 2700 
+L 4200 2700 
+L 4200 2450 
+L 5225 2450 
+z
+M 3725 2700 
+L 2700 2700 
+L 2700 2450 
+L 3725 2450 
+L 3725 2700 
+z
+M 5225 1875 
+L 5225 2125 
+L 4200 2125 
+L 4200 1875 
+L 5225 1875 
+z
+M 2700 2125 
+L 2700 1875 
+L 3725 1875 
+L 3725 2125 
+L 2700 2125 
+z
+M 1925 1000 
+L 4675 1000 
+L 4675 1300 
+L 5150 1300 
+L 5150 1000 
+L 6050 1000 
+L 6050 600 
+L 5150 600 
+L 5150 0 
+Q 5150 -325 5025 -462 
+Q 4900 -600 4450 -600 
+Q 4075 -600 3775 -525 
+L 3700 -50 
+Q 4075 -150 4450 -150 
+Q 4675 -150 4675 75 
+L 4675 600 
+L 1925 600 
+L 1925 1000 
+z
+M 2925 475 
+Q 3225 200 3425 -125 
+L 3000 -350 
+Q 2825 -50 2525 225 
+L 2925 475 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-5e8a" d="M 3450 5200 
+Q 3600 4975 3700 4675 
+L 5925 4675 
+L 5925 4225 
+L 1375 4225 
+L 1375 2275 
+Q 1375 675 725 -575 
+L 250 -275 
+Q 600 450 737 1037 
+Q 875 1625 875 2450 
+L 875 4675 
+L 3150 4675 
+Q 3075 4875 2950 5050 
+L 3450 5200 
+z
+M 1675 2900 
+L 3375 2900 
+L 3375 3875 
+L 3875 3875 
+L 3875 2900 
+L 5725 2900 
+L 5725 2425 
+L 4125 2425 
+Q 4800 1025 5950 350 
+L 5650 -175 
+Q 4600 525 3875 1950 
+L 3875 -525 
+L 3375 -525 
+L 3375 1900 
+Q 2750 625 1725 -175 
+L 1400 275 
+Q 2475 1075 3150 2425 
+L 1675 2425 
+L 1675 2900 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-57ab" d="M 2950 1675 
+L 3475 1675 
+L 3475 1100 
+L 5625 1100 
+L 5625 650 
+L 3475 650 
+L 3475 75 
+L 6050 75 
+L 6050 -400 
+L 325 -400 
+L 325 75 
+L 2950 75 
+L 2950 650 
+L 800 650 
+L 800 1100 
+L 2950 1100 
+L 2950 1675 
+z
+M 475 4375 
+L 1400 4375 
+L 1400 5175 
+L 1875 5175 
+L 1875 4375 
+L 2600 4375 
+L 2600 3925 
+L 1875 3925 
+L 1875 3375 
+L 2475 3525 
+L 2550 3125 
+Q 2225 3000 1875 2925 
+L 1875 2175 
+Q 1875 1825 1762 1687 
+Q 1650 1550 1275 1550 
+Q 975 1550 700 1625 
+L 600 2075 
+Q 900 2000 1200 2000 
+Q 1325 2000 1362 2050 
+Q 1400 2100 1400 2275 
+L 1400 2775 
+L 525 2575 
+L 375 3025 
+Q 925 3125 1400 3250 
+L 1400 3925 
+L 475 3925 
+L 475 4375 
+z
+M 3600 5175 
+L 4075 5175 
+L 4075 4500 
+L 5150 4500 
+L 5150 2875 
+Q 5150 2500 5212 2312 
+Q 5275 2125 5400 2125 
+Q 5600 2125 5700 2900 
+L 6125 2800 
+Q 6050 2075 5875 1850 
+Q 5700 1625 5400 1625 
+Q 5050 1625 4875 1875 
+Q 4700 2125 4675 2875 
+L 4675 4050 
+L 4075 4050 
+Q 4050 3400 3850 2900 
+Q 4175 2650 4450 2350 
+L 4100 1975 
+Q 3875 2250 3625 2450 
+Q 3300 1975 2700 1675 
+L 2375 2025 
+Q 2925 2300 3250 2800 
+Q 2975 3000 2700 3175 
+L 3000 3550 
+L 3450 3250 
+Q 3575 3575 3600 4050 
+L 2825 4050 
+L 2825 4500 
+L 3600 4500 
+L 3600 5175 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-63d0" d="M 2175 2525 
+L 2250 2075 
+Q 1950 1900 1600 1750 
+L 1600 100 
+Q 1600 -275 1487 -425 
+Q 1375 -575 1075 -575 
+Q 800 -575 525 -500 
+L 425 25 
+Q 700 -75 1000 -75 
+Q 1100 -75 1100 225 
+L 1100 1525 
+Q 800 1425 500 1300 
+L 300 1825 
+Q 725 1950 1100 2100 
+L 1100 3650 
+L 400 3650 
+L 400 4125 
+L 1100 4125 
+L 1100 5175 
+L 1600 5175 
+L 1600 4125 
+L 2275 4125 
+L 2275 3650 
+L 1600 3650 
+L 1600 2275 
+L 2175 2525 
+z
+M 2600 5050 
+L 5500 5050 
+L 5500 2750 
+L 2600 2750 
+L 2600 5050 
+z
+M 3075 4125 
+L 5025 4125 
+L 5025 4600 
+L 3075 4600 
+L 3075 4125 
+z
+M 3075 3200 
+L 5025 3200 
+L 5025 3675 
+L 3075 3675 
+L 3075 3200 
+z
+M 2700 1725 
+L 3150 1625 
+Q 3100 1200 2950 825 
+Q 3275 375 3850 175 
+L 3850 1875 
+L 2175 1875 
+L 2175 2325 
+L 5825 2325 
+L 5825 1875 
+L 4325 1875 
+L 4325 1200 
+L 5500 1200 
+L 5500 750 
+L 4325 750 
+L 4325 75 
+Q 4775 0 5400 0 
+L 6025 0 
+L 5875 -500 
+L 5400 -500 
+Q 4275 -500 3700 -287 
+Q 3125 -75 2750 350 
+Q 2500 -175 2125 -575 
+L 1750 -225 
+Q 2575 650 2700 1725 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-5347" d="M 3400 5075 
+L 3625 4625 
+Q 3050 4425 2400 4275 
+L 2400 2775 
+L 4250 2775 
+L 4250 5175 
+L 4750 5175 
+L 4750 2775 
+L 6000 2775 
+L 6000 2300 
+L 4750 2300 
+L 4750 -575 
+L 4250 -575 
+L 4250 2300 
+L 2400 2300 
+L 2400 2175 
+Q 2400 500 825 -550 
+L 500 -125 
+Q 1875 825 1875 2175 
+L 1875 2300 
+L 400 2300 
+L 400 2775 
+L 1875 2775 
+L 1875 4150 
+Q 1325 4025 725 3925 
+L 550 4400 
+Q 2100 4625 3400 5075 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-51ac" d="M 2350 5250 
+L 2825 5100 
+Q 2675 4825 2500 4550 
+L 5125 4550 
+L 5125 4125 
+Q 4600 3325 3875 2800 
+Q 4850 2350 6100 2075 
+L 5850 1575 
+Q 4575 1900 3325 2500 
+Q 2175 1900 600 1650 
+L 300 2125 
+Q 1800 2350 2775 2800 
+Q 2225 3150 1700 3600 
+Q 1325 3250 900 2950 
+L 475 3275 
+Q 1775 4175 2350 5250 
+z
+M 2000 3950 
+Q 2575 3500 3325 3100 
+Q 4025 3525 4450 4100 
+L 2150 4100 
+Q 2025 3950 2000 3950 
+z
+M 2500 1950 
+Q 3750 1675 4625 1275 
+L 4300 800 
+Q 3475 1200 2275 1500 
+L 2500 1950 
+z
+M 1425 750 
+Q 3575 400 5050 -100 
+L 4725 -575 
+Q 3300 -75 1200 300 
+L 1425 750 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-5b63" d="M 5150 5175 
+L 5375 4750 
+L 3450 4600 
+L 3450 4150 
+L 6025 4150 
+L 6025 3675 
+L 4100 3675 
+Q 4900 3150 6075 2875 
+L 5825 2400 
+Q 4375 2825 3475 3675 
+L 3450 3675 
+L 3450 2725 
+L 2925 2725 
+L 2925 3675 
+L 2900 3675 
+Q 2050 2875 650 2400 
+L 325 2825 
+Q 1425 3125 2250 3675 
+L 350 3675 
+L 350 4150 
+L 2925 4150 
+L 2925 4575 
+L 1175 4475 
+L 1000 4950 
+Q 3250 5025 5150 5175 
+z
+M 325 1100 
+L 3025 1100 
+L 3025 1525 
+L 4175 2025 
+L 1300 2025 
+L 1300 2500 
+L 5050 2500 
+L 5050 1975 
+Q 4375 1625 3550 1300 
+L 3550 1100 
+L 6075 1100 
+L 6075 625 
+L 3550 625 
+L 3550 -75 
+Q 3550 -325 3375 -450 
+Q 3200 -575 2850 -575 
+Q 2525 -575 2225 -475 
+L 2150 25 
+Q 2400 -75 2725 -75 
+Q 3025 -75 3025 25 
+L 3025 625 
+L 325 625 
+L 325 1100 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-811a" d="M 2225 5025 
+L 2225 125 
+Q 2225 -200 2100 -350 
+Q 1975 -500 1700 -500 
+Q 1550 -500 1325 -475 
+L 1200 -25 
+Q 1450 -50 1600 -50 
+Q 1775 -50 1775 250 
+L 1775 1700 
+L 1075 1700 
+Q 1000 350 750 -600 
+L 325 -350 
+Q 650 1000 650 2625 
+L 650 5025 
+L 2225 5025 
+z
+M 1100 3600 
+L 1775 3600 
+L 1775 4575 
+L 1100 4575 
+L 1100 3600 
+z
+M 1100 2150 
+L 1775 2150 
+L 1775 3125 
+L 1100 3125 
+L 1100 2150 
+z
+M 5500 4350 
+L 4825 4350 
+L 4825 -575 
+L 4350 -575 
+L 4350 4800 
+L 5975 4800 
+L 5975 975 
+Q 5975 700 5850 562 
+Q 5725 425 5500 425 
+Q 5325 425 5075 475 
+L 4975 950 
+Q 5250 900 5375 900 
+Q 5500 900 5500 1050 
+L 5500 4350 
+z
+M 3000 2075 
+L 2400 2075 
+L 2400 2525 
+L 3075 2525 
+L 3075 3850 
+L 2500 3850 
+L 2500 4300 
+L 3075 4300 
+L 3075 5175 
+L 3525 5175 
+L 3525 4300 
+L 4100 4300 
+L 4100 3850 
+L 3525 3850 
+L 3525 2525 
+L 4175 2525 
+L 4175 2075 
+L 3525 2075 
+Q 3225 925 2900 400 
+Q 3275 450 3700 600 
+Q 3575 1100 3425 1500 
+L 3825 1675 
+Q 4125 875 4325 -50 
+L 3875 -250 
+Q 3825 -25 3800 175 
+Q 3200 0 2550 -75 
+L 2400 350 
+Q 2750 950 3000 2075 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#WenQuanYiMicroHei-5bd2"/>
+      <use xlink:href="#WenQuanYiMicroHei-51b7" transform="translate(100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5730" transform="translate(200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-533a" transform="translate(300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-53ef" transform="translate(400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-9884" transform="translate(500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-7559" transform="translate(600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5730" transform="translate(700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6696" transform="translate(800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-ff0c" transform="translate(900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6216" transform="translate(1000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-914d" transform="translate(1100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-53ef" transform="translate(1200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6c34" transform="translate(1300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6d17" transform="translate(1400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-9632" transform="translate(1500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-6ed1" transform="translate(1600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-8584" transform="translate(1700 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5e8a" transform="translate(1800 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-8fb9" transform="translate(1900 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-57ab" transform="translate(2000 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-63d0" transform="translate(2100 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5347" transform="translate(2200 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-51ac" transform="translate(2300 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-5b63" transform="translate(2400 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-811a" transform="translate(2500 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-611f" transform="translate(2600 0)"/>
+      <use xlink:href="#WenQuanYiMicroHei-3002" transform="translate(2700 0)"/>
      </g>
     </g>
    </g>
    <g id="text_34">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 依据 1,3 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 530.401847) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -16465,7 +16285,7 @@ z
     </g>
    </g>
    <g id="text_35">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 卫生间与淋浴地面 -->
      <g style="fill: #355b48" transform="translate(70.866142 598.262895) scale(0.115 -0.115)">
       <defs>
@@ -16519,50 +16339,6 @@ L 1425 3350
 Q 1150 2800 800 2375 
 L 400 2700 
 Q 1200 3675 1575 4975 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-95f4" d="M 1600 5250 
-Q 1950 4850 2175 4375 
-L 1725 4100 
-Q 1525 4575 1175 4975 
-L 1600 5250 
-z
-M 2675 4950 
-L 5750 4950 
-L 5750 100 
-Q 5750 -250 5600 -425 
-Q 5450 -600 5175 -600 
-Q 4975 -600 4700 -575 
-L 4575 -50 
-Q 4875 -100 5075 -100 
-Q 5250 -100 5250 250 
-L 5250 4500 
-L 2675 4500 
-L 2675 4950 
-z
-M 650 4050 
-L 1150 4050 
-L 1150 -575 
-L 650 -575 
-L 650 4050 
-z
-M 4325 3525 
-L 4325 550 
-L 2050 550 
-L 2050 3525 
-L 4325 3525 
-z
-M 3850 2275 
-L 3850 3075 
-L 2525 3075 
-L 2525 2275 
-L 3850 2275 
-z
-M 2525 1800 
-L 2525 975 
-L 3850 975 
-L 3850 1800 
-L 2525 1800 
 z
 " transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-6dcb" d="M 1825 4025 
@@ -16697,7 +16473,7 @@ z
     </g>
    </g>
    <g id="text_36">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 首选：小规格湿区专用防滑砖，方便分区找坡。 -->
      <g style="fill: #293d39" transform="translate(70.866142 634.256062) scale(0.082 -0.082)">
       <defs>
@@ -16813,7 +16589,7 @@ z
     </g>
    </g>
    <g id="text_37">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 本案起选300×300mm；墙面可用300×600mm同色系。 -->
      <g style="fill: #56665d" transform="translate(70.866142 659.71592) scale(0.08 -0.08)">
       <defs>
@@ -16930,7 +16706,7 @@ z
     </g>
    </g>
    <g id="text_38">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 淋浴区核湿脚防滑、清洁性和排水，不用光面大板冒充。 -->
      <g style="fill: #56665d" transform="translate(70.866142 677.290723) scale(0.08 -0.08)">
       <defs>
@@ -16979,6 +16755,53 @@ L 2950 3325
 Q 2775 2675 2525 2225 
 L 2100 2550 
 Q 2625 3550 2850 4825 
+z
+" transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-677f" d="M 425 4025 
+L 1225 4025 
+L 1225 5175 
+L 1700 5175 
+L 1700 4025 
+L 2450 4025 
+L 2450 3550 
+L 1700 3550 
+L 1700 3250 
+Q 2175 2675 2525 2125 
+L 2200 1650 
+Q 1950 2175 1700 2575 
+L 1700 -575 
+L 1225 -575 
+L 1225 2150 
+Q 950 1325 575 775 
+L 225 1125 
+Q 950 2200 1175 3550 
+L 425 3550 
+L 425 4025 
+z
+M 3275 2925 
+Q 3225 875 2475 -475 
+L 2025 -175 
+Q 2775 1150 2775 3350 
+L 2775 4700 
+Q 4175 4850 5350 5150 
+L 5725 4750 
+Q 4625 4425 3275 4300 
+L 3275 3375 
+L 5675 3375 
+Q 5575 2000 4875 900 
+Q 5375 325 6075 -100 
+L 5700 -525 
+Q 5050 -125 4575 475 
+Q 4025 -150 3250 -550 
+L 2950 -100 
+Q 3750 250 4250 875 
+Q 3575 1875 3375 2925 
+L 3275 2925 
+z
+M 3875 2925 
+Q 4050 2050 4550 1300 
+Q 5000 2025 5125 2925 
+L 3875 2925 
 z
 " transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-5192" d="M 5650 5000 
@@ -17102,7 +16925,7 @@ z
     </g>
    </g>
    <g id="text_39">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 地漏先定位，砖缝与找坡协调；门口不留反向积水点。 -->
      <g style="fill: #56665d" transform="translate(70.866142 694.865527) scale(0.08 -0.08)">
       <defs>
@@ -17303,6 +17126,51 @@ L 2375 -250
 Q 3075 525 3525 1400 
 z
 " transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-70b9" d="M 5300 1025 
+Q 5750 425 6050 -275 
+L 5575 -550 
+Q 5325 150 4850 750 
+L 5300 1025 
+z
+M 1075 950 
+L 1525 700 
+Q 1150 -100 775 -550 
+L 350 -175 
+Q 800 350 1075 950 
+z
+M 3875 875 
+Q 4225 375 4475 -225 
+L 3950 -450 
+Q 3725 175 3400 675 
+L 3875 875 
+z
+M 2475 800 
+Q 2825 225 2950 -350 
+L 2400 -525 
+Q 2275 125 1950 675 
+L 2475 800 
+z
+M 2825 5175 
+L 3325 5175 
+L 3325 4500 
+L 5775 4500 
+L 5775 4025 
+L 3325 4025 
+L 3325 3200 
+L 5400 3200 
+L 5400 1200 
+L 975 1200 
+L 975 3200 
+L 2825 3200 
+L 2825 5175 
+z
+M 1475 1675 
+L 4900 1675 
+L 4900 2725 
+L 1475 2725 
+L 1475 1675 
+z
+" transform="scale(0.015625)"/>
       </defs>
       <use xlink:href="#WenQuanYiMicroHei-5730"/>
       <use xlink:href="#WenQuanYiMicroHei-6f0f" transform="translate(100 0)"/>
@@ -17332,7 +17200,7 @@ z
     </g>
    </g>
    <g id="text_40">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 填缝不代替防水，闭水及节点验收合格后再铺贴。 -->
      <g style="fill: #56665d" transform="translate(70.866142 712.44033) scale(0.08 -0.08)">
       <defs>
@@ -17559,7 +17427,7 @@ z
     </g>
    </g>
    <g id="text_41">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 依据 1,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 743.000272) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -17593,7 +17461,7 @@ z
     </g>
    </g>
    <g id="text_42">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 二层露台与亭内晾衣区 -->
      <g style="fill: #355b48" transform="translate(637.795276 598.262895) scale(0.115 -0.115)">
       <defs>
@@ -17853,7 +17721,7 @@ z
     </g>
    </g>
    <g id="text_43">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 首选：轻量、室外适用的防滑铺装系统。 -->
      <g style="fill: #293d39" transform="translate(637.795276 634.256062) scale(0.082 -0.082)">
       <defs>
@@ -17941,10 +17809,73 @@ z
     </g>
    </g>
    <g id="text_44">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 起选300×300或300×600mm，避开厚重叠铺与抛光面。 -->
      <g style="fill: #56665d" transform="translate(637.795276 659.71592) scale(0.08 -0.08)">
       <defs>
+       <path id="WenQuanYiMicroHei-91cd" d="M 5375 5075 
+L 5625 4650 
+Q 4625 4575 3425 4550 
+L 3425 4150 
+L 6025 4150 
+L 6025 3700 
+L 3425 3700 
+L 3425 3350 
+L 5475 3350 
+L 5475 1225 
+L 3425 1225 
+L 3425 875 
+L 5775 875 
+L 5775 425 
+L 3425 425 
+L 3425 75 
+L 6000 75 
+L 6000 -400 
+L 350 -400 
+L 350 75 
+L 2925 75 
+L 2925 425 
+L 600 425 
+L 600 875 
+L 2925 875 
+L 2925 1225 
+L 850 1225 
+L 850 3350 
+L 2925 3350 
+L 2925 3700 
+L 400 3700 
+L 400 4150 
+L 2925 4150 
+L 2925 4525 
+L 825 4475 
+L 675 4925 
+Q 3025 4925 5375 5075 
+z
+M 1325 2500 
+L 2925 2500 
+L 2925 2900 
+L 1325 2900 
+L 1325 2500 
+z
+M 3425 2900 
+L 3425 2500 
+L 5025 2500 
+L 5025 2900 
+L 3425 2900 
+z
+M 1325 1675 
+L 2925 1675 
+L 2925 2075 
+L 1325 2075 
+L 1325 1675 
+z
+M 3425 2075 
+L 3425 1675 
+L 5025 1675 
+L 5025 2075 
+L 3425 2075 
+z
+" transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-53e0" d="M 1450 5100 
 L 4900 5100 
 L 4900 4750 
@@ -18145,7 +18076,7 @@ z
     </g>
    </g>
    <g id="text_45">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 先核楼板荷载、防水、坡向、雨水口和立管检修位置。 -->
      <g style="fill: #56665d" transform="translate(637.795276 677.290723) scale(0.08 -0.08)">
       <defs>
@@ -18677,7 +18608,7 @@ z
     </g>
    </g>
    <g id="text_46">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 不要把院子厚石材、砂浆垫层原样搬到楼顶。 -->
      <g style="fill: #56665d" transform="translate(637.795276 694.865527) scale(0.08 -0.08)">
       <defs>
@@ -18735,56 +18666,6 @@ L 5275 2575
 L 5275 4425 
 L 4425 4425 
 L 4425 2575 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-7802" d="M 400 4775 
-L 2400 4775 
-L 2400 4300 
-L 1650 4300 
-Q 1475 3500 1200 2800 
-L 2275 2800 
-L 2275 200 
-L 1375 200 
-L 1375 -350 
-L 900 -350 
-L 900 2125 
-Q 750 1825 575 1525 
-L 225 1875 
-Q 850 2950 1175 4300 
-L 400 4300 
-L 400 4775 
-z
-M 1375 675 
-L 1825 675 
-L 1825 2350 
-L 1375 2350 
-L 1375 675 
-z
-M 4000 5175 
-L 4525 5175 
-L 4525 1400 
-L 4000 1400 
-L 4000 5175 
-z
-M 5225 4525 
-Q 5750 3675 6100 2700 
-L 5650 2450 
-Q 5350 3400 4825 4275 
-L 5225 4525 
-z
-M 3125 4475 
-L 3600 4300 
-Q 3350 2975 2950 2050 
-L 2475 2350 
-Q 2900 3300 3125 4475 
-z
-M 5300 2325 
-L 5800 2150 
-Q 5300 1075 4500 425 
-Q 3700 -225 2375 -600 
-L 2150 -125 
-Q 3375 200 4087 775 
-Q 4800 1350 5300 2325 
 z
 " transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-6d46" d="M 3000 2100 
@@ -18848,84 +18729,6 @@ Q 1400 4550 1600 3975
 L 1150 3800 
 Q 975 4375 700 4850 
 L 1100 5025 
-z
-" transform="scale(0.015625)"/>
-       <path id="WenQuanYiMicroHei-57ab" d="M 2950 1675 
-L 3475 1675 
-L 3475 1100 
-L 5625 1100 
-L 5625 650 
-L 3475 650 
-L 3475 75 
-L 6050 75 
-L 6050 -400 
-L 325 -400 
-L 325 75 
-L 2950 75 
-L 2950 650 
-L 800 650 
-L 800 1100 
-L 2950 1100 
-L 2950 1675 
-z
-M 475 4375 
-L 1400 4375 
-L 1400 5175 
-L 1875 5175 
-L 1875 4375 
-L 2600 4375 
-L 2600 3925 
-L 1875 3925 
-L 1875 3375 
-L 2475 3525 
-L 2550 3125 
-Q 2225 3000 1875 2925 
-L 1875 2175 
-Q 1875 1825 1762 1687 
-Q 1650 1550 1275 1550 
-Q 975 1550 700 1625 
-L 600 2075 
-Q 900 2000 1200 2000 
-Q 1325 2000 1362 2050 
-Q 1400 2100 1400 2275 
-L 1400 2775 
-L 525 2575 
-L 375 3025 
-Q 925 3125 1400 3250 
-L 1400 3925 
-L 475 3925 
-L 475 4375 
-z
-M 3600 5175 
-L 4075 5175 
-L 4075 4500 
-L 5150 4500 
-L 5150 2875 
-Q 5150 2500 5212 2312 
-Q 5275 2125 5400 2125 
-Q 5600 2125 5700 2900 
-L 6125 2800 
-Q 6050 2075 5875 1850 
-Q 5700 1625 5400 1625 
-Q 5050 1625 4875 1875 
-Q 4700 2125 4675 2875 
-L 4675 4050 
-L 4075 4050 
-Q 4050 3400 3850 2900 
-Q 4175 2650 4450 2350 
-L 4100 1975 
-Q 3875 2250 3625 2450 
-Q 3300 1975 2700 1675 
-L 2375 2025 
-Q 2925 2300 3250 2800 
-Q 2975 3000 2700 3175 
-L 3000 3550 
-L 3450 3250 
-Q 3575 3575 3600 4050 
-L 2825 4050 
-L 2825 4500 
-L 3600 4500 
-L 3600 5175 
 z
 " transform="scale(0.015625)"/>
        <path id="WenQuanYiMicroHei-642c" d="M 325 4125 
@@ -19163,7 +18966,7 @@ z
     </g>
    </g>
    <g id="text_47">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- “砖更厚”不等于防水更好；伸缩、收边与排水一起设计。 -->
      <g style="fill: #56665d" transform="translate(637.795276 712.44033) scale(0.08 -0.08)">
       <defs>
@@ -19498,6 +19301,38 @@ L 3525 2025
 Q 3750 1375 4200 925 
 z
 " transform="scale(0.015625)"/>
+       <path id="WenQuanYiMicroHei-8ba1" d="M 1275 5175 
+Q 1700 4675 1975 4125 
+L 1500 3850 
+Q 1250 4400 825 4900 
+L 1275 5175 
+z
+M 325 3325 
+L 1675 3325 
+L 1675 425 
+L 2200 1000 
+L 2525 700 
+Q 2175 225 1575 -250 
+L 1200 75 
+L 1200 2875 
+L 325 2875 
+L 325 3325 
+z
+M 2050 3225 
+L 3825 3225 
+L 3825 5175 
+L 4325 5175 
+L 4325 3225 
+L 6075 3225 
+L 6075 2750 
+L 4325 2750 
+L 4325 -625 
+L 3825 -625 
+L 3825 2750 
+L 2050 2750 
+L 2050 3225 
+z
+" transform="scale(0.015625)"/>
       </defs>
       <use xlink:href="#WenQuanYiMicroHei-201c"/>
       <use xlink:href="#WenQuanYiMicroHei-7816" transform="translate(100 0)"/>
@@ -19529,7 +19364,7 @@ z
     </g>
    </g>
    <g id="text_48">
-    <g clip-path="url(#p82c928a02a)">
+    <g clip-path="url(#p424bbf4f0e)">
      <!-- 依据 2,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 743.000272) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -19565,7 +19400,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p82c928a02a">
+  <clipPath id="p424bbf4f0e">
    <rect x="0" y="0" width="1190.551181" height="841.889764"/>
   </clipPath>
  </defs>

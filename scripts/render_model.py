@@ -367,10 +367,16 @@ for x in range(round((FRONT[2]-FRONT[0])/w)):
         cube('Courtyard paving', (cx,cy,.002), (w-.007,d-.007,.016), COURT_STONE[(x+2*y+x*y)%3])
 for cy in (6.78, 14.2):
     cube("Courtyard drain - indicative", (6, cy, .015), (9.8, .07, .02), STONE)
-# Every +0.300 entrance has a visible intermediate +0.150 tread.
+# Every +0.300 entrance has a visible intermediate +0.150 tread with non-slip edge nosing & courtyard step LED.
 for x, y, width, depth in [(6, .3, 2.8, .6), (6, 6.85, 2.8, .5),
                            (6, 14.15, 3.1, .5)]:
     cube("150mm entrance tread", (x, y, .075), (width, depth, .15), FLOOR, .015)
+    front_y = y + depth/2 - .022 if y == 6.85 else y - depth/2 + .022
+    cube("Entrance tread anti-slip nosing", (x, front_y, .152), (width - .04, .032, .008), CANOPY_FRAME, .002)
+    if y == 14.15:
+        cube("Courtyard step under-nosing LED", (x, y - depth/2 - .006, .128), (width - .12, .014, .014), LED, .002)
+        cube("Porch upper tread anti-slip nosing", (x, 14.42, .302), (3.06, .032, .008), CANOPY_FRAME, .002)
+        cube("Porch upper step LED", (x, 14.394, .278), (2.98, .014, .014), LED, .002)
 
 CURRENT = "Front"
 slab(FRONT, .3)
@@ -504,6 +510,10 @@ def wardrobe(obj,floor):
     for u in (.009,length-.009):board('side',u,depth/2,height/2,.018,depth,height)
     board('back',length/2,.0045,height/2,length-.036,.009,height)
     for z in (.12,height-.009):board('horizontal panel',length/2,depth/2,z,length-.036,depth,.018)
+    # Full-height top infill panel flush to the 2.88m ceiling soffit to eliminate dust traps.
+    if height < 2.86:
+        top_h = 2.88 - height
+        board('ceiling top infill',length/2,depth/2,height+top_h/2,length,depth,top_h,PALEWOOD,'carcass')
     board('plinth',length/2,depth-.10,.055,length-.036,.018,.11,DARKWOOD)
     board('quilt shelf',length/2,(depth-.08)/2,2.08,length-.036,depth-.08,.018,part='shelf')
     pitch=(length-.036)/5;bay=pitch-.018
@@ -625,6 +635,9 @@ for group,items in furnishings().items():
                 for h in (.68,1.58):
                     cube('Fridge handle',(x1-.032,y1+.11,floor+h),(.036,.022,.30),METAL,.007)
             if kind=="wardrobe":
+                if height < 2.86:
+                    top_h = 2.88 - height
+                    cube('Wardrobe ceiling top infill',(cx,cy,floor+height+top_h/2),(width,depth,top_h),PALEWOOD,.006)
                 if obj.get('front')=='south':
                     cube('South cabinet door',(cx,y1-.008,floor+height/2),(width-.025,.018,height-.04),PALEWOOD,.008)
                     cube('South cabinet door handle',(x2-.07,y1-.025,floor+1.15),(.018,.025,.16),METAL)
@@ -709,14 +722,15 @@ for group,items in furnishings().items():
                 pillow=cube('Sofa loose cushion',(x2-.23,yy,floor+.73),(.18,.40,.36),BEDDING,.07)
                 pillow.rotation_euler.y=math.radians(-12)
         elif kind=="tv":
-            cube("TV console plinth",(cx,cy,floor+.04),(width-.06,depth-.08,.08),DARKWOOD,.006)
-            cube("TV console",(cx,cy,floor+.29),(width,depth,.42),PALEWOOD,.016)
-            cube("TV console open niche",(x1-.006,cy,floor+.38),(.028,depth*.34,.14),DARKWOOD,.005)
+            # Wall-hung floating TV console (200mm floor clearance for robot vacuum + warm under-light).
+            cube("TV console",(cx,cy,floor+.35),(width,depth,.30),PALEWOOD,.016)
+            cube("TV console under-light",(cx,cy,floor+.194),(width-.08,depth-.12,.012),LED,.002)
+            cube("TV console open niche",(x1-.006,cy,floor+.41),(.028,depth*.34,.12),DARKWOOD,.005)
             for dy in (-depth*.18,depth*.18):
-                cube("TV console door seam",(x1-.006,cy+dy,floor+.29),(.008,.009,.38),DARKWOOD)
+                cube("TV console door seam",(x1-.006,cy+dy,floor+.35),(.008,.009,.27),DARKWOOD)
             for dy in (-depth*.34,depth*.34):
-                cube("TV console pull",(x1-.016,cy+dy,floor+.33),(.014,.09,.014),METAL,.004)
-            cube("TV screen",(x1+.035,cy,floor+1.2),(.05,depth,.66),SCREEN,.015)
+                cube("TV console pull",(x1-.016,cy+dy,floor+.37),(.014,.09,.014),METAL,.004)
+            cube("TV screen",(x1+.035,cy,floor+1.22),(.05,depth,.66),SCREEN,.015)
         elif kind=="hob":
             cube('High-output gas hob concept',(cx,cy,floor+.931),(width,depth,.025),STONE,.012)
             rod('Gas burner ring',(cx,cy,floor+.95),(cx,cy,floor+.985),.14,METAL,32)

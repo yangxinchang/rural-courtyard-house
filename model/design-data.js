@@ -2163,7 +2163,7 @@ window.HOUSE_DESIGN={
         "bounds": [
           4.4,
           23.5,
-          6.65,
+          7.05,
           24.06
         ],
         "name": "双人共享学习桌",
@@ -2407,6 +2407,20 @@ window.HOUSE_DESIGN={
         "material": "oak"
       },
       {
+        "kind": "wallcabinet",
+        "room": 0,
+        "bounds": [
+          10.34,
+          4.75,
+          11.12,
+          5.55
+        ],
+        "name": "冰箱上方顶柜",
+        "z": 2.12,
+        "height": 0.76,
+        "material": "oak"
+      },
+      {
         "kind": "lightstrip",
         "room": 0,
         "bounds": [
@@ -2533,20 +2547,6 @@ window.HOUSE_DESIGN={
         "material": "oak"
       },
       {
-        "kind": "border",
-        "room": 1,
-        "bounds": [
-          4.52,
-          1.0,
-          7.48,
-          6.1
-        ],
-        "name": "通堂石材细边线",
-        "z": 0.018,
-        "height": 0.001,
-        "material": "metal"
-      },
-      {
         "kind": "lantern",
         "room": 1,
         "bounds": [
@@ -2600,8 +2600,8 @@ window.HOUSE_DESIGN={
           19.55
         ],
         "name": "起居室电视背景",
-        "z": 0.55,
-        "height": 1.65,
+        "z": 0.02,
+        "height": 2.86,
         "material": "accent"
       },
       {
@@ -2926,8 +2926,8 @@ window.HOUSE_DESIGN={
           18.48
         ],
         "name": "起居电视侧格栅",
-        "z": 0.55,
-        "height": 1.65,
+        "z": 0.02,
+        "height": 2.86,
         "material": "oak"
       },
       {
@@ -2943,20 +2943,6 @@ window.HOUSE_DESIGN={
         "z": 1.05,
         "height": 1.1,
         "material": "oak"
-      },
-      {
-        "kind": "border",
-        "room": 3,
-        "bounds": [
-          4.52,
-          16.05,
-          7.48,
-          22.95
-        ],
-        "name": "堂屋石材细边线",
-        "z": 0.018,
-        "height": 0.001,
-        "material": "metal"
       },
       {
         "kind": "lantern",
@@ -3166,8 +3152,8 @@ window.HOUSE_DESIGN={
           21.62
         ],
         "name": "家庭厅电视背景",
-        "z": 0.55,
-        "height": 1.65,
+        "z": 0.02,
+        "height": 2.86,
         "material": "accent"
       },
       {
@@ -3450,8 +3436,8 @@ window.HOUSE_DESIGN={
           20.6
         ],
         "name": "家庭厅电视侧格栅",
-        "z": 0.55,
-        "height": 1.65,
+        "z": 0.02,
+        "height": 2.86,
         "material": "oak"
       },
       {

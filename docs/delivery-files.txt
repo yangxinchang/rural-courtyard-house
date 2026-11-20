@@ -99,6 +99,7 @@ drawings/农村院落住宅-装修方案K.pdf
 drawings/农村院落住宅-装修方案L.pdf
 drawings/农村院落住宅-装修方案M.pdf
 index.html
+engineering-guide.html
 model/courtyard-house.blend
 model/courtyard-house.glb
 model/design-data.js
