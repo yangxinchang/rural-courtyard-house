@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-07T15:00:35.749151</dc:date>
+    <dc:date>2026-11-20T16:12:24.227942</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,20 +36,20 @@ L 1167.874016 22.677165
 L 22.677165 22.677165 
 L 22.677165 819.212598 
 z
-" clip-path="url(#pe472871c6f)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#p1be29005eb)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 51.023622 119.055118 
 L 1139.527559 119.055118 
-" clip-path="url(#pe472871c6f)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
+" clip-path="url(#p1be29005eb)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 51.023622 779.527559 
 L 1139.527559 779.527559 
-" clip-path="url(#pe472871c6f)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p1be29005eb)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 院 · 居 -->
      <g style="fill: #263a36" transform="translate(53.858268 64.722872) scale(0.2 -0.2)">
       <defs>
@@ -193,7 +193,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 整块杂物屋与两侧院墙封闭 -->
      <g style="fill: #263a36" transform="translate(181.417323 60.849163) scale(0.16 -0.16)">
       <defs>
@@ -827,7 +827,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 杂物屋向北扩至前场边线，两侧院墙补高至连廊板底；其余主屋布局沿用。 -->
      <g style="fill: #6c7770" transform="translate(53.858268 98.585961) scale(0.085 -0.085)">
       <defs>
@@ -1885,7 +1885,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- N-101 -->
      <g style="fill: #263a36" transform="translate(1104.255413 62.644747) scale(0.12 -0.12)">
       <defs>
@@ -1984,7 +1984,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 精装方案 P·水电深化  /  2026.11.07  /  示意面宽 15.20 m  /  后方净空 5.00 m -->
      <g style="fill: #6c7770" transform="translate(53.858268 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3065,7 +3065,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 图示标尺 / 尺寸 mm  ·  A3 原尺寸打印  ·  概念方案，非施工图 -->
      <g style="fill: #6c7770" transform="translate(950.680684 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3741,7 +3741,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 01  右前方整块杂物屋 -->
      <g style="fill: #476552" transform="translate(56.692913 146.90482) scale(0.09 -0.09)">
       <defs>
@@ -3792,7 +3792,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 02  西侧院墙示意立面 -->
      <g style="fill: #476552" transform="translate(612.283465 146.90482) scale(0.09 -0.09)">
       <defs>
@@ -3889,7 +3889,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 杂物屋 -->
      <g style="fill: #476552" transform="translate(56.692913 604.062069) scale(0.12 -0.12)">
       <use xlink:href="#WenQuanYiMicroHei-6742"/>
@@ -3899,7 +3899,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 名义3.60×7.40m，单层平顶+3.300，西门朝空地。 -->
      <g style="fill: #6c7770" transform="translate(56.692913 634.308016) scale(0.084 -0.084)">
       <defs>
@@ -4379,7 +4379,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 原北侧露天空地并入屋内，墙、地坪、货架、屋顶同步。 -->
      <g style="fill: #6c7770" transform="translate(56.692913 663.78833) scale(0.084 -0.084)">
       <defs>
@@ -4873,7 +4873,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 北侧距前屋南墙600mm，实际退距及构造需现场核验。 -->
      <g style="fill: #6c7770" transform="translate(56.692913 693.268645) scale(0.084 -0.084)">
       <defs>
@@ -5560,7 +5560,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 院墙 -->
      <g style="fill: #476552" transform="translate(612.283465 604.062069) scale(0.12 -0.12)">
       <use xlink:href="#WenQuanYiMicroHei-9662"/>
@@ -5569,7 +5569,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 东西墙均补到+3.420板底，不留上部通透缺口。 -->
      <g style="fill: #6c7770" transform="translate(612.283465 634.308016) scale(0.084 -0.084)">
       <defs>
@@ -6138,7 +6138,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 移除原中部压顶，勒脚外凸20mm，东侧门厅入口保留。 -->
      <g style="fill: #6c7770" transform="translate(612.283465 663.78833) scale(0.084 -0.084)">
       <defs>
@@ -6636,7 +6636,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#pe472871c6f)">
+    <g clip-path="url(#p1be29005eb)">
      <!-- 3D整屋显示实墙；调低墙体后仍可看院内布局。 -->
      <g style="fill: #6c7770" transform="translate(612.283465 693.268645) scale(0.084 -0.084)">
       <defs>
@@ -7014,7 +7014,7 @@ L 418.285411 554.284703
 L 418.285411 205.209236 
 L -244.957976 205.209236 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #eeeee5; stroke: #aebbb1; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #eeeee5; stroke: #aebbb1; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M -35.512696 554.284703 
@@ -7022,7 +7022,7 @@ L 69.209944 554.284703
 L 69.209944 205.209236 
 L -35.512696 205.209236 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #dddcca"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #dddcca"/>
    </g>
    <g id="patch_5">
     <path d="M 235.020791 528.104043 
@@ -7030,7 +7030,7 @@ L 392.104751 528.104043
 L 392.104751 205.209236 
 L 235.020791 205.209236 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #e5dfd0; stroke: #6c7770; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #e5dfd0; stroke: #6c7770; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 240.256923 528.104043 
@@ -7038,7 +7038,7 @@ L 266.437583 528.104043
 L 266.437583 517.631779 
 L 240.256923 517.631779 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 327.52579 528.104043 
@@ -7046,7 +7046,7 @@ L 386.868619 528.104043
 L 386.868619 517.631779 
 L 327.52579 517.631779 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 240.256923 215.6815 
@@ -7054,7 +7054,7 @@ L 386.868619 215.6815
 L 386.868619 205.209236 
 L 240.256923 205.209236 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 381.632487 522.867911 
@@ -7062,7 +7062,7 @@ L 392.104751 522.867911
 L 392.104751 210.445368 
 L 381.632487 210.445368 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 235.020791 522.867911 
@@ -7070,13 +7070,13 @@ L 245.493055 522.867911
 L 245.493055 488.833053 
 L 235.020791 488.833053 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 292.618243 488.833053 
 C 292.618243 474.951294 287.097854 461.623895 277.281967 451.808009 
 C 267.466081 441.992122 254.138682 436.471733 240.256923 436.471733 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 235.020791 436.471733 
@@ -7084,60 +7084,60 @@ L 245.493055 436.471733
 L 245.493055 210.445368 
 L 235.020791 210.445368 
 z
-" clip-path="url(#p52838a8d74)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: #263a36; stroke: #263a36; stroke-width: 0.2; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_3">
     <path d="M 266.437583 528.104043 
 L 327.52579 528.104043 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #476552; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #476552; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
     <path d="M 266.437583 522.867911 
 L 327.52579 522.867911 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #476552; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #476552; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
     <path d="M 266.437583 517.631779 
 L 327.52579 517.631779 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #476552; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #476552; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_6">
     <path d="M 240.256923 488.833053 
 L 292.618243 488.833053 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
     <path d="M 235.020791 543.376095 
 L 392.104751 543.376095 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
    </g>
    <g id="line2d_8">
     <path d="M 229.348315 549.048571 
 L 240.693267 537.703619 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
     <path d="M 386.432275 549.048571 
 L 397.777227 537.703619 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
     <path d="M 406.06777 528.104043 
 L 406.06777 205.209236 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
    </g>
    <g id="line2d_11">
     <path d="M 400.395293 533.77652 
 L 411.740246 522.431567 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_12">
     <path d="M 400.395293 210.881713 
 L 411.740246 199.53676 
-" clip-path="url(#p52838a8d74)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p2cf5d9a2bb)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_17">
-    <g clip-path="url(#p52838a8d74)">
+    <g clip-path="url(#p2cf5d9a2bb)">
      <!-- 一层杂物屋 -->
      <g style="fill: #476552" transform="translate(297.562771 364.63234) scale(0.064 -0.064)">
       <defs>
@@ -7156,7 +7156,7 @@ z
       <use xlink:href="#WenQuanYiMicroHei-5c4b" transform="translate(400 0)"/>
      </g>
     </g>
-    <g clip-path="url(#p52838a8d74)">
+    <g clip-path="url(#p2cf5d9a2bb)">
      <!-- 3600×7400 暂定 -->
      <g style="fill: #476552" transform="translate(290.468771 372.00594) scale(0.064 -0.064)">
       <defs>
@@ -7291,7 +7291,7 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#p52838a8d74)">
+    <g clip-path="url(#p2cf5d9a2bb)">
      <!-- 门前开敞空地 -->
      <g style="fill: #476552" transform="translate(-156.871892 377.532892) scale(0.07 -0.07)">
       <defs>
@@ -7403,7 +7403,7 @@ z
       <use xlink:href="#WenQuanYiMicroHei-5730" transform="translate(500 0)"/>
      </g>
     </g>
-    <g clip-path="url(#p52838a8d74)">
+    <g clip-path="url(#p2cf5d9a2bb)">
      <!-- 深8m暂定 -->
      <g style="fill: #476552" transform="translate(-151.435408 385.597767) scale(0.07 -0.07)">
       <defs>
@@ -7483,7 +7483,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#p52838a8d74)">
+    <g clip-path="url(#p2cf5d9a2bb)">
      <!-- 3600 -->
      <g style="fill: #6c7770" transform="translate(306.182302 535.220836) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-33"/>
@@ -7494,7 +7494,7 @@ z
     </g>
    </g>
    <g id="text_20">
-    <g clip-path="url(#p52838a8d74)">
+    <g clip-path="url(#p2cf5d9a2bb)">
      <!-- 7400 -->
      <g style="fill: #6c7770" transform="translate(415.226053 374.037109) rotate(-90) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-37"/>
@@ -7512,7 +7512,7 @@ L 1099.378178 450.492688
 L 1099.378178 280.608324 
 L 640.392351 280.608324 
 z
-" clip-path="url(#p7a1c15f938)" style="fill: #e2dfd4; stroke: #263a36; stroke-width: 0.8; stroke-linejoin: miter"/>
+" clip-path="url(#p0b2630aa4a)" style="fill: #e2dfd4; stroke: #263a36; stroke-width: 0.8; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
     <path d="M 646.353206 280.608324 
@@ -7520,30 +7520,30 @@ L 1033.808774 280.608324
 L 1033.808774 271.667042 
 L 646.353206 271.667042 
 z
-" clip-path="url(#p7a1c15f938)" style="fill: #aaa99f; stroke: #263a36; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p0b2630aa4a)" style="fill: #aaa99f; stroke: #263a36; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_13">
     <path d="M 640.392351 351.145107 
 L 1099.378178 351.145107 
-" clip-path="url(#p7a1c15f938)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #6c7770; stroke-width: 0.7"/>
+" clip-path="url(#p0b2630aa4a)" style="fill: none; stroke-dasharray: 2.59,1.12; stroke-dashoffset: 0; stroke: #6c7770; stroke-width: 0.7"/>
    </g>
    <g id="line2d_14">
     <path d="M 1113.286839 450.492688 
 L 1113.286839 280.608324 
-" clip-path="url(#p7a1c15f938)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
+" clip-path="url(#p0b2630aa4a)" style="fill: none; stroke: #6c7770; stroke-width: 0.45; stroke-linecap: square"/>
    </g>
    <g id="line2d_15">
     <path d="M 1106.829246 456.950281 
 L 1119.744432 444.035096 
-" clip-path="url(#p7a1c15f938)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p0b2630aa4a)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="line2d_16">
     <path d="M 1106.829246 287.065917 
 L 1119.744432 274.150731 
-" clip-path="url(#p7a1c15f938)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#p0b2630aa4a)" style="fill: none; stroke: #6c7770; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_21">
-    <g clip-path="url(#p7a1c15f938)">
+    <g clip-path="url(#p0b2630aa4a)">
      <!-- 新增上段连同原墙形成整面实墙 -->
      <g style="fill: #476552" transform="translate(815.917885 400.153567) scale(0.07 -0.07)">
       <defs>
@@ -7874,7 +7874,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#p7a1c15f938)">
+    <g clip-path="url(#p0b2630aa4a)">
      <!-- 原上方缺口封闭 -->
      <g style="fill: #476552" transform="translate(838.667885 318.321696) scale(0.075 -0.075)">
       <use xlink:href="#WenQuanYiMicroHei-539f"/>
@@ -7888,7 +7888,7 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#p7a1c15f938)">
+    <g clip-path="url(#p0b2630aa4a)">
      <!-- 二层连廊板底 +3.420 -->
      <g style="fill: #476552" transform="translate(807.594427 262.060429) scale(0.07 -0.07)">
       <defs>
@@ -7923,7 +7923,7 @@ z
     </g>
    </g>
    <g id="text_24">
-    <g clip-path="url(#p7a1c15f938)">
+    <g clip-path="url(#p0b2630aa4a)">
      <!-- 3420 墙顶标高 -->
      <g style="fill: #6c7770" transform="translate(1123.471813 387.201451) rotate(-90) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-33"/>
@@ -7941,13 +7941,13 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe472871c6f">
+  <clipPath id="p1be29005eb">
    <rect x="0" y="0" width="1190.551181" height="841.889764"/>
   </clipPath>
-  <clipPath id="p52838a8d74">
+  <clipPath id="p2cf5d9a2bb">
    <rect x="187.022914" y="161.574803" width="226.899053" height="388.346457"/>
   </clipPath>
-  <clipPath id="p7a1c15f938">
+  <clipPath id="p0b2630aa4a">
    <rect x="606.614173" y="236.895388" width="521.574803" height="223.532058"/>
   </clipPath>
  </defs>

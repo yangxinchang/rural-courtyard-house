@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-07T15:00:37.526532</dc:date>
+    <dc:date>2026-11-20T16:12:26.141662</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,7 +36,7 @@ L 1167.874016 22.677165
 L 22.677165 22.677165 
 L 22.677165 819.212598 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 56.692913 328.818898 
@@ -44,7 +44,7 @@ L 566.929134 328.818898
 L 566.929134 144.566929 
 L 56.692913 144.566929 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 507.401575 184.251969 
@@ -52,7 +52,7 @@ L 549.92126 184.251969
 L 549.92126 155.905512 
 L 507.401575 155.905512 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #d5c8b2; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #d5c8b2; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 623.622047 328.818898 
@@ -60,7 +60,7 @@ L 1133.858268 328.818898
 L 1133.858268 144.566929 
 L 623.622047 144.566929 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 1074.330709 184.251969 
@@ -68,7 +68,7 @@ L 1116.850394 184.251969
 L 1116.850394 155.905512 
 L 1074.330709 155.905512 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #b9b7a7; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #b9b7a7; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 56.692913 541.417323 
@@ -76,7 +76,7 @@ L 566.929134 541.417323
 L 566.929134 357.165354 
 L 56.692913 357.165354 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 507.401575 396.850394 
@@ -84,7 +84,7 @@ L 549.92126 396.850394
 L 549.92126 368.503937 
 L 507.401575 368.503937 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #95816b; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #95816b; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 623.622047 541.417323 
@@ -92,7 +92,7 @@ L 1133.858268 541.417323
 L 1133.858268 357.165354 
 L 623.622047 357.165354 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 1074.330709 396.850394 
@@ -100,7 +100,7 @@ L 1116.850394 396.850394
 L 1116.850394 368.503937 
 L 1074.330709 368.503937 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #a1ab9e; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #a1ab9e; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 56.692913 754.015748 
@@ -108,7 +108,7 @@ L 566.929134 754.015748
 L 566.929134 569.76378 
 L 56.692913 569.76378 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 507.401575 609.448819 
@@ -116,7 +116,7 @@ L 549.92126 609.448819
 L 549.92126 581.102362 
 L 507.401575 581.102362 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #d7d0bf; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #d7d0bf; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 623.622047 754.015748 
@@ -124,20 +124,20 @@ L 1133.858268 754.015748
 L 1133.858268 569.76378 
 L 623.622047 569.76378 
 z
-" clip-path="url(#p0ed1ece2ce)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 51.023622 119.055118 
 L 1139.527559 119.055118 
-" clip-path="url(#p0ed1ece2ce)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 51.023622 779.527559 
 L 1139.527559 779.527559 
-" clip-path="url(#p0ed1ece2ce)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#pa1d71c9eca)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 院 · 居 -->
      <g style="fill: #263a36" transform="translate(53.858268 64.722872) scale(0.2 -0.2)">
       <defs>
@@ -281,7 +281,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 装修选材建议 · 品牌候选与采购核对 -->
      <g style="fill: #263a36" transform="translate(181.417323 60.849163) scale(0.16 -0.16)">
       <defs>
@@ -1047,7 +1047,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 暖白木色与现代中式 / 中档耐用、易维护 / 规格为本案起选建议，非采购定案 -->
      <g style="fill: #6c7770" transform="translate(53.858268 98.585961) scale(0.085 -0.085)">
       <defs>
@@ -2147,7 +2147,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- MAT-104 -->
      <g style="fill: #263a36" transform="translate(1089.037913 62.644747) scale(0.12 -0.12)">
       <defs>
@@ -2313,7 +2313,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 精装方案 P·水电深化  /  2026.11.07  /  示意面宽 15.20 m  /  后方净空 5.00 m -->
      <g style="fill: #6c7770" transform="translate(53.858268 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3263,7 +3263,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 图示标尺 / 尺寸 mm  ·  A3 原尺寸打印  ·  概念方案，非施工图 -->
      <g style="fill: #6c7770" transform="translate(950.680684 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3878,7 +3878,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 最适合本案的一套配色 -->
      <g style="fill: #355b48" transform="translate(70.866142 173.066045) scale(0.115 -0.115)">
       <defs>
@@ -4240,7 +4240,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 暖灰院地＋浅米灰室内砖＋暖白墙＋橡木色柜门。 -->
      <g style="fill: #293d39" transform="translate(70.866142 209.059212) scale(0.082 -0.082)">
       <defs>
@@ -4858,7 +4858,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 门窗用深灰，临街大门用深木色和少量铜色点缀。 -->
      <g style="fill: #56665d" transform="translate(70.866142 234.51907) scale(0.08 -0.08)">
       <defs>
@@ -5440,7 +5440,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 同一位置保留一套实物样板，在自然光和晚间灯下看色。 -->
      <g style="fill: #56665d" transform="translate(70.866142 252.093873) scale(0.08 -0.08)">
       <defs>
@@ -6327,7 +6327,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 先确定铺地与门窗，再对柜门、涂料和软装，不倒着选。 -->
      <g style="fill: #56665d" transform="translate(70.866142 269.668676) scale(0.08 -0.08)">
       <defs>
@@ -6965,7 +6965,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 本页色块仅表示搭配方向，不是品牌色卡或实物保证。 -->
      <g style="fill: #56665d" transform="translate(70.866142 287.243479) scale(0.08 -0.08)">
       <defs>
@@ -7431,7 +7431,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 瓷砖与涂料候选 -->
      <g style="fill: #355b48" transform="translate(637.795276 173.066045) scale(0.115 -0.115)">
       <defs>
@@ -7516,7 +7516,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 瓷砖可先向蒙娜丽莎取样；涂料可先比样立邦配套。 -->
      <g style="fill: #293d39" transform="translate(637.795276 209.059212) scale(0.082 -0.082)">
       <defs>
@@ -8029,7 +8029,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 询同规格、同用途产品，要求具体型号报告和授权渠道。 -->
      <g style="fill: #56665d" transform="translate(637.795276 234.51907) scale(0.08 -0.08)">
       <defs>
@@ -8846,7 +8846,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 品牌候选不代表全系列均适合室外或湿区。 -->
      <g style="fill: #56665d" transform="translate(637.795276 252.093873) scale(0.08 -0.08)">
       <defs>
@@ -9158,7 +9158,7 @@ z
     </g>
    </g>
    <g id="text_17">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 涂料以基层相容、耐擦洗与配套施工为先，不只比桶价。 -->
      <g style="fill: #56665d" transform="translate(637.795276 269.668676) scale(0.08 -0.08)">
       <defs>
@@ -9742,7 +9742,7 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 以上仅作找样起点，可用符合相同条件的其他品牌替换。 -->
      <g style="fill: #56665d" transform="translate(637.795276 287.243479) scale(0.08 -0.08)">
       <defs>
@@ -10290,7 +10290,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 依据 6,7 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 317.803422) scale(0.067 -0.067)">
       <defs>
@@ -10857,7 +10857,7 @@ z
     </g>
    </g>
    <g id="text_20">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 房门、外窗与大门候选 -->
      <g style="fill: #355b48" transform="translate(70.866142 385.66447) scale(0.115 -0.115)">
       <defs>
@@ -10922,7 +10922,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 室内木门可先向TATA取样；外窗与院门按整套系统比价。 -->
      <g style="fill: #293d39" transform="translate(70.866142 421.657637) scale(0.082 -0.082)">
       <defs>
@@ -11174,7 +11174,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 室内门品牌不直接套作室外大门；不同用途分开选。 -->
      <g style="fill: #56665d" transform="translate(70.866142 447.117495) scale(0.08 -0.08)">
       <defs>
@@ -11315,7 +11315,7 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 外窗优先比较同配置整窗报告、安装队与本地售后。 -->
      <g style="fill: #56665d" transform="translate(70.866142 464.692298) scale(0.08 -0.08)">
       <defs>
@@ -11604,7 +11604,7 @@ z
     </g>
    </g>
    <g id="text_24">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 院门要求门体／门柱／五金节点与耐候做法完整报价。 -->
      <g style="fill: #56665d" transform="translate(70.866142 482.267101) scale(0.08 -0.08)">
       <defs>
@@ -11957,7 +11957,7 @@ z
     </g>
    </g>
    <g id="text_25">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 不把型材、玻璃或锁具品牌当成整窗／整门合格证明。 -->
      <g style="fill: #56665d" transform="translate(70.866142 499.841905) scale(0.08 -0.08)">
       <defs>
@@ -12398,7 +12398,7 @@ z
     </g>
    </g>
    <g id="text_26">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 依据 2,3,8 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 530.401847) scale(0.067 -0.067)">
       <defs>
@@ -12502,7 +12502,7 @@ z
     </g>
    </g>
    <g id="text_27">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 预算优先花在哪里 -->
      <g style="fill: #355b48" transform="translate(637.795276 385.66447) scale(0.115 -0.115)">
       <defs>
@@ -12832,7 +12832,7 @@ z
     </g>
    </g>
    <g id="text_28">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 优先：排水防水、地面防滑、门窗安装及耐用五金。 -->
      <g style="fill: #293d39" transform="translate(637.795276 421.657637) scale(0.082 -0.082)">
       <defs>
@@ -13088,7 +13088,7 @@ z
     </g>
    </g>
    <g id="text_29">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 其次：平整度、密封、防潮封边与后期可检修性。 -->
      <g style="fill: #56665d" transform="translate(637.795276 447.117495) scale(0.08 -0.08)">
       <defs>
@@ -13703,7 +13703,7 @@ z
     </g>
    </g>
    <g id="text_30">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 可简化：全屋超大砖、复杂拼花、满墙石材和装饰线。 -->
      <g style="fill: #56665d" transform="translate(637.795276 464.692298) scale(0.08 -0.08)">
       <defs>
@@ -14336,7 +14336,7 @@ z
     </g>
    </g>
    <g id="text_31">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 建议同一清单询两到三家，分别列材料、辅材和施工。 -->
      <g style="fill: #56665d" transform="translate(637.795276 482.267101) scale(0.08 -0.08)">
       <defs>
@@ -14809,7 +14809,7 @@ z
     </g>
    </g>
    <g id="text_32">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 所在地及预算未定，本次不写可能误导的单价或总价。 -->
      <g style="fill: #56665d" transform="translate(637.795276 499.841905) scale(0.08 -0.08)">
       <defs>
@@ -15179,7 +15179,7 @@ z
     </g>
    </g>
    <g id="text_33">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 依据 2,3,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 530.401847) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -15215,7 +15215,7 @@ z
     </g>
    </g>
    <g id="text_34">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 下单清单必须写清 -->
      <g style="fill: #355b48" transform="translate(70.866142 598.262895) scale(0.115 -0.115)">
       <defs>
@@ -15329,7 +15329,7 @@ z
     </g>
    </g>
    <g id="text_35">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 位置、品牌型号、规格、色号批次、数量与完整施工范围。 -->
      <g style="fill: #293d39" transform="translate(70.866142 634.256062) scale(0.082 -0.082)">
       <defs>
@@ -15626,7 +15626,7 @@ z
     </g>
    </g>
    <g id="text_36">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 瓷砖：排版、损耗、填缝、收边、补货与退换约定。 -->
      <g style="fill: #56665d" transform="translate(70.866142 659.71592) scale(0.08 -0.08)">
       <defs>
@@ -16247,7 +16247,7 @@ z
     </g>
    </g>
    <g id="text_37">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 门窗：玻璃组合、五金、纱窗、安装、密封与修口。 -->
      <g style="fill: #56665d" transform="translate(70.866142 677.290723) scale(0.08 -0.08)">
       <defs>
@@ -16396,7 +16396,7 @@ z
     </g>
    </g>
    <g id="text_38">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 涂料：基层处理、配套产品、施工条件与实际涂布要求。 -->
      <g style="fill: #56665d" transform="translate(70.866142 694.865527) scale(0.08 -0.08)">
       <defs>
@@ -16627,7 +16627,7 @@ z
     </g>
    </g>
    <g id="text_39">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 样板、检测、授权、质保及售后联系人写入交付清单。 -->
      <g style="fill: #56665d" transform="translate(70.866142 712.44033) scale(0.08 -0.08)">
       <defs>
@@ -16942,7 +16942,7 @@ z
     </g>
    </g>
    <g id="text_40">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 依据 2,3,6 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 743.000272) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -16978,7 +16978,7 @@ z
     </g>
    </g>
    <g id="text_41">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <!-- 官方资料索引（电子PDF可点击） -->
      <g style="fill: #355b48" transform="translate(637.795276 598.00313) scale(0.105 -0.105)">
       <defs>
@@ -17223,7 +17223,7 @@ z
     </g>
    </g>
    <g id="text_42">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://scjgj.sh.gov.cn/1072/20230803/2c984a7289b5d5330189babde8fd249a.html">
       <!-- 1. 上海市场监管：陶瓷砖消费提示 -->
       <g style="fill: #56665d" transform="translate(637.795276 625.544313) scale(0.074 -0.074)">
@@ -17815,7 +17815,7 @@ z
     </g>
    </g>
    <g id="text_43">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2025/art_dd6b4e8904634f7681e22362cbdcfdb4.html">
       <!-- 2. 住建部：2025住宅质量问题重点整治 -->
       <g style="fill: #56665d" transform="translate(637.795276 641.418329) scale(0.074 -0.074)">
@@ -18215,7 +18215,7 @@ z
     </g>
    </g>
    <g id="text_44">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://www.mohurd.gov.cn/ztbd/bzxzlzfgz/zybmwj/art/2022/art_17768_764573.html">
       <!-- 3. 住建部：保障性住房质量常见问题防治 -->
       <g style="fill: #56665d" transform="translate(637.795276 657.292344) scale(0.074 -0.074)">
@@ -18376,7 +18376,7 @@ z
     </g>
    </g>
    <g id="text_45">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://zjw.beijing.gov.cn/bjjs/xxgk/zcwj2024/qtzcwj/xxyx13/436473157/index.shtml">
       <!-- 4. 北京住建：住宅防水施工与渗漏防治指南 -->
       <g style="fill: #56665d" transform="translate(637.795276 673.16636) scale(0.074 -0.074)">
@@ -18763,7 +18763,7 @@ z
     </g>
    </g>
    <g id="text_46">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://scjgj.sh.gov.cn/923/20241210/2c984a729367d8000193af68c8f83844.html">
       <!-- 5. 上海市场监管：中空玻璃抽查及消费提示 -->
       <g style="fill: #56665d" transform="translate(637.795276 689.040376) scale(0.074 -0.074)">
@@ -18906,7 +18906,7 @@ z
     </g>
    </g>
    <g id="text_47">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://www.nipponpaint.com.cn/product/1279">
       <!-- 6. 立邦：配套抗碱内墙底漆 -->
       <g style="fill: #56665d" transform="translate(637.795276 704.914392) scale(0.074 -0.074)">
@@ -19202,7 +19202,7 @@ z
     </g>
    </g>
    <g id="text_48">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://www.monalisa.com.cn/installationguide/info_itemid_14230.html">
       <!-- 7. 蒙娜丽莎：止滑砖产品资料 -->
       <g style="fill: #56665d" transform="translate(637.795276 720.788407) scale(0.074 -0.074)">
@@ -19247,7 +19247,7 @@ z
     </g>
    </g>
    <g id="text_49">
-    <g clip-path="url(#p0ed1ece2ce)">
+    <g clip-path="url(#pa1d71c9eca)">
      <a xlink:href="https://www.tata.com.cn/uploads/files/2023/0329/6kiRZv5dbi8AhAXg0MnoFYVavpqSoj0QyX7L4104.pdf">
       <!-- 8. TATA木门：产品使用说明书 -->
       <g style="fill: #56665d" transform="translate(637.795276 736.662423) scale(0.074 -0.074)">
@@ -19430,7 +19430,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p0ed1ece2ce">
+  <clipPath id="pa1d71c9eca">
    <rect x="0" y="0" width="1190.551181" height="841.889764"/>
   </clipPath>
  </defs>

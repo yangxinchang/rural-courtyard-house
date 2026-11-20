@@ -225,11 +225,15 @@ class Details:
         return self.plane(name, vertices, faces, mat)
 
     def lamp(self, x, y, z, height=.52, energy=9, shade_radius=.14, name="table"):
-        self.cyl("Lamp base " + name, x, y, z, z + .022, .072, self.F.blackmetal, 24)
-        self.cyl("Lamp stem " + name, x, y, z + .02, z + height - .12, .011, self.F.brass, 16)
-        self.cone("Lamp shade " + name, x, y, z + height - .17, shade_radius, shade_radius * .64,
-                  .19, self.F.shade)
-        bulb = self.cyl("Lamp bulb " + name, x, y, z + height - .18, z + height - .13, .038,
+        tall = height > 1.0
+        base_r = .125 if tall else .072
+        stem_r = .014 if tall else .011
+        shade_h = .26 if tall else .19
+        self.cyl("Lamp base " + name, x, y, z, z + .026, base_r, self.F.blackmetal, 24)
+        self.cyl("Lamp stem " + name, x, y, z + .022, z + height - shade_h * .65, stem_r, self.F.brass, 16)
+        self.cone("Lamp shade " + name, x, y, z + height - shade_h * .92, shade_radius, shade_radius * .68,
+                  shade_h, self.F.shade)
+        bulb = self.cyl("Lamp bulb " + name, x, y, z + height - shade_h * .90, z + height - shade_h * .65, .038,
                         self.F.led, 16)
         bulb["lampWatt"] = energy
 
@@ -285,41 +289,43 @@ class Details:
             self.cyl("Fruit", x + .05 * math.cos(angle), y + .05 * math.sin(angle), z + .05,
                      z + .115, .036, self.F.leaves[(index + 1) % len(self.F.leaves)], 16)
 
-    def cushion(self, x, y, z, width=.42, height=.40, mat=None, turn=12):
-        obj = self.box("Loose cushion", x - width / 2, y - .09, x + width / 2, y + .09, z,
-                       height, mat or self.F.boucle, .07)
-        obj.rotation_euler.z = math.radians(turn)
+    def cushion(self, x, y, z, width=.42, height=.40, mat=None, turn=12, along_y=False, tilt=0):
+        if along_y:
+            obj = self.box("Loose cushion", x - .065, y - width / 2, x + .065, y + width / 2, z,
+                           height, mat or self.F.boucle, .048)
+            obj.rotation_euler.y = math.radians(tilt)
+            obj.rotation_euler.z = math.radians(turn)
+        else:
+            obj = self.box("Loose cushion", x - width / 2, y - .075, x + width / 2, y + .075, z,
+                           height, mat or self.F.boucle, .055)
+            obj.rotation_euler.z = math.radians(turn)
         return obj
 
     def draped_throw(self, foot_x, inward, y1, y2, z):
-        """Loose throw folded over the foot of the bed with a soft hanging edge."""
-        ny, top_n = 18, 6
+        """Continuous soft throw resting flush on the duvet and curving over the foot edge."""
+        ny = 20
+        profile = [
+            (-.46, .012), (-.38, .015), (-.28, .013), (-.18, .014), (-.08, .012),
+            (-.02, .009), (.015, -.006), (.030, -.036), (.035, -.095),
+            (.036, -.175), (.038, -.260), (.040, -.335),
+        ]
         verts, faces = [], []
-        for i in range(top_n + 1):
+        for idx, (dist, dz) in enumerate(profile):
             for j in range(ny + 1):
-                xx = foot_x - inward * .44 * (1 - i / top_n)
                 yy = y1 + (y2 - y1) * j / ny
-                zz = z + .050 + .010 * math.sin(j * .85 + i * .6) + .004 * math.sin(i * 1.9)
+                ripple = .005 * math.sin(j * .75 + idx * .55)
+                if dist <= 0:
+                    xx = foot_x + inward * dist
+                    zz = z + dz + ripple
+                else:
+                    xx = foot_x + inward * (dist + .004 * math.sin(j * .7 + idx * .4))
+                    zz = z + dz
                 verts.append((xx, yy, zz))
-        for i in range(top_n):
+        for i in range(len(profile) - 1):
             for j in range(ny):
                 a = i * (ny + 1) + j
                 faces.append((a, a + 1, a + ny + 2, a + ny + 1))
-        flap_n = 6
-        base = len(verts)
-        for i in range(flap_n + 1):
-            for j in range(ny + 1):
-                xx = foot_x + inward * (.004 + .012 * i / flap_n) + .010 * math.sin(j * .8)
-                yy = y1 + (y2 - y1) * j / ny
-                zz = z + .050 - .36 * i / flap_n + .004 * math.sin(j * .7 + i * .5)
-                verts.append((xx, yy, zz))
-        for i in range(flap_n):
-            for j in range(ny):
-                a = base + i * (ny + 1) + j
-                faces.append((a, a + 1, a + ny + 2, a + ny + 1))
         obj = self.plane("Draped bed throw", verts, faces, self.F.throw)
-        self.rod("Bed throw fold roll", (foot_x - inward * .44, y1 + .04, z + .062),
-                 (foot_x - inward * .44, y2 - .04, z + .062), .032, self.F.throw, 12)
         for polygon in obj.data.polygons:
             polygon.use_smooth = True
         return obj
@@ -542,11 +548,12 @@ class Details:
                                head_line + inward * .40, yy + .25, floor + .63, .13,
                                self.F.bedding, .09)
             sleeper.rotation_euler.y = math.radians(8 if head_east else -8)
-        self.cushion(head_line + inward * .62, y1 + width * .30, floor + .66, .40, .32,
-                     self.F.boucle, 10)
-        self.cushion(head_line + inward * .62, y2 - width * .30, floor + .66, .40, .32,
-                     self.F.fabric, -12)
-        self.draped_throw(x1 if head_east else x2, inward, y1 + .06, y2 - .06, floor + .60)
+        tilt = 18 if head_east else -18
+        self.cushion(head_line + inward * .43, y1 + width * .30, floor + .59, .38, .30,
+                     self.F.boucle, 5, along_y=True, tilt=tilt)
+        self.cushion(head_line + inward * .43, y2 - width * .30, floor + .59, .38, .30,
+                     self.F.fabric, -5, along_y=True, tilt=tilt)
+        self.draped_throw(x1 if head_east else x2, inward, y1 + .06, y2 - .06, floor + .612)
         # Rug under the bed, sized to the room.
         if along_y:
             rug_x1 = max(ix1 + .05, x1 - .50) if head_east else x1 + .05
@@ -598,15 +605,13 @@ class Details:
                      floor + .58, .035, self.F.fabric, .012)
             self.box("Sofa arm blanket fold", sx1 + .10, sy1 + .06, sx2 - .10, sy1 + .10,
                      floor + .36, .22, self.F.fabric, .01)
-            for yy in (sy1 + .30, sy2 - .30):
-                self.cushion(sx1 + .32, yy, floor + .58, .38, .34, self.F.boucle, 8)
         tv = next((item for item in self.furniture[room["group"]]
                    if item["room"] == room["index"] and item["kind"] == "tv"), None)
         if tv:
             a, b, c, d = tv["bounds"]
             self.bowl((a + c) / 2, (b + d) / 2, floor + .52, .11)
             self.books((a + c) / 2 + .22, (b + d) / 2, floor + .52, 2, .20)
-        self.lamp(lamp_xy[0], lamp_xy[1], floor, .58, 11, .17, "floor")
+        self.lamp(lamp_xy[0], lamp_xy[1], floor, 1.48, 11, .19, "floor")
         self.plant(plant_xy[0], plant_xy[1], floor, 1.20, .15)
 
     def dining_dressing(self, room):
@@ -622,15 +627,37 @@ class Details:
                      .007, self.F.fabric, .003)
             self.vase(cx, cy, top + .008, .24)
             self.bowl(cx + .22, cy - .16, top + .008, .12)
-        self.box("Dining sideboard", ix1 + .12, iy2 - .37, ix1 + .82, iy2 - .05, floor, .80,
+        # Unified pale-oak north wainscot with vertical reveals + slim 2.20m tea/serving sideboard (320mm deep).
+        self.box("Dining north oak wainscot", ix1 + .16, iy2 - .032, ix2 - .16, iy2 - .002, floor + .08, 1.06,
+                 self.F.wood, .005)
+        for index in range(1, 8):
+            xx = ix1 + .16 + (ix2 - ix1 - .32) * index / 8
+            self.box("Dining wainscot seam", xx - .004, iy2 - .036, xx + .004, iy2 - .030, floor + .09, 1.04,
+                     self.F.darkwood, 0)
+        sb_x1, sb_x2 = ix1 + .22, ix1 + 2.42
+        self.box("Dining sideboard plinth", sb_x1 + .03, iy2 - .33, sb_x2 - .03, iy2 - .05, floor, .08,
+                 self.F.darkwood, .004)
+        self.box("Dining sideboard", sb_x1, iy2 - .37, sb_x2, iy2 - .05, floor + .08, .72,
                  self.F.wood, .012)
-        self.box("Sideboard top", ix1 + .10, iy2 - .39, ix1 + .84, iy2 - .03, floor + .80, .032,
+        for index in range(1, 4):
+            xx = sb_x1 + (sb_x2 - sb_x1) * index / 4
+            self.box("Sideboard door seam", xx - .004, iy2 - .376, xx + .004, iy2 - .368, floor + .10, .68,
+                     self.F.darkwood, 0)
+        for index in range(4):
+            xx = sb_x1 + (index + .5) * (sb_x2 - sb_x1) / 4
+            self.box("Sideboard brass pull", xx - .008, iy2 - .388, xx + .008, iy2 - .372, floor + .54, .18,
+                     self.F.brass, .004)
+        self.box("Sideboard top", sb_x1 - .02, iy2 - .39, sb_x2 + .02, iy2 - .03, floor + .80, .032,
                  self.F.counter, .005)
-        self.lamp(ix1 + .33, iy2 - .20, floor + .83, .40, 7, .12, "sideboard")
-        self.vase(ix1 + .64, iy2 - .20, floor + .83, .30)
-        self.art((ix1 + .12 + ix1 + .82) / 2, iy2 - .012, floor + 1.32, .95, .58, "y", -1)
-        self.plant(ix2 - .30, iy2 - .40, floor, 1.05, .14)
+        self.lamp(sb_x1 + .26, iy2 - .20, floor + .83, .40, 7, .12, "sideboard")
+        self.vase(sb_x1 + .76, iy2 - .20, floor + .83, .28)
+        self.cyl("Tea kettle on sideboard", sb_x2 - .34, iy2 - .20, floor + .83, floor + 1.04, .085,
+                 self.F.blackmetal, 20)
+        self.bowl(sb_x2 - .74, iy2 - .20, floor + .83, .11)
+        self.art(sb_x1 + .50, iy2 - .012, floor + 1.32, .95, .58, "y", -1)
+        self.plant(ix2 - .30, iy2 - .38, floor, 1.05, .14)
         self.art(ix1 + .012, iy1 + 5.55, floor + 1.20, .82, .56, "x", 1)
+        self.art(ix2 - .012, iy1 + 6.22, floor + 1.24, 1.05, .62, "x", -1)
 
     def kitchen_dressing(self, room):
         floor = room["floor"]
@@ -665,16 +692,14 @@ class Details:
         for xx in (9.20, 9.72, 10.25):
             self.box("Cabinet pull", xx - .010, 1.462, xx + .010, 1.482, floor + .60, .22,
                      self.F.brass, .005)
-        # East counter styling and a readable fridge front.
+        for xx in (9.28, 9.85, 10.42):
+            self.box("North cabinet pull", xx - .010, 5.680, xx + .010, 5.698, floor + .58, .22,
+                     self.F.brass, .005)
+        # East counter styling (fridge seam & handles live in render_model.py to avoid duplicates).
         self.box("Counter board", 10.60, 3.28, 11.05, 3.62, floor + .94, .022, self.F.wood, .006)
         self.cyl("Counter kettle", 10.62, 3.12, floor + .94, floor + 1.17, .095,
                  self.F.blackmetal, 24)
         self.bowl(10.94, 2.98, floor + .94, .11)
-        self.box("Fridge door seam", 10.332, 4.76, 10.342, 5.54, floor + 1.28, .012,
-                 self.F.darkwood, 0)
-        for zz in (.55, 1.62):
-            self.box("Fridge handle", 10.300, 4.80, 10.316, 4.86, floor + zz, .32,
-                     self.F.metal, .008)
 
     def bath_dressing(self, room):
         floor = room["floor"]
@@ -715,14 +740,34 @@ class Details:
                 for z, material in ((.243,self.F.towel),(.277,self.F.boucle)):
                     self.box('Folded towel on vanity shelf', vx1+.045,vy1+.14,vx2-.085,vy1+.36,
                              floor+z,.033,material,.008)
+        wc = next((item for item in self.furniture[room["group"]]
+                   if item["room"] == room["index"] and item["kind"] == "wc"), None)
+        if wc:
+            wx1, wy1, wx2, wy2 = wc["bounds"]
+            # Wall-mounted toilet roll holder with small phone shelf beside WC.
+            side_x = x2 - .035 if wc.get("rotation") == 180 else x1 + .035
+            self.box("WC roll shelf", side_x - .055, wy1 - .08, side_x + .055, wy1 + .08,
+                     floor + .66, .018, self.F.metal, .003)
+            self.cyl("Toilet roll", side_x, wy1, floor + .54, floor + .64, .052, self.F.ceramic, 18)
         shower = next((item for item in self.furniture[room["group"]]
                        if item["room"] == room["index"] and item["kind"] == "shower"), None)
         if shower:
             sx1, sy1, sx2, sy2 = shower["bounds"]
+            # Recessed anti-bump shower niche with dark metal trim on north shower wall.
+            nx1, nx2 = sx1 + .16, sx1 + .68
+            self.box("Shower niche back", nx1, sy2 - .042, nx2, sy2 - .012, floor + 1.12, .34,
+                     self.F.stone, .003)
+            self.box("Shower niche trim", nx1 - .012, sy2 - .048, nx2 + .012, sy2 - .036, floor + 1.11, .018,
+                     self.F.metal, .002)
+            self.box("Shower niche trim top", nx1 - .012, sy2 - .048, nx2 + .012, sy2 - .036, floor + 1.45, .018,
+                     self.F.metal, .002)
             bottles = (self.F.branch, self.F.ceramic, self.F.pot)
             for index in range(3):
-                self.cyl("Shower bottle", sx1 + .18 + index * .12, sy2 - .08, floor + 1.16,
-                         floor + 1.34 + index * .04, .035, bottles[index], 14)
+                self.cyl("Shower bottle", sx1 + .25 + index * .13, sy2 - .055, floor + 1.13,
+                         floor + 1.31 + index * .035, .034, bottles[index], 14)
+        # Moisture-resistant ceiling exhaust / heater panel indicator.
+        self.box("Bathroom ceiling heater panel", (x1 + x2) / 2 - .28, (y1 + y2) / 2 - .15,
+                 (x1 + x2) / 2 + .28, (y1 + y2) / 2 + .15, floor + 3.015, .022, self.F.ceramic, .004)
 
     def entry_dressing(self, room):
         floor = room["floor"]
@@ -775,8 +820,17 @@ class Details:
         self.bed_dressing(r["front-2"])
         self.kitchen_dressing(r["front-0"])
         floor = r["front-1"]["floor"]
-        self.rug(4.72, 1.15, 7.28, 5.55, floor + .014, self.F.rug_pale)
-        self.box("Hall console", 7.22, 2.55, 7.62, 3.85, floor, .80, self.F.wood, .01)
+        # Keep the front hall stone tile + border exposed (no large light rug at rural entry).
+        self.box("Hall console shoe recess", 7.26, 2.58, 7.62, 3.82, floor, .15, self.F.darkwood, .004)
+        self.box("Hall console", 7.22, 2.55, 7.62, 3.85, floor + .15, .65, self.F.wood, .01)
+        for index in range(1, 3):
+            yy = 2.55 + (3.85 - 2.55) * index / 3
+            self.box("Hall console door seam", 7.214, yy - .004, 7.224, yy + .004, floor + .17, .61,
+                     self.F.darkwood, 0)
+        for index in range(3):
+            yy = 2.55 + (index + .5) * (3.85 - 2.55) / 3
+            self.box("Hall console brass pull", 7.202, yy - .008, 7.218, yy + .008, floor + .54, .18,
+                     self.F.brass, .004)
         self.box("Hall console top", 7.20, 2.53, 7.64, 3.87, floor + .80, .03, self.F.counter, .005)
         self.vase(7.40, 2.80, floor + .83, .28)
         self.bowl(7.40, 3.58, floor + .83, .11)
@@ -791,21 +845,22 @@ class Details:
 
         self.enter("Rear1")
         self.bed_dressing(r["rear1-5"])
-        self.living_dressing(r["rear1-0"], (3.10, 20.92), (3.58, 16.18))
+        self.living_dressing(r["rear1-0"], (1.24, 20.38), (3.58, 16.18))
+        self.art(1.98, r["rear1-0"]["inner"][3] - .012, r["rear1-0"]["floor"] + 1.18, 1.10, .72, "y", -1)
         self.dining_dressing(r["rear1-3"])
         self.bath_dressing(r["rear1-1"])
         self.bath_dressing(r["rear1-7"])
         self.entry_dressing(r["rear1-8"])
         floor = r["rear1-6"]["floor"]
         self.rug(8.20, 21.62, 10.72, 23.62, floor + .014, self.F.rug_pale)
-        self.lamp(10.86, 21.55, floor, .56, 10, .16, "floor")
+        self.lamp(10.86, 21.55, floor, 1.48, 10, .18, "floor")
         self.books(10.80, 23.72, floor + .66, 3, .22)
         self.art(11.14, 21.95, floor + 1.28, .78, .52, "x", -1)
         self.plant(9.10, 21.70, floor, .95, .12)
 
         self.enter("Rear2")
         self.bed_dressing(r["rear2-0"])
-        self.living_dressing(r["rear2-3"], (5.02, 21.60), (7.34, 16.72))
+        self.living_dressing(r["rear2-3"], (4.72, 21.72), (7.34, 16.72))
         self.bath_dressing(r["rear2-1"])
         self.bath_dressing(r["rear2-7"])
         self.bed_dressing(r["rear2-5"])
@@ -813,6 +868,13 @@ class Details:
         floor = r["rear2-3"]["floor"]
         self.lamp(4.62, 23.78, floor + .76, .36, 5.5, .095, "desk")
         self.books(6.15, 23.80, floor + .78, 3, .24)
+        # Styling on the floating shelf above the shared study desk (below the 1.90m north window sill).
+        shelf_top = floor + 1.525
+        for idx, xx in enumerate((4.78, 4.86, 4.94, 5.02)):
+            self.box("Shelf upright book", xx, 23.89, xx + .042, 24.07, shelf_top, .22 + (idx % 2) * .04,
+                     self.F.boucle if idx % 2 else self.F.wood, .003)
+        self.books(5.55, 23.98, shelf_top, 2, .22)
+        self.vase(6.25, 23.98, shelf_top, .20)
 
 
 def build(ctx):

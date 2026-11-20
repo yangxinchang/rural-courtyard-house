@@ -1,8 +1,8 @@
 {
   "version": "O",
-  "decoration_items": 87,
+  "decoration_items": 85,
   "blender": "4.2.3 LTS",
-  "mesh_objects": 6031,
+  "mesh_objects": 6345,
   "units": "m",
   "covered_entry": {
     "bounds": [

@@ -92,6 +92,10 @@ BEDDING = material("Cotton", (.81, .77, .69), .94)
 WATER = material("Sanitary porcelain", (.83, .85, .81), .25)
 DOORMETAL=material('Charcoal glazed door frame',(.045,.047,.043),.35,.6)
 CANOPY_FRAME=material('Matte graphite rain canopy frame',(.048,.052,.056),.46,.45)
+LED = material("Warm ceiling light", (.95,.85,.62), .4)
+ledbsdf=LED.node_tree.nodes.get("Principled BSDF")
+ledbsdf.inputs["Emission Color"].default_value=(1,.8,.5,1)
+ledbsdf.inputs["Emission Strength"].default_value=2.5
 CANOPY_GLASS=material('Clear rain canopy glazing',(.66,.77,.83),.16)
 CANOPY_GLASS.node_tree.nodes.get('Principled BSDF').inputs['Alpha'].default_value=.16
 CANOPY_GLASS.surface_render_method='DITHERED'
@@ -311,11 +315,29 @@ cube('Open front forecourt',((fx1+fx2)/2,(fy1+fy2)/2,.004),(fx2-fx1,fy2-fy1,.025
 for x in range(1,16):cube('Forecourt paving joint',(x,-4,.019),(.006,8,.002),STONE)
 for y in range(-7,1):cube('Forecourt paving joint',(SITE[0]/2,y,.019),(SITE[0],.006,.002),STONE)
 cube('Forecourt central approach',(6,-4,.023),(2.4,8,.012),FLOOR)
+# Two indicative 2.6x5.2m parking bays flanking the central approach, plus low-maintenance west planting strip.
+for px1,px2 in ((1.40,4.00),(7.80,10.40)):
+    for yy in (-6.80,-1.60):
+        cube('Forecourt parking bay line',((px1+px2)/2,yy,.021),(px2-px1,.06,.004),STONE)
+    for xx in (px1,px2):
+        cube('Forecourt parking bay line',(xx,-4.20,.021),(.06,5.20,.004),STONE)
+cube('Forecourt west planter bed',(.55,-4.00,.18),(.76,6.60,.36),STONE,.018)
+for py in (-6.4,-4.8,-3.2,-1.6):
+    for j in range(5):
+        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=1,radius=.18,location=(.55+random.uniform(-.16,.16),py+random.uniform(-.30,.30),.46+random.random()*.22))
+        move(bpy.context.object,'Forecourt shrub',LEAVES[j%5])
 CURRENT='Outbuilding'
 slab(STORAGE['bounds'],STORAGE['floor'],'Storage ground slab')
 build_walls('storage',STORAGE['floor'])
 x1,y1,x2,y2=STORAGE['bounds']
 cube('Storage entrance tread',(x1-.32,y1+1.50,.075),(.64,1.5,.15),FLOOR,.015)
+# Match main house language: perimeter stone plinth, west door canopy and outdoor sconce.
+cube('Storage plinth',((x1+x2)/2,(y1+y2)/2,.23),(x2-x1+.04,y2-y1+.04,.46),STONE)
+cube('Storage door canopy',(x1-.42,y1+1.50,2.62),(.86,1.65,.06),CANOPY_FRAME,.01)
+for dy in (-.62,.62):
+    rod('Storage canopy stay',(x1-.02,y1+1.50+dy,3.05),(x1-.74,y1+1.50+dy,2.64),.014,CANOPY_FRAME)
+cube('Storage porch sconce',(x1-.04,y1+2.42,2.10),(.07,.10,.22),CANOPY_FRAME,.008)
+cube('Storage porch sconce glow',(x1-.075,y1+2.42,2.10),(.02,.06,.16),LED,.004)
 for z in (.55,1.1,1.65,2.2):
     cube('Storage north shelf',((x1+x2)/2,y2-.42,z),(3.1,.50,.05),WOOD,.008)
     cube('Storage east shelf',(x2-.52,(y1+y2)/2,z),(.50,y2-y1-1.10,.05),WOOD,.008)
@@ -325,6 +347,9 @@ for x,y in ((x1+.8,y2-.42),(x1+1.5,y2-.42),(x1+2.6,y2-.42),(x2-.52,y1+2.2)):
     cube('Storage covered box',(x,y,.78),(.46,.40,.38),WOOD,.012)
 CURRENT='OutbuildingRoof'
 slab(STORAGE['bounds'],STORAGE['roof_level'],'Storage flat roof slab')
+rt=STORAGE['roof_level']+.10
+for yy in (y1-.02,y2+.02):cube('Storage roof metal coping',((x1+x2)/2,yy,rt),(x2-x1+.10,.10,.08),CANOPY_FRAME,.008)
+for xx in (x1-.02,x2+.02):cube('Storage roof metal coping',(xx,(y1+y2)/2,rt),(.10,y2-y1+.10,.08),CANOPY_FRAME,.008)
 CURRENT='Site'
 for (a,b,c,d),top in zip(COURTYARD_WALLS,COURTYARD_WALL_TOPS):
     side=(a+c)/2;length=d-b;center=(b+d)/2
@@ -417,10 +442,6 @@ COUNTER = textured_material("Pale quartz",'warm-stone.png',(.73,.72,.66),.3)
 METAL = material("Warm brushed bronze", (.32,.24,.14), .3, .65)
 MIRROR = material("Mirror", (.68,.77,.78), .06, .85)
 ACCENT = textured_material("Warm stone feature panel",'warm-stone.png',(.64,.59,.5),.65)
-LED = material("Warm ceiling light", (.95,.85,.62), .4)
-ledbsdf=LED.node_tree.nodes.get("Principled BSDF")
-ledbsdf.inputs["Emission Color"].default_value=(1,.8,.5,1)
-ledbsdf.inputs["Emission Strength"].default_value=2.5
 GLASS.node_tree.nodes.get("Principled BSDF").inputs["Alpha"].default_value=.34
 GLASS.surface_render_method="DITHERED"
 
@@ -552,6 +573,15 @@ for group,items in furnishings().items():
             for y in (y1+.018,cy,y2-.018):
                 cube('Entry shoe bench divider',(cx,y,floor+.248),(width,.036,.32),PALEWOOD,.006)
             cube('Entry shoe bench back',(x2-.012,cy,floor+.248),(.024,depth,.32),PALEWOOD)
+            tray_depth, tray_width = width - .080, depth / 2 - .094
+            tray_x = cx - .004
+            for tray_y in ((y1+cy)/2, (cy+y2)/2):
+                cube('Entry shoe tray base',(tray_x,tray_y,floor+.098),
+                     (tray_depth,tray_width,.016),CANOPY_FRAME,.003)
+                for x in (tray_x-tray_depth/2+.006, tray_x+tray_depth/2-.006):
+                    cube('Entry shoe tray rim',(x,tray_y,floor+.115),(.012,tray_width,.026),CANOPY_FRAME,.003)
+                for y in (tray_y-tray_width/2+.006, tray_y+tray_width/2-.006):
+                    cube('Entry shoe tray rim',(tray_x,y,floor+.115),(tray_depth-.024,.012,.026),CANOPY_FRAME,.003)
         elif kind in ("cabinet","wardrobe","console","nightstand","bench","fridge","washer"):
             height=obj["height"]
             mat=WATER if kind in ("fridge","washer") else PALEWOOD
@@ -568,15 +598,32 @@ for group,items in furnishings().items():
                         yy=y1+depth*i/max(2,round(depth/.55))
                         cube('Kitchen cabinet reveal',(face,yy,floor+height/2),(.009,.009,height-.10),DARKWOOD)
                 else:
+                    face=y1-.008 if cy>3.5 else y2+.008
                     for i in range(1,max(2,round(width/.55))):
                         xx=x1+width*i/max(2,round(width/.55))
-                        cube('Kitchen cabinet reveal',(xx,y2+.008,floor+height/2),(.009,.009,height-.10),DARKWOOD)
+                        cube('Kitchen cabinet reveal',(xx,face,floor+height/2),(.009,.009,height-.10),DARKWOOD)
+            if kind=="bench":
+                # Front hall bench: suspended open shoe slot under seat + drawer reveals.
+                face=x2+.007 if cx<6 else x1-.007
+                cube('Hall bench shoe recess',(cx,cy,floor+.075),(width-.04,depth-.08,.15),DARKWOOD,.004)
+                for i in range(1,3):
+                    yy=y1+depth*i/3
+                    cube('Hall bench drawer seam',(face,yy,floor+.30),(.008,.009,.24),DARKWOOD)
+                for i in range(3):
+                    yy=y1+(i+.5)*depth/3
+                    cube('Hall bench pull',(face+(.012 if cx<6 else -.012),yy,floor+.34),(.014,.10,.014),METAL,.004)
+            if kind=="nightstand":
+                face=x1-.007 if cx>6 else x2+.007
+                cube('Nightstand recessed plinth',(cx,cy,floor+.03),(width-.04,depth-.04,.06),DARKWOOD,.005)
+                cube('Nightstand drawer seam',(face,cy,floor+height*.52),(.008,depth-.05,.009),DARKWOOD)
+                for hz in (height*.30,height*.74):
+                    cube('Nightstand pull',(face+(-.012 if cx>6 else .012),cy,floor+hz),(.014,.11,.014),METAL,.004)
             if kind=="washer":
                 rod("Washer door",(cx,y1-.012,floor+.43),(cx,y1-.04,floor+.43),.22,GLASS,32)
             if kind=='fridge':
-                cube('Fridge door split',(x1-.014,cy,floor+.70),(.024,depth-.035,.016),STONE)
-                for h in (.40,1.35):
-                    cube('Fridge handle',(x1-.047,y2-.12,floor+h),(.065,.025,.30),METAL,.008)
+                cube('Fridge door split',(x1-.010,cy,floor+1.22),(.018,depth-.03,.014),STONE)
+                for h in (.68,1.58):
+                    cube('Fridge handle',(x1-.032,y1+.11,floor+h),(.036,.022,.30),METAL,.007)
             if kind=="wardrobe":
                 if obj.get('front')=='south':
                     cube('South cabinet door',(cx,y1-.008,floor+height/2),(width-.025,.018,height-.04),PALEWOOD,.008)
@@ -662,7 +709,13 @@ for group,items in furnishings().items():
                 pillow=cube('Sofa loose cushion',(x2-.23,yy,floor+.73),(.18,.40,.36),BEDDING,.07)
                 pillow.rotation_euler.y=math.radians(-12)
         elif kind=="tv":
-            cube("TV console",(cx,cy,floor+.25),(width,depth,.5),PALEWOOD,.02)
+            cube("TV console plinth",(cx,cy,floor+.04),(width-.06,depth-.08,.08),DARKWOOD,.006)
+            cube("TV console",(cx,cy,floor+.29),(width,depth,.42),PALEWOOD,.016)
+            cube("TV console open niche",(x1-.006,cy,floor+.38),(.028,depth*.34,.14),DARKWOOD,.005)
+            for dy in (-depth*.18,depth*.18):
+                cube("TV console door seam",(x1-.006,cy+dy,floor+.29),(.008,.009,.38),DARKWOOD)
+            for dy in (-depth*.34,depth*.34):
+                cube("TV console pull",(x1-.016,cy+dy,floor+.33),(.014,.09,.014),METAL,.004)
             cube("TV screen",(x1+.035,cy,floor+1.2),(.05,depth,.66),SCREEN,.015)
         elif kind=="hob":
             cube('High-output gas hob concept',(cx,cy,floor+.931),(width,depth,.025),STONE,.012)
@@ -694,16 +747,28 @@ for group,items in furnishings().items():
             cube("WC seat",(cx+sign*.05,cy,floor+.49),(width-.21,depth-.12,.055),WATER,.1)
         elif kind=="vanity":
             side=x1-.02 if obj["rotation"]==0 else x2+.02
+            front_face=x2+.007 if obj["rotation"]==0 else x1-.007
+            pull_x=front_face+(.012 if obj["rotation"]==0 else -.012)
             if obj.get('open_shelf'):
                 cube('Vanity floating basin cabinet',(cx,cy,floor+.605),(width,depth,.41),PALEWOOD,.018)
+                cube('Vanity drawer seam',(front_face,cy,floor+.605),(.008,depth-.05,.009),DARKWOOD)
+                for hz in (.51,.71):cube('Vanity pull',(pull_x,cy,floor+hz),(.014,.12,.014),METAL,.004)
                 cube('Vanity open lower shelf',(cx,cy,floor+.22),(width,depth,.045),PALEWOOD,.009)
                 support_x=x2-.04 if obj['rotation']==180 else x1+.04
                 cube('Vanity shelf back support',(support_x,cy,floor+.365),(.038,depth-.03,.26),PALEWOOD,.006)
             else:
                 cube("Vanity cabinet",(cx,cy,floor+.45),(width,depth,.72),PALEWOOD,.02)
+                cube('Vanity drawer seam',(front_face,cy,floor+.52),(.008,depth-.05,.009),DARKWOOD)
+                for hz in (.34,.66):cube('Vanity pull',(pull_x,cy,floor+hz),(.014,.12,.014),METAL,.004)
             cube("Vanity basin rim",(cx,cy,floor+.84),(width+.025,depth+.025,.09),WATER,.025)
             cube("Basin inset",(cx,cy,floor+.89),(width-.13,depth-.15,.025),GLASS,.04)
-            cube("Bathroom mirror",(side,cy,floor+1.5),(.03,depth,.65),MIRROR,.01)
+            # Upgrade flat mirror to shallow oak storage mirror cabinet with under-light.
+            cab_x=side+(.065 if obj["rotation"]==0 else -.065)
+            mir_x=cab_x+(.068 if obj["rotation"]==0 else -.068)
+            cube("Bathroom mirror cabinet",(cab_x,cy,floor+1.52),(.13,depth,.68),PALEWOOD,.012)
+            cube("Bathroom mirror",(mir_x,cy,floor+1.52),(.012,depth-.02,.66),MIRROR,.006)
+            cube("Bathroom mirror seam",(mir_x+(.006 if obj["rotation"]==0 else -.006),cy,floor+1.52),(.006,.008,.64),DARKWOOD)
+            cube("Bathroom mirror under-light",(cab_x,cy,floor+1.175),(.05,depth-.08,.014),LED,.003)
             rod("Basin tap",(side,cy,floor+.87),(side,cy,floor+1.03),.012,METAL)
         if kind in ('sofa','chair','tv','armchair') and obj.get('rotation'):
             angle=math.radians(obj['rotation'])
@@ -977,6 +1042,23 @@ for name,path,radius in (
     ('Courtyard canopy independent overflow',COURTYARD_CANOPY['overflow_path'],.028),
 ):
     for a,b in zip(path,path[1:]):rod(name,a,b,radius,CANOPY_FRAME)
+# Summer motorized retractable shade canopy (half-deployed over south-mid bays) & east high-side vent skylights.
+shade_y1,shade_y2=sy+.18,sy+4.65
+for rail_x in (glass_w+.35,(glass_w+ex)/2,ex-.35):
+    rod('Canopy shade guide rail',(rail_x,sy+.12,canopy_height(rail_x)-.16),(rail_x,ny-.12,canopy_height(rail_x)-.16),.012,CANOPY_FRAME)
+for fold in range(10):
+    fy=shade_y1+(fold+.5)*(shade_y2-shade_y1)/10
+    mid_x=(glass_w+ex)/2
+    slat=cube('Motorized canopy shade fold',(mid_x,fy,canopy_height(mid_x)-.20),(ex-glass_w-.45,.34,.022),FABRIC,.008)
+    slat.rotation_euler.y=-math.atan2(ze-zw,ex-glass_w)
+    slat.rotation_euler.x=math.radians(8 if fold%2 else -8)
+for vy1,vy2 in ((10.56,11.73),(11.85,13.02)):
+    vx1,vx2=ex-1.15,ex-.08
+    vz=canopy_height((vx1+vx2)/2)+.09
+    vent=cube('Motorized heat-vent skylight',( (vx1+vx2)/2,(vy1+vy2)/2,vz ),(vx2-vx1,vy2-vy1,.035),CANOPY_FRAME,.006)
+    vent.rotation_euler.y=math.radians(9)
+    for dy in (vy1+.12,vy2-.12):
+        rod('Vent skylight actuator',(vx1+.08,dy,canopy_height(vx1+.08)),(vx1+.14,dy,vz-.02),.010,METAL)
 
 for index,(a,b) in enumerate(zip(KITCHEN_EXHAUST['points'],KITCHEN_EXHAUST['points'][1:])):
     CURRENT='Front' if index<2 else 'Terrace'
@@ -990,26 +1072,58 @@ CURRENT='Site'
 for x in (1.2,10.8):
     for y in (9,12):cube("Bridge support - indicative",(x,y,1.71),(.18,.18,3.42),DARKWOOD)
 for x in (11.76,13.98):cube("Stair support - indicative",(x,21.52,.885),(.2,.2,1.77),PLASTER)
+def outdoor_seating(prefix, seats, table, floor):
+    for x,y in seats:
+        cube(prefix+' lounge seat',(x,y,floor+.41),(.58,.61,.09),PALEWOOD,.027)
+        cube(prefix+' lounge outdoor cushion',(x-.012,y,floor+.48),(.54,.56,.08),FABRIC,.036)
+        for dy in (-.285,.285):
+            for dx in (-.24,.24):
+                rod(prefix+' lounge leg',(x+dx*1.18,y+dy,floor+.01),(x+dx,y+dy,floor+.41),.022,DARKWOOD)
+            rod(prefix+' lounge back frame',(x+.27,y+dy,floor+.44),(x+.42,y+dy,floor+1.03),.022,DARKWOOD)
+            rod(prefix+' lounge arm',(x-.2,y+dy,floor+.66),(x+.325,y+dy,floor+.66),.024,PALEWOOD)
+            rod(prefix+' lounge front arm support',(x-.24,y+dy,floor+.41),
+                (x-.20,y+dy,floor+.66),.018,DARKWOOD)
+        rod(prefix+' lounge back top rail',(x+.412,y-.285,floor+1.00),
+            (x+.412,y+.285,floor+1.00),.019,PALEWOOD)
+        for row in range(17):
+            h=row*.032
+            rod(prefix+' lounge woven back',(x+.27+h*.25,y-.28,floor+.47+h),
+                (x+.27+h*.25,y+.28,floor+.47+h),.011,PALEWOOD,8)
+        for strand in range(11):
+            yy=y+(strand-5)*.046
+            vertices=[]
+            for row in range(17):
+                h=row*.032
+                xx=x+.27+h*.25+(.014 if (row+strand)%2 else -.014)
+                vertices.extend(((xx,yy-.008,floor+.47+h),(xx,yy+.008,floor+.47+h)))
+            mesh(prefix+' lounge woven upright',vertices,
+                 [(i,i+1,i+3,i+2) for i in range(0,len(vertices)-2,2)],PALEWOOD)
+
+    x,y,width,depth=table
+    cube(prefix+' low table timber rim',(x,y,floor+.43),(width,depth,.045),PALEWOOD,.012)
+    cube(prefix+' low table stone insert',(x,y,floor+.456),(width-.07,depth-.07,.014),COUNTER,.004)
+    for dx in (-width/2+.055,width/2-.055):
+        for dy in (-depth/2+.055,depth/2-.055):
+            cube(prefix+' low table leg',(x+dx,y+dy,floor+.22),(.043,.043,.42),DARKWOOD)
+        cube(prefix+' low table apron',(x+dx,y,floor+.389),(.028,depth-.11,.048),PALEWOOD,.004)
+    for dy in (-depth/2+.055,depth/2-.055):
+        cube(prefix+' low table apron',(x,y+dy,floor+.389),(width-.11,.028,.048),PALEWOOD,.004)
+
+
 CURRENT="Terrace"
 for i in range(9):
     cube("Terrace tile seam",(1.2+i*1.05,3.6,3.606),(.008,5.75,.008),STONE)
+outdoor_seating('Terrace',((8.95,2.55),(8.95,4.15)),(8.12,3.35,.62,.96),3.60)
+for px,py in ((9.95,1.45),(9.95,5.35)):
+    cube('Terrace stone planter',(px,py,3.82),(.48,.48,.44),STONE,.018)
+    for j in range(6):
+        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=1,radius=.14,location=(px+random.uniform(-.15,.15),py+random.uniform(-.15,.15),4.18+random.random()*.18))
+        move(bpy.context.object,'Terrace planter foliage',LEAVES[j%5])
 CURRENT = "Garden"
-for x,y in COURTYARD_SEATS:
-    cube('Courtyard lounge seat',(x,y,.41),(.58,.61,.09),PALEWOOD,.027)
-    cube('Courtyard lounge outdoor cushion',(x-.012,y,.48),(.54,.56,.08),FABRIC,.036)
-    for dy in (-.285,.285):
-        for dx in (-.24,.24):
-            rod('Courtyard lounge leg',(x+dx*1.18,y+dy,.01),(x+dx,y+dy,.41),.022,DARKWOOD)
-        rod('Courtyard lounge back frame',(x+.27,y+dy,.44),(x+.42,y+dy,1.03),.022,DARKWOOD)
-        rod('Courtyard lounge arm',(x-.2,y+dy,.66),(x+.325,y+dy,.66),.024,PALEWOOD)
-    for i in range(17):
-        h=i*.032
-        rod('Courtyard lounge woven back',(x+.27+h*.25,y-.28,.47+h),(x+.27+h*.25,y+.28,.47+h),.011,PALEWOOD)
-x,y,w,d = COURTYARD_LOW_TABLE
-cube('Courtyard low table timber rim',(x,y,.43),(w,d,.045),PALEWOOD,.012)
-cube('Courtyard low table stone insert',(x,y,.456),(w-.07,d-.07,.014),COUNTER,.004)
-for dx in (-w/2+.055,w/2-.055):
-    for dy in (-d/2+.055,d/2-.055):cube('Courtyard low table leg',(x+dx,y+dy,.22),(.043,.043,.42),DARKWOOD)
+for wx in (4.55,7.45):
+    cube('Courtyard porch sconce body',(wx,14.38,2.15),(.10,.07,.24),CANOPY_FRAME,.008)
+    cube('Courtyard porch sconce glow',(wx,14.345,2.15),(.06,.02,.18),LED,.004)
+outdoor_seating('Courtyard',COURTYARD_SEATS,COURTYARD_LOW_TABLE,0)
 def laundry_machine(machine,base=0,front='east'):
     a,b,c,d=machine['bounds'];cx,cy=(a+c)/2,(b+d)/2;bottom=base+machine['z'];height=machine['height']
     start=set(bpy.data.objects)

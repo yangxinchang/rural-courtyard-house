@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-07T15:00:37.057534</dc:date>
+    <dc:date>2026-11-20T16:12:25.647917</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -36,7 +36,7 @@ L 1167.874016 22.677165
 L 22.677165 22.677165 
 L 22.677165 819.212598 
 z
-" clip-path="url(#pd9c209132f)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: none; stroke: #aebbb1; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 56.692913 328.818898 
@@ -44,7 +44,7 @@ L 566.929134 328.818898
 L 566.929134 144.566929 
 L 56.692913 144.566929 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 507.401575 184.251969 
@@ -52,7 +52,7 @@ L 549.92126 184.251969
 L 549.92126 155.905512 
 L 507.401575 155.905512 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f0e9da; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f0e9da; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 623.622047 328.818898 
@@ -60,7 +60,7 @@ L 1133.858268 328.818898
 L 1133.858268 144.566929 
 L 623.622047 144.566929 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 1074.330709 184.251969 
@@ -68,7 +68,7 @@ L 1116.850394 184.251969
 L 1116.850394 155.905512 
 L 1074.330709 155.905512 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #dad6c9; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #dad6c9; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 56.692913 541.417323 
@@ -76,7 +76,7 @@ L 566.929134 541.417323
 L 566.929134 357.165354 
 L 56.692913 357.165354 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 507.401575 396.850394 
@@ -84,7 +84,7 @@ L 549.92126 396.850394
 L 549.92126 368.503937 
 L 507.401575 368.503937 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #ded7c8; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #ded7c8; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 623.622047 541.417323 
@@ -92,7 +92,7 @@ L 1133.858268 541.417323
 L 1133.858268 357.165354 
 L 623.622047 357.165354 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 1074.330709 396.850394 
@@ -100,7 +100,7 @@ L 1116.850394 396.850394
 L 1116.850394 368.503937 
 L 1074.330709 368.503937 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #d9d8cc; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #d9d8cc; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_11">
     <path d="M 56.692913 754.015748 
@@ -108,7 +108,7 @@ L 566.929134 754.015748
 L 566.929134 569.76378 
 L 56.692913 569.76378 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
     <path d="M 507.401575 609.448819 
@@ -116,7 +116,7 @@ L 549.92126 609.448819
 L 549.92126 581.102362 
 L 507.401575 581.102362 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #bb9367; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #bb9367; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="patch_13">
     <path d="M 623.622047 754.015748 
@@ -124,7 +124,7 @@ L 1133.858268 754.015748
 L 1133.858268 569.76378 
 L 623.622047 569.76378 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #f4f1e9; stroke: #d1d2c8; stroke-width: 0.5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_14">
     <path d="M 1074.330709 609.448819 
@@ -132,20 +132,20 @@ L 1116.850394 609.448819
 L 1116.850394 581.102362 
 L 1074.330709 581.102362 
 z
-" clip-path="url(#pd9c209132f)" style="fill: #a9b0a5; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
+" clip-path="url(#pad8288cb84)" style="fill: #a9b0a5; stroke: #c0c1b8; stroke-width: 0.3; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 51.023622 119.055118 
 L 1139.527559 119.055118 
-" clip-path="url(#pd9c209132f)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
+" clip-path="url(#pad8288cb84)" style="fill: none; stroke: #476552; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 51.023622 779.527559 
 L 1139.527559 779.527559 
-" clip-path="url(#pd9c209132f)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
+" clip-path="url(#pad8288cb84)" style="fill: none; stroke: #aebbb1; stroke-width: 0.6; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 院 · 居 -->
      <g style="fill: #263a36" transform="translate(53.858268 64.722872) scale(0.2 -0.2)">
       <defs>
@@ -289,7 +289,7 @@ z
     </g>
    </g>
    <g id="text_2">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 装修选材建议 · 墙面、厨卫与柜体 -->
      <g style="fill: #263a36" transform="translate(181.417323 60.849163) scale(0.16 -0.16)">
       <defs>
@@ -987,7 +987,7 @@ z
     </g>
    </g>
    <g id="text_3">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 暖白木色与现代中式 / 中档耐用、易维护 / 规格为本案起选建议，非采购定案 -->
      <g style="fill: #6c7770" transform="translate(53.858268 98.585961) scale(0.085 -0.085)">
       <defs>
@@ -2181,7 +2181,7 @@ z
     </g>
    </g>
    <g id="text_4">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- MAT-102 -->
      <g style="fill: #263a36" transform="translate(1089.037913 62.644747) scale(0.12 -0.12)">
       <defs>
@@ -2352,7 +2352,7 @@ z
     </g>
    </g>
    <g id="text_5">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 精装方案 P·水电深化  /  2026.11.07  /  示意面宽 15.20 m  /  后方净空 5.00 m -->
      <g style="fill: #6c7770" transform="translate(53.858268 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3220,7 +3220,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 图示标尺 / 尺寸 mm  ·  A3 原尺寸打印  ·  概念方案，非施工图 -->
      <g style="fill: #6c7770" transform="translate(950.680684 801.188438) scale(0.07 -0.07)">
       <defs>
@@ -3835,7 +3835,7 @@ z
     </g>
    </g>
    <g id="text_7">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 卧室与客厅普通墙面 -->
      <g style="fill: #355b48" transform="translate(70.866142 173.066045) scale(0.115 -0.115)">
       <defs>
@@ -4165,7 +4165,7 @@ z
     </g>
    </g>
    <g id="text_8">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 首选：暖白哑光水性内墙漆，少量暖灰作背景。 -->
      <g style="fill: #293d39" transform="translate(70.866142 209.059212) scale(0.082 -0.082)">
       <defs>
@@ -4813,7 +4813,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 选同厂相容的基层、腻子、底漆和面漆配套体系。 -->
      <g style="fill: #56665d" transform="translate(70.866142 234.51907) scale(0.08 -0.08)">
       <defs>
@@ -5536,7 +5536,7 @@ z
     </g>
    </g>
    <g id="text_10">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 新墙先查含水与碱性，基层处理达到产品施工要求再涂。 -->
      <g style="fill: #56665d" transform="translate(70.866142 252.093873) scale(0.08 -0.08)">
       <defs>
@@ -6355,7 +6355,7 @@ z
     </g>
    </g>
    <g id="text_11">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 日常接触处看耐擦洗与修补色差，不必全屋艺术涂料。 -->
      <g style="fill: #56665d" transform="translate(70.866142 269.668676) scale(0.08 -0.08)">
       <defs>
@@ -7229,7 +7229,7 @@ z
     </g>
    </g>
    <g id="text_12">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- “净味”“儿童漆”不替代对应型号检测及竣工环境验收。 -->
      <g style="fill: #56665d" transform="translate(70.866142 287.243479) scale(0.08 -0.08)">
       <defs>
@@ -8143,7 +8143,7 @@ z
     </g>
    </g>
    <g id="text_13">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 依据 3,6 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 317.803422) scale(0.067 -0.067)">
       <defs>
@@ -8652,7 +8652,7 @@ z
     </g>
    </g>
    <g id="text_14">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 院墙与外墙 -->
      <g style="fill: #355b48" transform="translate(637.795276 173.066045) scale(0.115 -0.115)">
       <defs>
@@ -8696,7 +8696,7 @@ z
     </g>
    </g>
    <g id="text_15">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 首选：耐候外墙涂料；近地面做耐脏、耐水处理。 -->
      <g style="fill: #293d39" transform="translate(637.795276 209.059212) scale(0.082 -0.082)">
       <defs>
@@ -9024,7 +9024,7 @@ z
     </g>
    </g>
    <g id="text_16">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 延续暖白／浅暖灰，压顶、滴水和墙脚颜色宜克制。 -->
      <g style="fill: #56665d" transform="translate(637.795276 234.51907) scale(0.08 -0.08)">
       <defs>
@@ -9706,7 +9706,7 @@ z
     </g>
    </g>
    <g id="text_17">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 先处理渗漏、泛碱和裂缝，再选外墙涂料及配套底涂。 -->
      <g style="fill: #56665d" transform="translate(637.795276 252.093873) scale(0.08 -0.08)">
       <defs>
@@ -10103,7 +10103,7 @@ z
     </g>
    </g>
    <g id="text_18">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 真石漆、仿石涂料可局部用，先比较纹理与后期清洁。 -->
      <g style="fill: #56665d" transform="translate(637.795276 269.668676) scale(0.08 -0.08)">
       <defs>
@@ -10750,7 +10750,7 @@ z
     </g>
    </g>
    <g id="text_19">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 外墙系统与保温相容；室内乳胶漆不直接用于室外。 -->
      <g style="fill: #56665d" transform="translate(637.795276 287.243479) scale(0.08 -0.08)">
       <defs>
@@ -11151,7 +11151,7 @@ z
     </g>
    </g>
    <g id="text_20">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 依据 3,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 317.803422) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -11185,7 +11185,7 @@ z
     </g>
    </g>
    <g id="text_21">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 厨房墙面与台面 -->
      <g style="fill: #355b48" transform="translate(70.866142 385.66447) scale(0.115 -0.115)">
       <defs>
@@ -11277,7 +11277,7 @@ z
     </g>
    </g>
    <g id="text_22">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 首选：好擦洗的浅色墙砖，台面先比样石英石。 -->
      <g style="fill: #293d39" transform="translate(70.866142 421.657637) scale(0.082 -0.082)">
       <defs>
@@ -11531,7 +11531,7 @@ z
     </g>
    </g>
    <g id="text_23">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 墙砖起选300×600或600×1200mm，灶后少做密集小缝。 -->
      <g style="fill: #56665d" transform="translate(70.866142 447.117495) scale(0.08 -0.08)">
       <defs>
@@ -11839,7 +11839,7 @@ z
     </g>
    </g>
    <g id="text_24">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 台面看吸污、耐清洁剂和开孔工艺，不只看含石量宣传。 -->
      <g style="fill: #56665d" transform="translate(70.866142 464.692298) scale(0.08 -0.08)">
       <defs>
@@ -12196,7 +12196,7 @@ z
     </g>
    </g>
    <g id="text_25">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 水槽、灶具、洗碗机规格确定后出加工图和检修方案。 -->
      <g style="fill: #56665d" transform="translate(70.866142 482.267101) scale(0.08 -0.08)">
       <defs>
@@ -12659,7 +12659,7 @@ z
     </g>
    </g>
    <g id="text_26">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 台面与墙交界用相容密封材料，避免依靠硬填缝止水。 -->
      <g style="fill: #56665d" transform="translate(70.866142 499.841905) scale(0.08 -0.08)">
       <defs>
@@ -13223,7 +13223,7 @@ z
     </g>
    </g>
    <g id="text_27">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 依据 3,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 530.401847) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -13257,7 +13257,7 @@ z
     </g>
    </g>
    <g id="text_28">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 卫浴墙面与吊顶 -->
      <g style="fill: #355b48" transform="translate(637.795276 385.66447) scale(0.115 -0.115)">
       <defs>
@@ -13366,7 +13366,7 @@ z
     </g>
    </g>
    <g id="text_29">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 首选：浅暖灰易清洁墙砖，配可检修的耐潮吊顶。 -->
      <g style="fill: #293d39" transform="translate(637.795276 421.657637) scale(0.082 -0.082)">
       <defs>
@@ -13488,7 +13488,7 @@ z
     </g>
    </g>
    <g id="text_30">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 墙砖本案起选300×600mm，少做凹凸深纹和装饰腰线。 -->
      <g style="fill: #56665d" transform="translate(637.795276 447.117495) scale(0.08 -0.08)">
       <defs>
@@ -13786,7 +13786,7 @@ z
     </g>
    </g>
    <g id="text_31">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 吊顶可比样铝扣板；设备口、检修口和灯具提前排版。 -->
      <g style="fill: #56665d" transform="translate(637.795276 464.692298) scale(0.08 -0.08)">
       <defs>
@@ -14380,7 +14380,7 @@ z
     </g>
    </g>
    <g id="text_32">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 窗边、管根、地漏、门口与墙地交接先处理防水节点。 -->
      <g style="fill: #56665d" transform="translate(637.795276 482.267101) scale(0.08 -0.08)">
       <defs>
@@ -14809,7 +14809,7 @@ z
     </g>
    </g>
    <g id="text_33">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 防霉胶和美缝只是接缝材料，不等同完整防水系统。 -->
      <g style="fill: #56665d" transform="translate(637.795276 499.841905) scale(0.08 -0.08)">
       <defs>
@@ -15240,7 +15240,7 @@ z
     </g>
    </g>
    <g id="text_34">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 依据 3,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 530.401847) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -15274,7 +15274,7 @@ z
     </g>
    </g>
    <g id="text_35">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 卧室五列衣柜 -->
      <g style="fill: #355b48" transform="translate(70.866142 598.262895) scale(0.115 -0.115)">
       <defs>
@@ -15385,7 +15385,7 @@ z
     </g>
    </g>
    <g id="text_36">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 首选：浅木色耐磨饰面板，柜门与柜体色差受控。 -->
      <g style="fill: #293d39" transform="translate(70.866142 634.256062) scale(0.082 -0.082)">
       <defs>
@@ -15617,7 +15617,7 @@ z
     </g>
    </g>
    <g id="text_37">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 板材、封边、胶与五金一并核对，不仅看单张板材等级。 -->
      <g style="fill: #56665d" transform="translate(70.866142 659.71592) scale(0.08 -0.08)">
       <defs>
@@ -15973,7 +15973,7 @@ z
     </g>
    </g>
    <g id="text_38">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 优先完整封边、可维护铰链与抽屉五金，湿墙先治潮。 -->
      <g style="fill: #56665d" transform="translate(70.866142 677.290723) scale(0.08 -0.08)">
       <defs>
@@ -16351,7 +16351,7 @@ z
     </g>
    </g>
    <g id="text_39">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 给每个房间保留样板编号；把背板、隔板规格写入合同。 -->
      <g style="fill: #56665d" transform="translate(70.866142 694.865527) scale(0.08 -0.08)">
       <defs>
@@ -16925,7 +16925,7 @@ z
     </g>
    </g>
    <g id="text_40">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 预算优先给五金与封边，少为复杂雕花、满墙造型加价。 -->
      <g style="fill: #56665d" transform="translate(70.866142 712.44033) scale(0.08 -0.08)">
       <defs>
@@ -17540,7 +17540,7 @@ z
     </g>
    </g>
    <g id="text_41">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 依据 3 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(70.866142 743.000272) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -17572,7 +17572,7 @@ z
     </g>
    </g>
    <g id="text_42">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 洗衣池柜与浴室柜 -->
      <g style="fill: #355b48" transform="translate(637.795276 598.262895) scale(0.115 -0.115)">
       <defs>
@@ -17645,7 +17645,7 @@ z
     </g>
    </g>
    <g id="text_43">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 首选：耐潮柜体，重视底部、开孔处及背面处理。 -->
      <g style="fill: #293d39" transform="translate(637.795276 634.256062) scale(0.082 -0.082)">
       <defs>
@@ -17791,7 +17791,7 @@ z
     </g>
    </g>
    <g id="text_44">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 长期易溅水处可比样铝合金柜体或耐潮板材完整封边。 -->
      <g style="fill: #56665d" transform="translate(637.795276 659.71592) scale(0.08 -0.08)">
       <defs>
@@ -17937,7 +17937,7 @@ z
     </g>
    </g>
    <g id="text_45">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 柜底留清洁与检修条件，阀门、插座不能封在不可达处。 -->
      <g style="fill: #56665d" transform="translate(637.795276 677.290723) scale(0.08 -0.08)">
       <defs>
@@ -18372,7 +18372,7 @@ z
     </g>
    </g>
    <g id="text_46">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 石材／盆体先确认重量、支承、龙头开孔和软管空间。 -->
      <g style="fill: #56665d" transform="translate(637.795276 694.865527) scale(0.08 -0.08)">
       <defs>
@@ -18725,7 +18725,7 @@ z
     </g>
    </g>
    <g id="text_47">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 不把“防潮板”理解为可以长期泡水。 -->
      <g style="fill: #56665d" transform="translate(637.795276 712.44033) scale(0.08 -0.08)">
       <defs>
@@ -18938,7 +18938,7 @@ z
     </g>
    </g>
    <g id="text_48">
-    <g clip-path="url(#pd9c209132f)">
+    <g clip-path="url(#pad8288cb84)">
      <!-- 依据 3,4 / 索引见MAT-104，网页含原文链接 -->
      <g style="fill: #778176" transform="translate(637.795276 743.000272) scale(0.067 -0.067)">
       <use xlink:href="#WenQuanYiMicroHei-4f9d"/>
@@ -18974,7 +18974,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pd9c209132f">
+  <clipPath id="pad8288cb84">
    <rect x="0" y="0" width="1190.551181" height="841.889764"/>
   </clipPath>
  </defs>
